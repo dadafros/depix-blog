@@ -1,6 +1,7 @@
 baseURL = "https://blog.depixapp.com/"
 title = "DePix App Blog"
 defaultContentLanguage = "pt"
+defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 
 [markup]
