@@ -225,10 +225,15 @@ img {
 
 .hero-subtitle {
   font-size: 1.125rem;
-  color: var(--text-muted);
-  max-width: 480px;
+  color: var(--text-body);
+  max-width: 520px;
   margin: 0 auto;
   line-height: 1.6;
+}
+
+.hero-subtitle-secondary {
+  color: var(--text-muted);
+  font-size: 0.95rem;
 }
 
 /* Section title */

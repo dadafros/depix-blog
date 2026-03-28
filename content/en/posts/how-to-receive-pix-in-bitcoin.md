@@ -20,7 +20,7 @@ For someone who just wants to pay rent or buy groceries with Bitcoin earnings, t
 
 ## How DePix simplifies the conversion
 
-With DePix, the path from Bitcoin to reais in your bank account is dramatically shorter. The process uses the Liquid Network as an intermediary layer, which enables fast settlement and low fees.
+With the DePix App, the path from Bitcoin to reais in your bank account is dramatically shorter. The process uses the Liquid Network as an intermediary layer, which enables fast settlement and low fees.
 
 Here is how it works. You log into the [DePix App](https://depixapp.com/) and select the withdrawal option. The app displays a Liquid Network address and QR code. You send L-BTC (Bitcoin on the Liquid Network) to that address. You specify the amount in reais you want to receive and provide your PIX key. The app processes the conversion and sends the reais to your bank account via PIX.
 
@@ -36,21 +36,21 @@ If your Bitcoin is on the main Bitcoin network rather than Liquid, you will need
 
 ## What it costs
 
-Transparency in fees is a core principle of DePix. The app shows you the exact fees before you confirm any operation, so there are no hidden charges or surprises.
+Transparency in fees is a core principle of the DePix App. The app shows you the exact fees before you confirm any operation, so there are no hidden charges or surprises.
 
-Compared to the traditional exchange route — where you pay trading fees, withdrawal fees, and sometimes deposit fees — DePix offers a more direct and cost-effective path. You are essentially swapping value on the Liquid Network and withdrawing via PIX, cutting out unnecessary intermediaries.
+Compared to the traditional exchange route — where you pay trading fees, withdrawal fees, and sometimes deposit fees — the DePix App offers a more direct and cost-effective path. You are essentially swapping value on the Liquid Network and withdrawing via PIX, cutting out unnecessary intermediaries.
 
 Keep in mind that the amount you receive in reais depends on the Bitcoin exchange rate at the moment of conversion. Since DePix is pegged 1:1 to the Brazilian real, price volatility only affects the BTC-to-DePix conversion step. Once you hold DePix, one token always equals one real.
 
 ## Who benefits most from this approach
 
-Remote workers and freelancers are the most obvious beneficiaries. If you work for international clients who pay in Bitcoin, DePix gives you a fast off-ramp to the local currency you need for daily expenses. No more juggling multiple exchange accounts or waiting days for settlements.
+Remote workers and freelancers are the most obvious beneficiaries. If you work for international clients who pay in Bitcoin, the DePix App gives you a fast off-ramp to the local currency you need for daily expenses. No more juggling multiple exchange accounts or waiting days for settlements.
 
-Bitcoin investors who want to realize partial profits also benefit significantly. Instead of going through the full exchange process every time you want to take some gains off the table, you can convert through DePix in minutes and have reais in your bank account almost instantly.
+Bitcoin investors who want to realize partial profits also benefit significantly. Instead of going through the full exchange process every time you want to take some gains off the table, you can convert through the DePix App in minutes and have reais in your bank account almost instantly.
 
-Small business owners who accept Bitcoin payments can use DePix to convert incoming crypto to reais quickly, limiting their exposure to price volatility. Accept the payment, convert to DePix, withdraw via PIX — all within minutes of receiving the Bitcoin.
+Small business owners who accept Bitcoin payments can use the DePix App to convert incoming crypto to reais quickly, limiting their exposure to price volatility. Accept the payment, convert to DePix, withdraw via PIX — all within minutes of receiving the Bitcoin.
 
-Anyone receiving Bitcoin gifts, donations, or informal payments who needs BRL will find DePix far more convenient than traditional alternatives.
+Anyone receiving Bitcoin gifts, donations, or informal payments who needs BRL will find the DePix App far more convenient than traditional alternatives.
 
 ## Step-by-step walkthrough
 
@@ -72,7 +72,7 @@ Always double-check the destination address before sending any blockchain transa
 
 If you are converting large amounts, keep an eye on the Bitcoin exchange rate. The rate can fluctuate throughout the day, and even small percentage changes can be meaningful on larger sums.
 
-For a broader understanding of how DePix compares to using traditional banking for payments, check out our article on [DePix vs traditional PIX](/en/posts/depix-vs-traditional-pix/). And if you are new to DePix entirely, start with [What is DePix?](/en/posts/what-is-depix/) for a complete overview.
+For a broader understanding of how the DePix App compares to using traditional banking for payments, check out our article on [DePix vs traditional PIX](/en/posts/depix-vs-traditional-pix/). And if you are new to the DePix App entirely, start with [What is DePix?](/en/posts/what-is-depix/) for a complete overview.
 
 ## Start receiving PIX from Bitcoin today
 

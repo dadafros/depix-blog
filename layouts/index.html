@@ -4,16 +4,18 @@
     <div class="hero-content">
       <h1 class="hero-title">
         {{ if eq .Lang "pt" }}
-          O blog oficial do <span class="accent">DePix</span>
+          O blog oficial do <span class="accent">DePix App</span>
         {{ else }}
-          The official <span class="accent">DePix</span> blog
+          The official <span class="accent">DePix App</span> blog
         {{ end }}
       </h1>
       <p class="hero-subtitle">
         {{ if eq .Lang "pt" }}
-          Novidades, tutoriais e insights sobre pagamentos PIX, Bitcoin e stablecoins.
+          Pix tem praticidade. DePix tem privacidade.<br>
+          <span class="hero-subtitle-secondary">Aprenda a usar a ferramenta que coloca o controle do seu dinheiro de volta nas suas mãos.</span>
         {{ else }}
-          News, tutorials and insights about PIX payments, Bitcoin and stablecoins.
+          Pix has convenience. DePix has privacy.<br>
+          <span class="hero-subtitle-secondary">Learn how to use the tool that puts you back in control of your money.</span>
         {{ end }}
       </p>
     </div>
@@ -23,7 +25,7 @@
 <section class="latest-posts">
   <div class="container">
     <h2 class="section-title">
-      {{ if eq .Lang "pt" }}Publicacoes recentes{{ else }}Latest posts{{ end }}
+      {{ if eq .Lang "pt" }}Publicações recentes{{ else }}Latest posts{{ end }}
     </h2>
 
     <div class="post-list">

@@ -1,5 +1,5 @@
 baseURL = "https://blog.depixapp.com/"
-title = "DePix Blog"
+title = "DePix App Blog"
 defaultContentLanguage = "pt"
 enableRobotsTXT = true
 
@@ -17,7 +17,7 @@ enableRobotsTXT = true
     contentDir = "content/pt"
     [languages.pt.params]
       description = "Blog oficial do DePix App — Pagamentos PIX, Bitcoin e stablecoins"
-      cta = "Comece a usar o DePix"
+      cta = "Comece a usar o DePix App"
       langLabel = "PT"
       otherLangLabel = "EN"
 
@@ -27,7 +27,7 @@ enableRobotsTXT = true
     contentDir = "content/en"
     [languages.en.params]
       description = "DePix App official blog — PIX payments, Bitcoin and stablecoins"
-      cta = "Start using DePix"
+      cta = "Start using DePix App"
       langLabel = "EN"
       otherLangLabel = "PT"
 

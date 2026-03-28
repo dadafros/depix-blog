@@ -14,7 +14,7 @@ You have DePix on the Liquid Network and want to convert them to reais in your b
 
 Holding DePix on the Liquid Network offers genuine advantages: financial privacy, self-custody, and access to the Bitcoin ecosystem. But there are times when you need reais in your bank account — to pay bills, make purchases at shops that only accept traditional payment methods, or simply to have cash available.
 
-The good news is that DePix was designed as a two-way bridge between crypto and fiat. Depositing is easy, and withdrawing is equally simple. If you are new to DePix, we recommend starting with our article on [what DePix is](/en/posts/what-is-depix/) to understand the basics.
+The good news is that the DePix App was designed as a two-way bridge between crypto and fiat. Depositing is easy, and withdrawing is equally simple. If you are new to the DePix App, we recommend starting with our article on [what DePix is](/en/posts/what-is-depix/) to understand the basics.
 
 ## What you need to withdraw
 
@@ -40,17 +40,17 @@ That is the entire process. No paperwork, no multi-day waiting periods, no compl
 
 ## What does it cost?
 
-DePix charges a fee for each withdrawal, which is displayed clearly on the confirmation screen before you authorize the operation. You will never be surprised by hidden charges.
+The DePix App charges a fee for each withdrawal, which is displayed clearly on the confirmation screen before you authorize the operation. You will never be surprised by hidden charges.
 
-Compared to other ways of converting cryptocurrency to fiat, DePix's cost is competitive. Traditional exchanges charge trading fees (typically 0.5% to 1%), plus withdrawal fees that can be fixed or percentage-based. With DePix, you pay a single transparent fee and that is it.
+Compared to other ways of converting cryptocurrency to fiat, the DePix App's cost is competitive. Traditional exchanges charge trading fees (typically 0.5% to 1%), plus withdrawal fees that can be fixed or percentage-based. With the DePix App, you pay a single transparent fee and that is it.
 
-For larger amounts, the relative cost tends to be lower, making DePix especially advantageous for users moving more significant sums.
+For larger amounts, the relative cost tends to be lower, making the DePix App especially advantageous for users moving more significant sums.
 
 ## How long does it take?
 
-The total withdrawal time depends on two stages: processing by DePix and the PIX transfer through the banking system.
+The total withdrawal time depends on two stages: processing by the DePix App and the PIX transfer through the banking system.
 
-The DePix processing stage is fast. Once you confirm the withdrawal in the app, the operation is processed within minutes. The PIX stage is nearly instantaneous — in the vast majority of cases, the money appears in your account in under 30 seconds.
+The DePix App processing stage is fast. Once you confirm the withdrawal in the app, the operation is processed within minutes. The PIX stage is nearly instantaneous — in the vast majority of cases, the money appears in your account in under 30 seconds.
 
 In total, from the moment you confirm the withdrawal to having the money available in your bank account, the entire process typically takes just a few minutes. Compare this to traditional exchanges that can take one to three business days to process a withdrawal.
 
@@ -58,7 +58,7 @@ In total, from the moment you confirm the withdrawal to having the money availab
 
 The DePix App has withdrawal limits that are displayed within the app. These limits exist as a security measure and are adequate for most users.
 
-If you need to withdraw larger amounts, the app will show the available limit for your profile. Unlike banks, which often reduce limits during nighttime hours or holidays, DePix limits are consistent regardless of the time of day.
+If you need to withdraw larger amounts, the app will show the available limit for your profile. Unlike banks, which often reduce limits during nighttime hours or holidays, DePix App limits are consistent regardless of the time of day.
 
 ## Tips for a smooth withdrawal
 
@@ -78,11 +78,11 @@ First, wait a few minutes. During peak hours or banking system maintenance windo
 
 Second, verify that the PIX key you provided is correct and linked to the right account. A typo could cause the PIX transfer to be rejected.
 
-If the funds still have not arrived, contact DePix support. The team can check the transaction status and help resolve any issues.
+If the funds still have not arrived, contact DePix App support. The team can check the transaction status and help resolve any issues.
 
 ## The deposit-withdraw cycle
 
-One of the strengths of DePix is how easy it is to move money between the crypto world and the banking world. You can deposit reais via PIX, hold DePix on the Liquid Network for as long as you want, and withdraw whenever you need.
+One of the strengths of the DePix App is how easy it is to move money between the crypto world and the banking world. You can deposit reais via PIX, hold DePix on the Liquid Network for as long as you want, and withdraw whenever you need.
 
 This cycle is particularly useful for people who [receive payments in Bitcoin](/en/posts/how-to-receive-pix-in-bitcoin/) and need to convert some to reais regularly. It is also valuable for anyone who wants to maintain a reserve in DePix with more [financial privacy](/en/posts/financial-privacy-depix/) and withdraw on demand.
 
