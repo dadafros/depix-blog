@@ -1,0 +1,46 @@
+baseURL = "https://blog.depixapp.com/"
+title = "DePix Blog"
+defaultContentLanguage = "pt"
+enableRobotsTXT = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+  [markup.highlight]
+    style = "monokai"
+
+[languages]
+  [languages.pt]
+    languageName = "Portugues"
+    weight = 1
+    contentDir = "content/pt"
+    [languages.pt.params]
+      description = "Blog oficial do DePix App — Pagamentos PIX, Bitcoin e stablecoins"
+      cta = "Comece a usar o DePix"
+      langLabel = "PT"
+      otherLangLabel = "EN"
+
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    contentDir = "content/en"
+    [languages.en.params]
+      description = "DePix App official blog — PIX payments, Bitcoin and stablecoins"
+      cta = "Start using DePix"
+      langLabel = "EN"
+      otherLangLabel = "PT"
+
+[params]
+  author = "DePix"
+  appUrl = "https://depixapp.com/"
+  logo = "/icon-192.png"
+  ogImage = "/icon-512.png"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.8

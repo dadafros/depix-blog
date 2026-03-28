@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stablecoin on DePix Blog</title>
+    <link>https://blog.depixapp.com/tags/stablecoin/</link>
+    <description>Recent content in Stablecoin on DePix Blog</description>
+    <generator>Hugo</generator>
+    <language>pt</language>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.depixapp.com/tags/stablecoin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O que e DePix? Stablecoin brasileira na Liquid</title>
+      <link>https://blog.depixapp.com/posts/o-que-e-depix/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.depixapp.com/posts/o-que-e-depix/</guid>
+      <description>&lt;p&gt;Se voce ja ouviu falar em criptomoedas mas nunca entendeu direito como elas funcionam no dia a dia, o DePix foi feito para voce. Neste artigo, vamos explicar de forma simples o que e o DePix, como ele funciona e por que ele pode ser util para qualquer brasileiro que usa PIX.&lt;/p&gt;&#xA;&lt;h2 id=&#34;o-que-e-uma-stablecoin&#34;&gt;O que e uma stablecoin?&lt;/h2&gt;&#xA;&lt;p&gt;Antes de falar do DePix, precisamos entender o que e uma stablecoin. Diferente do Bitcoin, que sobe e desce de preco todos os dias, uma stablecoin e uma moeda digital que tem seu valor atrelado a uma moeda tradicional. No caso do DePix, cada unidade vale exatamente 1 real brasileiro.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

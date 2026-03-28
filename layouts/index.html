@@ -1,0 +1,56 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        {{ if eq .Lang "pt" }}
+          O blog oficial do <span class="accent">DePix</span>
+        {{ else }}
+          The official <span class="accent">DePix</span> blog
+        {{ end }}
+      </h1>
+      <p class="hero-subtitle">
+        {{ if eq .Lang "pt" }}
+          Novidades, tutoriais e insights sobre pagamentos PIX, Bitcoin e stablecoins.
+        {{ else }}
+          News, tutorials and insights about PIX payments, Bitcoin and stablecoins.
+        {{ end }}
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="latest-posts">
+  <div class="container">
+    <h2 class="section-title">
+      {{ if eq .Lang "pt" }}Publicacoes recentes{{ else }}Latest posts{{ end }}
+    </h2>
+
+    <div class="post-list">
+      {{ range first 10 .Site.RegularPages }}
+      <article class="post-card">
+        <a href="{{ .RelPermalink }}" class="post-card-link">
+          <div class="post-card-body">
+            <time class="post-meta" datetime="{{ .Date.Format "2006-01-02" }}">
+              {{ .Date.Format "02 Jan 2006" }}
+            </time>
+            <h2 class="post-card-title">{{ .Title }}</h2>
+            {{ with .Description }}<p class="post-card-excerpt">{{ . }}</p>{{ end }}
+            <span class="read-more">
+              {{ if eq $.Lang "pt" }}Ler mais{{ else }}Read more{{ end }}
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+
+    {{ if eq (len .Site.RegularPages) 0 }}
+    <div class="empty-state">
+      <p>{{ if eq .Lang "pt" }}Nenhum post ainda. Volte em breve!{{ else }}No posts yet. Check back soon!{{ end }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

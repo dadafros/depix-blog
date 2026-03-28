@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Liquid Network on DePix Blog</title>
+    <link>https://blog.depixapp.com/en/tags/liquid-network/</link>
+    <description>Recent content in Liquid Network on DePix Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.depixapp.com/en/tags/liquid-network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Financial Privacy: How DePix Protects You</title>
+      <link>https://blog.depixapp.com/en/posts/financial-privacy-depix/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.depixapp.com/en/posts/financial-privacy-depix/</guid>
+      <description>&lt;p&gt;How much does your bank know about you? The answer is: everything. Every transfer, every card purchase, every payment — all recorded, stored, and analyzed. For many people, this has never been a concern. But financial privacy is a right, and DePix offers a real alternative for anyone who wants to exercise that right without sacrificing convenience.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-financial-privacy-actually-means&#34;&gt;What financial privacy actually means&lt;/h2&gt;&#xA;&lt;p&gt;Financial privacy is not about hiding illegal activity. It is about controlling who knows what you do with your money. Just as you close the curtains at home without doing anything wrong, you might want your financial transactions to be invisible to institutions that have no need to see them.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Receive PIX Payments in Bitcoin</title>
+      <link>https://blog.depixapp.com/en/posts/how-to-receive-pix-in-bitcoin/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.depixapp.com/en/posts/how-to-receive-pix-in-bitcoin/</guid>
+      <description>&lt;p&gt;If you earn Bitcoin from freelance work, investments, or any other source and need to convert it to Brazilian reais, you know the process can be frustrating. Traditional exchanges involve account verification, trading fees, withdrawal delays, and a lot of waiting. The DePix App offers a faster, simpler path from Bitcoin to reais in your bank account via PIX.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-problem-with-traditional-bitcoin-to-fiat-conversion&#34;&gt;The problem with traditional Bitcoin-to-fiat conversion&lt;/h2&gt;&#xA;&lt;p&gt;Converting Bitcoin to local currency through a conventional exchange typically involves several steps. You create and verify an account (which can take days), deposit your Bitcoin and wait for confirmations, place a sell order on the exchange, wait for the trade to execute, request a withdrawal to your bank account, and then wait one to three business days for settlement.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What Is DePix? Brazil&#39;s Stablecoin on Liquid</title>
+      <link>https://blog.depixapp.com/en/posts/what-is-depix/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.depixapp.com/en/posts/what-is-depix/</guid>
+      <description>&lt;p&gt;If you have been following cryptocurrency but wondered how digital money actually works in everyday life, DePix is a great place to start. This article explains what DePix is, how it connects Brazil&amp;rsquo;s instant payment system (PIX) to the Bitcoin ecosystem, and why it matters for anyone interested in stablecoins and the Liquid Network.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-stablecoin-and-why-does-it-matter&#34;&gt;What is a stablecoin and why does it matter?&lt;/h2&gt;&#xA;&lt;p&gt;A stablecoin is a cryptocurrency pegged to a traditional currency. Unlike Bitcoin, which can swing 10% in a single day, a stablecoin maintains a stable value. DePix is pegged 1:1 to the Brazilian real (BRL), meaning each DePix token is always worth exactly one real.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

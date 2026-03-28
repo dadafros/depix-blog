@@ -1,0 +1,27 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a href="{{ .Site.Home.RelPermalink }}" class="site-brand">
+      <img src="/icon-192.png" alt="DePix" class="site-logo" width="36" height="36">
+      <span class="site-name">DePix <span class="site-name-accent">Blog</span></span>
+    </a>
+
+    <nav class="header-nav">
+      {{/* Language toggle */}}
+      {{ if .IsTranslated }}
+      <div class="lang-toggle">
+        <span class="lang-toggle-current">{{ .Site.Params.langLabel }}</span>
+        {{ range .Translations }}
+        <a href="{{ .RelPermalink }}" class="lang-toggle-link" title="{{ .Language.LanguageName }}">
+          {{ .Site.Params.langLabel }}
+        </a>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      <a href="{{ .Site.Params.appUrl }}" class="header-cta" target="_blank" rel="noopener">
+        {{ if eq .Lang "pt" }}Ir para o app{{ else }}Go to app{{ end }}
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+      </a>
+    </nav>
+  </div>
+</header>

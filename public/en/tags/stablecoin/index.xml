@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stablecoin on DePix Blog</title>
+    <link>https://blog.depixapp.com/en/tags/stablecoin/</link>
+    <description>Recent content in Stablecoin on DePix Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.depixapp.com/en/tags/stablecoin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Is DePix? Brazil&#39;s Stablecoin on Liquid</title>
+      <link>https://blog.depixapp.com/en/posts/what-is-depix/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.depixapp.com/en/posts/what-is-depix/</guid>
+      <description>&lt;p&gt;If you have been following cryptocurrency but wondered how digital money actually works in everyday life, DePix is a great place to start. This article explains what DePix is, how it connects Brazil&amp;rsquo;s instant payment system (PIX) to the Bitcoin ecosystem, and why it matters for anyone interested in stablecoins and the Liquid Network.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-stablecoin-and-why-does-it-matter&#34;&gt;What is a stablecoin and why does it matter?&lt;/h2&gt;&#xA;&lt;p&gt;A stablecoin is a cryptocurrency pegged to a traditional currency. Unlike Bitcoin, which can swing 10% in a single day, a stablecoin maintains a stable value. DePix is pegged 1:1 to the Brazilian real (BRL), meaning each DePix token is always worth exactly one real.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
