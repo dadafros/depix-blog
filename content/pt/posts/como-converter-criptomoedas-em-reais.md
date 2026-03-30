@@ -16,7 +16,7 @@ Criptomoedas como Bitcoin, Tether (USDt) e outros ativos digitais são ótimas c
 
 Tradicionalmente, para converter criptomoedas em reais, você precisava criar conta em uma corretora, enviar seus ativos, esperar a confirmação, vender na plataforma, solicitar o saque e torcer para o dinheiro cair em poucos dias. Esse processo envolve verificação de identidade demorada, taxas de negociação, taxas de saque e muita espera.
 
-Com o DePix App, o caminho é muito mais curto. Você envia suas criptomoedas pela Liquid Network, troca por DePix (que vale 1 real cada) e saca via Pix direto para sua conta bancária. Tudo acontece em minutos, não em dias. Isso funciona para Bitcoin (L-BTC), Tether (USDt na Liquid) e outros ativos suportados na Liquid Network.
+Com o DePix App, o caminho é muito mais curto. Você converte suas criptomoedas em DePix (uma stablecoin que vale 1 real) usando parceiros como a SideSwap ou o BrSwap.me, e depois saca o DePix via Pix direto para sua conta bancária. Tudo acontece em minutos, não em dias. Isso funciona para Bitcoin (L-BTC), Tether (USDt), ativos de outras blockchains e qualquer outra criptomoeda que possa ser convertida para DePix.
 
 ## O que você vai precisar
 
@@ -28,17 +28,37 @@ Se você ainda não conhece o DePix App, comece lendo nosso artigo sobre [o que 
 
 ## Passo a passo para converter criptomoedas em reais
 
-O processo é simples e pode ser resumido em poucos passos. Vamos usar Bitcoin como exemplo principal, mas o fluxo é similar para outros ativos da Liquid Network.
+O processo tem duas etapas: primeiro você converte suas criptomoedas em DePix, e depois faz o saque do DePix para sua conta bancária via Pix. É importante entender isso: o DePix App só processa saques de DePix — ele não aceita Bitcoin, USDt ou outros ativos diretamente. Mas não se preocupe, converter é simples.
 
-Primeiro, acesse o [DePix App](https://depixapp.com/) e faça login na sua conta. Se ainda não tem uma conta, o cadastro leva menos de dois minutos.
+### Etapa 1: Converta suas criptomoedas em DePix
 
-Na tela principal, selecione a opção de saque. O aplicativo vai mostrar um endereço da Liquid Network e um QR code. Esse é o endereço para onde você vai enviar suas criptomoedas.
+O caminho para converter depende de onde estão seus ativos.
 
-Envie o valor desejado para o endereço mostrado. Se você tem Bitcoin na rede principal, precisará primeiro fazer um peg-in para a Liquid Network ou usar uma corretora que suporte saques diretos para a Liquid. Se seus ativos já estão na Liquid — como L-BTC ou USDt — basta enviar diretamente.
+**Se suas criptomoedas já estão na Liquid Network (L-BTC, USDt ou outros ativos Liquid):**
 
-Informe o valor em reais que deseja receber e a sua chave Pix. O aplicativo vai processar a conversão e enviar o Pix para sua conta bancária.
+Use a [SideSwap](https://sideswap.io/), a carteira Liquid que também funciona como exchange descentralizada. Dentro da SideSwap, você faz um swap direto: seleciona o par (por exemplo, L-BTC/DePix ou USDt/DePix), escolhe o valor e confirma. A conversão acontece na própria Liquid Network, o que significa taxas muito baixas (frações de centavo) e confirmação em cerca de dois minutos. É o caminho mais rápido e barato.
 
-Pronto. Em poucos minutos, os reais estarão na sua conta. O processo é essencialmente o mesmo independentemente do ativo que você está convertendo, desde que ele esteja disponível na Liquid Network.
+**Se suas criptomoedas estão em outras blockchains (Ethereum, Polygon, Solana, Bitcoin on-chain, etc.):**
+
+Use serviços de troca cross-chain como o [BrSwap.me](https://brswap.me/) ou o [P2P.Land](https://p2p.land/). Esses serviços fazem a ponte entre outras redes e a Liquid Network. Você envia suas criptomoedas de qualquer blockchain suportada e recebe DePix (ou outro ativo Liquid) na sua carteira SideSwap. As taxas são um pouco maiores do que a conversão dentro da Liquid, porque envolvem transações em redes diferentes, mas ainda assim é mais simples e rápido do que usar uma corretora tradicional.
+
+**Se você tem Bitcoin na rede principal (on-chain):**
+
+Você tem duas opções. A primeira é fazer um peg-in para a Liquid Network usando a SideSwap — isso transforma seu BTC em L-BTC, e depois você faz o swap de L-BTC para DePix dentro da própria SideSwap. A segunda é usar o BrSwap.me para converter diretamente de BTC on-chain para DePix na Liquid.
+
+### Etapa 2: Saque o DePix via Pix
+
+Agora que você tem DePix na sua carteira SideSwap, o saque é direto.
+
+Acesse o [DePix App](https://depixapp.com/) e faça login. Se ainda não tem conta, o cadastro leva menos de dois minutos — basta um e-mail.
+
+Na tela principal, selecione a opção de saque. Informe o valor em reais que deseja receber e a sua chave Pix (CPF, e-mail, telefone ou chave aleatória).
+
+O DePix App vai gerar um endereço Liquid e um QR code. Abra a SideSwap, vá em "Pagar" e envie o valor correspondente em DePix para esse endereço.
+
+Após a confirmação na Liquid Network (cerca de dois minutos), o DePix App processa o pagamento e envia o Pix para sua conta bancária.
+
+Pronto. Suas criptomoedas viraram reais na sua conta.
 
 ## Entendendo a Liquid Network
 

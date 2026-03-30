@@ -1,112 +1,132 @@
 ---
 title: "Crypto Cards: How to Spend Your DePix Worldwide"
-description: "Complete guide to crypto debit cards for spending DePix anywhere. Compare options and find which offers the most privacy."
+description: "Compare crypto debit cards by privacy level. No-KYC, minimal-KYC, and full-KYC options for spending DePix at any Visa or Mastercard merchant."
 date: 2026-03-30
-tags: ["crypto card", "depix", "kast", "payments", "privacy"]
+tags: ["crypto card", "depix", "payments", "privacy"]
 author: "DePix"
 slug: "crypto-cards-spend-depix"
 draft: false
 ---
 
-You have DePix sitting in your Liquid wallet. Your money is yours, outside the banking system, protected by the privacy features of the Liquid Network. But what happens when you want to actually spend it? Buy groceries, pay for dinner, shop online at any store that accepts Visa or Mastercard?
+You hold DePix in your Liquid wallet. Your money is outside the banking system, shielded by the privacy features of the Liquid Network. But when you want to buy groceries, pay for dinner, or shop online at any store that accepts Visa or Mastercard, you need a bridge between your private digital money and the everyday payment rails.
 
-That is where crypto debit cards come in. They let you turn your DePix balance into spending power accepted at over 150 million merchants worldwide, without routing your money back through a bank. In this guide, we will walk through exactly how the process works, compare the leading crypto card options, and help you pick the best one for your needs, especially if privacy matters to you.
+Crypto debit cards fill that gap. They let you convert your DePix balance into spending power accepted at over 150 million merchants worldwide, without routing your money back through a traditional bank account. But the cards themselves vary enormously in how much personal data they demand from you. Some require a full dossier of identity documents, selfies, and proof of income. Others ask for almost nothing.
+
+In this guide, we compare the leading crypto card options by their privacy characteristics, explain exactly how the flow from DePix to card works, and help you make an informed choice based on what matters most to you.
 
 ## How it works: from DePix to real-world purchases
 
-The journey from DePix in your wallet to tapping a card at a coffee shop involves a few straightforward steps. It might sound technical the first time, but once you have done it, the whole process takes just minutes.
+The journey from DePix in your wallet to tapping a card at a coffee shop involves a few straightforward steps. Once you have done it, the whole process takes just minutes.
 
-Here is the flow: you swap your DePix for USDt (a dollar-pegged stablecoin) using SideSwap, then bridge that USDt to the blockchain network your card accepts (such as Polygon or Solana) using a cross-chain service, and finally send the funds to your card's deposit address. From there, you spend like you would with any regular debit card.
+Here is the flow:
 
-Let us break it down step by step.
+1. **Swap DePix for USDt** using [SideSwap](https://sideswap.io/), the Liquid wallet you already use. Select the DePix/USDt pair, enter the amount, and confirm. Within seconds, you have USDt in your wallet.
+2. **Bridge USDt to your card's network.** Most cards accept deposits on networks like Polygon, Solana, Ethereum, or Arbitrum. Services like [P2P.Land](https://p2p.land/) and [BrSwap.me](https://brswap.me/) handle the bridge from Liquid to these networks. You send USDt from your Liquid wallet to the bridge address and receive the equivalent USDT or USDC on the destination network within minutes.
+3. **Send funds to your card's deposit address.** Every card provider has an app or dashboard where you find this address. Once the deposit confirms on-chain, the balance appears on your card.
+4. **Spend anywhere.** From this point, the card works exactly like a conventional debit card — physical stores, online shops, food delivery, gas stations, ATMs. Anywhere that accepts Visa or Mastercard.
 
-## Step-by-step guide: from DePix to your crypto card
+If you are new to DePix, start with our article on [what DePix is and how it works](/en/posts/what-is-depix/).
 
-**1. Open SideSwap and swap DePix for USDt**
+## Comparing crypto cards by privacy level
 
-[SideSwap](https://sideswap.io/) is the Liquid wallet you already use to hold your DePix. Inside it, you can swap DePix for USDt (Tether) directly on the Liquid Network. Select the DePix/USDt pair, enter the amount, and confirm. Within seconds, you will have USDt in your wallet.
+The single most important difference between crypto cards is how much identity verification (KYC) they require. This table organizes every major option by that criterion.
 
-If you are new to DePix, read our article on [what DePix is and how it works](/en/posts/what-is-depix/).
+| Card | KYC level | Supported assets | Networks | Key fees | Region | Privacy notes |
+|---|---|---|---|---|---|---|
+| **Laso Finance** | None | USDC, USDT, DAI | Ethereum, Polygon, others | ~6.8% total fees; $1,000/card limit | Global | No identity required; prepaid virtual cards |
+| **BingCard** | None (virtual) | BTC, ETH, USDT, USDC | Multiple | Higher than average; varies | Global | No KYC for virtual cards; mixed reputation |
+| **SolCard** | None | SOL-based tokens | Solana | Varies | Global | Newer platform; limited track record |
+| **Kast** | Moderate | USDC, USDT, USDe | Solana, Polygon, Ethereum, Arbitrum, Tron, Base, BNB Chain | $0 annual; 0.5–1.75% FX; $3 + 2% ATM | Global (Visa) | Fast KYC via Sumsub; no bank account link needed |
+| **Gnosis Pay** | Moderate | EURe, USDC | Gnosis Chain | $0 annual; 0% conversion; 2% ATM after 5 free/mo | Europe only (Visa) | Self-custodial; funds in your own Safe smart contract |
+| **Bybit** | Full | Multiple (via exchange) | Multiple (via exchange) | $0 annual; 0.9% conversion; 2% ATM after €100/mo free | EEA, Brazil, others (Mastercard) | ID + proof of address + income source required |
+| **Binance** | Full | Multiple (via exchange) | Multiple (via exchange) | $0 annual; 0.9% transaction | EEA, limited regions (Visa) | Full KYC with government ID and selfie |
+| **Crypto.com** | Full | Multiple (via exchange) | Multiple (via exchange) | Varies by tier; CRO staking for benefits | Global (Visa) | Full KYC with facial verification |
 
-**2. Bridge USDt to your card's network**
+## No-KYC cards: maximum privacy, real tradeoffs
 
-Most crypto cards accept deposits on networks like Polygon, Solana, Ethereum, or Arbitrum. The USDt you hold on Liquid needs to be moved to one of these networks. Services like [P2P.Land](https://p2p.land/) and [BrSwap.me](https://brswap.me/) handle this bridge for you.
+If [financial privacy](/en/posts/financial-privacy-depix/) is your top priority, no-KYC cards are the most direct option. They let you load crypto and spend it without submitting identity documents. But they come with honest tradeoffs you need to understand before committing.
 
-The process is simple: you send your USDt from your Liquid wallet to the address provided by the bridge service, and you receive the equivalent USDT or USDC on the destination network. It usually takes just a few minutes.
+### Laso Finance
 
-**3. Send funds to your card's deposit address**
+Laso Finance issues prepaid virtual cards that require no identity verification at all. You deposit stablecoins — USDC, USDT, or DAI — and receive a virtual Visa card you can use for online purchases.
 
-With USDT or USDC now on the correct network, send it to the deposit address provided by your crypto card provider. Every card provider has an app or dashboard where you can find this address. Once the deposit confirms on-chain, the balance shows up on your card and is ready to spend.
+The economics are straightforward but not cheap: total fees land around 6.8% when you factor in card creation and loading costs. Each card has a $1,000 limit, so for larger amounts you need multiple cards. The cards are single-use or limited-use depending on the plan.
 
-**4. Spend anywhere**
+The privacy advantage is clear: no name, no documents, no selfie. You load crypto from a wallet and spend. The tradeoff is cost and convenience — these cards are best suited for specific purchases rather than daily spending.
 
-From this point, the card works exactly like a conventional debit card. You can pay at physical stores, online shops, food delivery apps, gas stations, or anywhere that accepts the card's network (Visa or Mastercard). You can also withdraw cash at ATMs, though additional fees may apply.
+**Important caveat:** No-KYC card services operate in a regulatory gray area. They may be compliant in some jurisdictions and not in others. Availability and terms can change without warning. Always verify current terms before depositing funds.
 
-## Comparing the top crypto cards
+### BingCard
 
-Not all crypto cards are created equal. They differ in fees, identity verification requirements (KYC), supported networks, and how much privacy they afford you. The table below summarizes the leading options available in 2026.
+BingCard offers virtual cards without KYC that accept BTC, ETH, USDT, and USDC. The appeal is broad asset support and no identity requirements for virtual cards.
 
-| Card | Supported networks | KYC required | Privacy level | Key fees | Accepted at |
-|---|---|---|---|---|---|
-| **Kast** | Solana, Polygon, Ethereum, Arbitrum, Tron, Base, BNB Chain | Yes (fast, via Sumsub) | Moderate | $0 annual; 0.5-1.75% FX; $3 + 2% ATM | Visa worldwide |
-| **Bybit** | Multiple (via exchange) | Yes (full + proof of address) | Low | $0 annual; 0.9% conversion; 2% ATM after €100/mo free | Mastercard (EEA, Brazil, others) |
-| **Binance** | Multiple (via exchange) | Yes (full) | Low | $0 annual; 0.9% transaction | Visa (EEA, limited regions) |
-| **Crypto.com** | Multiple (via exchange) | Yes (full + facial verification) | Low | Varies by tier; CRO staking for benefits | Visa worldwide |
-| **Gnosis Pay** | Gnosis Chain (EVM) | Yes | Moderate-high (self-custodial) | $0 annual; 0% conversion; 2% ATM after 5 free/mo | Visa (Europe) |
+However, transparency is a concern. BingCard has a 2.7 out of 5 rating on Trustpilot, with mixed reviews citing issues like delayed card delivery and inconsistent support. Fees tend to be higher than alternatives, and the exact fee structure is not always clear upfront.
 
-## Detailed look at each card
+If you consider BingCard, start with a small amount to test the service before loading significant funds. The no-KYC advantage means less recourse if something goes wrong.
+
+### SolCard
+
+SolCard is a newer entrant focused on the Solana ecosystem. It offers no-KYC virtual cards funded with SOL-based tokens. The platform is still building its track record, so information about reliability and long-term viability is limited.
+
+For Solana-native users, it is worth watching. For DePix users who would need to bridge through Solana anyway, the extra step may or may not be justified depending on how the platform matures.
+
+**A note on no-KYC risk in general:** Services that operate without identity verification face higher regulatory pressure. They can be shut down, frozen, or forced to change terms abruptly. Never store large balances on any no-KYC card — load only what you plan to spend soon.
+
+## Moderate-KYC cards: a middle ground
+
+These cards require some identity verification but do not demand the exhaustive documentation that exchange-based cards require. They offer a practical balance between usability and privacy.
 
 ### Kast
 
-[Kast](https://go.kast.xyz/VqVO/TWUQMOLG) stands out as one of the most practical options for stablecoin users. It accepts deposits in USDC, USDT, and USDe across multiple networks, including Solana (where transaction fees are under a cent) and Polygon. This is great news for DePix users, because you can send USDT via Polygon directly to your Kast wallet after bridging from Liquid.
+[Kast](https://go.kast.xyz/VqVO/TWUQMOLG) accepts deposits in USDC, USDT, and USDe across multiple networks, including Solana and Polygon. This makes the DePix flow smooth: bridge your USDt from Liquid to Polygon via P2P.Land or BrSwap.me, then send USDT directly to your Kast wallet.
 
-KYC is required, but the process is fast, typically completed in under three minutes through Sumsub. After verification, you receive a virtual card instantly and can add it to Apple Pay or Google Pay right away. There is no annual fee, and foreign exchange fees for purchases in non-USD currencies range from 0.5% to 1.75%.
+KYC is required but relatively fast — typically under three minutes via Sumsub. You provide an ID document and a selfie, but Kast does not ask for proof of address, bank statements, or income source documentation. After verification, you receive a virtual Visa card instantly and can add it to Apple Pay or Google Pay.
 
-Kast also runs a rewards program where you can earn cashback in points or tokens depending on your card tier, adding value to everyday spending.
+There is no annual fee. Foreign exchange fees for purchases in non-USD currencies range from 0.5% to 1.75%. ATM withdrawals cost $3 plus 2%.
 
-On the privacy front, Kast offers a moderate level of protection. KYC is mandatory, but you can deposit directly from an external wallet without linking a bank account. This means your spending activity is recorded by Kast, but there is no direct integration with your country's banking system. Your bank never sees where you spend your crypto.
-
-### Bybit
-
-The Bybit card is a solid choice if you already use the Bybit exchange. It offers up to 10% cashback, no annual fee, and a free virtual card. The physical card costs $29.99, though VIP users get it for free.
-
-The downside is the KYC process, which requires identity documents, proof of address, and information about your employment and income source. This makes it one of the least private options, as your personal and financial data is extensively recorded on the platform.
-
-Another consideration: funds must flow through the Bybit exchange, so you cannot deposit directly from an external wallet to the card. This adds a layer of traceability to every transaction.
-
-### Binance
-
-The Binance card works similarly to Bybit's, integrated with the exchange ecosystem. It offers up to 8% cashback in BNB, no annual fee, and a 0.9% transaction fee. Full KYC with government ID and selfie is required.
-
-Geographic availability is the main limitation. The card is concentrated in the European Economic Area, with restricted access in many other regions. For users in Latin America or other markets, availability may depend on current regulatory policies.
-
-Privacy-wise, the level is low for the same reasons as Bybit: funds pass through a centralized exchange, KYC is extensive, and all transactions are linked to your verified account.
-
-### Crypto.com
-
-Crypto.com offers a tiered system based on staking CRO, the platform's native token. The entry-level Midnight Blue card is free and requires no staking, but only offers 1% cashback. Higher tiers, which include perks like Spotify and Netflix reimbursements, require locking significant amounts of CRO for 180 days.
-
-Full KYC including facial verification is mandatory. Privacy is low, as all financial data is tied to your verified profile. The rewards program, which changed substantially with the "Level Up" update in 2025, can be confusing for new users due to its complexity.
+On privacy: Kast records your spending activity, as any card issuer must. But because you deposit directly from an external wallet — not from a bank account — there is no direct link between your card spending and your country's banking system. Your bank never sees where you spend your crypto.
 
 ### Gnosis Pay
 
-Gnosis Pay is the most interesting option for anyone who prioritizes decentralization. Unlike every other card on this list, Gnosis Pay is self-custodial. Your funds sit in a Safe smart contract that only you control, not in a company's wallet.
+Gnosis Pay is the most interesting option for anyone who prioritizes self-custody. Unlike every other card on this list, your funds sit in a Safe smart contract that only you control, not in a company's wallet. No card issuer can freeze your balance on a whim.
 
-The card operates on Gnosis Chain, an EVM network with transaction fees under $0.001. There are no crypto-to-fiat conversion fees and no annual fee. Cashback ranges from 1% to 4%, paid in GNO tokens.
+The card operates on Gnosis Chain, an EVM network with transaction fees under $0.001. There are no crypto-to-fiat conversion fees, no annual fee, and cashback ranges from 1% to 4% paid in GNO tokens.
 
-The main limitation is availability: Gnosis Pay primarily serves Europe. KYC is required for card issuance, but the self-custodial model means your funds are never held by a third party. This represents a meaningfully higher level of privacy compared to most alternatives.
+The main limitation is availability: Gnosis Pay currently serves Europe only. KYC is required for card issuance, but the self-custodial model means your funds are never held by a third party. If the Gnosis Pay service were to disappear tomorrow, your crypto would still be safe in your own smart contract wallet.
 
-## Which card should you choose? Our recommendation
+## Exchange-based cards: convenient, but low privacy
 
-If you are in the DePix ecosystem and want the best balance of convenience, low fees, and reasonable privacy, [Kast](https://go.kast.xyz/VqVO/TWUQMOLG) is our recommendation.
+Bybit, Binance, and Crypto.com all offer crypto debit cards integrated with their exchange platforms. They are well-known, generally reliable, and often come with attractive cashback programs.
 
-There are several reasons for this. First, Kast accepts direct deposits via Polygon, which is exactly the network you can send USDT to using P2P.Land or BrSwap.me from the Liquid Network. The flow from DePix to Kast is therefore smooth and frictionless.
+However, from a privacy perspective, they are the weakest option. All three require full KYC with government-issued ID, selfie or facial verification, and in some cases proof of address and income source documentation. Your funds must flow through the exchange, creating a complete record of every deposit, conversion, and withdrawal tied to your verified identity.
 
-Second, the KYC process is fast and less invasive compared to exchanges like Bybit or Binance, which ask for detailed information about income and source of funds. Third, the zero annual fee and competitive rates make Kast an economically sensible choice for daily use.
+If you already use one of these exchanges and privacy is not a primary concern, their cards can be convenient. Bybit offers up to 10% cashback, Binance up to 8% in BNB, and Crypto.com has a tiered rewards system based on CRO staking. But if you chose DePix specifically for its privacy characteristics, routing your spending through a centralized exchange with full KYC defeats much of the purpose.
 
-If you are based in Europe and prioritize decentralization above all else, Gnosis Pay is an excellent alternative with its self-custodial model. For those chasing aggressive cashback rates and already using centralized exchanges, Bybit and Binance can make sense, but with the understanding that privacy will be significantly lower.
+For a quick comparison: Bybit and Binance charge around 0.9% on transactions with no annual fee. Crypto.com's fee structure varies by card tier and can be more complex. Geographic availability varies — Binance is concentrated in Europe, while Bybit and Crypto.com serve broader regions.
 
-The important takeaway is that no crypto card offers complete anonymity. All of them require some level of KYC due to regulations. The difference lies in how much of your financial data is exposed and to whom. With DePix and a card like Kast, you minimize the connection between your financial life and the traditional banking system, and that is already a meaningful gain in [financial privacy](/en/posts/financial-privacy-depix/).
+## How to choose: match the card to your priorities
+
+There is no single "best" crypto card. The right choice depends on what you value most.
+
+**If privacy is your top priority:** Start with Laso Finance or another no-KYC option for specific purchases. Accept the higher fees as the cost of avoiding identity disclosure. Use them alongside [gift card strategies](/en/posts/private-purchases-gift-cards/) for maximum flexibility.
+
+**If you want a daily-use card with reasonable privacy:** A moderate-KYC option like Kast gives you a functional Visa card without connecting your spending to the banking system. The KYC is lighter than exchange cards, and direct wallet deposits keep your financial activity separated from traditional banks.
+
+**If you are in Europe and value self-custody:** Gnosis Pay is in a category of its own. Self-custodial funds with a working Visa card is a rare combination.
+
+**If convenience and cashback matter more than privacy:** Exchange cards from Bybit, Binance, or Crypto.com offer polished products with strong rewards programs. Just understand that you are trading privacy for those perks.
+
+## Honest tradeoffs to consider
+
+No crypto card is perfect, and no solution offers complete anonymity. Here are the realities:
+
+- **No-KYC cards carry real risk.** They can be shut down, terms can change, and you have limited recourse if funds are lost. Never store more than you plan to spend immediately.
+- **All card transactions are visible to the card network.** Whether you use Visa or Mastercard, the payment processor sees the merchant, amount, and timestamp. The privacy advantage of crypto cards is about disconnecting this spending data from your bank and government identity — not about making transactions invisible.
+- **Regulatory pressure is increasing.** The no-KYC card market may shrink over time as regulations tighten globally. Cards that work today may require KYC tomorrow.
+- **Fees add up.** Between bridging from Liquid, network fees, card loading fees, and foreign exchange fees, the total cost of spending DePix through a card can range from 1% to 8% depending on your path. Factor this into your decisions.
+- **The DePix-to-card flow is not instant.** Swapping, bridging, and depositing takes a few minutes at minimum. This is not a replacement for the speed of tapping your bank card — it is a tool for people who have decided that [financial privacy](/en/posts/financial-privacy-depix/) is worth the extra steps.
+
+The goal is not perfection. It is meaningful improvement. Moving from a system where your bank sees every purchase to one where your spending is separated from your banking identity is a significant step toward financial autonomy.
 
 ## Your financial privacy starts here
 

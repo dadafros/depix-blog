@@ -20,9 +20,9 @@ For someone who just wants to pay rent or buy groceries with their crypto earnin
 
 ## How DePix simplifies the conversion
 
-With the DePix App, the path from cryptocurrency to reais in your bank account is dramatically shorter. The process uses the Liquid Network as an intermediary layer, which enables fast settlement and low fees.
+With the DePix App, the path from cryptocurrency to reais in your bank account is dramatically shorter. The process has two steps: first you convert your crypto to DePix (a BRL-pegged stablecoin on the Liquid Network), then you withdraw DePix to your bank account via Pix.
 
-Here is how it works. You log into the [DePix App](https://depixapp.com/) and select the withdrawal option. The app displays a Liquid Network address and QR code. You send your Liquid Network assets — whether L-BTC, DePix tokens, or other supported assets — to that address. You specify the amount in reais you want to receive and provide your Pix key. The app processes the conversion and sends the reais to your bank account via Pix.
+It is important to understand that the DePix App only processes withdrawals of DePix tokens. It does not accept Bitcoin, USDt, or other assets directly for withdrawal. But converting to DePix first is simple and fast, as we will explain below.
 
 The whole process takes minutes, not days. And because Pix is Brazil's instant payment system, the reais appear in your bank account almost immediately.
 
@@ -54,15 +54,37 @@ Anyone receiving crypto gifts, donations, or informal payments who needs BRL wil
 
 ## Step-by-step walkthrough
 
-Let us walk through a concrete example. Say you are a freelance developer who just received 0.01 BTC from a client for a completed project. The same general flow applies to any supported Liquid Network asset — the steps are essentially identical.
+The process has two stages: first convert your crypto to DePix, then withdraw DePix to your bank via Pix.
 
-First, if your Bitcoin is on the main network, move it to the Liquid Network via a peg-in or by withdrawing from an exchange to a Liquid address. If your client can pay directly to a Liquid address, even better — skip this step entirely. If you already hold L-BTC, stablecoins, or other Liquid assets, you are ready to go.
+### Stage 1: Convert your crypto to DePix
 
-Next, open the [DePix App](https://depixapp.com/) and navigate to the withdrawal screen. The app will show you a Liquid address. Send your crypto to this address.
+The conversion path depends on where your assets are.
 
-Once the transaction confirms on Liquid (about two minutes), enter the amount you want to receive in reais and your Pix key. Confirm the operation. Within moments, the reais will appear in your bank account.
+**If your crypto is already on the Liquid Network (L-BTC, USDt, or other Liquid assets):**
 
-That is the entire process. No order books, no trading pairs, no multi-day settlement.
+Use [SideSwap](https://sideswap.io/), a Liquid wallet that also works as a decentralized exchange. Inside SideSwap, select the swap pair (for example, L-BTC/DePix or USDt/DePix), enter the amount, and confirm. The swap happens directly on the Liquid Network, which means very low fees (fractions of a cent) and confirmation in about two minutes. This is the fastest and cheapest path.
+
+**If your crypto is on other blockchains (Ethereum, Polygon, Solana, Bitcoin mainchain, etc.):**
+
+Use cross-chain swap services like [BrSwap.me](https://brswap.me/) or [P2P.Land](https://p2p.land/). These services bridge between other networks and the Liquid Network. You send your crypto from any supported blockchain and receive DePix (or another Liquid asset) in your SideSwap wallet. Fees are slightly higher than Liquid-to-Liquid swaps because they involve transactions on different networks, but it is still simpler and faster than using a traditional exchange.
+
+**If you have Bitcoin on the main network (on-chain):**
+
+You have two options. First, you can peg in to the Liquid Network using SideSwap, which converts your BTC to L-BTC. Then swap L-BTC for DePix inside SideSwap. Second, you can use BrSwap.me to convert directly from on-chain BTC to DePix on Liquid.
+
+### Stage 2: Withdraw DePix via Pix
+
+Now that you have DePix in your SideSwap wallet, the withdrawal is straightforward.
+
+Open the [DePix App](https://depixapp.com/) and log in. If you do not have an account yet, registration takes under two minutes with just an email.
+
+On the main screen, select the withdrawal option. Enter the amount in reais you want to receive and your Pix key (CPF, email, phone number, or random key).
+
+The DePix App will generate a Liquid address and QR code. Open SideSwap, go to "Pay", and send the corresponding amount of DePix to that address.
+
+After the transaction confirms on the Liquid Network (about two minutes), the DePix App processes the payment and sends the Pix to your bank account.
+
+That is it. Your crypto is now reais in your bank. No order books, no trading pairs, no multi-day settlement.
 
 ## Tips for the best experience
 
