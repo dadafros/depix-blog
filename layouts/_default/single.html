@@ -21,6 +21,20 @@
       {{ end }}
     </header>
 
+    {{/* Table of Contents */}}
+    {{ if .TableOfContents }}
+    <nav class="toc" id="toc">
+      <button class="toc-toggle" type="button">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="15" y2="12"/><line x1="3" y1="18" x2="18" y2="18"/></svg>
+        {{ if eq .Lang "pt" }}Neste artigo{{ else }}In this article{{ end }}
+        <svg class="toc-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div class="toc-content">
+        {{ .TableOfContents }}
+      </div>
+    </nav>
+    {{ end }}
+
     <div class="post-content" itemprop="articleBody">
       {{ .Content }}
     </div>
@@ -30,9 +44,9 @@
       <div class="cta-box-inner">
         <p class="cta-text">
           {{ if eq .Lang "pt" }}
-            Pronto para experimentar pagamentos PIX com Bitcoin e stablecoins?
+            Pix tem praticidade. DePix tem privacidade.
           {{ else }}
-            Ready to experience PIX payments with Bitcoin and stablecoins?
+            Pix has convenience. DePix has privacy.
           {{ end }}
         </p>
         <a href="{{ .Site.Params.appUrl }}" class="cta-button" target="_blank" rel="noopener">
@@ -41,6 +55,34 @@
         </a>
       </div>
     </aside>
+
+    {{/* Related Posts */}}
+    {{ $currentTags := .Params.tags | default slice }}
+    {{ $currentPage := . }}
+    {{ $related := slice }}
+    {{ range .Site.RegularPages }}
+      {{ if ne .Permalink $currentPage.Permalink }}
+        {{ $shared := intersect (.Params.tags | default slice) $currentTags }}
+        {{ if gt (len $shared) 0 }}
+          {{ $related = $related | append . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if gt (len $related) 0 }}
+    <section class="related-posts">
+      <h2 class="related-title">
+        {{ if eq .Lang "pt" }}Posts relacionados{{ else }}Related posts{{ end }}
+      </h2>
+      <div class="related-list">
+        {{ range first 3 $related }}
+        <a href="{{ .RelPermalink }}" class="related-card">
+          <h3 class="related-card-title">{{ .Title }}</h3>
+          <span class="related-card-meta">{{ .ReadingTime }} min {{ if eq $.Lang "pt" }}de leitura{{ else }}read{{ end }}</span>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
 
     {{/* Prev/Next Navigation */}}
     <nav class="post-nav">

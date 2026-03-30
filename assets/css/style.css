@@ -786,3 +786,335 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--text-muted);
 }
+
+/* ============================================
+   Search Bar
+   ============================================ */
+.search-bar {
+  position: relative;
+  max-width: 480px;
+  margin: 2rem auto 0;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+#search-input {
+  width: 100%;
+  padding: 0.85rem 1rem 0.85rem 3rem;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 1rem;
+  color: var(--text);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  outline: none;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+#search-input::placeholder {
+  color: var(--text-muted);
+}
+
+#search-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(56, 227, 172, 0.1);
+}
+
+.search-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-muted);
+  font-size: 1.0625rem;
+}
+
+/* ============================================
+   Tag Filter
+   ============================================ */
+.tag-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.tag-filter-btn {
+  display: inline-block;
+  padding: 0.3rem 0.85rem;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all var(--transition);
+  letter-spacing: 0.02em;
+}
+
+.tag-filter-btn:hover {
+  color: var(--accent);
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+}
+
+.tag-filter-btn.active {
+  color: var(--bg);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ============================================
+   Post Card Meta (reading time + tags)
+   ============================================ */
+.post-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.meta-dot {
+  color: var(--text-muted);
+  opacity: 0.4;
+  font-size: 0.8125rem;
+}
+
+.post-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.25rem;
+}
+
+.post-card-tag {
+  display: inline-block;
+  padding: 0.1rem 0.55rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border-radius: 12px;
+  letter-spacing: 0.02em;
+}
+
+/* ============================================
+   Table of Contents
+   ============================================ */
+.toc {
+  margin-bottom: 2rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.toc-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.85rem 1rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--text-heading);
+  background: var(--bg-card);
+  border: none;
+  cursor: pointer;
+  transition: background var(--transition);
+}
+
+.toc-toggle:hover {
+  background: var(--bg-card-hover);
+}
+
+.toc-chevron {
+  margin-left: auto;
+  transition: transform var(--transition);
+}
+
+.toc.open .toc-chevron {
+  transform: rotate(180deg);
+}
+
+.toc-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.toc.open .toc-content {
+  max-height: 500px;
+}
+
+.toc-content nav > ul,
+.toc-content > ul {
+  list-style: none;
+  padding: 0 1rem 0.85rem;
+  margin: 0;
+}
+
+.toc-content li {
+  margin: 0;
+  padding: 0;
+}
+
+.toc-content a {
+  display: block;
+  padding: 0.35rem 0;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  border-bottom: none;
+  transition: color var(--transition);
+}
+
+.toc-content a:hover {
+  color: var(--accent);
+}
+
+.toc-content ul ul {
+  padding-left: 1.25rem;
+}
+
+.toc-content ul ul a {
+  font-size: 0.8125rem;
+}
+
+/* ============================================
+   Related Posts
+   ============================================ */
+.related-posts {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.related-title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 1.25rem;
+}
+
+.related-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+.related-card {
+  display: block;
+  padding: 1rem 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: border-color var(--transition), background var(--transition), transform var(--transition);
+}
+
+.related-card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+  transform: translateY(-1px);
+}
+
+.related-card-title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-heading);
+  line-height: 1.35;
+  margin-bottom: 0.25rem;
+}
+
+.related-card-meta {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+/* ============================================
+   Back to Top
+   ============================================ */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  color: var(--text-muted);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all var(--transition);
+  z-index: 50;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  color: var(--accent);
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+}
+
+/* ============================================
+   Utility
+   ============================================ */
+.hidden {
+  display: none !important;
+}
+
+/* ============================================
+   Responsive — new components
+   ============================================ */
+@media (max-width: 640px) {
+  .search-bar {
+    margin-top: 1.5rem;
+  }
+
+  #search-input {
+    font-size: 0.9375rem;
+    padding: 0.75rem 1rem 0.75rem 2.75rem;
+  }
+
+  .tag-filter {
+    gap: 0.4rem;
+  }
+
+  .tag-filter-btn {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.7rem;
+  }
+
+  .related-card {
+    padding: 0.85rem 1rem;
+  }
+
+  .back-to-top {
+    bottom: 1.25rem;
+    right: 1.25rem;
+    width: 40px;
+    height: 40px;
+  }
+}

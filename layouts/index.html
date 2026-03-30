@@ -18,26 +18,63 @@
           <span class="hero-subtitle-secondary">Learn how to use the tool that puts you back in control of your money.</span>
         {{ end }}
       </p>
+
+      {{/* Search bar */}}
+      <div class="search-bar">
+        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" id="search-input" placeholder="{{ if eq .Lang "pt" }}Buscar posts...{{ else }}Search posts...{{ end }}" autocomplete="off">
+      </div>
     </div>
   </div>
 </section>
 
 <section class="latest-posts">
   <div class="container">
+
+    {{/* Tag filter */}}
+    {{ $allTags := slice }}
+    {{ range .Site.RegularPages }}
+      {{ range .Params.tags }}
+        {{ $allTags = $allTags | append . }}
+      {{ end }}
+    {{ end }}
+    {{ $uniqueTags := $allTags | uniq | sort }}
+    {{ if gt (len $uniqueTags) 0 }}
+    <div id="tag-filter" class="tag-filter">
+      {{ range $uniqueTags }}
+      <button class="tag-filter-btn" data-tag="{{ . }}">{{ . }}</button>
+      {{ end }}
+    </div>
+    {{ end }}
+
     <h2 class="section-title">
       {{ if eq .Lang "pt" }}Publicações recentes{{ else }}Latest posts{{ end }}
     </h2>
 
+    {{/* Search results container */}}
+    <div id="search-results" class="post-list hidden"></div>
+
     <div class="post-list">
-      {{ range first 10 .Site.RegularPages }}
-      <article class="post-card">
+      {{ range first 20 .Site.RegularPages }}
+      <article class="post-card" data-tags="{{ delimit .Params.tags "," }}">
         <a href="{{ .RelPermalink }}" class="post-card-link">
           <div class="post-card-body">
-            <time class="post-meta" datetime="{{ .Date.Format "2006-01-02" }}">
-              {{ .Date.Format "02 Jan 2006" }}
-            </time>
+            <div class="post-card-meta">
+              <time class="post-meta" datetime="{{ .Date.Format "2006-01-02" }}">
+                {{ .Date.Format "02 Jan 2006" }}
+              </time>
+              <span class="meta-dot">&middot;</span>
+              <span class="post-meta">
+                {{ .ReadingTime }} min {{ if eq $.Lang "pt" }}de leitura{{ else }}read{{ end }}
+              </span>
+            </div>
             <h2 class="post-card-title">{{ .Title }}</h2>
             {{ with .Description }}<p class="post-card-excerpt">{{ . }}</p>{{ end }}
+            {{ with .Params.tags }}
+            <div class="post-card-tags">
+              {{ range . }}<span class="post-card-tag">{{ . }}</span>{{ end }}
+            </div>
+            {{ end }}
             <span class="read-more">
               {{ if eq $.Lang "pt" }}Ler mais{{ else }}Read more{{ end }}
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>

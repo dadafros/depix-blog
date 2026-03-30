@@ -1,0 +1,15 @@
+{{- $pages := slice -}}
+{{- range .Site.RegularPages -}}
+  {{- $tags := slice -}}
+  {{- range .Params.tags }}{{ $tags = $tags | append . }}{{ end -}}
+  {{- $pages = $pages | append (dict
+    "title" .Title
+    "description" (default "" .Description)
+    "url" .RelPermalink
+    "date" (.Date.Format "02 Jan 2006")
+    "readingTime" .ReadingTime
+    "tags" $tags
+    "content" (substr .Plain 0 500)
+  ) -}}
+{{- end -}}
+{{- $pages | jsonify -}}

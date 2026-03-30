@@ -10,6 +10,9 @@ enableRobotsTXT = true
       unsafe = false
   [markup.highlight]
     style = "monokai"
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
 
 [languages]
   [languages.pt]
@@ -39,7 +42,7 @@ enableRobotsTXT = true
   ogImage = "/icon-512.png"
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "JSON"]
   section = ["HTML", "RSS"]
 
 [sitemap]
