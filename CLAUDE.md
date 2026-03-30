@@ -51,11 +51,17 @@ draft: false
 - **Minimum 800 words** per post.
 - **Use H2 headings** (`##`) to structure the article into clear sections (at least 3-4 H2s per post).
 - **Do NOT use H1** — Hugo templates generate H1 from the title.
-- **End every post with a CTA** linking to `https://depixapp.com/`. Example:
+- **End every post with a CTA** linking to `https://depixapp.com/`. The CTA must reinforce DePix's core positioning: **privacidade e soberania financeira**. Use the template below, podendo variar levemente o texto para manter relevância com o tema do artigo:
   ```markdown
-  ## Comece a usar o DePix agora
+  ## Sua privacidade financeira começa aqui
 
-  Acesse [depixapp.com](https://depixapp.com/) e faça seu primeiro depósito em minutos.
+  Pix tem praticidade — DePix tem privacidade. Pare de expor cada transação ao sistema bancário e comece a usar dinheiro digital que só você controla. Acesse [depixapp.com](https://depixapp.com/).
+  ```
+  English version:
+  ```markdown
+  ## Your financial privacy starts here
+
+  Pix has convenience — DePix has privacy. Stop exposing every transaction to the banking system and start using digital money that only you control. Visit [depixapp.com](https://depixapp.com/).
   ```
 - **Tone**: Accessible, friendly, educational. Write for non-technical Brazilian users (PT) and international crypto-curious readers (EN). Avoid excessive jargon — when a technical term is necessary, explain it briefly.
 - **No promotional hype** — be informative and honest.

@@ -46,7 +46,7 @@ This is a significant improvement over both the banking system (where the bank s
 
 Let us consider concrete situations where financial privacy makes a difference.
 
-Imagine you are a freelancer receiving payments from multiple clients. With the traditional banking system, your bank has complete visibility into how much you earn, from whom, and how frequently. With the DePix App, you can [receive payments via Bitcoin](/en/posts/how-to-receive-pix-in-bitcoin/) and keep those earnings private on the Liquid Network.
+Imagine you are a freelancer receiving payments from multiple clients. With the traditional banking system, your bank has complete visibility into how much you earn, from whom, and how frequently. With the DePix App, you can [convert crypto to reais](/en/posts/how-to-convert-crypto-to-reais/) and keep those earnings private on the Liquid Network.
 
 Or consider a situation where you want to make a donation to a cause you support but prefer to keep that donation private. With a bank transfer, your bank and the central bank know exactly how much you donated and to whom. With DePix on Liquid, the transaction is confidential.
 
@@ -58,7 +58,7 @@ These are not spy-movie scenarios. They are normal everyday situations where pri
 
 It is important to be honest about the limits of the privacy the DePix App offers. No system is perfectly private, and the DePix App is no exception.
 
-When you deposit reais into the DePix App via PIX, that deposit transaction goes through the banking system. Your bank knows you made that payment. Similarly, when you [withdraw DePix to your bank account](/en/posts/how-to-withdraw-depix-to-bank/), the incoming PIX transfer is recorded by the bank.
+When you deposit reais into the DePix App via Pix, that deposit transaction goes through the banking system. Your bank knows you made that payment. Similarly, when you withdraw DePix to your bank account, the incoming Pix transfer is recorded by the bank.
 
 The DePix App's privacy applies to what happens between the deposit and the withdrawal — the transactions on the Liquid Network. If you deposit, hold DePix for a while, and then withdraw, the bank sees the entry and the exit, but does not know what happened in between. It does not know how many addresses you sent to, how much you sent to each, or when you made those transactions.
 
@@ -70,7 +70,7 @@ It is worth clarifying the difference between privacy and anonymity, because the
 
 Privacy means your transactions are confidential — people cannot see the details unless you share them. The DePix App offers this through Liquid Network's Confidential Transactions.
 
-Anonymity means nobody knows who you are. The DePix App does not offer complete anonymity. You create an account with personal information, and the entry and exit transactions (deposits and withdrawals via PIX) go through the banking system with your identification.
+Anonymity means nobody knows who you are. The DePix App does not offer complete anonymity. You create an account with personal information, and the entry and exit transactions (deposits and withdrawals via Pix) go through the banking system with your identification.
 
 Think of it this way: privacy is like sending a letter in a sealed envelope — people know you sent a letter, but they do not know what is inside. Anonymity would be sending the letter without a return address. The DePix App offers the sealed envelope.
 
@@ -84,7 +84,7 @@ With Bitcoin on the main network, addresses are pseudonymous but all amounts and
 
 With DePix on the Liquid Network, addresses are pseudonymous and amounts are confidential. External observers can see that transactions occurred but cannot see the amounts. This provides significantly more privacy than both bank transfers and mainchain Bitcoin.
 
-For a broader comparison between DePix and the traditional payment system, check out our article on [DePix vs traditional PIX](/en/posts/depix-vs-traditional-pix/).
+For a broader comparison between DePix and the traditional payment system, check out our article on [DePix vs traditional Pix](/en/posts/depix-vs-traditional-pix/).
 
 ## Self-custody: you control your money
 
@@ -94,8 +94,6 @@ This is different from having money in a bank, where the institution can freeze,
 
 This combination of confidential transactions with self-custody creates a level of financial privacy and autonomy that simply does not exist in the traditional banking system. It is not about distrust — it is about having options and maintaining the freedom to choose how your money is managed.
 
-## Protect your financial privacy now
+## Your financial privacy starts here
 
-Financial privacy is not a luxury or paranoia — it is a right. The DePix App offers a practical and accessible way to exercise that right without needing to be a technology expert.
-
-Visit [depixapp.com](https://depixapp.com/) and start using DePix on the Liquid Network. Your reais, your privacy, your control. Make your first deposit in minutes and discover what truly private digital money feels like.
+Pix has convenience — DePix has privacy. Stop exposing every transaction to the banking system and start using digital money that only you control. Visit [depixapp.com](https://depixapp.com/).

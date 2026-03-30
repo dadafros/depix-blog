@@ -8,7 +8,7 @@ slug: "what-is-depix"
 draft: false
 ---
 
-If you have been following cryptocurrency but wondered how digital money actually works in everyday life, DePix App is a great place to start. This article explains what DePix is, how it connects Brazil's instant payment system (PIX) to the Bitcoin ecosystem, and why it matters for anyone interested in stablecoins and the Liquid Network.
+If you have been following cryptocurrency but wondered how digital money actually works in everyday life, DePix App is a great place to start. This article explains what DePix is, how it connects Brazil's instant payment system (Pix) to the Bitcoin ecosystem, and why it matters for anyone interested in stablecoins and the Liquid Network.
 
 ## What is a stablecoin and why does it matter?
 
@@ -20,9 +20,9 @@ The practical benefit is straightforward: you can hold reais in a blockchain-bas
 
 ## How DePix works in practice
 
-The DePix App workflow is designed to be simple. You visit the [DePix App](https://depixapp.com/), deposit Brazilian reais using PIX (Brazil's instant payment system), and receive the equivalent amount in DePix tokens on the Liquid Network. When you want to convert back to fiat, you withdraw and the reais land in your bank account via PIX.
+The DePix App workflow is designed to be simple. You visit the [DePix App](https://depixapp.com/), deposit Brazilian reais using Pix (Brazil's instant payment system), and receive the equivalent amount in DePix tokens on the Liquid Network. When you want to convert back to fiat, you withdraw and the reais land in your bank account via Pix.
 
-Deposits are confirmed in seconds because PIX is instant. Withdrawals are also processed quickly. There is no multi-day settlement window like you might experience with international wire transfers or some cryptocurrency exchanges.
+Deposits are confirmed in seconds because Pix is instant. Withdrawals are also processed quickly. There is no multi-day settlement window like you might experience with international wire transfers or some cryptocurrency exchanges.
 
 For users who have never touched crypto before, the experience feels similar to using any modern payment app. You do not need to manage seed phrases, install specialized wallet software, or understand cryptographic concepts. The DePix App handles the technical layer so you can focus on what matters: moving your money.
 
@@ -34,17 +34,17 @@ When you hold DePix, your tokens live on this network. Liquid transactions are c
 
 One of Liquid's standout features is Confidential Transactions. By default, transaction amounts on Liquid are hidden from outside observers. Only the sender and receiver know the value being transferred. This is a meaningful upgrade over both traditional banking (where your bank sees everything) and regular Bitcoin (where all amounts are publicly visible). For more on how this protects you, read our article on [financial privacy with DePix](/en/posts/financial-privacy-depix/).
 
-## Why not just use PIX directly?
+## Why not just use Pix directly?
 
-PIX is genuinely excellent. Launched by Brazil's central bank in 2020, it processes over 100 million transactions per day and has become the backbone of payments in the country. DePix App does not compete with PIX — it uses PIX as a bridge.
+Pix is genuinely excellent. Launched by Brazil's central bank in 2020, it processes over 100 million transactions per day and has become the backbone of payments in the country. DePix App does not compete with Pix — it uses Pix as a bridge.
 
-The key difference is where your money lives. With regular PIX, your funds sit in a bank account controlled by a financial institution. With DePix, your digital reais exist on the Liquid Network, a federated sidechain that does not depend on any single bank.
+The key difference is where your money lives. With regular Pix, your funds sit in a bank account controlled by a financial institution. With DePix, your digital reais exist on the Liquid Network, a federated sidechain that does not depend on any single bank.
 
-This distinction matters if you value financial autonomy, want to hold value outside the traditional banking system, or need to interact with the broader Bitcoin and Liquid ecosystem. For a detailed comparison, check out our article on [DePix vs traditional PIX](/en/posts/depix-vs-traditional-pix/).
+This distinction matters if you value financial autonomy, want to hold value outside the traditional banking system, or need to interact with the broader Bitcoin and Liquid ecosystem. For a detailed comparison, check out our article on [DePix vs traditional Pix](/en/posts/depix-vs-traditional-pix/).
 
 ## Real-world use cases
 
-DePix App serves several practical purposes. Remote workers who earn in Bitcoin can convert a portion of their income to BRL-pegged DePix and then [withdraw to their bank account](/en/posts/how-to-withdraw-depix-to-bank/) whenever they need to pay bills or make purchases in reais.
+DePix App serves several practical purposes. Remote workers who earn in Bitcoin can convert a portion of their income to BRL-pegged DePix and then withdraw to their bank account whenever they need to pay bills or make purchases in reais.
 
 People who want exposure to the Bitcoin ecosystem without full price volatility can hold DePix as a stable entry point. When they are ready to acquire Bitcoin, they are already on the Liquid Network and can swap easily.
 
@@ -64,10 +64,8 @@ It is worth noting that the DePix App is a non-custodial interface. You manage y
 
 DePix App is designed for anyone who uses Brazilian reais and wants to explore the benefits of blockchain-based money without the steep learning curve. This includes Brazilians who want to start with crypto in a low-risk way using a real-pegged stablecoin, remote workers and freelancers who receive Bitcoin and need an easy off-ramp to BRL, privacy-conscious users who want to move money without full bank surveillance, and anyone in the Bitcoin ecosystem who needs a reliable BRL stablecoin on Liquid.
 
-You do not need to be a crypto expert. You do not need to understand blockchain architecture. If you can use PIX, you can use the DePix App.
+You do not need to be a crypto expert. You do not need to understand blockchain architecture. If you can use Pix, you can use the DePix App.
 
-## Getting started with the DePix App
+## Your financial privacy starts here
 
-The DePix App bridges the gap between Brazil's modern payment infrastructure and the Bitcoin ecosystem. It brings the convenience of PIX together with the autonomy and privacy of the Liquid Network, all wrapped in a simple interface that anyone can use.
-
-Visit [depixapp.com](https://depixapp.com/) and make your first deposit in minutes. Discover how easy it is to hold digital reais on the Liquid Network with all the convenience of PIX.
+Pix has convenience — DePix has privacy. Stop exposing every transaction to the banking system and start using digital money that only you control. Discover how easy it is to hold digital reais on the Liquid Network with full sovereignty and privacy. Visit [depixapp.com](https://depixapp.com/).

@@ -8,7 +8,7 @@ slug: "privacidade-financeira-depix"
 draft: false
 ---
 
-Quanto o seu banco sabe sobre você? A resposta é: tudo. Cada PIX que você envia, cada compra no cartão, cada transferência — tudo é registrado, armazenado e analisado. Para muitas pessoas, isso nunca foi motivo de preocupação. Mas a privacidade financeira é um direito, e o DePix App oferece uma alternativa real para quem quer exercer esse direito sem abrir mão da praticidade.
+Quanto o seu banco sabe sobre você? A resposta é: tudo. Cada Pix que você envia, cada compra no cartão, cada transferência — tudo é registrado, armazenado e analisado. Para muitas pessoas, isso nunca foi motivo de preocupação. Mas a privacidade financeira é um direito, e o DePix App oferece uma alternativa real para quem quer exercer esse direito sem abrir mão da praticidade.
 
 ## O que é privacidade financeira
 
@@ -16,7 +16,7 @@ Privacidade financeira não é sobre esconder algo ilegal. É sobre ter o contro
 
 No mundo físico, o dinheiro em espécie oferece privacidade natural. Quando você paga algo com notas de real, ninguém registra aquela transação em um banco de dados. Não existe um histórico centralizado das suas compras em dinheiro vivo.
 
-No mundo digital, essa privacidade praticamente desapareceu. Cada transação eletrônica — PIX, cartão, transferência — cria um registro permanente que fica armazenado nos servidores do banco, acessível à instituição e potencialmente a terceiros.
+No mundo digital, essa privacidade praticamente desapareceu. Cada transação eletrônica — Pix, cartão, transferência — cria um registro permanente que fica armazenado nos servidores do banco, acessível à instituição e potencialmente a terceiros.
 
 O DePix App traz de volta parte dessa privacidade ao mundo digital, usando tecnologia da Liquid Network que protege os detalhes das suas transações.
 
@@ -24,7 +24,7 @@ O DePix App traz de volta parte dessa privacidade ao mundo digital, usando tecno
 
 Para entender o valor da privacidade que o DePix App oferece, vale entender o que acontece com suas transações no sistema bancário tradicional.
 
-Quando você faz um PIX, pelo menos três entidades registram a transação: o banco de origem, o banco de destino e o Banco Central. Cada uma dessas entidades armazena dados completos — valor, data, hora, identificação do remetente, identificação do destinatário e chave PIX utilizada.
+Quando você faz um Pix, pelo menos três entidades registram a transação: o banco de origem, o banco de destino e o Banco Central. Cada uma dessas entidades armazena dados completos — valor, data, hora, identificação do remetente, identificação do destinatário e chave Pix utilizada.
 
 Esses dados ficam armazenados por anos. Os bancos usam essas informações para criar perfis detalhados dos seus hábitos financeiros. Eles sabem onde você compra, quanto gasta em cada categoria, sua renda, seus padrões de consumo e até seus horários de atividade financeira.
 
@@ -46,9 +46,9 @@ Essa é uma melhoria significativa tanto em relação ao sistema bancário (onde
 
 Vamos pensar em situações concretas onde a privacidade financeira faz diferença.
 
-Imagine que você é um freelancer e recebe pagamentos de vários clientes. Com o sistema bancário tradicional, seu banco tem visibilidade completa sobre quanto você ganha, de quem recebe e com que frequência. Com o DePix App, você pode [receber pagamentos via Bitcoin](/pt/posts/como-receber-pix-em-bitcoin/) e manter esses recebimentos privados na Liquid Network.
+Imagine que você é um freelancer e recebe pagamentos de vários clientes. Com o sistema bancário tradicional, seu banco tem visibilidade completa sobre quanto você ganha, de quem recebe e com que frequência. Com o DePix App, você pode [converter criptomoedas em reais](/pt/posts/como-converter-criptomoedas-em-reais/) e manter esses recebimentos privados na Liquid Network.
 
-Ou pense em uma situação onde você quer fazer uma doação para uma causa que você apoia, mas prefere que essa doação seja privada. Com PIX, o banco e o Banco Central sabem exatamente quanto você doou e para quem. Com DePix na Liquid, a transação é confidencial.
+Ou pense em uma situação onde você quer fazer uma doação para uma causa que você apoia, mas prefere que essa doação seja privada. Com Pix, o banco e o Banco Central sabem exatamente quanto você doou e para quem. Com DePix na Liquid, a transação é confidencial.
 
 Outro exemplo: você está economizando para um objetivo pessoal e não quer que ninguém — nem o banco, nem um potencial credor, nem ninguém — saiba quanto você tem guardado. Manter DePix na Liquid Network oferece essa camada extra de privacidade.
 
@@ -58,7 +58,7 @@ Esses não são cenários de filmes de espionagem. São situações normais do d
 
 É importante ser honesto sobre os limites da privacidade que o DePix App oferece. Nenhum sistema é perfeitamente privado, e o DePix App não é exceção.
 
-Quando você deposita reais no DePix App via PIX, essa transação de depósito passa pelo sistema bancário. Seu banco sabe que você fez aquele PIX. Da mesma forma, quando você [saca DePix para sua conta bancária](/pt/posts/como-sacar-depix-para-conta-bancaria/), o PIX de recebimento é registrado pelo banco.
+Quando você deposita reais no DePix App via Pix, essa transação de depósito passa pelo sistema bancário. Seu banco sabe que você fez aquele Pix. Da mesma forma, quando você saca DePix para sua conta bancária, o Pix de recebimento é registrado pelo banco.
 
 A privacidade do DePix se aplica ao que acontece entre o depósito e o saque — as transações na Liquid Network. Se você deposita, mantiver DePix por um tempo e depois sacar, o banco vê a entrada e a saída, mas não sabe o que aconteceu no meio. Não sabe para quantos endereços você enviou, quanto mandou para cada um ou quando fez essas transações.
 
@@ -70,7 +70,7 @@ Vale esclarecer a diferença entre privacidade e anonimato, porque são coisas d
 
 Privacidade significa que suas transações são confidenciais — as pessoas não podem ver os detalhes a menos que você compartilhe. O DePix App oferece isso através das Transações Confidenciais da Liquid Network.
 
-Anonimato significa que ninguém sabe quem você é. O DePix App não oferece anonimato completo. Você cria uma conta com dados pessoais, e as transações de entrada e saída (depósitos e saques via PIX) passam pelo sistema bancário com sua identificação.
+Anonimato significa que ninguém sabe quem você é. O DePix App não oferece anonimato completo. Você cria uma conta com dados pessoais, e as transações de entrada e saída (depósitos e saques via Pix) passam pelo sistema bancário com sua identificação.
 
 Pense assim: privacidade é como enviar uma carta em envelope lacrado — as pessoas sabem que você enviou uma carta, mas não sabem o que está dentro. Anonimato seria enviar a carta sem remetente. O DePix App oferece o envelope lacrado.
 
@@ -78,13 +78,13 @@ Pense assim: privacidade é como enviar uma carta em envelope lacrado — as pes
 
 Para ter uma visão clara, vamos comparar a privacidade em três sistemas.
 
-No PIX tradicional, o banco vê valores, partes envolvidas e horários de todas as transações. O Banco Central também tem acesso total. Não existe privacidade de transação.
+No Pix tradicional, o banco vê valores, partes envolvidas e horários de todas as transações. O Banco Central também tem acesso total. Não existe privacidade de transação.
 
 No Bitcoin na rede principal, os endereços são pseudônimos, mas todos os valores e transferências são públicos na blockchain. Qualquer pessoa pode ver quanto cada endereço recebeu e enviou. Com análise de blockchain, é possível rastrear fluxos de dinheiro.
 
-No DePix na Liquid Network, os endereços são pseudônimos e os valores são confidenciais. Observadores externos podem ver que transações aconteceram, mas não podem ver os valores. Isso oferece significativamente mais privacidade que o PIX e que o Bitcoin na rede principal.
+No DePix na Liquid Network, os endereços são pseudônimos e os valores são confidenciais. Observadores externos podem ver que transações aconteceram, mas não podem ver os valores. Isso oferece significativamente mais privacidade que o Pix e que o Bitcoin na rede principal.
 
-Para uma comparação mais ampla entre DePix e o sistema de pagamento tradicional, confira nosso artigo sobre [DePix vs PIX tradicional](/pt/posts/depix-vs-pix-tradicional/).
+Para uma comparação mais ampla entre DePix e o sistema de pagamento tradicional, confira nosso artigo sobre [DePix vs Pix tradicional](/pt/posts/depix-vs-pix-tradicional/).
 
 ## Autocustódia: você controla seu dinheiro
 
@@ -94,8 +94,6 @@ Isso é diferente de ter dinheiro no banco, onde a instituição pode congelar, 
 
 Essa combinação de transações confidenciais com autocustódia cria um nível de privacidade e autonomia financeira que simplesmente não existe no sistema bancário tradicional.
 
-## Proteja sua privacidade financeira agora
+## Sua privacidade financeira começa aqui
 
-Privacidade financeira não é luxo nem paranoia — é um direito. O DePix App oferece uma forma prática e acessível de exercer esse direito sem precisar ser especialista em tecnologia.
-
-Acesse [depixapp.com](https://depixapp.com/) e comece a usar DePix na Liquid Network. Seus reais, sua privacidade, seu controle. Faça seu primeiro depósito em minutos e descubra como é ter dinheiro digital realmente privado.
+Pix tem praticidade — DePix tem privacidade. Pare de expor cada transação ao sistema bancário e comece a usar dinheiro digital que só você controla. Acesse [depixapp.com](https://depixapp.com/).

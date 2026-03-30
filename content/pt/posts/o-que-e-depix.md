@@ -1,6 +1,6 @@
 ---
 title: "O que é DePix? Stablecoin brasileira na Liquid"
-description: "Entenda o que é o DePix, stablecoin brasileira na Liquid Network, e o DePix App que conecta PIX e Bitcoin de forma simples."
+description: "Entenda o que é o DePix, stablecoin brasileira na Liquid Network, e o DePix App que conecta Pix e Bitcoin de forma simples."
 date: 2026-03-28
 tags: ["depix", "stablecoin", "liquid network", "pix"]
 author: "DePix"
@@ -8,7 +8,7 @@ slug: "o-que-e-depix"
 draft: false
 ---
 
-Se você já ouviu falar em criptomoedas mas nunca entendeu direito como elas funcionam no dia a dia, o DePix App foi feito para você. Neste artigo, vamos explicar de forma simples o que é o DePix, como ele funciona e por que ele pode ser útil para qualquer brasileiro que usa PIX.
+Se você já ouviu falar em criptomoedas mas nunca entendeu direito como elas funcionam no dia a dia, o DePix App foi feito para você. Neste artigo, vamos explicar de forma simples o que é o DePix, como ele funciona e por que ele pode ser útil para qualquer brasileiro que usa Pix.
 
 ## O que é uma stablecoin?
 
@@ -20,9 +20,9 @@ A grande vantagem de uma stablecoin pareada ao real é que ela permite que você
 
 ## Como o DePix funciona na prática
 
-O funcionamento do DePix é direto ao ponto. Você acessa o [DePix App](https://depixapp.com/), faz um depósito via PIX e recebe a quantia equivalente em DePix na Liquid Network. Quando quiser transformar seus DePix de volta em reais, basta fazer um saque e o valor cai na sua conta bancária via PIX.
+O funcionamento do DePix é direto ao ponto. Você acessa o [DePix App](https://depixapp.com/), faz um depósito via Pix e recebe a quantia equivalente em DePix na Liquid Network. Quando quiser transformar seus DePix de volta em reais, basta fazer um saque e o valor cai na sua conta bancária via Pix.
 
-O processo é rápido. Depósitos via PIX são confirmados em segundos, e saques também são processados de forma ágil. Não existe aquela demora de dias que acontece com transferências internacionais ou com algumas corretoras de criptomoedas.
+O processo é rápido. Depósitos via Pix são confirmados em segundos, e saques também são processados de forma ágil. Não existe aquela demora de dias que acontece com transferências internacionais ou com algumas corretoras de criptomoedas.
 
 Para quem nunca usou nada de cripto, a experiência é parecida com usar qualquer outro aplicativo de pagamentos. Você não precisa instalar carteiras complicadas, anotar frases de recuperação enormes ou entender conceitos técnicos profundos. O DePix App cuida da parte técnica por você.
 
@@ -36,21 +36,21 @@ Além disso, a Liquid Network oferece mais privacidade do que o Bitcoin tradicio
 
 ## Para que serve o DePix no dia a dia
 
-Você pode estar se perguntando: "mas eu já tenho PIX, por que preciso de mais alguma coisa?" A resposta depende do que você valoriza. Se você está satisfeito com o sistema bancário atual e não se preocupa com privacidade ou controle sobre seu dinheiro, talvez o PIX tradicional seja suficiente por enquanto.
+Você pode estar se perguntando: "mas eu já tenho Pix, por que preciso de mais alguma coisa?" A resposta depende do que você valoriza. Se você está satisfeito com o sistema bancário atual e não se preocupa com privacidade ou controle sobre seu dinheiro, talvez o Pix tradicional seja suficiente por enquanto.
 
-Mas se você quer ter mais autonomia sobre seu dinheiro, o DePix oferece vantagens reais. Com ele, você pode manter reais fora do sistema bancário sem perder a praticidade do PIX. Quando precisar pagar algo, é só [sacar para sua conta bancária](/pt/posts/como-sacar-depix-para-conta-bancaria/) e usar normalmente.
+Mas se você quer ter mais autonomia sobre seu dinheiro, o DePix oferece vantagens reais. Com ele, você pode manter reais fora do sistema bancário sem perder a praticidade do Pix. Quando precisar pagar algo, é só sacar para sua conta bancária e usar normalmente.
 
-Outra utilidade é para quem recebe em Bitcoin e quer converter parte dos ganhos em reais de forma simples. Em vez de usar corretoras complicadas, você pode [receber PIX diretamente a partir de Bitcoin](/pt/posts/como-receber-pix-em-bitcoin/) usando o DePix App.
+Outra utilidade é para quem recebe em Bitcoin e quer converter parte dos ganhos em reais de forma simples. Em vez de usar corretoras complicadas, você pode [converter criptomoedas em reais](/pt/posts/como-converter-criptomoedas-em-reais/) usando o DePix App.
 
 Para quem já conhece o ecossistema cripto, o DePix App é uma rampa de entrada e saída entre o mundo do real e o mundo do Bitcoin e da Liquid Network. Para quem não conhece, é simplesmente uma forma moderna de movimentar dinheiro.
 
-## Como o DePix App se compara ao PIX tradicional
+## Como o DePix App se compara ao Pix tradicional
 
-O PIX tradicional é uma criação excelente do Banco Central do Brasil. Ele revolucionou os pagamentos no país e hoje é usado por mais de 150 milhões de brasileiros. O DePix não pretende substituir o PIX — ele usa o PIX como ponte.
+O Pix tradicional é uma criação excelente do Banco Central do Brasil. Ele revolucionou os pagamentos no país e hoje é usado por mais de 150 milhões de brasileiros. O DePix não pretende substituir o Pix — ele usa o Pix como ponte.
 
-A diferença fundamental é onde seu dinheiro fica. No PIX tradicional, seu dinheiro está no banco, sujeito às regras daquela instituição. Com o DePix, seus reais digitais estão na Liquid Network, uma infraestrutura descentralizada que não depende de nenhum banco específico.
+A diferença fundamental é onde seu dinheiro fica. No Pix tradicional, seu dinheiro está no banco, sujeito às regras daquela instituição. Com o DePix, seus reais digitais estão na Liquid Network, uma infraestrutura descentralizada que não depende de nenhum banco específico.
 
-Isso não significa que um é melhor que o outro em todos os cenários. Cada um tem suas vantagens. Para uma comparação detalhada, confira nosso artigo sobre [DePix vs PIX tradicional](/pt/posts/depix-vs-pix-tradicional/).
+Isso não significa que um é melhor que o outro em todos os cenários. Cada um tem suas vantagens. Para uma comparação detalhada, confira nosso artigo sobre [DePix vs Pix tradicional](/pt/posts/depix-vs-pix-tradicional/).
 
 ## Segurança e confiabilidade
 
@@ -62,12 +62,10 @@ A Liquid Network em si é protegida por uma federação de empresas que validam 
 
 ## Quem pode usar o DePix App
 
-Qualquer pessoa com acesso a PIX pode usar o DePix App. Não existe valor mínimo proibitivo para começar, e o processo de cadastro é simples. Você precisa apenas de um celular com acesso à internet, uma conta bancária com PIX e alguns minutos para criar sua conta.
+Qualquer pessoa com acesso a Pix pode usar o DePix App. Não existe valor mínimo proibitivo para começar, e o processo de cadastro é simples. Você precisa apenas de um celular com acesso à internet, uma conta bancária com Pix e alguns minutos para criar sua conta.
 
 O DePix App é especialmente útil para pessoas que querem dar os primeiros passos no mundo das criptomoedas sem a complexidade das corretoras tradicionais, para trabalhadores remotos que recebem em Bitcoin e precisam converter para reais, para quem valoriza privacidade financeira e autonomia sobre o próprio dinheiro, e para pequenos comerciantes que querem oferecer mais opções de pagamento aos clientes.
 
-## Comece a usar o DePix App agora
+## Sua privacidade financeira começa aqui
 
-O DePix App torna a conexão entre PIX e o mundo cripto acessível para qualquer brasileiro. Sem complicação, sem jargão excessivo e sem precisar ser especialista em tecnologia.
-
-Acesse [depixapp.com](https://depixapp.com/) e faça seu primeiro depósito em minutos. Descubra como é simples ter reais digitais na Liquid Network com toda a praticidade do PIX.
+Pix tem praticidade — DePix tem privacidade. Pare de expor cada transação ao sistema bancário e comece a usar dinheiro digital que só você controla. Descubra como é simples ter reais na Liquid Network com total soberania e privacidade. Acesse [depixapp.com](https://depixapp.com/).
