@@ -46,6 +46,16 @@ draft: false
 - `slug`: Descriptive, kebab-case. Must contain the primary keyword.
 - `draft`: Set to `false` for published posts, `true` for work in progress.
 
+## Context Sources
+
+Before writing or editing blog posts, read the following files from sibling repos for up-to-date product context:
+
+- **Landing page & FAQ**: `../depix/index.html` — contains the landing page (`<section data-view="landing">`) and the full FAQ (`<section data-view="faq">`) with 12 `<template>` elements (e.g., `tpl-faq-what-is`, `tpl-faq-deposit`, `tpl-faq-fees`, etc.).
+- **Frontend architecture**: `../depix/CLAUDE.md` — overview of the DePix App frontend.
+- **Backend architecture**: `../depix-backend/CLAUDE.md` — overview of the API, database schema, and transaction flow.
+
+Use these to ensure blog content is accurate and consistent with the product. If the FAQ answers a question, the blog post should not contradict it.
+
 ## Content Rules
 
 - **Minimum 800 words** per post.
