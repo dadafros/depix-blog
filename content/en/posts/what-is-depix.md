@@ -20,11 +20,11 @@ The practical benefit is straightforward: you can hold reais in a blockchain-bas
 
 ## How DePix works in practice
 
-The DePix App workflow is designed to be simple. You visit the [DePix App](https://depixapp.com/), deposit Brazilian reais using Pix (Brazil's instant payment system), and receive the equivalent amount in DePix tokens on the Liquid Network. When you want to convert back to fiat, you withdraw and the reais land in your bank account via Pix.
+The DePix App workflow is designed to be simple. You visit the [DePix App](https://depixapp.com/), generate a Pix QR code, make the payment, and receive the equivalent amount in DePix tokens in your Liquid wallet. When you want to convert back to fiat, you send your DePix tokens to a DePix App address and the reais land in your bank account via Pix.
 
-Deposits are confirmed in seconds because Pix is instant. Withdrawals are also processed quickly. There is no multi-day settlement window like you might experience with international wire transfers or some cryptocurrency exchanges.
+Deposits are processed within 24 hours (D+1). This delay is intentional and exists for an important reason: fraud protection. Unfortunately, scammers use Pix QR codes to defraud victims, and DePix App needs this window to verify that transactions are legitimate before releasing crypto. This safeguard protects both users and the broader ecosystem. For more details, read our article on [how DePix App protects you against scams](/en/posts/how-depix-protects-against-scams/).
 
-For users who have never touched crypto before, the experience feels similar to using any modern payment app. You do not need to manage seed phrases, install specialized wallet software, or understand cryptographic concepts. The DePix App handles the technical layer so you can focus on what matters: moving your money.
+An important distinction: the DePix App is fully non-custodial. You need an external Liquid wallet, such as [SideSwap](https://sideswap.io/), to receive your DePix tokens. The app generates the Pix QR code and sends the tokens to your wallet address — but you hold the funds, not DePix App. This is a feature, not a limitation: it means you have full custody of your money at all times, with no third party able to freeze or withhold your assets.
 
 ## What is the Liquid Network?
 
@@ -44,11 +44,11 @@ This distinction matters if you value financial autonomy, want to hold value out
 
 ## Real-world use cases
 
-DePix App serves several practical purposes. Remote workers who earn in Bitcoin can convert a portion of their income to BRL-pegged DePix and then withdraw to their bank account whenever they need to pay bills or make purchases in reais.
+DePix App serves several practical purposes. Remote workers who earn in cryptocurrency can convert a portion of their income to BRL-pegged DePix and then withdraw to their bank account whenever they need to pay bills or make purchases in reais.
 
 People who want exposure to the Bitcoin ecosystem without full price volatility can hold DePix as a stable entry point. When they are ready to acquire Bitcoin, they are already on the Liquid Network and can swap easily.
 
-Small business owners can accept crypto payments and convert them to reais instantly via the DePix App, avoiding the complexities and fees of traditional cryptocurrency payment processors.
+Merchants and business owners can accept crypto payments and convert them to reais via the DePix App. If you run a business and want to [open a crypto business account without bureaucracy](/en/posts/crypto-business-account-depix-app/), DePix App offers both individual and merchant modes to suit your needs.
 
 Anyone who values [financial privacy](/en/posts/financial-privacy-depix/) benefits from Liquid's confidential transactions. Unlike bank transfers where the institution has full visibility into your financial life, DePix transactions keep amounts private by default.
 
@@ -62,9 +62,9 @@ It is worth noting that the DePix App is a non-custodial interface. You manage y
 
 ## Who should use the DePix App?
 
-DePix App is designed for anyone who uses Brazilian reais and wants to explore the benefits of blockchain-based money without the steep learning curve. This includes Brazilians who want to start with crypto in a low-risk way using a real-pegged stablecoin, remote workers and freelancers who receive Bitcoin and need an easy off-ramp to BRL, privacy-conscious users who want to move money without full bank surveillance, and anyone in the Bitcoin ecosystem who needs a reliable BRL stablecoin on Liquid.
+DePix App is designed for anyone who uses Brazilian reais and wants to explore the benefits of blockchain-based money without the steep learning curve. This includes Brazilians who want to start with crypto in a low-risk way using a real-pegged stablecoin, remote workers and freelancers who receive cryptocurrency and need an easy off-ramp to BRL, privacy-conscious users who want to move money without full bank surveillance, merchants and business owners who want to [open a crypto business account without bureaucracy](/en/posts/crypto-business-account-depix-app/), and anyone in the Bitcoin ecosystem who needs a reliable BRL stablecoin on Liquid.
 
-You do not need to be a crypto expert. You do not need to understand blockchain architecture. If you can use Pix, you can use the DePix App.
+All you need to get started is an email address, a bank account with Pix, and a Liquid wallet (such as SideSwap). You do not need to be a crypto expert. You do not need to understand blockchain architecture. If you can use Pix, you can use the DePix App.
 
 ## Your financial privacy starts here
 

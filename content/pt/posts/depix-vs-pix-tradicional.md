@@ -44,17 +44,9 @@ Para uma análise completa sobre como o DePix App protege sua privacidade financ
 
 Os bancos impõem limites nas transações Pix. Você tem limite diário, limite noturno (geralmente reduzido por questões de segurança) e limite por transação. Esses limites variam de banco para banco e muitas vezes precisam ser ajustados manualmente pelo aplicativo ou até presencialmente na agência.
 
-Com o DePix App, os limites são diferentes. Não existe limite noturno artificial, e os limites de transação são definidos de forma transparente pelo serviço. Você pode movimentar seus DePix na Liquid Network a qualquer hora, sem restrições de horário.
+Com o DePix App, os limites são diferentes. Não existe limite noturno artificial. Os depósitos via Pix vão de R$ 5 até R$ 6.000 por dia por CPF, e esses valores são exibidos de forma transparente antes de qualquer operação. Já na Liquid Network, você pode movimentar seus DePix livremente a qualquer hora, sem restrições de horário ou valor.
 
 Além disso, com o Pix tradicional, o banco pode alterar seus limites sem aviso prévio ou implementar novas restrições por decisão unilateral. Com DePix na Liquid Network, as regras são claras e não mudam por decisão de uma única entidade.
-
-## Velocidade e disponibilidade
-
-Em termos de velocidade bruta, o Pix é imbatível para transações entre contas bancárias no Brasil. O dinheiro chega em segundos, 24 horas por dia.
-
-O DePix App também é rápido. Depósitos via Pix são confirmados em segundos (porque usam o próprio Pix como entrada). Transações na Liquid Network levam cerca de dois minutos para confirmar. Saques de DePix para conta bancária via Pix também são rápidos.
-
-A diferença prática de velocidade é pequena para a maioria dos usos. Se você está transferindo dinheiro para um amigo pagar o jantar, o Pix tradicional é a escolha óbvia pela simplicidade. Mas se você está movimentando valor com privacidade ou interagindo com o ecossistema Bitcoin, o DePix App faz mais sentido.
 
 ## Custos
 

@@ -56,6 +56,48 @@ Before writing or editing blog posts, read the following files from sibling repo
 
 Use these to ensure blog content is accurate and consistent with the product. If the FAQ answers a question, the blog post should not contradict it.
 
+## Product Facts (DePix App)
+
+These are verified facts about the DePix App. **Blog content must never contradict them.** When in doubt, check the source repos above for the latest information.
+
+### What DePix is
+- DePix is a BRL-pegged stablecoin (1 DePix = 1 real) on the Liquid Network (Bitcoin sidechain by Blockstream).
+- The DePix App is a web app (PWA) that connects Pix to the Liquid Network.
+- **Non-custodial**: users need an external Liquid wallet (e.g., SideSwap) to receive and hold DePix. The app does NOT store user funds.
+- Registration requires only an email — no KYC, no documents.
+- Two user modes: **merchant** (lojista/autônomo) and **individual** (pessoa física).
+
+### How deposits work
+- User chooses an amount → DePix App generates a Pix QR code → user pays from their bank app → DePix is sent to the user's Liquid wallet.
+- **Processing time: up to 24 hours (D+1)** — this delay is a security measure to detect fraud/scam reports before releasing crypto.
+- Fee: **2% + R$ 0.99** per deposit.
+- Limits: **R$ 5 minimum**, **R$ 6,000/day per CPF** maximum.
+
+### How withdrawals work
+- User informs value + Pix key → DePix App generates a Liquid address → user sends DePix from their wallet → value is transferred via Pix to bank account.
+
+### Ecosystem
+- **SideSwap**: recommended Liquid wallet, also used for swaps (DePix ↔ USDt ↔ L-BTC).
+- **P2P.Land / BrSwap.me**: cross-chain swaps (Liquid → Ethereum, Polygon, etc.).
+- **Enor Securities**: tokenized securities on Liquid.
+- **Kast**: crypto debit/credit card (requires converting to USDT on Polygon first).
+- Affiliate program: users earn commission on referrals' deposit volume.
+
+### For merchants
+- Customer pays via regular Pix — zero crypto knowledge required on their end.
+- Built-in sales reports with date filters, search, and PDF/CSV export.
+- No hardware (maquininha) needed — just a cellphone.
+- Competitive with debit card rates (2% + R$0.99 vs typical 0.59%–1.99% debit + hardware costs).
+
+### Security
+- The 24h deposit delay protects against Pix scams (fake sellers generate QR codes to defraud victims). During this window, fraud reports (MED — Mecanismo Especial de Devolução) can be processed and funds blocked.
+- Auth: JWT + PBKDF2 password hashing, HTTPS, no storage of bank credentials.
+- Liquid Network: federated sidechain with no single point of failure + Confidential Transactions (hidden amounts).
+
+### Style rules
+- Always write **"Pix"** (capitalized, not all-caps "PIX") in all blog content.
+- Always write **"DePix"** or **"DePix App"** (never "Depix", "DEPIX", or "de pix").
+
 ## Content Rules
 
 - **Minimum 800 words** per post.

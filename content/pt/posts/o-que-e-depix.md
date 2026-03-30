@@ -20,11 +20,11 @@ A grande vantagem de uma stablecoin pareada ao real é que ela permite que você
 
 ## Como o DePix funciona na prática
 
-O funcionamento do DePix é direto ao ponto. Você acessa o [DePix App](https://depixapp.com/), faz um depósito via Pix e recebe a quantia equivalente em DePix na Liquid Network. Quando quiser transformar seus DePix de volta em reais, basta fazer um saque e o valor cai na sua conta bancária via Pix.
+O funcionamento do DePix é direto ao ponto. Você acessa o [DePix App](https://depixapp.com/), gera um QR code Pix, faz o pagamento e recebe a quantia equivalente em DePix na sua carteira Liquid. Quando quiser transformar seus DePix de volta em reais, basta enviar os tokens para um endereço do DePix App e o valor cai na sua conta bancária via Pix.
 
-O processo é rápido. Depósitos via Pix são confirmados em segundos, e saques também são processados de forma ágil. Não existe aquela demora de dias que acontece com transferências internacionais ou com algumas corretoras de criptomoedas.
+Os depósitos são processados em até 24 horas (D+1). Esse prazo existe por uma razão importante: segurança. Infelizmente, golpistas usam QR codes de Pix para enganar vítimas, e o DePix App precisa desse tempo para verificar se a transação é legítima antes de liberar os tokens. Essa medida protege tanto você quanto o ecossistema como um todo. Para entender melhor como isso funciona, leia nosso artigo sobre [como o DePix App protege você contra golpes](/pt/posts/como-depix-protege-contra-golpes/).
 
-Para quem nunca usou nada de cripto, a experiência é parecida com usar qualquer outro aplicativo de pagamentos. Você não precisa instalar carteiras complicadas, anotar frases de recuperação enormes ou entender conceitos técnicos profundos. O DePix App cuida da parte técnica por você.
+Um ponto importante: o DePix App é não-custodial. Isso significa que você precisa de uma carteira Liquid externa, como a [SideSwap](https://sideswap.io/), para receber seus DePix. O app gera o QR code do Pix e envia os tokens para o endereço da sua carteira — mas quem guarda os fundos é você, não o DePix App. Isso é uma vantagem: você tem controle total sobre seu dinheiro, sem depender de ninguém para acessá-lo.
 
 ## O que é a Liquid Network?
 
@@ -40,7 +40,7 @@ Você pode estar se perguntando: "mas eu já tenho Pix, por que preciso de mais 
 
 Mas se você quer ter mais autonomia sobre seu dinheiro, o DePix oferece vantagens reais. Com ele, você pode manter reais fora do sistema bancário sem perder a praticidade do Pix. Quando precisar pagar algo, é só sacar para sua conta bancária e usar normalmente.
 
-Outra utilidade é para quem recebe em Bitcoin e quer converter parte dos ganhos em reais de forma simples. Em vez de usar corretoras complicadas, você pode [converter criptomoedas em reais](/pt/posts/como-converter-criptomoedas-em-reais/) usando o DePix App.
+Outra utilidade é para quem recebe em criptomoedas e quer converter parte dos ganhos em reais de forma simples. Em vez de usar corretoras complicadas, você pode [converter criptomoedas em reais](/pt/posts/como-converter-criptomoedas-em-reais/) usando o DePix App.
 
 Para quem já conhece o ecossistema cripto, o DePix App é uma rampa de entrada e saída entre o mundo do real e o mundo do Bitcoin e da Liquid Network. Para quem não conhece, é simplesmente uma forma moderna de movimentar dinheiro.
 
@@ -64,7 +64,7 @@ A Liquid Network em si é protegida por uma federação de empresas que validam 
 
 Qualquer pessoa com acesso a Pix pode usar o DePix App. Não existe valor mínimo proibitivo para começar, e o processo de cadastro é simples. Você precisa apenas de um celular com acesso à internet, uma conta bancária com Pix e alguns minutos para criar sua conta.
 
-O DePix App é especialmente útil para pessoas que querem dar os primeiros passos no mundo das criptomoedas sem a complexidade das corretoras tradicionais, para trabalhadores remotos que recebem em Bitcoin e precisam converter para reais, para quem valoriza privacidade financeira e autonomia sobre o próprio dinheiro, e para pequenos comerciantes que querem oferecer mais opções de pagamento aos clientes.
+Para usar o DePix App, você precisa apenas de um e-mail, uma conta bancária com Pix e uma carteira Liquid (como a SideSwap). O DePix App é especialmente útil para pessoas que querem dar os primeiros passos no mundo das criptomoedas sem a complexidade das corretoras tradicionais, para trabalhadores remotos que recebem em criptomoedas e precisam converter para reais, para quem valoriza privacidade financeira e autonomia sobre o próprio dinheiro, e para comerciantes, empresários e autônomos que querem [abrir uma conta PJ cripto sem burocracia](/pt/posts/conta-pj-cripto-depix-app/).
 
 ## Sua privacidade financeira começa aqui
 

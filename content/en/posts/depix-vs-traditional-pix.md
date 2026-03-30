@@ -44,17 +44,9 @@ This is not about hiding anything illegal. It is about the same principle that m
 
 Banks impose limits on Pix transactions. There are daily limits, reduced nighttime limits (for security), and per-transaction limits. These vary by bank and often require manual adjustment through the app or even a visit to a physical branch.
 
-With the DePix App, the limits are different. There is no artificial nighttime reduction, and transaction limits are defined transparently by the service. You can move your DePix on the Liquid Network at any time without time-based restrictions.
+With the DePix App, the limits are different. There is no artificial nighttime reduction. Pix deposits range from R$5 to R$6,000 per day per CPF, and these values are displayed transparently before any operation. On the Liquid Network itself, you can move your DePix freely at any time, with no time-based or amount restrictions.
 
 Additionally, with traditional Pix, your bank can change your limits without notice or implement new restrictions unilaterally. With DePix on the Liquid Network, the rules are clear and do not change at the discretion of a single entity.
-
-## Speed and availability
-
-In terms of raw speed for bank-to-bank transfers within Brazil, Pix is hard to beat. Money arrives in seconds, 24 hours a day.
-
-The DePix App is also fast. Deposits via Pix confirm in seconds (because they use Pix itself as the entry point). Transactions on the Liquid Network take about two minutes to confirm. Withdrawals from DePix to a bank account via Pix are also quick.
-
-The practical speed difference is small for most use cases. If you are splitting a dinner bill with a friend, traditional Pix is the obvious choice for simplicity. But if you are moving value with privacy or interacting with the Bitcoin ecosystem, the DePix App makes more sense.
 
 ## Cost comparison
 
