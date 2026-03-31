@@ -161,6 +161,17 @@ hugo              # Build the site to public/
 
 Requires Hugo installed locally for preview. Not needed for publishing (CI handles it).
 
+## Local Dev Environment
+
+The blog is also available via the Docker dev environment at `../depix-dev/`:
+
+```bash
+cd ../depix-dev && docker compose up -d
+# Blog with live reload: http://localhost:2324
+```
+
+Content changes reflect automatically via Hugo live reload. See `../depix-dev/CLAUDE.md` for full instructions.
+
 ## Git
 
 - **Remote**: `git@github-personal:dadafros/depix-blog.git`
