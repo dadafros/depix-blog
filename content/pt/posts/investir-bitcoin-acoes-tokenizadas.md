@@ -5,6 +5,12 @@ date: 2026-03-30
 tags: ["investir", "bitcoin", "ações tokenizadas", "depix", "liquid network"]
 author: "DePix"
 slug: "investir-bitcoin-acoes-tokenizadas"
+translationKey: "tokenized-stocks-investing"
+image: "/images/posts/tokenized-stocks-investing/tokenized-stocks-investing-16x9.png"
+images:
+  - "/images/posts/tokenized-stocks-investing/tokenized-stocks-investing-1x1.png"
+  - "/images/posts/tokenized-stocks-investing/tokenized-stocks-investing-4x3.png"
+  - "/images/posts/tokenized-stocks-investing/tokenized-stocks-investing-16x9.png"
 draft: false
 ---
 

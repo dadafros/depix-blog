@@ -7,13 +7,31 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta name="author" content="{{ .Site.Params.author }}">
   <link rel="canonical" href="{{ .Permalink }}">
+  {{ $defaultPageImage := "/images/social/depix-blog-default-16x9.png" | absURL }}
+  {{ $defaultPageImages := slice
+    ("/images/social/depix-blog-default-1x1.png" | absURL)
+    ("/images/social/depix-blog-default-4x3.png" | absURL)
+    ("/images/social/depix-blog-default-16x9.png" | absURL)
+  }}
+  {{ $pageImage := $defaultPageImage }}
+  {{ $pageImages := $defaultPageImages }}
+  {{ if .IsPage }}
+    {{ with .Params.image }}
+      {{ $pageImage = . | absURL }}
+    {{ end }}
+    {{ with .Params.images }}
+      {{ $pageImages = slice }}
+      {{ range . }}
+        {{ $pageImages = $pageImages | append (. | absURL) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
 
   {{/* hreflang alternates */}}
   {{ if .IsTranslated }}
-    {{ range .Translations }}
+    {{ range .AllTranslations }}
     <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
     {{ end }}
-    <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
   {{ end }}
 
   {{/* Open Graph */}}
@@ -22,47 +40,50 @@
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
-  <meta property="og:image" content="{{ .Site.Params.ogImage | absURL }}">
+  <meta property="og:image" content="{{ $pageImage }}">
   <meta property="og:locale" content="{{ .Lang }}">
 
   {{/* Twitter Card */}}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ .Title }}">
   <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <meta name="twitter:image" content="{{ .Site.Params.ogImage | absURL }}">
+  <meta name="twitter:image" content="{{ $pageImage }}">
 
   {{/* JSON-LD for single posts */}}
   {{ if .IsPage }}
+  {{ $schema := dict
+    "@context" "https://schema.org"
+    "@type" "BlogPosting"
+    "headline" .Title
+    "description" (default .Site.Params.description .Description)
+    "url" .Permalink
+    "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+    "author" (dict
+      "@type" "Organization"
+      "name" .Site.Params.author
+      "url" .Site.Params.appUrl
+    )
+    "publisher" (dict
+      "@type" "Organization"
+      "name" .Site.Title
+      "logo" (dict
+        "@type" "ImageObject"
+        "url" (.Site.Params.logo | absURL)
+      )
+    )
+    "image" $pageImages
+    "mainEntityOfPage" (dict
+      "@type" "WebPage"
+      "@id" .Permalink
+    )
+    "wordCount" .WordCount
+    "inLanguage" .Lang
+  }}
+  {{ with .Lastmod }}
+    {{ $schema = merge $schema (dict "dateModified" (.Format "2006-01-02T15:04:05Z07:00")) }}
+  {{ end }}
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": {{ .Title | jsonify }},
-    "description": {{ (default .Site.Params.description .Description) | jsonify }},
-    "url": {{ .Permalink | jsonify }},
-    "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
-    {{ with .Lastmod }}"dateModified": {{ .Format "2006-01-02T15:04:05Z07:00" | jsonify }},{{ end }}
-    "author": {
-      "@type": "Organization",
-      "name": {{ .Site.Params.author | jsonify }},
-      "url": {{ .Site.Params.appUrl | jsonify }}
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": {{ .Site.Title | jsonify }},
-      "logo": {
-        "@type": "ImageObject",
-        "url": {{ .Site.Params.logo | absURL | jsonify }}
-      }
-    },
-    "image": {{ .Site.Params.ogImage | absURL | jsonify }},
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": {{ .Permalink | jsonify }}
-    },
-    "wordCount": {{ .WordCount }},
-    "inLanguage": {{ .Lang | jsonify }}
-  }
+  {{ $schema | jsonify | safeJS }}
   </script>
   {{ end }}
 

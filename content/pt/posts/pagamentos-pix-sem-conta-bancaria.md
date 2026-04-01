@@ -5,6 +5,12 @@ date: 2026-03-30
 tags: ["pagamentos", "pix", "depix", "desbancarizados"]
 author: "DePix"
 slug: "pagamentos-pix-sem-conta-bancaria"
+translationKey: "pix-without-bank-account"
+image: "/images/posts/pix-without-bank-account/pix-without-bank-account-16x9.png"
+images:
+  - "/images/posts/pix-without-bank-account/pix-without-bank-account-1x1.png"
+  - "/images/posts/pix-without-bank-account/pix-without-bank-account-4x3.png"
+  - "/images/posts/pix-without-bank-account/pix-without-bank-account-16x9.png"
 draft: false
 ---
 

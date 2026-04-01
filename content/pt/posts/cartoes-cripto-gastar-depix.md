@@ -5,6 +5,12 @@ date: 2026-03-30
 tags: ["cartão cripto", "depix", "pagamentos", "privacidade"]
 author: "DePix"
 slug: "cartoes-cripto-gastar-depix"
+translationKey: "crypto-cards-spend"
+image: "/images/posts/crypto-cards-spend/crypto-cards-spend-16x9.png"
+images:
+  - "/images/posts/crypto-cards-spend/crypto-cards-spend-1x1.png"
+  - "/images/posts/crypto-cards-spend/crypto-cards-spend-4x3.png"
+  - "/images/posts/crypto-cards-spend/crypto-cards-spend-16x9.png"
 draft: false
 ---
 

@@ -5,6 +5,12 @@ date: 2026-03-30
 tags: ["soberania", "privacidade", "permissionless", "bitcoin", "depix"]
 author: "DePix"
 slug: "individuo-soberano-dinheiro-permissionless"
+translationKey: "sovereign-individual"
+image: "/images/posts/sovereign-individual/sovereign-individual-16x9.png"
+images:
+  - "/images/posts/sovereign-individual/sovereign-individual-1x1.png"
+  - "/images/posts/sovereign-individual/sovereign-individual-4x3.png"
+  - "/images/posts/sovereign-individual/sovereign-individual-16x9.png"
 draft: false
 ---
 

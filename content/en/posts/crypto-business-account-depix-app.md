@@ -5,6 +5,12 @@ date: 2026-03-30
 tags: ["business", "merchants", "payments", "depix", "crypto"]
 author: "DePix"
 slug: "crypto-business-account-depix-app"
+translationKey: "crypto-business-account"
+image: "/images/posts/crypto-business-account/crypto-business-account-16x9.png"
+images:
+  - "/images/posts/crypto-business-account/crypto-business-account-1x1.png"
+  - "/images/posts/crypto-business-account/crypto-business-account-4x3.png"
+  - "/images/posts/crypto-business-account/crypto-business-account-16x9.png"
 draft: false
 ---
 

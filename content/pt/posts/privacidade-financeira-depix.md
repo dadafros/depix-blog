@@ -5,6 +5,12 @@ date: 2026-03-28
 tags: ["privacidade", "depix", "liquid network", "segurança", "transações confidenciais"]
 author: "DePix"
 slug: "privacidade-financeira-depix"
+translationKey: "financial-privacy"
+image: "/images/posts/financial-privacy/financial-privacy-16x9.png"
+images:
+  - "/images/posts/financial-privacy/financial-privacy-1x1.png"
+  - "/images/posts/financial-privacy/financial-privacy-4x3.png"
+  - "/images/posts/financial-privacy/financial-privacy-16x9.png"
 draft: false
 ---
 

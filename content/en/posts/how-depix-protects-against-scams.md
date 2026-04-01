@@ -5,6 +5,12 @@ date: 2026-03-30
 tags: ["security", "scams", "pix", "depix"]
 author: "DePix"
 slug: "how-depix-protects-against-scams"
+translationKey: "protect-against-scams"
+image: "/images/posts/protect-against-scams/protect-against-scams-16x9.png"
+images:
+  - "/images/posts/protect-against-scams/protect-against-scams-1x1.png"
+  - "/images/posts/protect-against-scams/protect-against-scams-4x3.png"
+  - "/images/posts/protect-against-scams/protect-against-scams-16x9.png"
 draft: false
 ---
 

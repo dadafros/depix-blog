@@ -5,6 +5,12 @@ date: 2026-03-30
 tags: ["remittance", "depix", "international", "dollar"]
 author: "DePix"
 slug: "international-remittance-depix"
+translationKey: "international-remittance"
+image: "/images/posts/international-remittance/international-remittance-16x9.png"
+images:
+  - "/images/posts/international-remittance/international-remittance-1x1.png"
+  - "/images/posts/international-remittance/international-remittance-4x3.png"
+  - "/images/posts/international-remittance/international-remittance-16x9.png"
 draft: false
 ---
 

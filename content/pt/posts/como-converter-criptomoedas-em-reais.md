@@ -5,6 +5,12 @@ date: 2026-03-28
 tags: ["criptomoedas", "pix", "converter", "liquid network"]
 author: "DePix"
 slug: "como-converter-criptomoedas-em-reais"
+translationKey: "convert-crypto-to-reais"
+image: "/images/posts/convert-crypto-to-reais/convert-crypto-to-reais-16x9.png"
+images:
+  - "/images/posts/convert-crypto-to-reais/convert-crypto-to-reais-1x1.png"
+  - "/images/posts/convert-crypto-to-reais/convert-crypto-to-reais-4x3.png"
+  - "/images/posts/convert-crypto-to-reais/convert-crypto-to-reais-16x9.png"
 draft: false
 ---
 

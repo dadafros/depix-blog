@@ -5,6 +5,12 @@ date: 2026-03-28
 tags: ["crypto", "pix", "convert", "liquid network", "brazil"]
 author: "DePix"
 slug: "how-to-convert-crypto-to-reais"
+translationKey: "convert-crypto-to-reais"
+image: "/images/posts/convert-crypto-to-reais/convert-crypto-to-reais-16x9.png"
+images:
+  - "/images/posts/convert-crypto-to-reais/convert-crypto-to-reais-1x1.png"
+  - "/images/posts/convert-crypto-to-reais/convert-crypto-to-reais-4x3.png"
+  - "/images/posts/convert-crypto-to-reais/convert-crypto-to-reais-16x9.png"
 draft: false
 ---
 

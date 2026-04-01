@@ -12,14 +12,16 @@ DePix Blog is a multilingual Hugo static site used for SEO content marketing. It
 
 ## How to Create a Blog Post
 
-Every post must exist in **both languages**. Create two Markdown files with the same slug:
+Every post must exist in **both languages**, and the workflow should stay fully automatic. If the user gives only a topic, you must do the rest: choose the keywords, write the PT version first, adapt it to EN, create the shared article images, fill the frontmatter correctly, validate the result, and commit directly to `main` unless the user says otherwise.
+
+Create two Markdown files:
 
 ```
-content/pt/posts/<slug-in-portuguese>.md
+content/pt/posts/<slug-em-portugues>.md
 content/en/posts/<slug-in-english>.md
 ```
 
-The slugs do NOT need to match between languages — each should be a natural, keyword-rich slug in its own language.
+The slugs do NOT need to match between languages — each should be a natural, keyword-rich slug in its own language. What must match is the `translationKey`, which links the PT and EN versions as the same article for Hugo and for SEO signals like `hreflang`.
 
 ### Frontmatter Template
 
@@ -33,6 +35,12 @@ date: 2026-03-28
 tags: ["tag1", "tag2", "tag3"]
 author: "DePix"
 slug: "descriptive-kebab-case-slug"
+translationKey: "shared-article-key"
+image: "/images/posts/shared-article-key/shared-article-key-16x9.png"
+images:
+  - "/images/posts/shared-article-key/shared-article-key-1x1.png"
+  - "/images/posts/shared-article-key/shared-article-key-4x3.png"
+  - "/images/posts/shared-article-key/shared-article-key-16x9.png"
 draft: false
 ---
 ```
@@ -44,7 +52,47 @@ draft: false
 - `tags`: 2-5 relevant tags as a YAML list.
 - `author`: Always `"DePix"`.
 - `slug`: Descriptive, kebab-case. Must contain the primary keyword.
+- `translationKey`: Shared kebab-case key used by both PT and EN versions of the same article.
+- `image`: Primary social/share image. Always point it to the `16x9` variant.
+- `images`: Always include the three Google-recommended article image variants: `1x1`, `4x3`, and `16x9`.
 - `draft`: Set to `false` for published posts, `true` for work in progress.
+
+### Required Image Workflow
+
+Every article pair must have a shared image pack stored here:
+
+```
+static/images/posts/<translationKey>/<translationKey>-1x1.png
+static/images/posts/<translationKey>/<translationKey>-4x3.png
+static/images/posts/<translationKey>/<translationKey>-16x9.png
+```
+
+When the user gives only a topic, create these images as part of the same workflow. Do not ask the user to create them manually.
+
+Use the [$imagegen](/Users/davifrossard/.codex/skills/.system/imagegen/SKILL.md) skill when image generation is available. If it is unavailable, create clean branded fallback social images yourself so the post still ships with valid SEO metadata, but prefer topic-relevant images whenever possible.
+
+**Google-aligned image rules for article pages:**
+- Create **raster** assets (`.png`, `.webp`, `.jpg`, or `.jpeg`), not SVGs as the primary article images.
+- The images must be **relevant to the article topic**, not just a generic logo on a blank background.
+- Always provide the three aspect ratios Google recommends for articles: `1x1`, `4x3`, and `16x9`.
+- Use high-resolution assets suitable for previews. Preferred targets: `1200x1200`, `1200x900`, and `1200x675` or larger in the same ratios.
+- Keep the images crawlable under `static/images/posts/...` so they are published as normal site assets.
+- Avoid walls of text, tiny unreadable captions, watermarks, fake UI chrome, and anything misleading.
+- If you include text, keep it minimal and large enough to survive social preview crops.
+- Keep the main subject centered and readable even in tighter crops.
+
+### Automatic Publishing Flow
+
+When asked to create a new post from only a topic, follow this order without unnecessary follow-up questions:
+
+1. Read the context sources in sibling repos.
+2. Define the PT slug, EN slug, and a shared `translationKey`.
+3. Write the PT article first.
+4. Write the EN version as a natural adaptation.
+5. Create the three shared article images under `static/images/posts/<translationKey>/`.
+6. Fill `image` and `images` in both frontmatters using those files.
+7. Run validation/build checks.
+8. Commit directly to `main` unless the user explicitly asks for a branch or PR.
 
 ## Context Sources
 
@@ -117,7 +165,8 @@ These are verified facts about the DePix App. **Blog content must never contradi
   ```
 - **Tone**: Accessible, friendly, educational. Write for non-technical Brazilian users (PT) and international crypto-curious readers (EN). Avoid excessive jargon — when a technical term is necessary, explain it briefly.
 - **No promotional hype** — be informative and honest.
-- **Images**: If needed, place them in `static/images/` and reference as `/images/filename.png`. But prefer text-only posts unless images add real value.
+- **Images are required for every post pair**: place them under `static/images/posts/<translationKey>/` and reference them through `image` and `images` in frontmatter.
+- **Do not skip article images** — they are part of the publishing workflow, not an optional extra.
 
 ## SEO Rules
 
@@ -134,13 +183,16 @@ These are verified facts about the DePix App. **Blog content must never contradi
 - **Portuguese is the original** — write the PT version first as the primary content.
 - **English is adapted, not literally translated** — the EN version should read naturally to a native English speaker. Adapt examples, phrasing, and cultural references. The structure and key points should match, but sentences don't need to be 1:1.
 - **Both versions must be independently high quality** — the EN version is not a second-class citizen.
+- **Both versions must share the same `translationKey` and image pack** — only the localized text and slug differ.
 
 ## Publishing
 
 1. Create or edit the Markdown files in `content/pt/posts/` and `content/en/posts/`.
-2. Commit and push to `main`.
-3. Pushes to `main` run Markdown lint, post validation, and a Hugo build.
-4. If all checks pass, GitHub Actions deploys to GitHub Pages automatically.
+2. Create the shared article images in `static/images/posts/<translationKey>/`.
+3. Validate the post pair locally when possible.
+4. Commit and push to `main`.
+5. Pushes to `main` run Markdown lint, post validation, and a Hugo build.
+6. If all checks pass, GitHub Actions deploys to GitHub Pages automatically.
 
 That's it. No manual build step needed.
 

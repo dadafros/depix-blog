@@ -5,6 +5,12 @@ date: 2026-03-28
 tags: ["depix", "pix", "comparison", "payments", "crypto"]
 author: "DePix"
 slug: "depix-vs-traditional-pix"
+translationKey: "depix-vs-pix"
+image: "/images/posts/depix-vs-pix/depix-vs-pix-16x9.png"
+images:
+  - "/images/posts/depix-vs-pix/depix-vs-pix-1x1.png"
+  - "/images/posts/depix-vs-pix/depix-vs-pix-4x3.png"
+  - "/images/posts/depix-vs-pix/depix-vs-pix-16x9.png"
 draft: false
 ---
 

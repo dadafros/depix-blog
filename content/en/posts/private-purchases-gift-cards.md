@@ -5,6 +5,12 @@ date: 2026-03-30
 tags: ["gift cards", "privacy", "depix", "purchases"]
 author: "DePix"
 slug: "private-purchases-gift-cards"
+translationKey: "gift-cards-privacy"
+image: "/images/posts/gift-cards-privacy/gift-cards-privacy-16x9.png"
+images:
+  - "/images/posts/gift-cards-privacy/gift-cards-privacy-1x1.png"
+  - "/images/posts/gift-cards-privacy/gift-cards-privacy-4x3.png"
+  - "/images/posts/gift-cards-privacy/gift-cards-privacy-16x9.png"
 draft: false
 ---
 

@@ -5,6 +5,12 @@ date: 2026-03-30
 tags: ["payments", "pix", "depix", "unbanked"]
 author: "DePix"
 slug: "pix-payments-without-bank-account"
+translationKey: "pix-without-bank-account"
+image: "/images/posts/pix-without-bank-account/pix-without-bank-account-16x9.png"
+images:
+  - "/images/posts/pix-without-bank-account/pix-without-bank-account-1x1.png"
+  - "/images/posts/pix-without-bank-account/pix-without-bank-account-4x3.png"
+  - "/images/posts/pix-without-bank-account/pix-without-bank-account-16x9.png"
 draft: false
 ---
 

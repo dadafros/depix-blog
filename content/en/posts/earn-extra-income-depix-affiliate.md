@@ -5,6 +5,12 @@ date: 2026-03-30
 tags: ["affiliates", "income", "depix", "referrals"]
 author: "DePix"
 slug: "earn-extra-income-depix-affiliate"
+translationKey: "depix-affiliate"
+image: "/images/posts/depix-affiliate/depix-affiliate-16x9.png"
+images:
+  - "/images/posts/depix-affiliate/depix-affiliate-1x1.png"
+  - "/images/posts/depix-affiliate/depix-affiliate-4x3.png"
+  - "/images/posts/depix-affiliate/depix-affiliate-16x9.png"
 draft: false
 ---
 

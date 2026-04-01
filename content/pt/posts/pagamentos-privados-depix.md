@@ -5,6 +5,12 @@ date: 2026-03-30
 tags: ["pagamentos", "privacidade", "depix", "liquid network", "permissionless"]
 author: "DePix"
 slug: "pagamentos-privados-depix"
+translationKey: "private-payments"
+image: "/images/posts/private-payments/private-payments-16x9.png"
+images:
+  - "/images/posts/private-payments/private-payments-1x1.png"
+  - "/images/posts/private-payments/private-payments-4x3.png"
+  - "/images/posts/private-payments/private-payments-16x9.png"
 draft: false
 ---
 

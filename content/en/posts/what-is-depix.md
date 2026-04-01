@@ -5,6 +5,12 @@ date: 2026-03-28
 tags: ["depix", "stablecoin", "liquid network", "pix", "brazil"]
 author: "DePix"
 slug: "what-is-depix"
+translationKey: "o-que-e-depix"
+image: "/images/posts/o-que-e-depix/o-que-e-depix-16x9.png"
+images:
+  - "/images/posts/o-que-e-depix/o-que-e-depix-1x1.png"
+  - "/images/posts/o-que-e-depix/o-que-e-depix-4x3.png"
+  - "/images/posts/o-que-e-depix/o-que-e-depix-16x9.png"
 draft: false
 ---
 
