@@ -30,7 +30,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
 
       - name: Lint Markdown
         run: npx --yes markdownlint-cli2@0.18.1 "content/**/*.md"
