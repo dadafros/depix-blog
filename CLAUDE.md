@@ -139,8 +139,8 @@ These are verified facts about the DePix App. **Blog content must never contradi
 
 1. Create or edit the Markdown files in `content/pt/posts/` and `content/en/posts/`.
 2. Commit and push to `main`.
-3. Pull requests to `main` run Markdown lint, post validation, and a Hugo build check.
-4. Pushes to `main` build the Hugo site and deploy to GitHub Pages automatically.
+3. Pushes to `main` run Markdown lint, post validation, and a Hugo build.
+4. If all checks pass, GitHub Actions deploys to GitHub Pages automatically.
 
 That's it. No manual build step needed.
 

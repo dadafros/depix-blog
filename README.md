@@ -80,7 +80,7 @@ Requires [Hugo](https://gohugo.io/installation/) (extended edition recommended).
 
 ## Publishing
 
-Pull requests to `main` run Markdown lint plus a Hugo build check. Push to `main` builds and deploys automatically. No manual build step needed.
+Push to `main` runs Markdown lint, post validation, and a Hugo build. If all checks pass, GitHub Actions deploys automatically. No manual build step needed.
 
 ## Related repositories
 
