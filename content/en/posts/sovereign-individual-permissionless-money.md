@@ -42,11 +42,11 @@ That is permissionless money.
 
 ## From theory to practice: Liquid Network and DePix
 
-Bitcoin was the proof of concept. But for permissionless money to reach everyday people, further evolution was needed. The Liquid Network is one such evolution.
+Bitcoin is the ultimate asset for financial sovereignty — truly permissionless money that no government or institution controls. Over the past two decades, it has proven itself as the best store of value available. However, Bitcoin has practical limitations: its transactions are public on the blockchain (anyone can trace amounts and addresses), and its volatility makes it impractical for everyday payments.
 
-The Liquid Network is a Bitcoin sidechain that adds important capabilities: faster transactions, lower fees, and crucially, Confidential Transactions. On the main Bitcoin network, anyone can see the amounts being transferred. On Liquid, amounts are cryptographically hidden — only the sender and receiver know how much was moved.
+The Liquid Network is a Bitcoin sidechain that addresses one of these limitations: privacy. With Confidential Transactions, transferred amounts are cryptographically hidden — only the sender and receiver know how much was moved. L-BTC (bitcoin on Liquid) inherits Bitcoin's sovereignty with superior privacy, though with a trade-off: Liquid is operated by a federation, making it more centralized than the main Bitcoin network.
 
-DePix exists within this environment. It is a stablecoin on the Liquid Network where 1 DePix equals 1 Brazilian real. This solves a practical problem: most people do not want daily exposure to Bitcoin's price volatility. They want a way to hold digital currency with the properties of permissionless money — no intermediaries, with privacy, under their own control — but denominated in a familiar unit of value.
+DePix exists within this same environment. It is a stablecoin on the Liquid Network where 1 DePix equals 1 Brazilian real. Each tool has its role: Bitcoin is for accumulating and preserving value over the long term; DePix is for spending and transacting day-to-day with privacy and sovereignty. DePix is not a store of value — it is pegged to the real, which loses purchasing power to inflation. But for payments, it offers something that Pix cannot: real privacy and full control over your money, without depending on banks or intermediaries.
 
 The [DePix App](/en/posts/what-is-depix/) is the bridge between the traditional payments world and the permissionless world. You make a Pix payment, receive DePix in your Liquid wallet, and from that point forward the money is truly yours. It is not sitting on a bank's server. It does not depend on anyone's approval. It is in your wallet, secured by your keys.
 

@@ -92,7 +92,7 @@ When asked to create a new post from only a topic, follow this order without unn
 5. Create the three shared article images under `static/images/posts/<translationKey>/`.
 6. Fill `image` and `images` in both frontmatters using those files.
 7. Run validation/build checks.
-8. Commit directly to `main` unless the user explicitly asks for a branch or PR.
+8. Commit and push directly to `main` unless the user explicitly asks for a branch or PR.
 
 ## Context Sources
 
@@ -141,6 +141,15 @@ These are verified facts about the DePix App. **Blog content must never contradi
 - The 24h deposit delay protects against Pix scams (fake sellers generate QR codes to defraud victims). During this window, fraud reports (MED — Mecanismo Especial de Devolução) can be processed and funds blocked.
 - Auth: JWT + PBKDF2 password hashing, HTTPS, no storage of bank credentials.
 - Liquid Network: federated sidechain with no single point of failure + Confidential Transactions (hidden amounts).
+
+### Asset positioning & editorial honesty
+
+Blog posts must be precise and honest about the role of each asset/tool. Never oversimplify or diminish one to promote another. Educate readers so they can choose the right tool for each use case.
+
+- **Bitcoin (BTC)**: The best asset for financial sovereignty and permissionless money. Has proven itself as the best store of value over the past two decades. **Never** call Bitcoin a "proof of concept", "experiment", or imply it is outdated/superseded. Its limitations are specific: transactions are public on-chain (weak privacy) and its price volatility makes it impractical for everyday payments.
+- **L-BTC (Liquid Bitcoin)**: Bitcoin on the Liquid Network. Inherits Bitcoin's sovereignty with superior privacy via Confidential Transactions. Trade-off: the Liquid Network is operated by a federation, making it more centralized than mainchain Bitcoin. Always acknowledge this trade-off when discussing Liquid.
+- **DePix**: A stablecoin pegged to the Brazilian real — designed for **sovereign, private payments**, not for accumulation. DePix is **not a store of value** (the real loses purchasing power to inflation). Its strengths over Pix/traditional banking are privacy and self-custody. Posts should explicitly tell readers: use Bitcoin for long-term savings, use DePix for day-to-day spending with privacy.
+- **General rule**: Each tool in the ecosystem solves a different problem. Posts must help readers understand which tool fits which need, not push a single narrative. Be honest about trade-offs (centralization, volatility, inflation exposure, privacy levels).
 
 ### Style rules
 - Always write **"Pix"** (capitalized, not all-caps "PIX") in all blog content.
@@ -230,5 +239,5 @@ Content changes reflect automatically via Hugo live reload. See `../depix-dev/CL
 - **Remote**: `git@github-personal:dadafros/depix-blog.git`
 - **SSH key alias**: `github-personal` maps to `~/.ssh/id_ed25519_outlook`
 - **Commit as**: `dadafros <davi_bf@outlook.com>`
-- **Branch**: Commit directly to `main` unless explicitly asked to branch.
+- **Branch**: Commit and push directly to `main` unless explicitly asked to branch.
 - **Branch naming**: `feat/*` for features, `claude/*` for Claude Code branches.
