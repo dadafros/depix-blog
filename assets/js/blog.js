@@ -4,6 +4,11 @@
   var lang = document.documentElement.lang || 'pt';
 
   /* ---- Utilities ---- */
+  function esc(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#x27;');
+  }
+
   function normalize(str) {
     return str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   }
@@ -52,12 +57,12 @@
   function renderCard(p) {
     var readLabel = lang === 'pt' ? 'de leitura' : 'read';
     return '<article class="post-card">' +
-      '<a href="' + p.url + '" class="post-card-link"><div class="post-card-body">' +
-      '<div class="post-card-meta"><time class="post-meta">' + p.date + '</time>' +
+      '<a href="' + esc(p.url) + '" class="post-card-link"><div class="post-card-body">' +
+      '<div class="post-card-meta"><time class="post-meta">' + esc(p.date) + '</time>' +
       '<span class="meta-dot">&middot;</span>' +
-      '<span class="post-meta">' + p.readingTime + ' min ' + readLabel + '</span></div>' +
-      '<h2 class="post-card-title">' + p.title + '</h2>' +
-      (p.description ? '<p class="post-card-excerpt">' + p.description + '</p>' : '') +
+      '<span class="post-meta">' + esc(p.readingTime) + ' min ' + readLabel + '</span></div>' +
+      '<h2 class="post-card-title">' + esc(p.title) + '</h2>' +
+      (p.description ? '<p class="post-card-excerpt">' + esc(p.description) + '</p>' : '') +
       '</div></a></article>';
   }
 
@@ -73,6 +78,7 @@
     input.addEventListener('input', function () {
       clearTimeout(timer);
       var q = this.value.trim();
+      if (q.length > 200) q = q.substring(0, 200);
       if (!q) {
         if (resultsEl) { resultsEl.classList.add('hidden'); resultsEl.innerHTML = ''; }
         if (postList) postList.classList.remove('hidden');
