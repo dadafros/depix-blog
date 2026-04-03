@@ -14,7 +14,7 @@ images:
 draft: false
 ---
 
-Você trabalha remoto e recebe em Bitcoin? Tem criptomoedas paradas em uma carteira e quer usar parte desse valor no dia a dia? Converter criptomoedas em reais costumava ser um processo complicado, cheio de taxas e demorado. Com o DePix App, isso mudou. Neste guia, vamos mostrar como você pode converter diferentes criptomoedas — como Bitcoin, L-BTC, stablecoins e outros ativos da Liquid Network — em reais via Pix de forma rápida e descomplicada.
+Você trabalha remoto e recebe em cripto? Tem criptomoedas paradas em uma carteira e quer usar parte desse valor no dia a dia? Converter criptomoedas em reais costumava ser um processo complicado, cheio de taxas e demorado. Com o DePix App, isso mudou. Neste guia, vamos mostrar como você pode converter diferentes criptomoedas — como Bitcoin, L-BTC, stablecoins e outros ativos da Liquid Network — em reais via Pix de forma rápida e descomplicada.
 
 ## Por que converter criptomoedas em reais?
 
@@ -50,7 +50,7 @@ Use serviços de troca cross-chain como o [BrSwap.me](https://brswap.me/) ou o [
 
 **Se você tem Bitcoin na rede principal (on-chain):**
 
-Você tem duas opções. A primeira é fazer um peg-in para a Liquid Network usando a SideSwap — isso transforma seu BTC em L-BTC, e depois você faz o swap de L-BTC para DePix dentro da própria SideSwap. A segunda é usar o BrSwap.me para converter diretamente de BTC on-chain para DePix na Liquid.
+Você tem duas opções. A primeira é fazer um peg-in para a Liquid Network usando a SideSwap — isso transforma seu BTC em L-BTC, e depois você faz o swap de L-BTC para DePix dentro da própria SideSwap.
 
 ### Etapa 2: Saque o DePix via Pix
 
