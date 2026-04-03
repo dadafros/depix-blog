@@ -1,8 +1,8 @@
 ---
 title: "International Remittances with the DePix App"
-description: "Learn how to send money abroad using DePix: for family, travel, or dollarizing your wealth. Step-by-step guide."
+description: "Send money abroad from Brazil with privacy and no 3.5% IOF tax. Full guide with off-ramp options, tips, and cost comparison."
 date: 2026-03-30
-tags: ["remittance", "depix", "international", "dollar"]
+tags: ["remittance", "depix", "privacy", "international"]
 author: "DePix"
 slug: "international-remittance-depix"
 translationKey: "international-remittance"
@@ -14,86 +14,170 @@ images:
 draft: false
 ---
 
-Sending money across borders through traditional banking channels is expensive, slow, and bureaucratic. Banks typically charge 3% to 8% in fees, apply unfavorable exchange rate spreads, and take anywhere from 1 to 5 business days to complete a transfer. For anyone who regularly sends money abroad — whether to support family members, prepare for international travel, or protect their savings from currency devaluation — these costs add up fast.
+Sending money abroad from Brazil always means giving something up. Through a bank, you pay steep fees and wait days. Through fintechs, it is faster and cheaper — but every transaction is logged, tracked, and available for review. For anyone who values **financial privacy and sovereignty**, neither option truly solves the problem.
 
-The DePix App offers a practical alternative for sending value internationally through the crypto ecosystem. Instead of relying on banks and currency exchange houses, you can convert Brazilian reais into digital assets and move them anywhere in the world within minutes. In this guide, we will walk through how it works in practice, with step-by-step instructions for the most common use cases.
+The DePix App offers a different path: you convert Brazilian reais into digital assets via Pix and move value anywhere in the world through the Liquid Network — without banking intermediaries, without bureaucracy, and most importantly, without exposing your transactions to the traditional financial system. And there is one concrete advantage that hits your wallet directly: **you do not pay IOF** (Brazil's tax on financial operations, which adds 3.5% to every outbound remittance).
 
-## Why traditional remittances are so expensive
+In this guide, we will walk through how this route works in practice, compare costs honestly, and share the tips you need to make it as efficient as possible.
 
-To appreciate what the DePix App brings to the table, it helps to understand how a conventional international remittance works.
+## What you actually pay on a traditional remittance
 
-When you send money through a bank, the transaction passes through a chain of intermediaries. Your bank sends the order to an international correspondent bank, which forwards it to the destination bank in the receiving country. Each intermediary takes a cut, and the currency conversion happens at a rate that includes a spread — a profit margin built into the exchange rate that you rarely notice.
+To understand where DePix stands out, you need to see the real cost of a conventional remittance — and most people do not realize how much they are losing.
 
-The result is that on a R$ 5,000 (approximately US$ 900) remittance, you can easily lose R$ 300 to R$ 400 between fees and exchange rate markup. On top of that, the process requires documentation, may have value limits, and takes days to complete.
+**Traditional banks** charge a combination of fees that adds up quickly:
 
-Fintech remittance services have improved the experience somewhat, offering lower costs than traditional banks. But even these options involve intermediaries, verification delays, and, in many cases, restrictive limits for users who lack formal income documentation.
+- **IOF at 3.5%** on the remittance value (for personal account transfers abroad)
+- Flat fee from the originating bank (typically R$ 50 to R$ 150)
+- Exchange rate spread of 2% to 4% baked into the quoted rate
+- Possible intermediary and destination bank fees
 
-## How the DePix App enables more accessible remittances
+On a R$ 5,000 (approximately US$ 900) remittance, the IOF alone costs **R$ 175**. Add the spread, the flat fee, and intermediary charges: you can easily lose **R$ 400 to R$ 500**. On top of that, the process requires documentation, may have restrictive limits, and takes 1 to 5 business days.
 
-The DePix App works as a bridge between Pix (Brazil's instant payment system) and the Liquid Network. When you deposit reais via Pix through the DePix App, you receive DePix — a [stablecoin pegged 1:1 to the Brazilian real](/en/posts/what-is-depix/) — in your Liquid wallet. From there, you have access to the entire Liquid Network ecosystem and can convert your reais into digital dollars or Bitcoin without depending on any bank.
+**Fintech remittance services** (such as Wise, Remessa Online, etc.) have significantly improved the experience. They are faster, more practical, and generally cheaper than banks. But let us be honest: these platforms also charge IOF (even if at lower rates in some cases), apply a spread, and require full identity verification. Every transaction is recorded and linked to your tax ID.
 
-The process is straightforward: deposit reais, convert to the asset you need, and send it wherever you want. Everything happens in minutes, without bank forms and without needing to justify the transaction to anyone. This is possible because, once the value is on the Liquid Network, it moves like any digital asset — with low fees, fast confirmations, and no borders.
+If your only criteria are lowest cost and maximum convenience, fintechs can be a good option. But if privacy matters to you — and for our users, it matters above all else — the equation changes.
 
-It is important to note that the DePix App itself is not an international remittance service. It is the gateway into the crypto ecosystem, and it is within that ecosystem that the international movement of value takes place.
+## Why the DePix route is different
 
-## Dollarize your savings: step by step
+The DePix App works as a bridge between Pix (Brazil's instant payment system) and the Liquid Network. When you deposit reais via Pix, you receive DePix — a [stablecoin pegged 1:1 to the Brazilian real](/en/posts/what-is-depix/) — in your Liquid wallet. From there, you can access the entire Liquid Network ecosystem and convert your reais into digital dollars (USDt) or Bitcoin (L-BTC) without depending on any bank.
 
-One of the most popular uses of this route is dollarization — converting some of your reais into digital dollars to hedge against currency devaluation. Here is how to do it:
+The fundamental advantages of this route:
 
-**Step 1: Deposit reais via Pix through the DePix App.** Go to [depixapp.com](https://depixapp.com/), enter the amount you want to deposit, and pay the generated Pix QR code. Your DePix will be sent to your Liquid wallet (such as SideSwap) within 24 hours. The deposit fee is 2% + R$ 0.99. The minimum deposit is R$ 5 and the daily maximum is R$ 6,000.
+1. **No IOF**: since the operation is a digital asset purchase via Pix (not a foreign exchange remittance), the 3.5% IOF does not apply. This alone can represent significant savings.
 
-**Step 2: Swap DePix for USDt on SideSwap.** Open the SideSwap app, navigate to the swap function, and exchange your DePix for USDt (Tether). USDt is a stablecoin pegged to the US dollar, meaning each unit is worth approximately US$ 1. SideSwap shows you the exchange rate and fee before you confirm the operation.
+2. **Transaction privacy**: once the value enters the Liquid Network, transactions are confidential — amounts and destinations are encrypted. No external observer can see how much you are moving within the network.
 
-**Step 3: You now hold digital dollars.** Your USDt is stored in your Liquid wallet, under your full control. You can hold them as a store of value for as long as you like. When the real weakens against the dollar, your USDt maintains its purchasing power in dollar terms.
+3. **Sovereignty over your money**: you control your keys, your assets stay in your wallet. No bank can block, question, or freeze your movements.
 
-This entire process takes less than an hour from start to finish (accounting for deposit processing time), and the total cost is significantly lower than buying dollars through a bank or currency exchange house.
+4. **No bureaucracy**: sign up with just an email — no KYC, no income verification, no need to declare the purpose of the transfer.
 
-## Send money to family abroad: step by step
+It is important to note: the DePix App itself is not an international remittance service. It is the **gateway** into the crypto ecosystem, and the international movement of value happens within that ecosystem.
 
-If you have family members living outside Brazil and want to send them money, the process is similar, with an additional step to deliver the value to the recipient's preferred network.
+## Honest cost comparison: R$ 5,000 abroad
 
-**Step 1: Get DePix.** Deposit reais via Pix through the DePix App, as described above.
+Let us put the numbers on the table for a R$ 5,000 remittance.
 
-**Step 2: Convert to USDt or L-BTC on SideSwap.** Depending on what the recipient prefers to receive, swap your DePix for USDt (digital dollars) or L-BTC (Bitcoin on the Liquid Network).
+**Traditional bank:**
+| Cost | Amount |
+|---|---|
+| IOF (3.5%) | R$ 175.00 |
+| Bank flat fee | R$ 50 to R$ 150 |
+| Exchange rate spread (2-4%) | R$ 100 to R$ 200 |
+| Intermediary fees | R$ 0 to R$ 80 |
+| **Estimated total** | **R$ 325 to R$ 605** |
+| Timeframe | 1 to 5 business days |
 
-**Step 3: Send directly or bridge to another network.** If the recipient has a Liquid wallet, you can send the assets directly — the transaction confirms in about two minutes with near-zero fees. If the recipient uses a different network (such as Ethereum, Tron, or Bitcoin mainnet), you can use bridging services like P2P.Land or BrSwap.me to transfer the value to the desired network.
+**Fintech (e.g., Wise, Remessa Online):**
+| Cost | Amount |
+|---|---|
+| IOF (1.1% to 3.5%) | R$ 55 to R$ 175 |
+| Service fee (1-2%) | R$ 50 to R$ 100 |
+| Spread (smaller, but exists) | R$ 10 to R$ 50 |
+| **Estimated total** | **R$ 115 to R$ 325** |
+| Timeframe | Minutes to 2 business days |
 
-**Step 4: The recipient converts to local currency.** Once they receive the digital assets, the recipient can use local services in their country to convert to their local currency — through exchanges, P2P marketplaces, or other off-ramp services available in their region.
+**DePix route (done correctly):**
+| Cost | Amount |
+|---|---|
+| IOF | R$ 0 |
+| DePix deposit (2% + R$ 0.99) | R$ 101.99 |
+| Swap DePix → USDt (SideSwap) | ~R$ 25 to R$ 50 |
+| Off-ramp at destination (varies) | ~R$ 25 to R$ 75 |
+| **Estimated total** | **R$ 150 to R$ 230** |
+| Timeframe | Up to 24h (deposit) + minutes |
 
-## Cost comparison: bank vs. DePix route
+The DePix route is **consistently cheaper than banks** and **competitive with fintechs** — especially when you factor in the IOF you are not paying. For larger or recurring remittances, the IOF savings compound significantly.
 
-Let us compare the costs of sending R$ 5,000 abroad using both methods.
+The gap with fintechs narrows when the off-ramp at the destination has higher costs. But even when costs are similar, you gain something no fintech offers: **privacy**.
 
-Through the traditional banking route, you pay the originating bank's fee (typically R$ 50 to R$ 150), the exchange rate spread (which can represent 2% to 4% of the value), and possible intermediary and destination bank fees. The total cost can easily reach R$ 300 or more, and the transfer takes 1 to 5 business days to arrive.
+## Step by step: sending value abroad
 
-Through the DePix App route, you pay the deposit fee (2% + R$ 0.99, which comes to R$ 101.99 on R$ 5,000), a small swap fee on SideSwap (typically under 1%), and a bridge fee if you need to send to another network (varies by service but tends to be low). The total cost is considerably lower, and the entire process can be completed in under an hour — or within the same day, if the deposit takes longer to process.
+**Step 1: Deposit reais via Pix through the DePix App.** Go to [depixapp.com](https://depixapp.com/), enter the amount, and pay the generated Pix QR code. Your DePix will be sent to your Liquid wallet (such as SideSwap) within 24 hours. The fee is 2% + R$ 0.99. Minimum R$ 5, maximum R$ 6,000 per day.
 
-## Privacy in international transfers
+**Step 2: Swap DePix for USDt or L-BTC on SideSwap.** Open SideSwap, go to the swap function, and exchange your DePix for the asset you need. For remittances, USDt (digital dollars) is the most practical choice. SideSwap shows you the rate and fee before confirming.
 
-An additional benefit of this route is [financial privacy](/en/posts/financial-privacy-depix/). In the traditional banking system, every international remittance generates detailed records across multiple institutions — including the amount, sender, recipient, and declared purpose.
+**Step 3: Send to the recipient or off-ramp.** If the recipient has a Liquid wallet, send directly — the transaction confirms in about two minutes with near-zero fees. If the value needs to reach a bank account or another network, use one of the off-ramp services listed below.
 
-When you use the DePix App and the Liquid Network, the movement of value happens through confidential transactions. This means that once your reais enter the Liquid Network as DePix, the amounts of subsequent transactions are encrypted. No external observer can see how much you are moving or where the value is going within the network.
+## Pro tips: how to minimize costs
 
-This does not mean complete anonymity — the Pix deposit is traceable, naturally. But the conversion and movement stage within the Liquid Network provides a level of privacy that the banking system simply does not offer.
+The difference between a cheap and expensive remittance is in the details. Follow these tips:
 
-## Limitations and honest caveats
+**1. Avoid unnecessary bridges.** Every bridge between networks (Liquid → Ethereum, Liquid → Tron, etc.) charges a fee. If possible, find an off-ramp that accepts assets directly on the Liquid Network, or on networks with low fees.
 
-It is important to be upfront about the limitations of this alternative. The DePix App is not a magic solution that perfectly replaces bank remittances. There are factors you should consider before choosing this route.
+**2. Time your swaps.** The DePix/USDt rate on SideSwap fluctuates throughout the day. For larger amounts, it is worth monitoring and executing when the spread is lower.
 
-First, the recipient needs some familiarity with cryptocurrency or access to a local off-ramp service. If the person receiving the money does not know how to use a digital wallet, they will need assistance converting the assets into local currency.
+**3. Batch your deposits.** The R$ 0.99 flat fee per deposit is small, but if you make many small deposits, it adds up proportionally. Prefer depositing the daily maximum (R$ 6,000) and making fewer transactions.
 
-Second, the daily deposit limit via Pix on the DePix App is R$ 6,000. For larger amounts, you need to make deposits over consecutive days. This can be inconvenient for anyone who needs to send large sums at once.
+**4. Choose the right off-ramp for the destination country.** Each region has more efficient options. See the section below.
 
-Third, deposit processing can take up to 24 hours. While movement within the Liquid Network is nearly instant, the initial deposit step has this security-related processing time.
+**5. Consider spending directly in crypto.** If the end goal is not necessarily receiving local currency in a bank account, [crypto cards](/en/posts/crypto-cards-spend-depix/) and [gift cards](/en/posts/gift-cards-privacy-shopping/) can eliminate the off-ramp cost entirely.
 
-Finally, bridge fees between networks can vary and are not always predictable. It is advisable to check the costs before starting the process.
+## How to off-ramp at the destination
+
+This step makes or breaks the total cost. There are several options, and the best one depends on where the recipient is and what they need to do with the money.
+
+### Direct payout to a bank account
+
+Services that convert crypto to local currency and deposit directly into the recipient's account:
+
+- **Kast Global Payouts**: sends to bank accounts in 200+ countries, supporting local rails (SEPA, ACH, SPEI, Pix, and more) in 15+ currencies. Conversion is done from stablecoins and the deposit is instant in many destinations. FX fee of 2% for non-USD transactions.
+
+- **Chimera Wallet**: excellent option for the Eurozone. Offers on-ramp and off-ramp with SEPA support, allowing conversion from crypto to euros and direct deposit into a European bank account. Access at [app.chimerawallet.com](https://app.chimerawallet.com/).
+
+- **Global exchanges (Binance, Kraken, Coinbase)**: the recipient can receive the assets, sell on the exchange, and withdraw to a local account. Kraken charges just €1 for SEPA withdrawals. Binance withdrawal fees range from $1 to $15 depending on currency and method. Coinbase offers free USDC off-ramp via ACH in the US.
+
+- **P2P (Binance P2P, Paxful)**: the recipient sells crypto directly to local buyers, with 800+ payment methods available. Fees range from 0% to 0.2%. A good option in countries where traditional exchanges do not support local currency withdrawals.
+
+### Crypto cards
+
+Instead of converting to local currency, the recipient can **spend directly** using a Visa/Mastercard loaded with stablecoins:
+
+- **Kast Card**: Visa card that accepts stablecoins, with 0% fee on USD purchases and up to 6% cashback. Works at 150 million merchants in 170+ countries. For non-USD purchases, the FX fee is 2%.
+
+Learn more about all options in our complete guide to [crypto cards](/en/posts/crypto-cards-spend-depix/).
+
+### Gift cards and prepaid vouchers
+
+Another way to "use" the value at the destination without a bank off-ramp: buy gift cards for stores, services, and global platforms directly with crypto. Amazon, Uber, Netflix, Steam, and hundreds more. No KYC, no bank account, no trail.
+
+See the full guide: [Gift cards and privacy shopping](/en/posts/gift-cards-privacy-shopping/).
+
+### Bridge to other networks
+
+If the recipient needs assets on another blockchain (Ethereum, Tron, Polygon, etc.), services like **P2P.Land** and **BrSwap.me** bridge from the Liquid Network to other networks. From there, the recipient can use any off-ramp compatible with the destination network.
+
+## Privacy: the advantage no fintech offers
+
+In a bank or fintech remittance, every transaction generates detailed records — amount, sender, recipient, declared purpose — across multiple institutions. All linked to your tax ID, all queryable.
+
+When you use the DePix App and the Liquid Network, the movement of value happens through [confidential transactions](/en/posts/financial-privacy-depix/). Once your reais enter the Liquid Network as DePix, the amounts of subsequent transactions are encrypted. No external observer can see how much you are moving or where the value is going within the network.
+
+The Pix deposit is traceable — that is unavoidable. But from the moment the value enters the Liquid Network, the trail ends. Conversions, transfers, swaps: everything happens with a level of privacy the banking system simply does not provide.
+
+For anyone making regular remittances, this means that no one — not banks, not fintechs, not third parties — has a complete history of your international movements.
+
+## Limitations: where the DePix route asks more of you
+
+Honesty is essential. The DePix route is not for everyone, and it has trade-offs:
+
+**It requires more knowledge.** The recipient needs to know how to use a crypto wallet or have access to an off-ramp service. If the person receiving the money has never used crypto, they will need guidance — or you can off-ramp before sending.
+
+**Daily deposit limit of R$ 6,000.** For larger amounts, you need deposits over consecutive days. For one-time large-sum remittances, this can be inconvenient.
+
+**Deposit processing up to 24 hours.** Movement within the Liquid Network is nearly instant, but the initial deposit has this security-related processing time.
+
+**Total cost depends on the off-ramp.** If the recipient uses an off-ramp with high fees, the savings can shrink or even disappear. That is why choosing the right one is essential (see the options above).
+
+**Fintechs are more practical if you do not care about privacy.** If your only criterion is ease of use, Wise and similar services offer a more straightforward experience. The DePix route makes sense when privacy and sovereignty are your priority.
 
 ## Who benefits most from this route
 
-The DePix App remittance route is especially advantageous for people who send regular, moderate amounts — such as monthly support for children studying abroad, financial help for family members, or recurring transfers to accounts outside Brazil. It is also excellent for anyone looking to dollarize part of their savings in a simple and affordable way.
-
-If you only send large sums occasionally, the traditional banking route may be more practical despite being more expensive. But for the majority of people who need to move money internationally on a regular basis, the DePix App offers an alternative worth exploring.
+- **People making recurring remittances** (monthly family support, etc.): the IOF savings compound month after month, and the learning curve pays for itself on the first transfer.
+- **Anyone looking to dollarize savings** without paying IOF or dealing with banking bureaucracy.
+- **Anyone who values privacy** and does not want every cent sent abroad recorded in the banking system.
+- **People already in the crypto ecosystem** who are comfortable with wallets and swaps.
+- **Those with recipients in countries with strong crypto ecosystems**, where off-ramps are cheap and accessible.
 
 ## Your financial privacy starts here
 
-International remittances do not have to be expensive, slow, or bureaucratic. With the DePix App, you use the convenience of Pix as a gateway to a global ecosystem of digital assets, with more privacy and fewer intermediaries. Pix has convenience — DePix has privacy. Stop exposing every transaction to the banking system and start using digital money that only you control. Visit [depixapp.com](https://depixapp.com/).
+International remittances through the banking system expose every detail of your financial life. Fintechs are cheaper but equally transparent to anyone monitoring. The DePix App offers a route where you send value anywhere in the world with real privacy — and without paying 3.5% IOF. Pix has convenience — DePix has privacy. Stop exposing every transaction to the banking system and start using digital money that only you control. Visit [depixapp.com](https://depixapp.com/).

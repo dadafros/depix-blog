@@ -1,8 +1,8 @@
 ---
 title: "Remessa internacional com DePix App"
-description: "Aprenda como enviar dinheiro para o exterior usando DePix: para familiares, viagens ou dolarizar seu patrimônio."
+description: "Envie dinheiro para o exterior com privacidade e sem IOF de 3,5%. Guia completo com off-ramp, dicas e comparação de custos."
 date: 2026-03-30
-tags: ["remessa internacional", "depix", "dólar", "exterior"]
+tags: ["remessa internacional", "depix", "privacidade", "exterior"]
 author: "DePix"
 slug: "remessa-internacional-depix"
 translationKey: "international-remittance"
@@ -14,86 +14,170 @@ images:
 draft: false
 ---
 
-Enviar dinheiro para o exterior pelo sistema bancário tradicional é caro, demorado e burocrático. Bancos cobram taxas que variam de 3% a 8% sobre o valor enviado, aplicam spreads desfavoráveis na conversão cambial e ainda levam de 1 a 5 dias úteis para completar a transferência. Para quem faz remessas com frequência — seja para familiares que moram fora, para preparar uma viagem internacional ou simplesmente para proteger parte do patrimônio em dólar — esses custos se acumulam rapidamente.
+Enviar dinheiro para o exterior sempre significa abrir mão de alguma coisa. Pelo banco, você paga caro e espera dias. Por fintechs, é mais prático — mas cada centavo que você movimenta fica registrado, rastreado e disponível para consulta. Para quem valoriza **privacidade e soberania financeira**, nenhuma dessas opções resolve o problema de verdade.
 
-O DePix App oferece uma alternativa prática para quem quer enviar valor internacionalmente usando o ecossistema cripto. Em vez de depender de bancos e casas de câmbio, você pode converter reais em ativos digitais e movimentá-los para qualquer lugar do mundo em minutos. Neste artigo, vamos explicar como isso funciona na prática, com passo a passo para os cenários mais comuns.
+O DePix App oferece um caminho diferente: você converte reais em ativos digitais via Pix e movimenta valor para qualquer lugar do mundo pela Liquid Network — sem intermediários bancários, sem burocracia e, principalmente, sem expor suas transações ao sistema financeiro tradicional. E tem uma vantagem concreta que pesa no bolso: **você não paga IOF**.
 
-## Por que as remessas tradicionais são tão caras
+Neste guia, vamos explicar como usar essa rota na prática, comparar custos de forma honesta, e dar os pulos do gato para que você faça tudo da maneira mais eficiente possível.
 
-Para entender a vantagem do DePix App nesse contexto, vale olhar para como funciona uma remessa internacional convencional.
+## O que você realmente paga numa remessa tradicional
 
-Quando você envia dinheiro pelo banco, a transação passa por uma cadeia de intermediários. O banco de origem envia a ordem para um banco correspondente internacional, que repassa para o banco de destino no país de chegada. Cada intermediário cobra sua taxa, e a conversão cambial é feita com uma cotação que inclui um spread — uma margem de lucro embutida no câmbio que você nem percebe.
+Para entender onde o DePix se destaca, é preciso olhar o custo real de uma remessa pelo sistema convencional — e a maioria das pessoas não sabe quanto está perdendo.
 
-O resultado é que, em uma remessa de R$ 5.000, você pode perder facilmente R$ 300 a R$ 400 entre taxas e spread cambial. Além disso, o processo exige documentação, pode ter limites de valor e leva dias para ser concluído.
+**Bancos tradicionais** cobram uma combinação de taxas que se acumula rápido:
 
-Existem também fintechs especializadas em remessas que oferecem custos menores, mas mesmo essas opções envolvem intermediários, verificações demoradas e, em muitos casos, limites restritivos para quem não tem comprovação de renda formal.
+- **IOF de 3,5%** sobre o valor da remessa (para envio a contas pessoais no exterior)
+- Taxa fixa do banco de origem (geralmente R$ 50 a R$ 150)
+- Spread cambial de 2% a 4% embutido na cotação
+- Eventuais taxas de banco intermediário e de destino
 
-## Como o DePix App possibilita remessas mais acessíveis
+Numa remessa de R$ 5.000, o IOF sozinho já custa **R$ 175**. Some o spread, a taxa fixa e intermediários: você pode perder **R$ 400 a R$ 500** facilmente. Além disso, o processo exige documentação, pode ter limites restritivos e leva de 1 a 5 dias úteis.
 
-O DePix App funciona como uma ponte entre o Pix e a Liquid Network. Quando você deposita reais via Pix no DePix App, recebe DePix — uma [stablecoin pareada ao real](/pt/posts/o-que-e-depix/) — na sua carteira Liquid. A partir daí, você tem acesso a todo o ecossistema de ativos digitais da Liquid Network e pode converter seus reais em dólares digitais ou Bitcoin sem depender de nenhum banco.
+**Fintechs de remessa** (como Wise, Remessa Online, etc.) melhoraram bastante a experiência. São mais rápidas, mais práticas e geralmente mais baratas que bancos. Mas é importante ser honesto: essas plataformas também cobram IOF (mesmo que com alíquotas menores em alguns casos), aplicam spread e exigem verificação de identidade completa. Cada transação fica registrada e vinculada ao seu CPF.
 
-O processo é simples: você deposita reais, converte para o ativo que precisa e envia para onde quiser. Tudo acontece em minutos, sem formulários bancários e sem precisar justificar a operação para um gerente. Isso é possível porque, uma vez que o valor está na Liquid Network, ele se move como qualquer ativo digital — com taxas baixas, confirmações rápidas e sem fronteiras.
+Para quem busca apenas o menor custo e a maior praticidade, fintechs podem ser uma boa opção. Mas se privacidade importa para você — e para os nossos usuários, importa acima de tudo — a equação muda.
 
-É importante notar que o DePix App em si não é um serviço de remessa internacional. Ele é a porta de entrada para o ecossistema cripto, e é dentro desse ecossistema que a movimentação internacional acontece.
+## Por que a rota DePix é diferente
 
-## Dolarize seu patrimônio: passo a passo
+O DePix App funciona como uma ponte entre o Pix e a Liquid Network. Quando você deposita reais via Pix, recebe DePix — uma [stablecoin pareada ao real](/pt/posts/o-que-e-depix/) — na sua carteira Liquid. A partir daí, você acessa todo o ecossistema cripto da rede e pode converter seus reais em dólares digitais (USDt) ou Bitcoin (L-BTC) sem depender de nenhum banco.
 
-Um dos usos mais populares dessa rota é a dolarização — converter parte dos seus reais em dólares digitais para se proteger contra a desvalorização do real. Veja como fazer:
+As vantagens fundamentais dessa rota:
 
-**Passo 1: Deposite reais via Pix no DePix App.** Acesse o [DePix App](https://depixapp.com/), informe o valor que deseja depositar e pague o QR code Pix gerado. Seus DePix serão enviados para sua carteira Liquid (como a SideSwap) em até 24 horas. A taxa de depósito é de 2% + R$ 0,99. O valor mínimo é de R$ 5 e o máximo é de R$ 6.000 por dia.
+1. **Sem IOF**: como a operação é uma compra de ativo digital via Pix (e não uma remessa cambial), não incide o IOF de 3,5%. Isso sozinho já pode representar uma economia significativa.
 
-**Passo 2: Converta DePix para USDt no SideSwap.** Abra o aplicativo SideSwap, vá até a função de swap e troque seus DePix por USDt (Tether). O USDt é uma stablecoin pareada ao dólar americano, ou seja, cada unidade vale aproximadamente US$ 1. O SideSwap mostra a cotação e a taxa antes de confirmar a operação.
+2. **Privacidade nas transações**: uma vez que o valor entra na Liquid Network, as transações são confidenciais — valores e destinos ficam criptografados. Nenhum observador externo vê quanto você movimenta dentro da rede.
 
-**Passo 3: Pronto, você tem dólares digitais.** Seus USDt ficam armazenados na sua carteira Liquid, sob seu controle total. Você pode mantê-los como reserva de valor pelo tempo que quiser. Quando o real se desvaloriza frente ao dólar, seus USDt mantêm o poder de compra em dólar.
+3. **Soberania sobre seu dinheiro**: você controla suas chaves, seus ativos ficam na sua carteira. Nenhum banco pode bloquear, questionar ou congelar sua movimentação.
 
-Esse processo leva menos de uma hora do início ao fim (considerando o tempo de processamento do depósito), e o custo total é significativamente menor do que comprar dólar pelo banco ou por uma casa de câmbio.
+4. **Sem burocracia**: cadastro com e-mail, sem KYC, sem comprovação de renda, sem justificativa de finalidade.
 
-## Envie dinheiro para familiares no exterior: passo a passo
+É importante notar: o DePix App em si não é um serviço de remessa internacional. Ele é a **porta de entrada** para o ecossistema cripto, e é dentro desse ecossistema que a movimentação internacional acontece.
 
-Se você tem familiares morando fora do Brasil e quer enviar dinheiro para eles, o caminho é parecido, com um passo adicional para fazer o valor chegar na rede preferida do destinatário.
+## Comparação honesta de custos: R$ 5.000 para o exterior
 
-**Passo 1: Obtenha DePix.** Deposite reais via Pix no DePix App, como descrito acima.
+Vamos colocar os números na mesa para uma remessa de R$ 5.000.
 
-**Passo 2: Converta para USDt ou L-BTC no SideSwap.** Dependendo do que o destinatário prefere receber, converta seus DePix para USDt (dólares digitais) ou L-BTC (Bitcoin na Liquid Network).
+**Banco tradicional:**
+| Custo | Valor |
+|---|---|
+| IOF (3,5%) | R$ 175,00 |
+| Taxa fixa do banco | R$ 50 a R$ 150 |
+| Spread cambial (2-4%) | R$ 100 a R$ 200 |
+| Taxas intermediárias | R$ 0 a R$ 80 |
+| **Total estimado** | **R$ 325 a R$ 605** |
+| Prazo | 1 a 5 dias úteis |
 
-**Passo 3: Envie diretamente ou faça bridge para outra rede.** Se o destinatário tem uma carteira Liquid, você pode enviar diretamente — a transação é confirmada em cerca de dois minutos, com taxa próxima de zero. Se o destinatário usa outra rede (como Ethereum, Tron ou a rede principal do Bitcoin), você pode usar serviços de bridge como o P2P.Land ou o BrSwap.me para transferir o valor para a rede desejada.
+**Fintech (ex: Wise, Remessa Online):**
+| Custo | Valor |
+|---|---|
+| IOF (1,1% a 3,5%) | R$ 55 a R$ 175 |
+| Taxa do serviço (1-2%) | R$ 50 a R$ 100 |
+| Spread (menor, mas existe) | R$ 10 a R$ 50 |
+| **Total estimado** | **R$ 115 a R$ 325** |
+| Prazo | Minutos a 2 dias úteis |
 
-**Passo 4: O destinatário converte para moeda local.** Ao receber os ativos digitais, o destinatário pode usar serviços locais no país de destino para converter em moeda local — seja através de corretoras, caixas P2P ou outros serviços de off-ramp disponíveis na região.
+**Rota DePix (feita corretamente):**
+| Custo | Valor |
+|---|---|
+| IOF | R$ 0 |
+| Depósito DePix (2% + R$ 0,99) | R$ 101,99 |
+| Swap DePix → USDt (SideSwap) | ~R$ 25 a R$ 50 |
+| Off-ramp no destino (varia) | ~R$ 25 a R$ 75 |
+| **Total estimado** | **R$ 150 a R$ 230** |
+| Prazo | Até 24h (depósito) + minutos |
 
-## Comparação de custos: banco vs. DePix
+A rota DePix fica **consistentemente mais barata que bancos** e **competitiva com fintechs** — especialmente quando você considera o IOF que não paga. Em remessas maiores ou recorrentes, a economia do IOF se acumula significativamente.
 
-Vamos comparar os custos de enviar R$ 5.000 para o exterior nas duas modalidades.
+A diferença para fintechs diminui quando o off-ramp no destino tem custos mais altos. Mas mesmo empatando em custo, você ganha algo que nenhuma fintech oferece: **privacidade**.
 
-Pela rota bancária tradicional, você paga a taxa do banco de origem (geralmente R$ 50 a R$ 150), o spread cambial (que pode representar 2% a 4% do valor) e eventuais taxas do banco intermediário e de destino. O custo total pode facilmente chegar a R$ 300 ou mais, e o valor leva de 1 a 5 dias úteis para chegar.
+## Passo a passo: enviando valor para o exterior
 
-Pela rota com DePix App, você paga a taxa de depósito (2% + R$ 0,99, ou seja, R$ 101,99 sobre R$ 5.000), uma pequena taxa de swap no SideSwap (geralmente inferior a 1%) e uma taxa de bridge se precisar enviar para outra rede (varia conforme o serviço, mas costuma ser baixa). O custo total fica consideravelmente menor, e o processo todo pode ser concluído em menos de uma hora — ou no mesmo dia, no caso de depósitos que levam mais tempo para processar.
+**Passo 1: Deposite reais via Pix no DePix App.** Acesse o [DePix App](https://depixapp.com/), informe o valor e pague o QR code Pix gerado. Seus DePix serão enviados para sua carteira Liquid (como a SideSwap) em até 24 horas. A taxa é de 2% + R$ 0,99. Mínimo de R$ 5, máximo de R$ 6.000 por dia.
 
-## Privacidade nas transferências internacionais
+**Passo 2: Converta DePix para USDt ou L-BTC no SideSwap.** Abra o SideSwap, vá na função de swap e troque seus DePix pelo ativo desejado. Para remessas, USDt (dólar digital) é a escolha mais prática. O SideSwap mostra a cotação e a taxa antes de confirmar.
 
-Um benefício adicional dessa rota é a [privacidade financeira](/pt/posts/privacidade-financeira-depix/). No sistema bancário tradicional, cada remessa internacional gera registros detalhados em múltiplas instituições — incluindo valor, remetente, destinatário e finalidade declarada.
+**Passo 3: Envie para o destinatário ou faça off-ramp.** Se o destinatário tem uma carteira Liquid, envie diretamente — a transação confirma em cerca de dois minutos, com taxa próxima de zero. Se precisa chegar numa conta bancária ou em outra rede, use um dos serviços de off-ramp listados abaixo.
 
-Quando você usa o DePix App e a Liquid Network, a movimentação do valor acontece com transações confidenciais. Isso significa que, uma vez que seus reais entram na Liquid Network como DePix, os valores das transações subsequentes são criptografados. Nenhum observador externo pode ver quanto você está movimentando ou para onde o valor está indo dentro da rede.
+## Pulos do gato: como minimizar custos
 
-Isso não significa anonimato total — o depósito via Pix é rastreável, naturalmente. Mas a etapa de movimentação e conversão dentro da Liquid Network oferece um nível de privacidade que o sistema bancário simplesmente não proporciona.
+A diferença entre uma remessa barata e uma cara está nos detalhes. Siga essas dicas:
 
-## Limitações e honestidade sobre o processo
+**1. Evite bridges desnecessárias.** Cada bridge entre redes (Liquid → Ethereum, Liquid → Tron, etc.) cobra taxa. Se possível, encontre um off-ramp que aceite ativos direto na Liquid Network, ou que aceite ativos em redes com taxas baixas.
 
-É importante ser honesto sobre as limitações dessa alternativa. O DePix App não é uma solução mágica que substitui perfeitamente as remessas bancárias. Existem pontos que você deve considerar antes de optar por essa rota.
+**2. Faça swaps no melhor momento.** A cotação DePix/USDt no SideSwap varia ao longo do dia. Para valores maiores, vale acompanhar e executar quando o spread estiver menor.
 
-Primeiro, o destinatário precisa ter algum conhecimento de criptomoedas ou acesso a um serviço de off-ramp local. Se a pessoa que vai receber o dinheiro não sabe usar uma carteira digital, ela vai precisar de ajuda para converter os ativos em moeda local.
+**3. Acumule para minimizar a taxa fixa.** A taxa de R$ 0,99 por depósito é pequena, mas se você faz vários depósitos pequenos, ela pesa proporcionalmente. Prefira depositar o máximo diário (R$ 6.000) e fazer menos transações.
 
-Segundo, o limite diário de depósito via Pix no DePix App é de R$ 6.000. Para valores maiores, você precisa fazer depósitos em dias consecutivos. Isso pode ser inconveniente para quem precisa enviar grandes quantias de uma só vez.
+**4. Escolha o off-ramp certo para o país de destino.** Cada região tem opções mais eficientes. Veja a seção abaixo.
 
-Terceiro, o processamento do depósito pode levar até 24 horas. Embora a movimentação dentro da Liquid Network seja quase instantânea, a etapa inicial de depósito tem esse prazo de segurança.
+**5. Considere gastar diretamente em cripto.** Se o objetivo final não é necessariamente receber moeda local numa conta bancária, [cartões cripto](/pt/posts/cartoes-cripto-gastar-depix/) e [gift cards](/pt/posts/compras-privacidade-gift-cards/) podem eliminar completamente o custo de off-ramp.
 
-Por fim, as taxas de bridge entre redes podem variar e nem sempre são previsíveis. É recomendável verificar os custos antes de iniciar o processo.
+## Como fazer off-ramp no país de destino
 
-## Para quem essa rota faz sentido
+Essa é a etapa que faz a diferença no custo total. Existem várias opções, e a melhor depende de onde o destinatário está e o que precisa fazer com o dinheiro.
 
-A remessa via DePix App é especialmente vantajosa para quem envia valores regulares e de médio porte — como mesadas para filhos que estudam fora, ajuda financeira para familiares ou transferências recorrentes para contas no exterior. Também é excelente para quem quer dolarizar parte do patrimônio de forma simples e acessível.
+### Payout direto para conta bancária
 
-Se você faz remessas esporádicas de valores muito altos, a rota bancária pode ser mais prática, apesar de mais cara. Mas para a maioria das pessoas que precisa movimentar dinheiro internacionalmente com frequência, o DePix App oferece uma alternativa que vale a pena conhecer.
+Serviços que convertem cripto em moeda local e depositam direto na conta do destinatário:
+
+- **Kast Global Payouts**: envia para contas bancárias em 200+ países, com suporte a rails locais (SEPA, ACH, SPEI, Pix e mais) em 15+ moedas. A conversão é feita a partir de stablecoins e o depósito é instantâneo em muitos destinos. Taxas de FX de 2% para transações em moedas não-USD.
+
+- **Chimera Wallet**: excelente opção para a zona do Euro. Oferece on-ramp e off-ramp com suporte a SEPA, permitindo converter cripto em euros e receber diretamente em conta bancária europeia. Acesse em [app.chimerawallet.com](https://app.chimerawallet.com/).
+
+- **Exchanges globais (Binance, Kraken, Coinbase)**: o destinatário pode receber os ativos, vender na exchange e sacar para conta local. Kraken cobra apenas €1 para saques via SEPA. Binance tem taxas de saque entre $1 e $15 dependendo da moeda e método. Coinbase oferece off-ramp gratuito de USDC via ACH nos EUA.
+
+- **P2P (Binance P2P, Paxful)**: o destinatário vende cripto diretamente para compradores locais, com 800+ métodos de pagamento. Taxas de 0% a 0,2%. Boa opção em países onde exchanges tradicionais não oferecem saque em moeda local.
+
+### Cartões cripto
+
+Em vez de converter para moeda local, o destinatário pode **gastar diretamente** usando um cartão Visa/Mastercard carregado com stablecoins:
+
+- **Kast Card**: cartão Visa que aceita stablecoins, com 0% de taxa em compras em USD e cashback de até 6%. Funciona em 150 milhões de estabelecimentos em 170+ países. Para compras em outras moedas, a taxa de FX é de 2%.
+
+Saiba mais sobre todas as opções no nosso guia completo de [cartões cripto](/pt/posts/cartoes-cripto-gastar-depix/).
+
+### Gift cards e pré-pagos
+
+Outra forma de "usar" o valor no destino sem off-ramp bancário: comprar gift cards de lojas, serviços e plataformas globais diretamente com cripto. Amazon, Uber, Netflix, Steam e centenas de outros. Sem KYC, sem conta bancária, sem rastro.
+
+Veja o guia completo: [Compras com privacidade: gift cards e pré-pagos](/pt/posts/compras-privacidade-gift-cards/).
+
+### Bridge para outras redes
+
+Se o destinatário precisa dos ativos em outra blockchain (Ethereum, Tron, Polygon, etc.), serviços como **P2P.Land** e **BrSwap.me** fazem a ponte da Liquid Network para outras redes. A partir daí, o destinatário pode usar qualquer off-ramp compatível com a rede de destino.
+
+## Privacidade: o diferencial que nenhuma fintech oferece
+
+Numa remessa bancária ou via fintech, cada transação gera registros detalhados — valor, remetente, destinatário, finalidade declarada — em múltiplas instituições. Tudo vinculado ao seu CPF, tudo consultável.
+
+Quando você usa o DePix App e a Liquid Network, a movimentação acontece com [transações confidenciais](/pt/posts/privacidade-financeira-depix/). Uma vez que seus reais entram na Liquid Network como DePix, os valores das transações subsequentes são criptografados. Nenhum observador externo pode ver quanto você está movimentando ou para onde o valor está indo dentro da rede.
+
+O depósito via Pix é rastreável — isso é inevitável. Mas a partir do momento em que o valor entra na Liquid, a trilha se encerra. Conversões, transferências, swaps: tudo acontece com privacidade que o sistema bancário simplesmente não proporciona.
+
+Para quem faz remessas regulares, isso significa que ninguém — nem bancos, nem fintechs, nem terceiros — tem um histórico completo das suas movimentações internacionais.
+
+## Limitações: onde a rota DePix exige mais do usuário
+
+Honestidade é fundamental. A rota via DePix não é para todo mundo e tem trade-offs:
+
+**Exige mais conhecimento.** O destinatário precisa saber usar uma carteira cripto ou ter acesso a um serviço de off-ramp. Se a pessoa que vai receber nunca usou cripto, vai precisar de orientação — ou você pode optar por fazer o off-ramp antes de enviar.
+
+**Limite diário de R$ 6.000.** Para valores maiores, são necessários depósitos em dias consecutivos. Para remessas pontuais de valores altos, isso pode ser inconveniente.
+
+**Processamento de até 24 horas no depósito.** A movimentação dentro da Liquid é quase instantânea, mas a etapa inicial tem esse prazo de segurança.
+
+**O custo total depende do off-ramp.** Se o destinatário usa um off-ramp com taxas altas, a economia pode diminuir ou até desaparecer. Por isso é essencial escolher bem (veja as opções acima).
+
+**Fintechs são mais práticas para quem não se importa com privacidade.** Se o único critério é facilidade de uso, Wise e similares oferecem uma experiência mais direta. A rota DePix vale quando privacidade e soberania são prioridade.
+
+## Para quem essa rota faz mais sentido
+
+- **Quem faz remessas recorrentes** (mesadas, ajuda a familiares): a economia do IOF se acumula mês a mês, e a curva de aprendizado se paga na primeira vez.
+- **Quem quer dolarizar patrimônio** sem pagar IOF e sem burocracia bancária.
+- **Quem valoriza privacidade** e não quer cada centavo enviado ao exterior registrado no sistema bancário.
+- **Quem já está no ecossistema cripto** e tem familiaridade com carteiras e swaps.
+- **Quem tem destinatários em países com bom ecossistema cripto**, onde off-ramps são baratos e acessíveis.
 
 ## Sua privacidade financeira começa aqui
 
-Remessas internacionais não precisam ser caras, lentas ou burocráticas. Com o DePix App, você usa a praticidade do Pix como porta de entrada para um ecossistema global de ativos digitais, com mais privacidade e menos intermediários. Pix tem praticidade — DePix tem privacidade. Pare de expor cada transação ao sistema bancário e comece a usar dinheiro digital que só você controla. Acesse [depixapp.com](https://depixapp.com/).
+Remessas internacionais pelo sistema bancário expõem cada detalhe da sua vida financeira. Fintechs são mais baratas, mas igualmente transparentes para quem está monitorando. O DePix App oferece uma rota onde você envia valor para qualquer lugar do mundo com privacidade real — e sem pagar IOF de 3,5%. Pix tem praticidade — DePix tem privacidade. Pare de expor cada transação ao sistema bancário e comece a usar dinheiro digital que só você controla. Acesse [depixapp.com](https://depixapp.com/).
