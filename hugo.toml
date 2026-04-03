@@ -20,7 +20,7 @@ enableRobotsTXT = true
     weight = 1
     contentDir = "content/pt"
     [languages.pt.params]
-      description = "Blog oficial do DePix App — Pagamentos PIX, Bitcoin e stablecoins"
+      description = "Tudo sobre o DePix: Aprenda a usar a melhor ferramenta de privacidade financeira no Brasil"
       cta = "Comece a usar o DePix App"
       langLabel = "PT"
       otherLangLabel = "EN"
@@ -30,7 +30,7 @@ enableRobotsTXT = true
     weight = 2
     contentDir = "content/en"
     [languages.en.params]
-      description = "DePix App official blog — PIX payments, Bitcoin and stablecoins"
+      description = "All about DePix: Learn how to use the best financial privacy tool in Brazil"
       cta = "Start using DePix App"
       langLabel = "EN"
       otherLangLabel = "PT"
