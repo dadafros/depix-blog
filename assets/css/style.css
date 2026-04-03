@@ -840,7 +840,8 @@ img {
 .tag-filter {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  justify-content: center;
+  gap: 0.45rem;
   margin-bottom: 2rem;
   align-items: center;
 }
@@ -849,38 +850,48 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
-  padding: 0.3rem 0.85rem;
+  padding: 0.35rem 0.9rem;
   font-family: 'Inter', system-ui, sans-serif;
   font-size: 0.8125rem;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--text-muted);
-  background: var(--bg-card);
+  background: transparent;
   border: 1px solid var(--border);
   border-radius: 20px;
   cursor: pointer;
   transition: all var(--transition);
   letter-spacing: 0.02em;
+  white-space: nowrap;
 }
 
 .tag-filter-btn:hover {
   color: var(--accent);
   border-color: var(--border-hover);
-  background: var(--bg-card-hover);
+  background: var(--accent-dim);
 }
 
 .tag-filter-btn.active {
   color: var(--bg);
   background: var(--accent);
   border-color: var(--accent);
+  font-weight: 600;
 }
 
 /* Overflow toggle + dropdown */
 .tag-overflow-wrap {
   position: relative;
+  display: inline-flex;
 }
 
 .tag-overflow-toggle {
   white-space: nowrap;
+}
+
+.tag-overflow-toggle.has-active {
+  color: var(--bg);
+  background: var(--accent);
+  border-color: var(--accent);
+  font-weight: 600;
 }
 
 .tag-overflow-chevron {
@@ -894,18 +905,18 @@ img {
 .tag-overflow-dropdown {
   position: absolute;
   top: calc(100% + 0.5rem);
-  left: 0;
+  right: 0;
   z-index: 50;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.4rem;
   padding: 0.75rem;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-  min-width: 240px;
-  max-width: min(420px, calc(100vw - 2rem));
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(56, 227, 172, 0.06);
+  min-width: 220px;
+  max-width: min(380px, calc(100vw - 2rem));
   animation: tagDropdownIn 0.15s ease-out;
 }
 
@@ -914,8 +925,22 @@ img {
 }
 
 @keyframes tagDropdownIn {
-  from { opacity: 0; transform: translateY(-4px); }
+  from { opacity: 0; transform: translateY(-6px); }
   to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile: dropdown anchored to left */
+@media (max-width: 480px) {
+  .tag-overflow-dropdown {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: calc(100vw - 2rem);
+  }
+  @keyframes tagDropdownIn {
+    from { opacity: 0; transform: translateX(-50%) translateY(-6px); }
+    to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+  }
 }
 
 /* ============================================

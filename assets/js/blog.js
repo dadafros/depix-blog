@@ -101,14 +101,14 @@
               resultsEl.innerHTML = matches.map(function (m) { return renderCard(m.post); }).join('');
             }
           }
-          // Clear active tag + close overflow dropdown
+          // Clear active tags + close overflow dropdown
           if (tagFilter) {
             var btns = tagFilter.querySelectorAll('.tag-filter-btn');
             for (var i = 0; i < btns.length; i++) btns[i].classList.remove('active');
             var dd = document.getElementById('tag-overflow-dropdown');
             var tb = document.getElementById('tag-overflow-toggle');
             if (dd) dd.classList.add('hidden');
-            if (tb) tb.classList.remove('open');
+            if (tb) { tb.classList.remove('open'); tb.classList.remove('has-active'); }
           }
         });
       }, 200);
@@ -128,6 +128,35 @@
     var toggleBtn = document.getElementById('tag-overflow-toggle');
     var dropdown = document.getElementById('tag-overflow-dropdown');
 
+    function updateOverflowToggleStyle() {
+      if (!toggleBtn || !dropdown) return;
+      var hasActive = dropdown.querySelector('.tag-filter-btn.active') !== null;
+      toggleBtn.classList.toggle('has-active', hasActive);
+    }
+
+    function getActiveTags() {
+      var active = filterEl.querySelectorAll('.tag-filter-btn.active[data-tag]');
+      var tags = [];
+      for (var i = 0; i < active.length; i++) tags.push(active[i].dataset.tag);
+      return tags;
+    }
+
+    function filterPosts() {
+      var activeTags = getActiveTags();
+      if (!activeTags.length) {
+        for (var j = 0; j < postCards.length; j++) postCards[j].classList.remove('hidden');
+        return;
+      }
+      for (var k = 0; k < postCards.length; k++) {
+        var cardTags = postCards[k].dataset.tags ? postCards[k].dataset.tags.split(',') : [];
+        var match = false;
+        for (var t = 0; t < activeTags.length; t++) {
+          if (cardTags.indexOf(activeTags[t]) !== -1) { match = true; break; }
+        }
+        postCards[k].classList.toggle('hidden', !match);
+      }
+    }
+
     // Overflow dropdown toggle
     if (toggleBtn && dropdown) {
       toggleBtn.addEventListener('click', function (e) {
@@ -137,24 +166,20 @@
         toggleBtn.classList.toggle('open', !isOpen);
       });
 
-      // Close dropdown on outside click
       document.addEventListener('click', function (e) {
-        if (!dropdown.classList.contains('hidden') && !dropdown.contains(e.target) && e.target !== toggleBtn) {
+        if (!dropdown.classList.contains('hidden') &&
+            !dropdown.contains(e.target) &&
+            !toggleBtn.contains(e.target)) {
           dropdown.classList.add('hidden');
           toggleBtn.classList.remove('open');
         }
       });
     }
 
-    // Tag click handler (works for both visible and dropdown tags)
+    // Tag click handler — multi-select
     filterEl.addEventListener('click', function (e) {
-      var btn = e.target.closest('.tag-filter-btn');
-      if (!btn || btn === toggleBtn) return;
-
-      var tag = btn.dataset.tag;
-      var wasActive = btn.classList.contains('active');
-      var btns = filterEl.querySelectorAll('.tag-filter-btn[data-tag]');
-      for (var i = 0; i < btns.length; i++) btns[i].classList.remove('active');
+      var btn = e.target.closest('.tag-filter-btn[data-tag]');
+      if (!btn) return;
 
       // Clear search
       var input = document.getElementById('search-input');
@@ -166,22 +191,9 @@
       var sectionTitle = document.querySelector('.section-title');
       if (sectionTitle) sectionTitle.classList.remove('hidden');
 
-      if (wasActive) {
-        for (var j = 0; j < postCards.length; j++) postCards[j].classList.remove('hidden');
-        return;
-      }
-
-      btn.classList.add('active');
-      for (var k = 0; k < postCards.length; k++) {
-        var cardTags = postCards[k].dataset.tags ? postCards[k].dataset.tags.split(',') : [];
-        postCards[k].classList.toggle('hidden', cardTags.indexOf(tag) === -1);
-      }
-
-      // Close dropdown after selecting a tag from it
-      if (dropdown && dropdown.contains(btn)) {
-        dropdown.classList.add('hidden');
-        if (toggleBtn) toggleBtn.classList.remove('open');
-      }
+      btn.classList.toggle('active');
+      filterPosts();
+      updateOverflowToggleStyle();
     });
   }
 
