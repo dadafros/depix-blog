@@ -31,18 +31,38 @@
 <section class="latest-posts">
   <div class="container">
 
-    {{/* Tag filter */}}
-    {{ $allTags := slice }}
+    {{/* Tag filter — show top tags by frequency, overflow in dropdown */}}
+    {{ $tagCounts := dict }}
     {{ range .Site.RegularPages }}
       {{ range .Params.tags }}
-        {{ $allTags = $allTags | append . }}
+        {{ $cur := index $tagCounts . | default 0 }}
+        {{ $tagCounts = merge $tagCounts (dict . (add $cur 1)) }}
       {{ end }}
     {{ end }}
-    {{ $uniqueTags := $allTags | uniq | sort }}
-    {{ if gt (len $uniqueTags) 0 }}
+    {{ $tagList := slice }}
+    {{ range $tag, $count := $tagCounts }}
+      {{ $tagList = $tagList | append (dict "tag" $tag "count" $count) }}
+    {{ end }}
+    {{ $sorted := sort $tagList "count" "desc" }}
+    {{ $visibleLimit := 8 }}
+    {{ if gt (len $sorted) 0 }}
     <div id="tag-filter" class="tag-filter">
-      {{ range $uniqueTags }}
-      <button class="tag-filter-btn" data-tag="{{ . }}">{{ . }}</button>
+      {{ range first $visibleLimit $sorted }}
+      <button class="tag-filter-btn" data-tag="{{ .tag }}">{{ .tag }}</button>
+      {{ end }}
+      {{ $overflow := after $visibleLimit $sorted }}
+      {{ if gt (len $overflow) 0 }}
+      <div class="tag-overflow-wrap">
+        <button class="tag-filter-btn tag-overflow-toggle" id="tag-overflow-toggle">
+          +{{ len $overflow }}
+          <svg class="tag-overflow-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="tag-overflow-dropdown hidden" id="tag-overflow-dropdown">
+          {{ range $overflow }}
+          <button class="tag-filter-btn" data-tag="{{ .tag }}">{{ .tag }}</button>
+          {{ end }}
+        </div>
+      </div>
       {{ end }}
     </div>
     {{ end }}

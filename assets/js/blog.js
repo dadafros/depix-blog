@@ -101,10 +101,14 @@
               resultsEl.innerHTML = matches.map(function (m) { return renderCard(m.post); }).join('');
             }
           }
-          // Clear active tag
+          // Clear active tag + close overflow dropdown
           if (tagFilter) {
             var btns = tagFilter.querySelectorAll('.tag-filter-btn');
             for (var i = 0; i < btns.length; i++) btns[i].classList.remove('active');
+            var dd = document.getElementById('tag-overflow-dropdown');
+            var tb = document.getElementById('tag-overflow-toggle');
+            if (dd) dd.classList.add('hidden');
+            if (tb) tb.classList.remove('open');
           }
         });
       }, 200);
@@ -121,13 +125,35 @@
     var postCards = document.querySelectorAll('.post-list .post-card');
     if (!filterEl || !postCards.length) return;
 
+    var toggleBtn = document.getElementById('tag-overflow-toggle');
+    var dropdown = document.getElementById('tag-overflow-dropdown');
+
+    // Overflow dropdown toggle
+    if (toggleBtn && dropdown) {
+      toggleBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var isOpen = !dropdown.classList.contains('hidden');
+        dropdown.classList.toggle('hidden', isOpen);
+        toggleBtn.classList.toggle('open', !isOpen);
+      });
+
+      // Close dropdown on outside click
+      document.addEventListener('click', function (e) {
+        if (!dropdown.classList.contains('hidden') && !dropdown.contains(e.target) && e.target !== toggleBtn) {
+          dropdown.classList.add('hidden');
+          toggleBtn.classList.remove('open');
+        }
+      });
+    }
+
+    // Tag click handler (works for both visible and dropdown tags)
     filterEl.addEventListener('click', function (e) {
       var btn = e.target.closest('.tag-filter-btn');
-      if (!btn) return;
+      if (!btn || btn === toggleBtn) return;
 
       var tag = btn.dataset.tag;
       var wasActive = btn.classList.contains('active');
-      var btns = filterEl.querySelectorAll('.tag-filter-btn');
+      var btns = filterEl.querySelectorAll('.tag-filter-btn[data-tag]');
       for (var i = 0; i < btns.length; i++) btns[i].classList.remove('active');
 
       // Clear search
@@ -149,6 +175,12 @@
       for (var k = 0; k < postCards.length; k++) {
         var cardTags = postCards[k].dataset.tags ? postCards[k].dataset.tags.split(',') : [];
         postCards[k].classList.toggle('hidden', cardTags.indexOf(tag) === -1);
+      }
+
+      // Close dropdown after selecting a tag from it
+      if (dropdown && dropdown.contains(btn)) {
+        dropdown.classList.add('hidden');
+        if (toggleBtn) toggleBtn.classList.remove('open');
       }
     });
   }
