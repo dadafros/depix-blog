@@ -84,6 +84,29 @@ Pense assim: privacidade é como enviar uma carta em envelope lacrado — as pes
 
 Para ter uma visão clara, vamos comparar a privacidade em três sistemas.
 
+{{< diagram alt="Comparação de privacidade entre Pix, Bitcoin e DePix na Liquid Network: Pix expõe tudo ao banco, Bitcoin tem valores públicos, DePix oculta valores com Confidential Transactions" caption="Níveis de privacidade: do Pix (totalmente visível) ao DePix/Liquid (valores ocultos)." >}}
+<div class="d-compare">
+  <div class="d-compare-card negative">
+    <div class="d-compare-title">Pix</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Valor visível ao banco</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Remetente e destinatário expostos</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Banco Central vê tudo</div>
+  </div>
+  <div class="d-compare-card neutral">
+    <div class="d-compare-title">Bitcoin</div>
+    <div class="d-compare-item"><span class="icon">⚠</span> Valores públicos na blockchain</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Identidade pseudônima</div>
+    <div class="d-compare-item"><span class="icon">⚠</span> Qualquer pessoa pode consultar</div>
+  </div>
+  <div class="d-compare-card positive">
+    <div class="d-compare-title">DePix / Liquid</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Valores ocultos (Confidential Tx)</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Identidade pseudônima</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Só remetente e destinatário veem</div>
+  </div>
+</div>
+{{< /diagram >}}
+
 No Pix tradicional, o banco vê valores, partes envolvidas e horários de todas as transações. O Banco Central também tem acesso total. Não existe privacidade de transação.
 
 No Bitcoin na rede principal, os endereços são pseudônimos, mas todos os valores e transferências são públicos na blockchain. Qualquer pessoa pode ver quanto cada endereço recebeu e enviou. Com análise de blockchain, é possível rastrear fluxos de dinheiro.

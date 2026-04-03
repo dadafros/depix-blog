@@ -34,6 +34,26 @@ That said, responsible payment processors can and should build safeguards. And t
 
 One of the most important security features of the DePix App is its processing delay. When someone deposits Brazilian reais via Pix, the corresponding DePix tokens are **not** sent immediately.
 
+{{< diagram alt="DePix App 24-hour security window timeline: Pix received, anti-fraud verification period, decision to block via MED or release tokens" caption="Security window: how the 24-hour verification period protects against fraud." >}}
+<div class="d-flow-row">
+  <div class="d-step dark">Pix received</div>
+  <div class="d-arrow">0–24h</div>
+  <div class="d-step warn">Anti-fraud verification</div>
+  <div class="d-arrow"></div>
+  <div class="d-step muted">Fraud detected?</div>
+</div>
+<div class="d-compare" style="margin-top:1rem">
+  <div class="d-compare-card negative">
+    <div class="d-compare-title">Yes</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Blocked — MED activated</div>
+  </div>
+  <div class="d-compare-card positive">
+    <div class="d-compare-title">No</div>
+    <div class="d-compare-item"><span class="icon">✓</span> DePix released to wallet</div>
+  </div>
+</div>
+{{< /diagram >}}
+
 There is a processing period of up to 24 hours (known as D+1 settlement). During this window, the DePix system checks for fraud reports associated with the incoming payment. If the Pix transfer gets flagged — for example, through Brazil's official fraud reversal mechanism — DePix can block the transaction and return the funds to the victim's bank.
 
 Why does this matter? Because cryptocurrency transactions are irreversible. Once tokens are sent to a blockchain wallet, there is no "undo" button. Without this safety buffer, a scammer could receive Pix funds, instantly convert them to crypto, and disappear with no possibility of recovery.

@@ -28,6 +28,18 @@ The practical benefit is straightforward: you can hold reais in a blockchain-bas
 
 The DePix App workflow is designed to be simple. You visit the [DePix App](https://depixapp.com/), generate a Pix QR code, make the payment, and receive the equivalent amount in DePix tokens in your Liquid wallet. When you want to convert back to fiat, you send your DePix tokens to a DePix App address and the reais land in your bank account via Pix.
 
+{{< diagram alt="DePix deposit flow: Pix payment from bank, 24-hour anti-fraud verification, and DePix tokens received in Liquid wallet" caption="Deposit flow: from Pix payment to your Liquid wallet, with a 24-hour security verification." >}}
+<div class="d-flow-row">
+  <div class="d-step dark">Bank (Pix)</div>
+  <div class="d-arrow">Pays QR Code</div>
+  <div class="d-step accent">DePix App</div>
+  <div class="d-arrow">Up to 24h</div>
+  <div class="d-step warn">Anti-fraud check</div>
+  <div class="d-arrow">DePix tokens</div>
+  <div class="d-step success">Liquid Wallet</div>
+</div>
+{{< /diagram >}}
+
 Deposits are processed within 24 hours (D+1). This delay is intentional and exists for an important reason: fraud protection. Unfortunately, scammers use Pix QR codes to defraud victims, and DePix App needs this window to verify that transactions are legitimate before releasing crypto. This safeguard protects both users and the broader ecosystem. For more details, read our article on [how DePix App protects you against scams](/en/posts/how-depix-protects-against-scams/).
 
 An important distinction: the DePix App is fully non-custodial. You need an external Liquid wallet, such as [SideSwap](https://sideswap.io/), to receive your DePix tokens. The app generates the Pix QR code and sends the tokens to your wallet address — but you hold the funds, not DePix App. This is a feature, not a limitation: it means you have full custody of your money at all times, with no third party able to freeze or withhold your assets.

@@ -22,6 +22,18 @@ This guide covers how the program works, who can join, and how to make the most 
 
 The affiliate program is a partnership between you and the DePix App. When you join, you receive a unique referral link. Every person who creates a DePix App account through that link becomes your referral — permanently. As long as that person uses the platform, you continue earning commissions on their deposits.
 
+{{< diagram alt="DePix affiliate program flow: share referral link, referred user creates account, referred user makes deposits, affiliate earns recurring monthly commission with permanent bond" caption="How it works: your link generates recurring commissions on every deposit from referred users." >}}
+<div class="d-flow-row">
+  <div class="d-step dark">Share link</div>
+  <div class="d-arrow"></div>
+  <div class="d-step muted">Referred signs up</div>
+  <div class="d-arrow"></div>
+  <div class="d-step warn">Referred deposits</div>
+  <div class="d-arrow">Permanent bond</div>
+  <div class="d-step accent">Monthly commission</div>
+</div>
+{{< /diagram >}}
+
 For context, the [DePix App](/en/posts/what-is-depix/) is a platform that lets users convert Brazilian reais into DePix, a stablecoin pegged to the real on the Liquid Network. Users deposit via Pix and receive DePix in their personal wallets, with privacy and self-custody. Every deposit made by someone you referred generates a commission for you.
 
 The connection between you and your referrals has no expiration date. If someone signs up through your link today and makes a deposit two years from now, you still earn your commission on that deposit.

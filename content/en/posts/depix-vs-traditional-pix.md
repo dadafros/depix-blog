@@ -30,6 +30,23 @@ The DePix App does not exist to replace Pix. In fact, the DePix App uses Pix as 
 
 This is the most fundamental difference between the two options and it is worth understanding clearly.
 
+{{< diagram alt="Custody comparison: in traditional Pix the bank controls your money and Central Bank monitors everything; with DePix your Liquid wallet gives you full control with confidential transactions" caption="Traditional Pix vs DePix: who controls your money and who can see your transactions." >}}
+<div class="d-compare">
+  <div class="d-compare-card negative">
+    <div class="d-compare-title">Traditional Pix</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Bank holds your money</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Central Bank monitors everything</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Can block or restrict access</div>
+  </div>
+  <div class="d-compare-card positive">
+    <div class="d-compare-title">DePix + Liquid</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Your wallet, your control</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Confidential transactions</div>
+    <div class="d-compare-item"><span class="icon">✓</span> No intermediaries</div>
+  </div>
+</div>
+{{< /diagram >}}
+
 With traditional Pix, your money resides in your bank account. The bank is the custodian. The bank can impose fees, enforce limits, freeze your account for administrative reasons, or comply with court orders that block your funds. You trust the bank to hold and release your money when you need it.
 
 With DePix, your digital reais live on the Liquid Network, a decentralized Bitcoin sidechain. You control your own addresses and keys. No single institution can freeze or block your DePix. Your money is as accessible as your internet connection.

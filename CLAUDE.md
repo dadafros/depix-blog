@@ -81,6 +81,123 @@ Use the [$imagegen](/Users/davifrossard/.codex/skills/.system/imagegen/SKILL.md)
 - If you include text, keep it minimal and large enough to survive social preview crops.
 - Keep the main subject centered and readable even in tighter crops.
 
+### In-Body Diagrams and Illustrations
+
+Beyond the social/OG image pack, posts should include **visual elements within the article body** to improve engagement, comprehension, and SEO signals (time on page, lower bounce rate).
+
+**When to add visuals:**
+
+- **Tutorial/how-to posts**: Step-by-step flow diagrams (e.g., deposit flow: bank → DePix App → Liquid wallet).
+- **Concept explanations**: Comparison diagrams (e.g., DePix vs Pix, privacy levels across systems).
+- **Cost/feature comparisons**: Side-by-side cards with color-coded indicators.
+- **Decision flows**: Branch diagrams showing multiple paths (e.g., gift card purchase routes).
+
+**Frequency**: Aim for **1 diagram per post** at minimum. Place it after the section it illustrates, not before.
+
+#### Diagram Shortcode (PREFERRED METHOD)
+
+**Always use the `{{</* diagram */>}}` Hugo shortcode** for flowcharts, comparisons, and technical diagrams. This renders HTML/CSS directly in the page, which is **superior to PNG images** for SEO because:
+
+- Text is **indexable by Google** (PNG text is not).
+- Diagrams are **responsive** and adapt to any screen size.
+- Visual style is **integrated with the blog's dark theme** automatically.
+- No external files to manage, compress, or optimize.
+- Captions are styled professionally inside the diagram card.
+
+**Do NOT use Mermaid-rendered PNGs** — they look amateur (ugly scrollbars, inconsistent colors, text cutoff, poor integration with the dark theme). Do NOT use `{{</* figure */>}}` with PNG diagrams for flowcharts or comparisons.
+
+**Shortcode usage:**
+
+```markdown
+{{</* diagram alt="Descriptive alt text with keywords" caption="Short explanatory caption." */>}}
+<div class="d-flow-row">
+  <div class="d-step accent">Step 1</div>
+  <div class="d-arrow">label</div>
+  <div class="d-step dark">Step 2</div>
+</div>
+{{</* /diagram */>}}
+```
+
+**Available CSS classes:**
+
+Step colors (use to convey meaning):
+- `d-step accent` — green, for DePix/positive/primary elements
+- `d-step dark` — dark card, for neutral steps
+- `d-step muted` — subtle gray, for secondary/background elements
+- `d-step warn` — orange, for intermediate/caution steps
+- `d-step danger` — red, for negative/problem elements
+- `d-step success` — green outline, for positive outcomes
+
+Layout types:
+- `d-flow-row` — horizontal flow with arrows (wraps on overflow, no scrollbar)
+- `d-flow-col` — vertical flow
+- `d-compare` — side-by-side comparison cards (grid, stacks on mobile)
+- `d-branch` — decision fork with multiple paths
+- `d-branch-options` + `d-branch-path` — branch path containers
+- `d-branch-label` — small uppercase label for branch paths
+- `d-decision` — decision/question box
+
+Arrows: `d-arrow` (horizontal, with optional label text inside), `d-arrow down` (vertical)
+
+Comparison cards: `d-compare-card positive|negative|neutral`, `d-compare-title`, `d-compare-item` (with `<span class="icon">✓|✗|⚠|→</span>`), `d-result` (bold total/conclusion)
+
+**Design rules:**
+- The shortcode renders inside a `blog-diagram-card` with rounded corners (16px), the blog's card background, and a subtle border.
+- The caption sits inside the card at the bottom with a `border-top` separator — no gap between body and caption.
+- Flow rows use `flex-wrap: wrap` + `justify-content: center` — steps wrap to a new line on narrow screens instead of creating a scrollbar.
+- Always provide `alt` (descriptive, with keywords) and `caption` (short, informative).
+- Captions should be concise (1 sentence) and reinforce the diagram's key takeaway.
+
+**Alt text rules:**
+- Every diagram **must** have descriptive alt text via the `alt` parameter.
+- Include a relevant keyword naturally — but prioritize describing what the diagram shows.
+- Never use "imagem de..." or "image of..." — go straight to the description.
+
+#### Illustrative Images (Photos, Artwork)
+
+For decorative/illustrative images (not technical diagrams), use the `{{</* figure */>}}` shortcode with raster images.
+
+**How to create:**
+- Use the [$imagegen](/Users/davifrossard/.codex/skills/.system/imagegen/SKILL.md) skill for AI-generated illustrations when available.
+- **Do NOT use $imagegen for technical diagrams** — AI cannot reliably render precise text, arrows, or flowchart layouts. Use the `diagram` shortcode instead.
+
+**Sourcing images from the web:**
+
+When you need a real photo or public-domain illustration, you can search for and download images online.
+
+**⚠️ COPYRIGHT — REGRA ABSOLUTA:**
+
+Usar uma imagem sem licença adequada expõe o projeto a processos judiciais e takedowns. **Na dúvida, não use.** Prefira sempre gerar a imagem em vez de buscar online — imagens geradas são 100% livres de direitos autorais.
+
+- **NUNCA** use imagens do Google Images, Pinterest, Instagram, blogs, sites de notícias ou qualquer fonte que não declare explicitamente uma licença livre.
+- **NUNCA** assuma que uma imagem é livre só porque está "na internet" ou "não tem marca d'água".
+- **NUNCA** use imagens de bancos pagos (Shutterstock, Getty, Adobe Stock, iStock) — mesmo as previews com marca d'água são protegidas.
+- **NUNCA** use logos, marcas registradas ou material de terceiros sem autorização (exceto para fins de informação/educação cobertos por fair use, como mencionar o logo do Pix/Banco Central em contexto educacional).
+
+**Fontes permitidas** — use APENAS estas (busque via WebSearch/WebFetch):
+
+- `unsplash.com` — fotos de alta qualidade, licença livre para uso comercial, sem atribuição obrigatória.
+- `pexels.com` — similar ao Unsplash, licença livre para uso comercial.
+- `pixabay.com` — fotos, ilustrações e vetores, licença Pixabay (uso comercial livre).
+- `commons.wikimedia.org` — mídia em domínio público ou CC. **Verifique a licença específica de cada arquivo** — nem tudo no Wikimedia é livre.
+
+**Antes de usar qualquer imagem da web, verifique:**
+
+1. A licença está explicitamente declarada na página da imagem?
+2. A licença permite uso comercial sem restrições?
+3. A licença exige atribuição? Se sim, adicione a atribuição conforme regra abaixo.
+
+Se a resposta para 1 ou 2 for "não" ou "não tenho certeza", **não use a imagem**. Gere uma alternativa com $imagegen ou o shortcode `diagram`.
+
+**Regras de uso após verificação de licença:**
+
+- Use WebSearch para encontrar imagens nas fontes permitidas com keywords específicas (e.g., `site:unsplash.com brazilian currency digital payment`). Use WebFetch para baixar.
+- **Nunca hotlink** — sempre baixe a imagem e commite no repo em `static/images/posts/<translationKey>/`.
+- **Renomeie** para nomes semânticos: `pagamento-digital-smartphone.jpg`, não `photo-1234567.jpg`.
+- **Comprima** para < 200 KB. Prefira WebP.
+- **Atribuição**: Se a licença exigir (CC-BY), adicione caption: `Foto: [Autor] via [Fonte] (CC-BY 4.0)`.
+- **Relevância > beleza**: Imagem mediocre mas relevante > foto linda mas genérica.
+
 ### Automatic Publishing Flow
 
 When asked to create a new post from only a topic, follow this order without unnecessary follow-up questions:
@@ -91,6 +208,7 @@ When asked to create a new post from only a topic, follow this order without unn
 4. Write the EN version as a natural adaptation.
 5. Create the three shared article images under `static/images/posts/<translationKey>/`.
 6. Fill `image` and `images` in both frontmatters using those files.
+7. Add at least one `{{</* diagram */>}}` shortcode per post with a relevant flowchart, comparison, or process diagram using HTML/CSS classes. See "In-Body Diagrams and Illustrations" section for available classes and design rules.
 7. Run validation/build checks.
 8. Commit and push directly to `main` unless the user explicitly asks for a branch or PR.
 
@@ -186,6 +304,7 @@ Blog posts must be precise and honest about the role of each asset/tool. Never o
   - EN posts: `/en/posts/slug-here/`
 - **External links**: Link to `https://depixapp.com/` in the CTA and anywhere it makes sense. Don't overdo it.
 - **Meta description**: Write a unique, compelling description for every post. Never duplicate descriptions across posts.
+- **Diagram SEO**: Every post must have at least one `{{</* diagram */>}}` shortcode with descriptive `alt` text containing natural keywords and a concise `caption`. Use the HTML/CSS diagram shortcode (not PNG images) for flowcharts and comparisons — the text is indexable by Google. For illustrative photos, use `{{</* figure */>}}` with raster images and descriptive alt text.
 
 ## Translation Rules
 

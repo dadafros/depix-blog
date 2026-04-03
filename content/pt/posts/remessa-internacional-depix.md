@@ -89,11 +89,49 @@ Vamos colocar os números na mesa para uma remessa de R$ 5.000.
 | **Total estimado** | **R$ 150 a R$ 230** |
 | Prazo | Até 24h (depósito) + minutos |
 
+{{< diagram alt="Comparação de custos para enviar R$ 5.000 ao exterior: banco tradicional R$325-605, fintech R$115-325, rota DePix R$150-230 sem IOF" caption="Comparação de custos: a rota DePix elimina o IOF e compete com fintechs." >}}
+<div class="d-compare">
+  <div class="d-compare-card negative">
+    <div class="d-compare-title">Banco Tradicional</div>
+    <div class="d-compare-item"><span class="icon">✗</span> IOF: 3,5%</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Taxa fixa: R$25–80</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Spread: 2–4%</div>
+    <div class="d-result">Total: R$325–605</div>
+  </div>
+  <div class="d-compare-card neutral">
+    <div class="d-compare-title">Fintech</div>
+    <div class="d-compare-item"><span class="icon">⚠</span> IOF: 1,1–3,5%</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Taxa: R$0–20</div>
+    <div class="d-compare-item"><span class="icon">⚠</span> Spread: 1–2%</div>
+    <div class="d-result">Total: R$115–325</div>
+  </div>
+  <div class="d-compare-card positive">
+    <div class="d-compare-title">Rota DePix</div>
+    <div class="d-compare-item"><span class="icon">✓</span> IOF: 0%</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Taxa DePix: 2% + R$0,99</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Swap: ~0,3–1%</div>
+    <div class="d-result">Total: R$150–230</div>
+  </div>
+</div>
+{{< /diagram >}}
+
 A rota DePix fica **consistentemente mais barata que bancos** e **competitiva com fintechs** — especialmente quando você considera o IOF que não paga. Em remessas maiores ou recorrentes, a economia do IOF se acumula significativamente.
 
 A diferença para fintechs diminui quando o off-ramp no destino tem custos mais altos. Mas mesmo empatando em custo, você ganha algo que nenhuma fintech oferece: **privacidade**.
 
 ## Passo a passo: enviando valor para o exterior
+
+{{< diagram alt="Fluxo de remessa internacional com DePix: depositar reais via Pix, converter para USDt ou L-BTC no SideSwap, enviar ao destinatário no exterior via Liquid ou off-ramp" caption="Três passos para enviar dinheiro ao exterior pela rota DePix." >}}
+<div class="d-flow-row">
+  <div class="d-step dark">Reais (Pix)</div>
+  <div class="d-arrow">Depósito</div>
+  <div class="d-step accent">DePix</div>
+  <div class="d-arrow">SideSwap</div>
+  <div class="d-step warn">USDt / L-BTC</div>
+  <div class="d-arrow">Envio direto ou off-ramp</div>
+  <div class="d-step dark">Destinatário no exterior</div>
+</div>
+{{< /diagram >}}
 
 **Passo 1: Deposite reais via Pix no DePix App.** Acesse o [DePix App](https://depixapp.com/), informe o valor e pague o QR code Pix gerado. Seus DePix serão enviados para sua carteira Liquid (como a SideSwap) em até 24 horas. A taxa é de 2% + R$ 0,99. Mínimo de R$ 5, máximo de R$ 6.000 por dia.
 

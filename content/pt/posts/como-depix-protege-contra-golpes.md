@@ -30,6 +30,26 @@ Quando uma vítima percebe o golpe e olha o extrato bancário, ela vê o nome do
 
 Diferente de plataformas que processam transações instantaneamente, o DePix App adota uma abordagem que prioriza a segurança. Quando alguém faz um depósito via Pix no DePix, os tokens DePix não são enviados imediatamente para a carteira do destinatário.
 
+{{< diagram alt="Linha do tempo da janela de segurança de 24 horas do DePix App: Pix recebido, verificação anti-fraude, decisão de bloqueio via MED ou liberação dos tokens" caption="Janela de segurança: como as 24 horas de verificação protegem contra fraudes." >}}
+<div class="d-flow-row">
+  <div class="d-step dark">Pix recebido</div>
+  <div class="d-arrow">0–24h</div>
+  <div class="d-step warn">Verificação anti-fraude</div>
+  <div class="d-arrow"></div>
+  <div class="d-decision">Fraude detectada?</div>
+</div>
+<div class="d-compare" style="margin-top:1rem">
+  <div class="d-compare-card negative">
+    <div class="d-compare-title">Sim</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Bloqueio — MED ativado</div>
+  </div>
+  <div class="d-compare-card positive">
+    <div class="d-compare-title">Não</div>
+    <div class="d-compare-item"><span class="icon">✓</span> DePix liberado para a carteira</div>
+  </div>
+</div>
+{{< /diagram >}}
+
 Existe um período de processamento de até 24 horas (D+1). Durante essa janela, os sistemas do DePix verificam se há relatos de fraude associados àquele pagamento. Se o Pix for reportado como fraudulento — por exemplo, através do MED (Mecanismo Especial de Devolução do Banco Central) — o DePix pode bloquear a transação e devolver os fundos à vítima.
 
 Esse prazo existe por uma razão técnica importante: criptomoedas são irreversíveis por natureza. Uma vez que tokens são enviados para uma carteira, não há como desfazer a transação. Sem essa janela de segurança, um golpista poderia usar o Pix de uma vítima para comprar DePix e sacar os tokens instantaneamente, tornando a recuperação impossível.

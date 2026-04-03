@@ -36,6 +36,18 @@ Se você ainda não conhece o DePix App, comece lendo nosso artigo sobre [o que 
 
 O processo tem duas etapas: primeiro você converte suas criptomoedas em DePix, e depois faz o saque do DePix para sua conta bancária via Pix. É importante entender isso: o DePix App só processa saques de DePix — ele não aceita Bitcoin, USDt ou outros ativos diretamente. Mas não se preocupe, converter é simples.
 
+{{< diagram alt="Fluxo de conversão de criptomoedas para reais: swap de Bitcoin ou USDt para DePix no SideSwap, saque no DePix App via Pix para conta bancária" caption="O caminho das criptomoedas até sua conta bancária em reais, passando pelo DePix." >}}
+<div class="d-flow-row">
+  <div class="d-step warn">Bitcoin / USDt / L-BTC</div>
+  <div class="d-arrow">SideSwap</div>
+  <div class="d-step accent">DePix</div>
+  <div class="d-arrow">Saque</div>
+  <div class="d-step dark">DePix App</div>
+  <div class="d-arrow">Pix</div>
+  <div class="d-step muted">Conta Bancária</div>
+</div>
+{{< /diagram >}}
+
 ### Etapa 1: Converta suas criptomoedas em DePix
 
 O caminho para converter depende de onde estão seus ativos.

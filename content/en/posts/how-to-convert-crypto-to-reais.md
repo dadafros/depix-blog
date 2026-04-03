@@ -28,6 +28,18 @@ For someone who just wants to pay rent or buy groceries with their crypto earnin
 
 With the DePix App, the path from cryptocurrency to reais in your bank account is dramatically shorter. The process has two steps: first you convert your crypto to DePix (a BRL-pegged stablecoin on the Liquid Network), then you withdraw DePix to your bank account via Pix.
 
+{{< diagram alt="Crypto to reais conversion flow: swap Bitcoin or USDt to DePix on SideSwap, withdraw via DePix App as Pix to bank account" caption="The path from crypto to your bank account in reais, through DePix." >}}
+<div class="d-flow-row">
+  <div class="d-step warn">Bitcoin / USDt / L-BTC</div>
+  <div class="d-arrow">SideSwap</div>
+  <div class="d-step accent">DePix</div>
+  <div class="d-arrow">Withdraw</div>
+  <div class="d-step dark">DePix App</div>
+  <div class="d-arrow">Pix</div>
+  <div class="d-step muted">Bank Account</div>
+</div>
+{{< /diagram >}}
+
 It is important to understand that the DePix App only processes withdrawals of DePix tokens. It does not accept Bitcoin, USDt, or other assets directly for withdrawal. But converting to DePix first is simple and fast, as we will explain below.
 
 The whole process takes minutes, not days. And because Pix is Brazil's instant payment system, the reais appear in your bank account almost immediately.

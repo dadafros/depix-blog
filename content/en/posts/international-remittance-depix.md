@@ -93,6 +93,32 @@ The DePix route is **consistently cheaper than banks** and **competitive with fi
 
 The gap with fintechs narrows when the off-ramp at the destination has higher costs. But even when costs are similar, you gain something no fintech offers: **privacy**.
 
+{{< diagram alt="Cost comparison for sending R$ 5,000 abroad: traditional bank R$325-605, fintech R$115-325, DePix route R$150-230 with zero IOF tax" caption="Cost comparison: the DePix route eliminates IOF tax and competes with fintechs." >}}
+<div class="d-compare">
+  <div class="d-compare-card negative">
+    <div class="d-compare-title">Traditional Bank</div>
+    <div class="d-compare-item"><span class="icon">✗</span> IOF: 3.5%</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Fixed fee: R$25–80</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Spread: 2–4%</div>
+    <div class="d-result">Total: R$325–605</div>
+  </div>
+  <div class="d-compare-card neutral">
+    <div class="d-compare-title">Fintech</div>
+    <div class="d-compare-item"><span class="icon">⚠</span> IOF: 1.1–3.5%</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Fee: R$0–20</div>
+    <div class="d-compare-item"><span class="icon">⚠</span> Spread: 1–2%</div>
+    <div class="d-result">Total: R$115–325</div>
+  </div>
+  <div class="d-compare-card positive">
+    <div class="d-compare-title">DePix Route</div>
+    <div class="d-compare-item"><span class="icon">✓</span> IOF: 0%</div>
+    <div class="d-compare-item"><span class="icon">✓</span> DePix fee: 2% + R$0.99</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Swap: ~0.3–1%</div>
+    <div class="d-result">Total: R$150–230</div>
+  </div>
+</div>
+{{< /diagram >}}
+
 ## Step by step: sending value abroad
 
 **Step 1: Deposit reais via Pix through the DePix App.** Go to [depixapp.com](https://depixapp.com/), enter the amount, and pay the generated Pix QR code. Your DePix will be sent to your Liquid wallet (such as SideSwap) within 24 hours. The fee is 2% + R$ 0.99. Minimum R$ 5, maximum R$ 6,000 per day.
@@ -100,6 +126,18 @@ The gap with fintechs narrows when the off-ramp at the destination has higher co
 **Step 2: Swap DePix for USDt or L-BTC on SideSwap.** Open SideSwap, go to the swap function, and exchange your DePix for the asset you need. For remittances, USDt (digital dollars) is the most practical choice. SideSwap shows you the rate and fee before confirming.
 
 **Step 3: Send to the recipient or off-ramp.** If the recipient has a Liquid wallet, send directly — the transaction confirms in about two minutes with near-zero fees. If the value needs to reach a bank account or another network, use one of the off-ramp services listed below.
+
+{{< diagram alt="International remittance flow with DePix: deposit reais via Pix, convert to USDt or L-BTC on SideSwap, send to recipient abroad via Liquid or off-ramp service" caption="Three steps to send money abroad through the DePix route." >}}
+<div class="d-flow-row">
+  <div class="d-step dark">Reais (Pix)</div>
+  <div class="d-arrow">Deposit</div>
+  <div class="d-step accent">DePix</div>
+  <div class="d-arrow">SideSwap</div>
+  <div class="d-step warn">USDt / L-BTC</div>
+  <div class="d-arrow">Send or off-ramp</div>
+  <div class="d-step dark">Recipient abroad</div>
+</div>
+{{< /diagram >}}
 
 ## Pro tips: how to minimize costs
 

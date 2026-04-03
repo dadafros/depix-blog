@@ -26,6 +26,20 @@ O caminho entre ter DePix na carteira e pagar com um cartão cripto em qualquer 
 
 O fluxo é o seguinte: você converte seus DePix em USDt (dólar digital) usando a SideSwap, depois transfere esse USDt para a rede que o seu cartão aceita (como Polygon ou Solana) usando um serviço de bridge, e finalmente envia o saldo para o endereço da sua carteira no cartão. A partir daí, é só usar como qualquer cartão Visa ou Mastercard.
 
+{{< diagram alt="Fluxo de DePix para compras com cartão cripto: swap para USDt no SideSwap, bridge para Polygon ou Solana, depósito no cartão cripto, compras no mundo" caption="Do DePix ao cartão cripto: quatro passos para gastar em qualquer lugar do mundo." >}}
+<div class="d-flow-row">
+  <div class="d-step accent">DePix</div>
+  <div class="d-arrow">SideSwap</div>
+  <div class="d-step dark">USDt Liquid</div>
+  <div class="d-arrow">Bridge</div>
+  <div class="d-step dark">USDt Polygon/Solana</div>
+  <div class="d-arrow">Depositar</div>
+  <div class="d-step warn">Cartão Cripto</div>
+  <div class="d-arrow">Gastar</div>
+  <div class="d-step muted">Compras no mundo</div>
+</div>
+{{< /diagram >}}
+
 Vamos ao passo a passo detalhado.
 
 ## Passo a passo: do DePix ao cartão cripto

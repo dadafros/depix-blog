@@ -28,6 +28,18 @@ A grande vantagem de uma stablecoin pareada ao real é que ela permite que você
 
 O funcionamento do DePix é direto ao ponto. Você acessa o [DePix App](https://depixapp.com/), gera um QR code Pix, faz o pagamento e recebe a quantia equivalente em DePix na sua carteira Liquid. Quando quiser transformar seus DePix de volta em reais, basta enviar os tokens para um endereço do DePix App e o valor cai na sua conta bancária via Pix.
 
+{{< diagram alt="Fluxo de depósito DePix: pagamento Pix no banco, verificação anti-fraude de 24h, e recebimento de DePix na carteira Liquid" caption="Fluxo de depósito: do Pix à carteira Liquid, com verificação de segurança de 24 horas." >}}
+<div class="d-flow-row">
+  <div class="d-step dark">Banco (Pix)</div>
+  <div class="d-arrow">Paga QR Code</div>
+  <div class="d-step accent">DePix App</div>
+  <div class="d-arrow">Até 24h</div>
+  <div class="d-step warn">Verificação anti-fraude</div>
+  <div class="d-arrow">DePix tokens</div>
+  <div class="d-step success">Carteira Liquid</div>
+</div>
+{{< /diagram >}}
+
 Os depósitos são processados em até 24 horas (D+1). Esse prazo existe por uma razão importante: segurança. Infelizmente, golpistas usam QR codes de Pix para enganar vítimas, e o DePix App precisa desse tempo para verificar se a transação é legítima antes de liberar os tokens. Essa medida protege tanto você quanto o ecossistema como um todo. Para entender melhor como isso funciona, leia nosso artigo sobre [como o DePix App protege você contra golpes](/pt/posts/como-depix-protege-contra-golpes/).
 
 Um ponto importante: o DePix App é não-custodial. Isso significa que você precisa de uma carteira Liquid externa, como a [SideSwap](https://sideswap.io/), para receber seus DePix. O app gera o QR code do Pix e envia os tokens para o endereço da sua carteira — mas quem guarda os fundos é você, não o DePix App. Isso é uma vantagem: você tem controle total sobre seu dinheiro, sem depender de ninguém para acessá-lo.

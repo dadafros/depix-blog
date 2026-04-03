@@ -18,6 +18,37 @@ DePix is not just a way to move reais with privacy. It can also be your gateway 
 
 In this article, we will explore three investment paths that start with DePix: buying bitcoin, accessing tokenized assets on the Liquid Network, and investing in tokenized US stocks using USDT.
 
+{{< diagram alt="Three investment paths from DePix: convert to L-BTC (Bitcoin), access tokenized assets on Liquid via eNor Securities, or invest in tokenized US stocks via USDt" caption="From Pix to investing: three paths from DePix to Bitcoin, Liquid assets, and tokenized stocks." >}}
+<div class="d-branch">
+  <div class="d-flow-row">
+    <div class="d-step muted">Reais (Pix)</div>
+    <div class="d-arrow"></div>
+    <div class="d-step accent">DePix</div>
+  </div>
+  <div class="d-arrow down"></div>
+  <div class="d-branch-options">
+    <div class="d-branch-path">
+      <div class="d-branch-label">Bitcoin</div>
+      <div class="d-step dark">SideSwap</div>
+      <div class="d-arrow down"></div>
+      <div class="d-step warn">L-BTC</div>
+    </div>
+    <div class="d-branch-path">
+      <div class="d-branch-label">Liquid Assets</div>
+      <div class="d-step dark">SideSwap + eNor</div>
+      <div class="d-arrow down"></div>
+      <div class="d-step warn">Tokenized assets</div>
+    </div>
+    <div class="d-branch-path">
+      <div class="d-branch-label">US Stocks</div>
+      <div class="d-step dark">USDt + Bridge</div>
+      <div class="d-arrow down"></div>
+      <div class="d-step warn">Tokenized stocks</div>
+    </div>
+  </div>
+</div>
+{{< /diagram >}}
+
 ## Investing in bitcoin with DePix
 
 Bitcoin is the most well-known digital asset in the world. With a supply capped at 21 million units and a decentralized network that operates without relying on governments or banks, it has established itself as a digital store of value. In recent years, bitcoin has attracted not only technology enthusiasts but also institutional investors, pension funds, and even governments.

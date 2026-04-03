@@ -28,6 +28,18 @@ The recipient receives a standard Pix payment in their bank account. They do not
 
 This means that if you hold DePix — regardless of how you obtained them — you can pay any person, business, or service that accepts Pix in Brazil, without needing a local bank account.
 
+{{< diagram alt="Pix payment flow without bank account: user without bank sends DePix to DePix App which converts and transfers via normal Pix to the recipient" caption="DePix as a bridge: make Pix payments even without a bank account." >}}
+<div class="d-flow-row">
+  <div class="d-step dark">No bank account</div>
+  <div class="d-arrow">Sends DePix</div>
+  <div class="d-step accent">DePix App</div>
+  <div class="d-arrow">Converts</div>
+  <div class="d-step muted">Pix</div>
+  <div class="d-arrow"></div>
+  <div class="d-step dark">Recipient receives</div>
+</div>
+{{< /diagram >}}
+
 ## Step by step: how to make a Pix payment with DePix
 
 The process takes just a few minutes. Note: the DePix App interface is currently in Portuguese, so we include the original labels you will see on screen alongside their English translations.

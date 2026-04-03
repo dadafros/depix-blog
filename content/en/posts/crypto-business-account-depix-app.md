@@ -22,6 +22,18 @@ There is. The [DePix App](https://depixapp.com/) offers a merchant mode that let
 
 The flow is straightforward. You open the DePix App, generate a Pix QR code for the amount you want to charge, and show it to your customer. They scan the code with their regular banking app and pay via Pix — exactly the way they already pay for everything else. No crypto knowledge is needed on their end. They are simply making a normal Pix transfer.
 
+{{< diagram alt="DePix App merchant payment flow: customer pays via normal Pix, D+1 anti-fraud verification, DePix deposited in merchant Liquid wallet with option to withdraw or convert to Bitcoin" caption="Merchant payment flow: from the customer's Pix to the merchant's Liquid wallet." >}}
+<div class="d-flow-row">
+  <div class="d-step muted">Customer (Pix)</div>
+  <div class="d-arrow"></div>
+  <div class="d-step accent">DePix App Merchant</div>
+  <div class="d-arrow">D+1</div>
+  <div class="d-step warn">Verification</div>
+  <div class="d-arrow"></div>
+  <div class="d-step success">Merchant Wallet</div>
+</div>
+{{< /diagram >}}
+
 On your side, the payment is processed and you receive DePix (a BRL stablecoin on the Liquid Network) in your external Liquid wallet. Processing takes up to 24 hours (D+1), which is a deliberate security measure. If you want to understand why, read our post on [how DePix protects against scams](/en/posts/how-depix-protects-against-scams/).
 
 The minimum transaction is R$5 and the daily maximum is R$6,000. Each transaction costs 2% + R$0.99.

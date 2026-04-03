@@ -40,6 +40,21 @@ Aqui está a diferença fundamental entre o DePix e praticamente qualquer outro 
 
 A Liquid Network utiliza uma tecnologia chamada **Confidential Transactions** (Transações Confidenciais). Isso significa que, por padrão, toda transação na rede esconde o valor transferido. Observadores externos — qualquer pessoa que analise a blockchain — podem ver que uma transação aconteceu, mas não conseguem ver quanto foi enviado. Apenas o remetente e o destinatário conhecem o valor.
 
+{{< diagram alt="Pagamento privado com DePix na Liquid Network: remetente envia DePix, valor fica oculto na rede, destinatário recebe, observador externo não consegue ver o valor" caption="Transações confidenciais: o valor transferido é visível apenas para remetente e destinatário." >}}
+<div class="d-flow-row">
+  <div class="d-step dark">Remetente</div>
+  <div class="d-arrow">Envia DePix</div>
+  <div class="d-step accent">Liquid Network</div>
+  <div class="d-arrow">Valor oculto · ~2 min</div>
+  <div class="d-step dark">Destinatário</div>
+</div>
+<div class="d-flow-row" style="margin-top:0.75rem">
+  <div class="d-step danger">Observador externo</div>
+  <div class="d-arrow">Não vê o valor</div>
+  <div class="d-step accent">Liquid Network</div>
+</div>
+{{< /diagram >}}
+
 Compare isso com os sistemas que você usa hoje:
 
 - **Pix**: o banco vê tudo. Valor, data, hora, remetente, destinatário. Essas informações ficam disponíveis para a instituição financeira e, por extensão, para qualquer autoridade que as solicite.

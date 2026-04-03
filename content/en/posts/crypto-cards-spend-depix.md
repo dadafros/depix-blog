@@ -31,6 +31,20 @@ Here is the flow:
 3. **Send funds to your card's deposit address.** Every card provider has an app or dashboard where you find this address. Once the deposit confirms on-chain, the balance appears on your card.
 4. **Spend anywhere.** From this point, the card works exactly like a conventional debit card — physical stores, online shops, food delivery, gas stations, ATMs. Anywhere that accepts Visa or Mastercard.
 
+{{< diagram alt="DePix to crypto card spending flow: swap to USDt on SideSwap, bridge to Polygon or Solana, deposit on crypto card, spend worldwide" caption="From DePix to crypto card: four steps to spend anywhere in the world." >}}
+<div class="d-flow-row">
+  <div class="d-step accent">DePix</div>
+  <div class="d-arrow">SideSwap</div>
+  <div class="d-step dark">USDt Liquid</div>
+  <div class="d-arrow">Bridge</div>
+  <div class="d-step dark">USDt Polygon/Solana</div>
+  <div class="d-arrow">Deposit</div>
+  <div class="d-step warn">Crypto Card</div>
+  <div class="d-arrow">Spend</div>
+  <div class="d-step muted">Worldwide purchases</div>
+</div>
+{{< /diagram >}}
+
 If you are new to DePix, start with our article on [what DePix is and how it works](/en/posts/what-is-depix/).
 
 ## Comparing crypto cards by privacy level

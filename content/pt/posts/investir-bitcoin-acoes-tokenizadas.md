@@ -18,6 +18,37 @@ O DePix não é apenas uma forma de movimentar reais com privacidade. Ele també
 
 Neste artigo, vamos explorar três caminhos de investimento que partem do DePix: comprar bitcoin, acessar ativos tokenizados na Liquid Network e investir em ações americanas tokenizadas usando USDT.
 
+{{< diagram alt="Três caminhos de investimento a partir do DePix: converter para L-BTC (Bitcoin), acessar ativos tokenizados na Liquid via eNor Securities, ou investir em ações americanas tokenizadas via USDt" caption="Do Pix ao investimento: três caminhos a partir do DePix para Bitcoin, ativos Liquid e ações tokenizadas." >}}
+<div class="d-branch">
+  <div class="d-flow-row">
+    <div class="d-step muted">Reais (Pix)</div>
+    <div class="d-arrow"></div>
+    <div class="d-step accent">DePix</div>
+  </div>
+  <div class="d-arrow down"></div>
+  <div class="d-branch-options">
+    <div class="d-branch-path">
+      <div class="d-branch-label">Bitcoin</div>
+      <div class="d-step dark">SideSwap</div>
+      <div class="d-arrow down"></div>
+      <div class="d-step warn">L-BTC</div>
+    </div>
+    <div class="d-branch-path">
+      <div class="d-branch-label">Ativos Liquid</div>
+      <div class="d-step dark">SideSwap + eNor</div>
+      <div class="d-arrow down"></div>
+      <div class="d-step warn">Ativos tokenizados</div>
+    </div>
+    <div class="d-branch-path">
+      <div class="d-branch-label">Ações EUA</div>
+      <div class="d-step dark">USDt + Bridge</div>
+      <div class="d-arrow down"></div>
+      <div class="d-step warn">Ações tokenizadas</div>
+    </div>
+  </div>
+</div>
+{{< /diagram >}}
+
 ## Investir em bitcoin com DePix
 
 Bitcoin é o ativo digital mais conhecido do mundo. Com oferta limitada a 21 milhões de unidades e uma rede descentralizada que funciona sem depender de governos ou bancos, ele se consolidou como uma reserva de valor digital. Nos últimos anos, bitcoin tem atraído não apenas entusiastas de tecnologia, mas também investidores institucionais, fundos de pensão e até governos.

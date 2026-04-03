@@ -84,6 +84,29 @@ Think of it this way: privacy is like sending a letter in a sealed envelope — 
 
 For a clear picture, let us compare privacy across three systems.
 
+{{< diagram alt="Privacy comparison between Pix, Bitcoin, and DePix on Liquid Network: Pix exposes everything to the bank, Bitcoin has public amounts, DePix hides amounts with Confidential Transactions" caption="Privacy levels: from Pix (fully visible) to DePix/Liquid (hidden amounts)." >}}
+<div class="d-compare">
+  <div class="d-compare-card negative">
+    <div class="d-compare-title">Pix</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Amounts visible to bank</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Sender and recipient exposed</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Central Bank sees everything</div>
+  </div>
+  <div class="d-compare-card neutral">
+    <div class="d-compare-title">Bitcoin</div>
+    <div class="d-compare-item"><span class="icon">⚠</span> Public amounts on blockchain</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Pseudonymous identity</div>
+    <div class="d-compare-item"><span class="icon">⚠</span> Anyone can look up transactions</div>
+  </div>
+  <div class="d-compare-card positive">
+    <div class="d-compare-title">DePix / Liquid</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Hidden amounts (Confidential Tx)</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Pseudonymous identity</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Only sender and recipient can see</div>
+  </div>
+</div>
+{{< /diagram >}}
+
 With traditional bank transfers, the bank sees amounts, parties, and timing for all transactions. The central bank also has full access. There is no transaction privacy.
 
 With Bitcoin on the main network, addresses are pseudonymous but all amounts and transfers are public on the blockchain. Anyone can see how much each address received and sent. With blockchain analysis, it is possible to trace money flows.

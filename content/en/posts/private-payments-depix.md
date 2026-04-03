@@ -50,6 +50,21 @@ This is not an optional feature you need to activate. Confidential Transactions 
 
 For anyone who values [financial privacy](/en/posts/financial-privacy-depix/), this changes the equation entirely. Your transactions stop being an open book for banks, data analytics firms, and any other curious intermediary.
 
+{{< diagram alt="Private DePix payment on Liquid Network: sender sends DePix, amount is hidden on the network, recipient receives it, external observer cannot see the value" caption="Confidential transactions: the transferred amount is visible only to sender and recipient." >}}
+<div class="d-flow-row">
+  <div class="d-step dark">Sender</div>
+  <div class="d-arrow">Sends DePix</div>
+  <div class="d-step accent">Liquid Network</div>
+  <div class="d-arrow">Hidden amount · ~2 min</div>
+  <div class="d-step dark">Recipient</div>
+</div>
+<div class="d-flow-row" style="margin-top:0.75rem">
+  <div class="d-step danger">External observer</div>
+  <div class="d-arrow">Cannot see amount</div>
+  <div class="d-step accent">Liquid Network</div>
+</div>
+{{< /diagram >}}
+
 ## What makes these payments permissionless
 
 The word "permissionless" is central to understanding the power of DePix. In practical terms, it means no one needs to authorize your transactions.

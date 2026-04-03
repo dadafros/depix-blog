@@ -24,6 +24,23 @@ A ideia de soberania individual não é nova, mas ganhou contornos práticos com
 
 No modelo tradicional, sua vida financeira é mediada por instituições. Seu dinheiro fica no banco. Suas transações passam por intermediários. Cada movimentação é registrada, analisada e, em última instância, controlada por terceiros. Se o banco decide bloquear sua conta, seu dinheiro se torna inacessível. Se o governo decide congelar ativos, como já aconteceu no Brasil com o Plano Collor em 1990, não há o que fazer.
 
+{{< diagram alt="Comparação entre modelo tradicional e indivíduo soberano: no tradicional o banco e governo controlam seu dinheiro; no soberano sua chave privada dá acesso direto à rede descentralizada sem permissão ou censura" caption="Modelo tradicional vs indivíduo soberano: quem controla seu dinheiro?" >}}
+<div class="d-compare">
+  <div class="d-compare-card negative">
+    <div class="d-compare-title">Modelo Tradicional</div>
+    <div class="d-compare-item"><span class="icon">→</span> Seu dinheiro no banco</div>
+    <div class="d-compare-item"><span class="icon">→</span> Governo regulamenta</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Pode congelar, bloquear, limitar</div>
+  </div>
+  <div class="d-compare-card positive">
+    <div class="d-compare-title">Indivíduo Soberano</div>
+    <div class="d-compare-item"><span class="icon">→</span> Sua chave privada</div>
+    <div class="d-compare-item"><span class="icon">→</span> Rede descentralizada</div>
+    <div class="d-compare-item"><span class="icon">✓</span> Sem permissão, sem censura</div>
+  </div>
+</div>
+{{< /diagram >}}
+
 O indivíduo soberano questiona esse modelo. Não porque seja contra a existência de instituições, mas porque entende que depender inteiramente delas é uma vulnerabilidade. Ter opções — ter a possibilidade de manter parte do seu patrimônio fora do alcance de decisões arbitrárias — é o que define soberania financeira.
 
 Davidson e Rees-Mogg argumentavam que a criptografia seria a ferramenta que tornaria isso possível. Eles estavam certos.

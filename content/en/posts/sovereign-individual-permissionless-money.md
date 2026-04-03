@@ -28,6 +28,23 @@ The sovereign individual questions this model. Not because they oppose the exist
 
 Davidson and Rees-Mogg argued that cryptography would be the tool that made this possible. They were right.
 
+{{< diagram alt="Comparison between traditional model and sovereign individual: in traditional the bank and government control your money; in sovereign your private key gives direct access to decentralized network without permission or censorship" caption="Traditional model vs sovereign individual: who controls your money?" >}}
+<div class="d-compare">
+  <div class="d-compare-card negative">
+    <div class="d-compare-title">Traditional Model</div>
+    <div class="d-compare-item"><span class="icon">→</span> Your money in a bank</div>
+    <div class="d-compare-item"><span class="icon">→</span> Government regulates</div>
+    <div class="d-compare-item"><span class="icon">✗</span> Can freeze, block, or limit</div>
+  </div>
+  <div class="d-compare-card positive">
+    <div class="d-compare-title">Sovereign Individual</div>
+    <div class="d-compare-item"><span class="icon">→</span> Your private key</div>
+    <div class="d-compare-item"><span class="icon">→</span> Decentralized network</div>
+    <div class="d-compare-item"><span class="icon">✓</span> No permission, no censorship</div>
+  </div>
+</div>
+{{< /diagram >}}
+
 ## Permissionless money: the fundamental concept
 
 Permissionless money is money that works without asking permission. It sounds simple, but the implications are profound.

@@ -49,6 +49,18 @@ Outro ponto importante: com maquininha, você ainda depende de um banco para rec
 
 O DePix App tem um modo específico para comerciantes e autônomos: o **"Sou lojista ou autônomo"**. O processo é simples:
 
+{{< diagram alt="Fluxo de pagamento para lojistas no DePix App: cliente paga via Pix normal, verificação anti-fraude D+1, DePix depositado na carteira do lojista com opção de saque ou conversão em Bitcoin" caption="Pagamento no modo lojista: do Pix do cliente até a carteira Liquid do comerciante." >}}
+<div class="d-flow-row">
+  <div class="d-step muted">Cliente (Pix)</div>
+  <div class="d-arrow"></div>
+  <div class="d-step accent">DePix App Lojista</div>
+  <div class="d-arrow">D+1</div>
+  <div class="d-step warn">Verificação</div>
+  <div class="d-arrow"></div>
+  <div class="d-step success">Carteira do Lojista</div>
+</div>
+{{< /diagram >}}
+
 1. **Crie sua conta** no [depixapp.com](https://depixapp.com/) — leva menos de um minuto. Basta um e-mail. Sem KYC, sem documentos, sem CNPJ.
 2. **Baixe uma carteira Liquid** como a SideSwap e obtenha seu endereço Liquid.
 3. **Cadastre seu endereço Liquid** no DePix App.

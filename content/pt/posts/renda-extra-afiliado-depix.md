@@ -22,6 +22,18 @@ Neste guia, vamos explicar como o programa funciona, quem pode participar e como
 
 O programa de afiliados é uma forma de parceria entre você e o DePix App. Ao se cadastrar, você recebe um link de indicação exclusivo. Toda pessoa que criar uma conta no DePix App através desse link se torna sua referência — permanentemente. Isso significa que enquanto essa pessoa usar a plataforma, você continua recebendo comissões sobre os depósitos que ela fizer.
 
+{{< diagram alt="Fluxo do programa de afiliados DePix: compartilhar link, indicado cria conta, indicado faz depósitos, afiliado recebe comissão mensal recorrente com vínculo permanente" caption="Como funciona: seu link gera comissões recorrentes sobre cada depósito dos indicados." >}}
+<div class="d-flow-row">
+  <div class="d-step dark">Compartilha link</div>
+  <div class="d-arrow"></div>
+  <div class="d-step muted">Indicado cria conta</div>
+  <div class="d-arrow"></div>
+  <div class="d-step warn">Indicado deposita</div>
+  <div class="d-arrow">Vínculo permanente</div>
+  <div class="d-step accent">Comissão mensal</div>
+</div>
+{{< /diagram >}}
+
 Para quem não conhece, o [DePix App](/pt/posts/o-que-e-depix/) é uma plataforma que permite converter reais em DePix, uma stablecoin pareada ao real na Liquid Network. Os usuários fazem depósitos via Pix e recebem DePix em suas carteiras, com privacidade e autocustódia. Cada depósito realizado por alguém que você indicou gera comissão para você.
 
 O vínculo entre você e suas indicações é permanente. Não existe prazo de validade. Se alguém se cadastrar pelo seu link hoje e fizer um depósito daqui a dois anos, você ainda recebe sua comissão por aquele depósito.

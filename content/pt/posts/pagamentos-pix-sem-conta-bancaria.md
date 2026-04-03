@@ -26,6 +26,18 @@ Para entender como isso funciona, é preciso separar dois conceitos. O Pix é um
 
 Na prática, o que acontece é o seguinte: você tem DePix na sua carteira digital. Quando precisa fazer um pagamento, você acessa o DePix App, informa o valor e a chave Pix do destinatário. O DePix App gera um endereço na Liquid Network para onde você envia seus DePix. Assim que o DePix App recebe os tokens, ele processa o pagamento e envia o Pix para a conta do destinatário.
 
+{{< diagram alt="Fluxo de pagamento Pix sem conta bancária: usuário sem banco envia DePix ao DePix App que converte e transfere via Pix normal ao destinatário" caption="DePix como ponte: pague via Pix mesmo sem ter conta em banco." >}}
+<div class="d-flow-row">
+  <div class="d-step dark">Sem conta bancária</div>
+  <div class="d-arrow">Envia DePix</div>
+  <div class="d-step accent">DePix App</div>
+  <div class="d-arrow">Converte</div>
+  <div class="d-step muted">Pix</div>
+  <div class="d-arrow"></div>
+  <div class="d-step dark">Destinatário recebe</div>
+</div>
+{{< /diagram >}}
+
 O destinatário recebe um Pix normal na conta bancária dele. Ele não precisa saber nada sobre criptomoedas, Liquid Network ou DePix. Do lado dele, é simplesmente um Pix como qualquer outro.
 
 Isso significa que, se você tem DePix — independentemente de como os obteve — você pode fazer pagamentos via Pix para qualquer pessoa, estabelecimento ou serviço que aceite Pix no Brasil, sem precisar de conta bancária.

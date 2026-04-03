@@ -60,6 +60,31 @@ This path is ideal for using Bitrefill, which has the best gift card selection a
 
 This path is more direct if the gift card platform accepts USDt. Coinsbee, for example, accepts USDT across multiple networks.
 
+{{< diagram alt="Two paths to buy gift cards with DePix: Path 1 via L-BTC and Lightning to Bitrefill, Path 2 via USDt to Coinsbee or CryptoRefills" caption="Two available routes: via Lightning (Bitrefill) or via USDt (Coinsbee/CryptoRefills)." >}}
+<div class="d-branch">
+  <div class="d-step accent">DePix</div>
+  <div class="d-arrow down"></div>
+  <div class="d-branch-options">
+    <div class="d-branch-path">
+      <div class="d-branch-label">Path 1</div>
+      <div class="d-step dark">L-BTC</div>
+      <div class="d-arrow down"></div>
+      <div class="d-step dark">Lightning</div>
+      <div class="d-arrow down"></div>
+      <div class="d-step warn">Bitrefill</div>
+    </div>
+    <div class="d-branch-path">
+      <div class="d-branch-label">Path 2</div>
+      <div class="d-step dark">USDt</div>
+      <div class="d-arrow down"></div>
+      <div class="d-step warn">Coinsbee / CryptoRefills</div>
+    </div>
+  </div>
+  <div class="d-arrow down"></div>
+  <div class="d-step accent">Gift Card</div>
+</div>
+{{< /diagram >}}
+
 ## Prepaid virtual cards: a growing alternative
 
 Beyond gift cards, there are prepaid virtual cards that can be loaded with cryptocurrency. Unlike gift cards, which work at specific stores, a prepaid virtual card functions like a Visa or Mastercard and can be used at any online merchant.

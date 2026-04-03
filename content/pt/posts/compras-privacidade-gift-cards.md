@@ -44,6 +44,31 @@ Todas essas plataformas funcionam de forma semelhante: você escolhe o gift card
 
 O DePix vive na Liquid Network, e a maioria das plataformas de gift cards aceita pagamentos via Lightning Network ou diretamente em criptomoedas como Bitcoin e USDT. Existem dois caminhos principais para ir do DePix até o gift card:
 
+{{< diagram alt="Dois caminhos para comprar gift cards com DePix: Rota 1 via L-BTC e Lightning para Bitrefill, Rota 2 via USDt para Coinsbee ou CryptoRefills" caption="Duas rotas disponíveis: via Lightning (Bitrefill) ou via USDt (Coinsbee/CryptoRefills)." >}}
+<div class="d-branch">
+  <div class="d-step accent">DePix</div>
+  <div class="d-arrow down"></div>
+  <div class="d-branch-options">
+    <div class="d-branch-path">
+      <div class="d-branch-label">Rota 1</div>
+      <div class="d-step dark">L-BTC</div>
+      <div class="d-arrow down"></div>
+      <div class="d-step dark">Lightning</div>
+      <div class="d-arrow down"></div>
+      <div class="d-step warn">Bitrefill</div>
+    </div>
+    <div class="d-branch-path">
+      <div class="d-branch-label">Rota 2</div>
+      <div class="d-step dark">USDt</div>
+      <div class="d-arrow down"></div>
+      <div class="d-step warn">Coinsbee / CryptoRefills</div>
+    </div>
+  </div>
+  <div class="d-arrow down"></div>
+  <div class="d-step accent">Gift Card</div>
+</div>
+{{< /diagram >}}
+
 **Caminho 1: DePix para L-BTC para Lightning**
 
 1. Abra a carteira SideSwap e faça o swap de DePix para L-BTC (Liquid Bitcoin).
