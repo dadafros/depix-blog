@@ -141,19 +141,35 @@
       return tags;
     }
 
+    // Empty-state element for tag filter (created once, reused)
+    var tagEmptyEl = document.createElement('p');
+    tagEmptyEl.className = 'search-empty tag-filter-empty hidden';
+    tagEmptyEl.textContent = lang === 'pt' ? 'Nenhum post com todas as tags selecionadas.' : 'No posts match all selected tags.';
+    filterEl.parentNode.insertBefore(tagEmptyEl, filterEl.nextSibling);
+
     function filterPosts() {
       var activeTags = getActiveTags();
       if (!activeTags.length) {
         for (var j = 0; j < postCards.length; j++) postCards[j].classList.remove('hidden');
+        tagEmptyEl.classList.add('hidden');
         return;
       }
+      var visibleCount = 0;
       for (var k = 0; k < postCards.length; k++) {
         var cardTags = postCards[k].dataset.tags ? postCards[k].dataset.tags.split(',') : [];
-        var match = false;
+        var matchAll = true;
         for (var t = 0; t < activeTags.length; t++) {
-          if (cardTags.indexOf(activeTags[t]) !== -1) { match = true; break; }
+          if (cardTags.indexOf(activeTags[t]) === -1) { matchAll = false; break; }
         }
-        postCards[k].classList.toggle('hidden', !match);
+        postCards[k].classList.toggle('hidden', !matchAll);
+        if (matchAll) visibleCount++;
+      }
+      // Show empty message but keep all posts visible below it
+      if (visibleCount === 0) {
+        tagEmptyEl.classList.remove('hidden');
+        for (var m = 0; m < postCards.length; m++) postCards[m].classList.remove('hidden');
+      } else {
+        tagEmptyEl.classList.add('hidden');
       }
     }
 
