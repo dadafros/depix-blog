@@ -58,6 +58,7 @@ It is important to note: the DePix App itself is not an international remittance
 Let us put the numbers on the table for a R$ 5,000 remittance.
 
 **Traditional bank:**
+
 | Cost | Amount |
 |---|---|
 | IOF (3.5%) | R$ 175.00 |
@@ -68,6 +69,7 @@ Let us put the numbers on the table for a R$ 5,000 remittance.
 | Timeframe | 1 to 5 business days |
 
 **Fintech (e.g., Wise, Remessa Online):**
+
 | Cost | Amount |
 |---|---|
 | IOF (1.1% to 3.5%) | R$ 55 to R$ 175 |
@@ -77,6 +79,7 @@ Let us put the numbers on the table for a R$ 5,000 remittance.
 | Timeframe | Minutes to 2 business days |
 
 **DePix route (done correctly):**
+
 | Cost | Amount |
 |---|---|
 | IOF | R$ 0 |

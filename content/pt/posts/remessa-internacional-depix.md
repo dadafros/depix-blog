@@ -58,6 +58,7 @@ As vantagens fundamentais dessa rota:
 Vamos colocar os números na mesa para uma remessa de R$ 5.000.
 
 **Banco tradicional:**
+
 | Custo | Valor |
 |---|---|
 | IOF (3,5%) | R$ 175,00 |
@@ -68,6 +69,7 @@ Vamos colocar os números na mesa para uma remessa de R$ 5.000.
 | Prazo | 1 a 5 dias úteis |
 
 **Fintech (ex: Wise, Remessa Online):**
+
 | Custo | Valor |
 |---|---|
 | IOF (1,1% a 3,5%) | R$ 55 a R$ 175 |
@@ -77,6 +79,7 @@ Vamos colocar os números na mesa para uma remessa de R$ 5.000.
 | Prazo | Minutos a 2 dias úteis |
 
 **Rota DePix (feita corretamente):**
+
 | Custo | Valor |
 |---|---|
 | IOF | R$ 0 |
