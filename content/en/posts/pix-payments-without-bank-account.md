@@ -35,6 +35,7 @@ The process takes just a few minutes. Note: the DePix App interface is currently
 **Step 1: Open the DePix App and select "Realizar pagamento" (Make a payment).** Go to [depixapp.com](https://depixapp.com/) in your browser. On the main screen, tap "Realizar pagamento" — the subtitle reads "Sacar DePix" (Withdraw DePix). This is the feature that converts your DePix into a Pix payment.
 
 **Step 2: Enter the amount in the "Valor" (Amount) field.** Type in the value you want to send. The input accepts amounts in DePix (which is pegged 1:1 to the Brazilian real). You can toggle between two modes using the switch on screen:
+
 - **"Valor que você envia"** (Amount you send) — the total that leaves your wallet, including fees.
 - **"Valor que você recebe"** (Amount the recipient receives) — the net value that arrives at the destination, after fees.
 

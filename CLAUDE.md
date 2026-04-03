@@ -198,7 +198,7 @@ Blog posts must be precise and honest about the role of each asset/tool. Never o
 
 1. Create or edit the Markdown files in `content/pt/posts/` and `content/en/posts/`.
 2. Create the shared article images in `static/images/posts/<translationKey>/`.
-3. Validate the post pair locally when possible.
+3. **Run `npx --yes markdownlint-cli2@0.18.1 "content/**/*.md"` and fix any errors before committing.** This is the same linter that CI runs — never push without passing it locally first.
 4. Commit and push to `main`.
 5. Pushes to `main` run Markdown lint, post validation, and a Hugo build.
 6. If all checks pass, GitHub Actions deploys to GitHub Pages automatically.
@@ -219,6 +219,7 @@ That's it. No manual build step needed.
 ```bash
 hugo server -D    # Local dev server with drafts enabled (http://localhost:1313)
 hugo              # Build the site to public/
+npx --yes markdownlint-cli2@0.18.1 "content/**/*.md"  # Lint all posts
 ```
 
 Requires Hugo installed locally for preview. Not needed for publishing (CI handles it).
