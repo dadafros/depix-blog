@@ -1,8 +1,8 @@
 ---
-title: "What Is DePix? Brazil's Stablecoin on Liquid"
-description: "Learn what DePix is, how this Brazilian real stablecoin works on the Liquid Network, and why it matters for crypto payments."
+title: "What Is DePix? Brazilian Real Stablecoin on Liquid"
+description: "What is DePix and how does it work? Learn about this BRL stablecoin on the Liquid Network — a private, non-custodial alternative to Pix and Drex."
 date: 2026-03-28
-tags: ["depix", "stablecoin", "liquid network", "pix", "brazil"]
+tags: ["depix", "stablecoin", "liquid network", "pix", "brazilian stablecoin"]
 author: "DePix"
 slug: "what-is-depix"
 translationKey: "o-que-e-depix"
@@ -14,7 +14,7 @@ images:
 draft: false
 ---
 
-If you have been following cryptocurrency but wondered how digital money actually works in everyday life, DePix App is a great place to start. This article explains what DePix is, how it connects Brazil's instant payment system (Pix) to the Bitcoin ecosystem, and why it matters for anyone interested in stablecoins and the Liquid Network.
+If you have been following cryptocurrency but wondered how digital money actually works in everyday life, DePix App is a great place to start. This article explains what DePix is, how this Brazilian real stablecoin connects Brazil's instant payment system (Pix) to the Bitcoin ecosystem, and why it matters for anyone interested in BRL stablecoins and the Liquid Network. If you already know the basics and want to get started, jump to our [step-by-step guide on how to buy DePix](/en/posts/how-to-buy-depix/).
 
 ## What is a stablecoin and why does it matter?
 
@@ -70,6 +70,10 @@ Merchants and business owners can accept crypto payments and convert them to rea
 
 Anyone who values [financial privacy](/en/posts/financial-privacy-depix/) benefits from Liquid's confidential transactions. Unlike bank transfers where the institution has full visibility into your financial life, DePix transactions keep amounts private by default.
 
+## DePix vs Drex: privacy vs surveillance
+
+With Brazil launching Drex (the central bank digital currency), comparisons are inevitable. Drex is a CBDC with full transaction surveillance — the central bank and financial institutions can see every payment. DePix is the opposite: a stablecoin on the Liquid Network with Confidential Transactions, where amounts are hidden by default and you maintain self-custody of your funds. If financial privacy matters to you, this distinction is decisive.
+
 ## Security and trust
 
 When it comes to money, security is paramount. The DePix App uses secure authentication, encrypted communications, and follows software development best practices to protect user data and funds.
@@ -80,7 +84,7 @@ It is worth noting that the DePix App is a non-custodial interface. You manage y
 
 ## Who should use the DePix App?
 
-DePix App is designed for anyone who uses Brazilian reais and wants to explore the benefits of blockchain-based money without the steep learning curve. This includes Brazilians who want to start with crypto in a low-risk way using a real-pegged stablecoin, remote workers and freelancers who receive cryptocurrency and need an easy off-ramp to BRL, privacy-conscious users who want to move money without full bank surveillance, merchants and business owners who want to [open a crypto business account without bureaucracy](/en/posts/crypto-business-account-depix-app/), and anyone in the Bitcoin ecosystem who needs a reliable BRL stablecoin on Liquid.
+DePix App is designed for anyone who uses Brazilian reais and wants to explore the benefits of blockchain-based money without the steep learning curve. This includes Brazilians who want to start with crypto in a low-risk way using a real-pegged stablecoin, remote workers and freelancers who receive cryptocurrency and need an easy off-ramp to BRL, privacy-conscious users who want to move money without full bank surveillance, merchants and business owners who want to [open a crypto business account without bureaucracy](/en/posts/crypto-business-account-depix-app/), and anyone in the Bitcoin ecosystem who needs a reliable BRL stablecoin on Liquid. When you are ready to get started, follow our [step-by-step guide on how to buy DePix](/en/posts/how-to-buy-depix/). And if you have questions about tax obligations in Brazil, check our guide on [how to declare DePix on Brazilian income tax](/en/posts/how-to-declare-depix-income-tax/).
 
 All you need to get started is an email address, a bank account with Pix, and a Liquid wallet (such as SideSwap). You do not need to be a crypto expert. You do not need to understand blockchain architecture. If you can use Pix, you can use the DePix App.
 

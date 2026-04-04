@@ -1,8 +1,8 @@
 ---
-title: "O que é DePix? Stablecoin brasileira na Liquid"
-description: "Entenda o que é o DePix, stablecoin brasileira na Liquid Network, e o DePix App que conecta Pix e Bitcoin de forma simples."
+title: "O que é DePix? Stablecoin do Real na Liquid Network"
+description: "O que é DePix, como funciona, e por que essa stablecoin brasileira pareada ao real na Liquid Network é alternativa privada ao Pix e ao Drex."
 date: 2026-03-28
-tags: ["depix", "stablecoin", "liquid network", "pix"]
+tags: ["depix", "stablecoin", "liquid network", "pix", "stablecoin brasileira"]
 author: "DePix"
 slug: "o-que-e-depix"
 translationKey: "o-que-e-depix"
@@ -14,7 +14,7 @@ images:
 draft: false
 ---
 
-Se você já ouviu falar em criptomoedas mas nunca entendeu direito como elas funcionam no dia a dia, o DePix App foi feito para você. Neste artigo, vamos explicar de forma simples o que é o DePix, como ele funciona e por que ele pode ser útil para qualquer brasileiro que usa Pix.
+Se você já ouviu falar em criptomoedas mas nunca entendeu direito como elas funcionam no dia a dia, o DePix App foi feito para você. Neste artigo, vamos explicar de forma simples o que é o DePix, como ele funciona, para que serve e por que essa stablecoin brasileira pareada ao real pode ser útil para qualquer pessoa que usa Pix. Se já sabe o que é e quer ir direto ao ponto, veja nosso guia de [como comprar DePix](/pt/posts/como-comprar-depix/).
 
 ## O que é uma stablecoin?
 
@@ -70,6 +70,10 @@ A diferença fundamental é onde seu dinheiro fica. No Pix tradicional, seu dinh
 
 Isso não significa que um é melhor que o outro em todos os cenários. Cada um tem suas vantagens. Para uma comparação detalhada, confira nosso artigo sobre [DePix vs Pix tradicional](/pt/posts/depix-vs-pix-tradicional/).
 
+## DePix vs Drex: privacidade vs vigilância
+
+Com o lançamento do Drex (real digital do Banco Central), é natural comparar. O Drex é uma moeda digital de banco central (CBDC) com rastreamento total de transações — o Banco Central e as instituições financeiras veem tudo. O DePix é o contrário: stablecoin na Liquid Network com Confidential Transactions, onde os valores são ocultos por padrão e você mantém autocustódia dos seus fundos. Se privacidade financeira é importante para você, essa diferença é decisiva.
+
 ## Segurança e confiabilidade
 
 Segurança é a preocupação número um quando falamos de dinheiro, e com razão. O DePix App utiliza autenticação segura, comunicação criptografada e boas práticas de desenvolvimento para proteger suas informações e seus fundos.
@@ -82,7 +86,7 @@ A Liquid Network em si é protegida por uma federação de empresas que validam 
 
 Qualquer pessoa com acesso a Pix pode usar o DePix App. Não existe valor mínimo proibitivo para começar, e o processo de cadastro é simples. Você precisa apenas de um celular com acesso à internet, uma conta bancária com Pix e alguns minutos para criar sua conta.
 
-Para usar o DePix App, você precisa apenas de um e-mail, uma conta bancária com Pix e uma carteira Liquid (como a SideSwap). O DePix App é especialmente útil para pessoas que querem dar os primeiros passos no mundo das criptomoedas sem a complexidade das corretoras tradicionais, para trabalhadores remotos que recebem em criptomoedas e precisam converter para reais, para quem valoriza privacidade financeira e autonomia sobre o próprio dinheiro, e para comerciantes, empresários e autônomos que querem [abrir uma conta PJ cripto sem burocracia](/pt/posts/conta-pj-cripto-depix-app/).
+Para usar o DePix App, você precisa apenas de um e-mail, uma conta bancária com Pix e uma carteira Liquid (como a SideSwap). O DePix App é especialmente útil para pessoas que querem dar os primeiros passos no mundo das criptomoedas sem a complexidade das corretoras tradicionais, para trabalhadores remotos que recebem em criptomoedas e precisam converter para reais, para quem valoriza privacidade financeira e autonomia sobre o próprio dinheiro, e para comerciantes, empresários e autônomos que querem [abrir uma conta PJ cripto sem burocracia](/pt/posts/conta-pj-cripto-depix-app/). Quando estiver pronto para começar, veja o passo a passo completo em [como comprar DePix](/pt/posts/como-comprar-depix/). E se tiver dúvidas sobre obrigações fiscais, temos um guia sobre [como declarar DePix no Imposto de Renda](/pt/posts/como-declarar-depix-imposto-de-renda/).
 
 ## Sua privacidade financeira começa aqui
 
