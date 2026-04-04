@@ -184,4 +184,4 @@ However, if you made complex operations (frequent swaps between crypto assets, a
 
 ## Your financial privacy starts here
 
-Declaring taxes is a legal obligation — but financial privacy is a fundamental right. With DePix, your transactions on the Liquid Network use Confidential Transactions, safeguarding your rights. Fulfill your tax obligations without giving up your privacy — that is the best of both worlds. Visit [depixapp.com](https://depixapp.com/) and reclaim sovereignty over your financial data.
+Declaring taxes is a legal obligation — but privacy is an inviolable fundamental right, guaranteed by the Brazilian Constitution. With DePix, your transactions on the Liquid Network use Confidential Transactions, safeguarding your rights. Fulfill your tax obligations without giving up your privacy — that is the best of both worlds. Visit [depixapp.com](https://depixapp.com/) and reclaim sovereignty over your financial data.
