@@ -153,16 +153,16 @@ Until June 30, 2026, the old model (IN 1888) remains in effect. The transition i
 
 Use this checklist to make sure your declaration is complete:
 
-- [ ] Checked if my DePix balance on 12/31/2025 was R$ 5,000 or more
-- [ ] Declared under Assets and Rights > Group 08 > Code 03
-- [ ] Filled in the description with type, quantity, and custody location
-- [ ] Entered the acquisition cost (not market value)
-- [ ] Checked if I had sales/swaps above R$ 35,000 in any month
-- [ ] Calculated capital gains in GCAP for months with taxable operations
-- [ ] Generated and paid DARFs with code 4600
-- [ ] Imported GCAP data into the annual declaration
-- [ ] Reviewed the pre-filled declaration data
-- [ ] Declared Bitcoin, altcoins, and other stablecoins separately
+1. Checked if my DePix balance on 12/31/2025 was R$ 5,000 or more
+2. Declared under Assets and Rights > Group 08 > Code 03
+3. Filled in the description with type, quantity, and custody location
+4. Entered the acquisition cost (not market value)
+5. Checked if I had sales/swaps above R$ 35,000 in any month
+6. Calculated capital gains in GCAP for months with taxable operations
+7. Generated and paid DARFs with code 4600
+8. Imported GCAP data into the annual declaration
+9. Reviewed the pre-filled declaration data
+10. Declared Bitcoin, altcoins, and other stablecoins separately
 
 ## IRPF 2026 deadlines
 

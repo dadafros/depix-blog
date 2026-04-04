@@ -155,16 +155,16 @@ A **Resolução BCB n. 521/2025**, em vigor desde fevereiro de 2026, classifica 
 
 Use este checklist para garantir que sua declaração está completa:
 
-- [ ] Verifiquei se meu saldo de DePix em 31/12/2025 era igual ou superior a R$ 5.000
-- [ ] Declarei em Bens e Direitos > Grupo 08 > Código 03
-- [ ] Preenchi a discriminação com tipo, quantidade e local de custódia
-- [ ] Informei o custo de aquisição (não o valor de mercado)
-- [ ] Verifiquei se tive vendas/trocas acima de R$ 35.000 em algum mês
-- [ ] Apurei ganho de capital no GCAP para meses com operações tributáveis
-- [ ] Gerei e paguei os DARFs com código 4600
-- [ ] Importei os dados do GCAP para a declaração anual
-- [ ] Conferi os dados da declaração pré-preenchida
-- [ ] Declarei separadamente Bitcoin, altcoins e outras stablecoins que possuo
+1. Verifiquei se meu saldo de DePix em 31/12/2025 era igual ou superior a R$ 5.000
+2. Declarei em Bens e Direitos > Grupo 08 > Código 03
+3. Preenchi a discriminação com tipo, quantidade e local de custódia
+4. Informei o custo de aquisição (não o valor de mercado)
+5. Verifiquei se tive vendas/trocas acima de R$ 35.000 em algum mês
+6. Apurei ganho de capital no GCAP para meses com operações tributáveis
+7. Gerei e paguei os DARFs com código 4600
+8. Importei os dados do GCAP para a declaração anual
+9. Conferi os dados da declaração pré-preenchida
+10. Declarei separadamente Bitcoin, altcoins e outras stablecoins que possuo
 
 ## Prazos do IRPF 2026
 
