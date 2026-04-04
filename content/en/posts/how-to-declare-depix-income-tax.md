@@ -97,8 +97,6 @@ If all your crypto sales in a given month totaled **R$ 35,000 or less** and were
 
 **For foreign exchanges or self-custody**: the R$ 35,000 monthly exemption **does not apply**. Any gain, no matter how small, is taxed at a **flat 15%** rate.
 
-Since DePix App is not an exchange (it is a Pix-to-Liquid on-ramp) and tokens are held in self-custody in your Liquid wallet, operations made directly from your wallet may not qualify for the exemption. Consult a tax professional to evaluate your specific case.
-
 ## Capital gains tax rates
 
 | Monthly gain bracket | Rate |

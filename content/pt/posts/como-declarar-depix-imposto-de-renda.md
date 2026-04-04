@@ -99,8 +99,6 @@ Se todas as suas vendas de criptoativos em um mês totalizaram **R$ 35.000 ou me
 
 **Para exchanges estrangeiras ou autocustódia**: a isenção de R$ 35.000 **não se aplica**. Qualquer ganho, por menor que seja, é tributável à alíquota de **15%**.
 
-Como o DePix App não é uma exchange (é uma rampa Pix-para-Liquid), e os tokens ficam em autocustódia na sua carteira Liquid, operações feitas diretamente a partir da carteira podem não se enquadrar na isenção. Consulte um contador para avaliar seu caso.
-
 ## Tabela de alíquotas sobre ganho de capital
 
 | Faixa de ganho mensal | Alíquota |
