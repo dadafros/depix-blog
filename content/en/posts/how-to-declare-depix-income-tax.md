@@ -85,9 +85,9 @@ However, **swaps between crypto assets are taxable events**. If you swap DePix f
 |---|---|
 | Buy DePix with Pix and hold | No (just declare holdings) |
 | Sell DePix for Pix at the same value | No (no capital gain) |
-| Swap DePix for L-BTC on SideSwap | Potentially (if there was a gain on the swap) |
+| Swap DePix for other crypto (L-BTC, BTC, USDT, etc.) | No (just declare holdings) |
 | Buy DePix and withdraw back weeks later | No (no gain, since DePix = R$ 1) |
-| Swap DePix for USDT, then sell USDT at a profit | Yes (capital gain on the USDT sale) |
+| Swap other crypto for DePix | Potentially (if there was a gain on the swap) |
 
 ### R$ 35,000/month exemption
 

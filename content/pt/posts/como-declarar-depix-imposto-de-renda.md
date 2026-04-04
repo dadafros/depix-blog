@@ -87,9 +87,9 @@ Porém, **trocas (permutas) entre criptoativos são fatos geradores**. Se você 
 |---|---|
 | Comprar DePix com Pix e guardar | Não (apenas declarar posse) |
 | Vender DePix por Pix pelo mesmo valor | Não (sem ganho de capital) |
-| Trocar DePix por L-BTC na SideSwap | Potencialmente (se houve ganho na troca) |
+| Trocar DePix por outras criptos (L-BTC, BTC, USDT, etc.) | Não (apenas declarar posse) |
 | Comprar DePix e sacar de volta semanas depois | Não (sem ganho, pois DePix = R$ 1) |
-| Trocar DePix por USDT e depois vender USDT com lucro | Sim (ganho de capital na venda do USDT) |
+| Trocar outras criptos por DePix | Potencialmente (se houve ganho na troca) |
 
 ### Isenção de R$ 35.000/mês
 
