@@ -110,7 +110,7 @@ In practice, the vast majority of individual investors pay **15%** on capital ga
 
 ## How to calculate and pay the tax (GCAP and DARF)
 
-If you had taxable capital gains in any month of 2025, the process is:
+If you had taxable capital gains from cryptocurrency in any month of 2025, the process is:
 
 1. **Download the GCAP 2025 program** from Receita Federal's website.
 2. **Register each taxable sale/swap** under "Bens Móveis" (movable assets, which includes crypto).

@@ -112,7 +112,7 @@ Na prática, a imensa maioria dos investidores individuais paga **15%** sobre o 
 
 ## Como calcular e pagar o imposto (GCAP e DARF)
 
-Se você teve ganho de capital tributável em algum mês de 2025, o processo é:
+Se você teve ganho de capital tributável com criptomoedas em algum mês de 2025, o processo é:
 
 1. **Baixe o programa GCAP 2025** no site da Receita Federal.
 2. **Registre cada venda/troca tributável** em "Bens Móveis" (bens móveis incluem criptoativos).
