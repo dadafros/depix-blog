@@ -127,9 +127,9 @@ Starting with IRPF 2026, crypto operations made on Brazilian exchanges appear au
 
 **What this means for you:**
 
-- If you bought DePix via the DePix App, Receita Federal may already have information about your transactions.
+- All DePix purchases (across all platforms) are reported to Receita Federal under IN 1888. This is a legal obligation that the DePix issuer, [eulen.app](https://eulen.app), is required to fulfill. DePix is a regulated and legal instrument in Brazil.
 - Pre-filled data serves as a reference, but **you must review and correct** it if needed.
-- Self-custody operations (SideSwap wallet, for example) and P2P trades **do not appear** in the pre-filled form. You must declare them manually.
+- Due to the confidential nature of the Liquid Network (Confidential Transactions), neither the Central Bank, nor Receita Federal, nor eulen.app, nor any other entity can determine what you did with your DePix after purchasing it on a platform like the DePix App. This means that **only you** can calculate the capital gains from any swaps with other crypto assets. For this reason, we recommend that you keep reliable records of all your transactions for proper calculation and declaration on your income tax return, in accordance with applicable regulations.
 
 ## DeCripto: Receita Federal's new reporting system
 

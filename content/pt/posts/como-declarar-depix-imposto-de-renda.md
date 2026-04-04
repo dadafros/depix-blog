@@ -129,9 +129,9 @@ A partir do IRPF 2026, operações com criptomoedas realizadas em exchanges bras
 
 **O que isso significa para você:**
 
-- Se você comprou DePix via DePix App, a Receita pode já ter informações sobre suas transações.
+- Todas as compras de DePix (em todas as plataformas) são reportadas à Receita Federal via IN 1888. Isso é uma obrigação legal que a emissora do DePix, a [eulen.app](https://eulen.app), tem o dever de cumprir. O DePix é um instrumento regulado e legalizado no Brasil.
 - Os dados pré-preenchidos servem como referência, mas **você deve conferir e corrigir** se necessário.
-- Operações em autocustódia (carteira SideSwap, por exemplo) e trocas P2P **não aparecem** na pré-preenchida. Você precisa declará-las manualmente.
+- Devido à natureza confidencial da Liquid Network (Confidential Transactions), nem o Banco Central, nem a Receita Federal, nem a eulen.app, nem qualquer outra entidade consegue apurar quais foram suas operações com o DePix após a compra em uma plataforma como o DePix App. Isso significa que **somente você** pode calcular os ganhos de capital de eventuais trocas com outros criptoativos. Por essa razão, recomendamos que você mantenha registros confiáveis de todas as suas transações para posterior apuração e declaração no Imposto de Renda, de acordo com a normativa aplicável.
 
 ## DeCripto: o novo sistema da Receita Federal
 
