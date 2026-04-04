@@ -186,4 +186,4 @@ Porém, se você fez operações complexas (muitas trocas entre criptoativos, ar
 
 ## Sua privacidade financeira começa aqui
 
-Declarar é uma obrigação legal — mas isso não significa que o sistema bancário precisa ver cada centavo que você movimenta. Com DePix, suas transações na Liquid Network usam Confidential Transactions, protegendo seus valores de olhares curiosos. Cumprindo suas obrigações fiscais e mantendo sua privacidade financeira, você tem o melhor dos dois mundos. Acesse [depixapp.com](https://depixapp.com/).
+Declarar é uma obrigação legal — mas a privacidade financeira é um direito fundamental garantido pela Constituição Federal do Brasil. Com DePix, suas transações na Liquid Network usam Confidential Transactions, protegendo o que é seu por direito. Cumpra suas obrigações fiscais sem abrir mão da sua privacidade — esse é o melhor dos dois mundos. Acesse [depixapp.com](https://depixapp.com/) e retome a soberania sobre seus dados financeiros.
