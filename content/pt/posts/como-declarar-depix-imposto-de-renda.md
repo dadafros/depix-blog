@@ -53,13 +53,11 @@ Se você também tem outros criptoativos, use os códigos corretos:
 
 No campo de discriminação, descreva com clareza o que você possui. Exemplo para DePix em autocustódia:
 
-> Stablecoin DePix (pareada ao BRL, 1:1) na rede Liquid Network. Quantidade: 2.500 unidades. Custódia própria em carteira SideSwap. Adquirido via DePix App (depixapp.com).
-
-Se você tiver DePix em mais de uma carteira, **declare cada posição separadamente**.
+> Stablecoin DePix (pareada ao BRL, 1:1). Quantidade: 2.500 unidades.
 
 ### Valores: use sempre o custo de aquisição
 
-Declare o valor pelo **custo de aquisição** (quanto você pagou, incluindo taxas), e **não** pelo valor de mercado. Como o DePix é pareado 1:1 ao real, o valor de mercado e o custo de aquisição costumam ser muito próximos — mas sempre use o que você efetivamente pagou.
+Declare o valor pelo **custo de aquisição** (quanto você pagou, incluindo taxas).
 
 Exemplo: se você depositou R$ 1.000 e pagou R$ 20,99 de taxa, seu custo de aquisição total é R$ 1.000 (o valor em DePix que recebeu é R$ 979,01, mas o custo de aquisição para fins de IR é o valor total desembolsado: R$ 1.000). Na prática, o DePix vale R$ 1 por unidade, então se você tem 979,01 DePix, declare R$ 979,01 no campo "Situação em 31/12/2025" caso queira declarar pelo valor em DePix recebido, considerando a taxa como custo do serviço. Consulte um contador para definir o melhor tratamento no seu caso.
 
@@ -79,7 +77,7 @@ Possuir DePix não gera imposto. O imposto incide apenas sobre o **ganho de capi
 
 ### DePix tem ganho de capital?
 
-Na prática, o DePix em si raramente gera ganho de capital, porque ele vale R$ 1 sempre. Você compra por R$ 1 e vende por R$ 1 — não há lucro.
+Na prática, o DePix em si não gera ganho de capital, porque ele vale R$ 1 sempre. Você compra por R$ 1 e vende por R$ 1 — não há lucro.
 
 Porém, **trocas (permutas) entre criptoativos são fatos geradores**. Se você trocar DePix por Bitcoin na SideSwap, e depois o Bitcoin valorizar, o ganho é tributável quando você vender ou trocar o Bitcoin. A Receita Federal confirmou esse entendimento na **Solução de Consulta n. 214 — Cosit**.
 

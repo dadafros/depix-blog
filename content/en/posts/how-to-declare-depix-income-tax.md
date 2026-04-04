@@ -53,13 +53,11 @@ If you also hold other crypto assets, use the correct codes:
 
 In the description field, clearly state what you hold. Example for DePix in self-custody:
 
-> Stablecoin DePix (pegged to BRL, 1:1) on the Liquid Network. Quantity: 2,500 units. Self-custody in SideSwap wallet. Acquired via DePix App (depixapp.com).
-
-If you hold DePix across multiple wallets, **declare each position separately**.
+> Stablecoin DePix (pegged to BRL, 1:1). Quantity: 2,500 units.
 
 ### Values: always use acquisition cost
 
-Declare the value at **acquisition cost** (what you paid, including fees), **not** market value. Since DePix is pegged 1:1 to the real, the market value and acquisition cost are typically very close — but always use what you actually paid.
+Declare the value at **acquisition cost** (what you paid, including fees).
 
 {{< diagram alt="Where to declare DePix on IRPF: Assets and Rights section, Group 08 Crypto Assets, Code 03 Stablecoins" caption="Path to declare DePix in the IRPF 2026 program." >}}
 <div class="d-flow-row">
@@ -77,7 +75,7 @@ Simply holding DePix does not generate tax liability. Tax is only due on **capit
 
 ### Does DePix generate capital gains?
 
-In practice, DePix itself rarely generates capital gains because it is always worth R$ 1. You buy at R$ 1 and sell at R$ 1 — there is no profit.
+In practice, DePix itself does not generate capital gains because it is always worth R$ 1. You buy at R$ 1 and sell at R$ 1 — there is no profit.
 
 However, **swaps between crypto assets are taxable events**. If you swap DePix for Bitcoin on SideSwap and Bitcoin later appreciates in value, the gain is taxable when you sell or swap the Bitcoin. Receita Federal confirmed this in **Solução de Consulta n. 214 — Cosit**.
 
