@@ -28,9 +28,9 @@ Com o DePix App, o caminho é muito mais curto. Você converte suas criptomoedas
 
 Para converter suas criptomoedas em reais usando o DePix App, você precisa de uma conta no DePix App (gratuita e rápida de criar), criptomoedas na Liquid Network ou em uma carteira que permita enviar para a Liquid, e uma conta bancária com Pix para receber os reais.
 
-A Liquid Network suporta diversos ativos, incluindo L-BTC (Bitcoin na Liquid), USDt (Tether) e outros tokens emitidos na rede². Se os seus ativos já estão na Liquid, o processo é ainda mais direto.
+A Liquid Network suporta diversos ativos, incluindo L-BTC (Bitcoin na Liquid), USDt (Tether) e outros tokens emitidos na rede. Se os seus ativos já estão na Liquid, o processo é ainda mais direto.
 
-Se você ainda não conhece o DePix App, comece lendo nosso artigo sobre [o que é o DePix](/posts/o-que-e-depix/) para entender como tudo funciona.
+Se você ainda não conhece o DePix App, comece lendo nosso artigo sobre [o que é o DePix](/pt/posts/o-que-e-depix/) para entender como tudo funciona.
 
 ## Passo a passo para converter criptomoedas em reais
 
@@ -54,7 +54,7 @@ O caminho para converter depende de onde estão seus ativos.
 
 **Se suas criptomoedas já estão na Liquid Network (L-BTC, USDt ou outros ativos Liquid):**
 
-Use a [SideSwap](https://sideswap.io/)¹, a carteira Liquid que também funciona como exchange descentralizada. Dentro da SideSwap, você faz um swap direto: seleciona o par (por exemplo, L-BTC/DePix ou USDt/DePix), escolhe o valor e confirma. A conversão acontece na própria Liquid Network, o que significa taxas muito baixas (frações de centavo) e confirmação em cerca de dois minutos. É o caminho mais rápido e barato.
+Use a [SideSwap](https://sideswap.io/), a carteira Liquid que também funciona como exchange descentralizada. Dentro da SideSwap, você faz um swap direto: seleciona o par (por exemplo, L-BTC/DePix ou USDt/DePix), escolhe o valor e confirma. A conversão acontece na própria Liquid Network, o que significa taxas muito baixas (frações de centavo) e confirmação em cerca de dois minutos. É o caminho mais rápido e barato.
 
 **Se suas criptomoedas estão em outras blockchains (Ethereum, Polygon, Solana, Bitcoin on-chain, etc.):**
 
@@ -68,7 +68,7 @@ Você tem duas opções. A primeira é fazer um peg-in para a Liquid Network usa
 
 Agora que você tem DePix na sua carteira SideSwap, o saque é direto.
 
-Acesse o [DePix App](https://depixapp.com/) e faça login³. Se ainda não tem conta, o cadastro leva menos de dois minutos — basta um e-mail.
+Acesse o [DePix App](https://depixapp.com/) e faça login. Se ainda não tem conta, o cadastro leva menos de dois minutos — basta um e-mail.
 
 Na tela principal, selecione a opção de saque. Informe o valor em reais que deseja receber e a sua chave Pix (CPF, e-mail, telefone ou chave aleatória).
 
@@ -84,7 +84,7 @@ Você deve ter notado que mencionamos a Liquid Network várias vezes. Mas não s
 
 Pense assim: o Bitcoin é como uma rodovia principal — segura e confiável, mas às vezes congestionada. A Liquid é como uma via expressa paralela — usa a mesma infraestrutura de segurança, mas é mais rápida e versátil. Além do L-BTC (Bitcoin nativo da Liquid), a rede suporta stablecoins como USDt e outros tokens, todos circulando com a mesma velocidade e privacidade.
 
-Na Liquid, as transações são confirmadas em cerca de dois minutos e as taxas são mínimas². Além disso, a Liquid oferece transações confidenciais por padrão, o que significa mais [privacidade para você](/posts/privacidade-financeira-depix/). Isso vale para qualquer ativo transacionado na rede, não apenas para o Bitcoin.
+Na Liquid, as transações são confirmadas em cerca de dois minutos e as taxas são mínimas. Além disso, a Liquid oferece transações confidenciais por padrão, o que significa mais [privacidade para você](/pt/posts/privacidade-financeira-depix/). Isso vale para qualquer ativo transacionado na rede, não apenas para o Bitcoin.
 
 ## Quanto custa o processo?
 
@@ -114,13 +114,7 @@ Se é sua primeira vez, comece com um valor pequeno para se familiarizar com o p
 
 Se você está convertendo ativos com preço variável, como Bitcoin, fique de olho na cotação. O preço pode variar ao longo do dia, e alguns minutos de diferença podem significar uma variação relevante no valor recebido em reais. Stablecoins como USDt tendem a ter cotação mais estável, mas ainda assim vale conferir o câmbio antes de confirmar.
 
-E se você quer entender melhor as diferenças entre usar DePix e o Pix tradicional do banco, recomendamos nosso artigo sobre [DePix vs Pix tradicional](/posts/depix-vs-pix-tradicional/).
-
-## Referências
-
-1. [SideSwap — Carteira e exchange Liquid](https://sideswap.io/)
-2. [Blockstream Liquid Network — Ativos, transações e privacidade](https://docs.blockstream.com/liquid/)
-3. [DePix App — Depósitos e saques via Pix](https://depixapp.com/)
+E se você quer entender melhor as diferenças entre usar DePix e o Pix tradicional do banco, recomendamos nosso artigo sobre [DePix vs Pix tradicional](/pt/posts/depix-vs-pix-tradicional/).
 
 ## Sua privacidade financeira começa aqui
 

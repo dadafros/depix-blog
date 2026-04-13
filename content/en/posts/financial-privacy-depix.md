@@ -40,7 +40,7 @@ None of this is illegal. But it is important that you know it happens and have t
 
 ## How the DePix App protects your privacy
 
-The DePix App operates on the Liquid Network,³ which offers a feature called Confidential Transactions.² This technology is fundamental to the financial privacy that the DePix App provides.
+The DePix App operates on the Liquid Network, which offers a feature called Confidential Transactions. This technology is fundamental to the financial privacy that the DePix App provides.
 
 In a regular Bitcoin transaction, anyone can see the amount transferred. Addresses are pseudonymous, but amounts are public. On the Liquid Network, transaction amounts are cryptographically hidden. Only the parties involved — the sender and the receiver — can see how much was transferred.
 
@@ -117,17 +117,11 @@ For a broader comparison between DePix and the traditional payment system, check
 
 ## Self-custody: you control your money
 
-Beyond confidential transactions, another pillar of the DePix App's financial privacy is self-custody. When you hold DePix on the Liquid Network, you control your own addresses and keys. No company has custody of your funds.¹
+Beyond confidential transactions, another pillar of the DePix App's financial privacy is self-custody. When you hold DePix on the Liquid Network, you control your own addresses and keys. No company has custody of your funds.
 
 This is different from having money in a bank, where the institution can freeze, block, or restrict access to your funds. With DePix, your digital reais are under your direct control. As long as you have your keys, you have access to your money.
 
 This combination of confidential transactions with self-custody creates a level of financial privacy and autonomy that simply does not exist in the traditional banking system. It is not about distrust — it is about having options and maintaining the freedom to choose how your money is managed.
-
-## References
-
-1. [DePix App — privacy features and self-custody](https://depixapp.com/)
-2. [Liquid Network — Confidential Transactions](https://docs.blockstream.com/liquid/technical_overview.html)
-3. [Blockstream Liquid Network overview](https://blockstream.com/liquid/)
 
 ## Your financial privacy starts here
 

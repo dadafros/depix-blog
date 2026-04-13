@@ -53,7 +53,7 @@ draft: false
 - `title`: Max 60 characters. Must contain a primary keyword.
 - `description`: 50-155 characters. Compelling summary for search engine snippets.
 - `date`: ISO format (YYYY-MM-DD). Use the actual publication date.
-- `tags`: 2-5 relevant tags as a YAML list. **PT tags must NOT contain accented characters** (use `comparacao` not `comparação`, `seguranca` not `segurança`). Accents cause Hugo to generate duplicate taxonomy pages with different URL encodings.
+- `tags`: 2-5 relevant tags as a YAML list.
 - `author`: Always `"DePix"`.
 - `slug`: Descriptive, kebab-case. Must contain the primary keyword.
 - `translationKey`: Shared kebab-case key used by both PT and EN versions of the same article.
@@ -213,97 +213,8 @@ When asked to create a new post from only a topic, follow this order without unn
 5. Create the three shared article images under `static/images/posts/<translationKey>/`.
 6. Fill `image` and `images` in both frontmatters using those files.
 7. Add at least one `{{</* diagram */>}}` shortcode per post with a relevant flowchart, comparison, or process diagram using HTML/CSS classes. See "In-Body Diagrams and Illustrations" section for available classes and design rules.
-8. Add footnote references to official sources (see "Reference Citations" below).
-9. Run the SEO audit checklist (see "Pre-Publication SEO Audit" below).
-10. Run validation/build checks.
-11. Commit and push directly to `main` unless the user explicitly asks for a branch or PR.
-
-### Reference Citations
-
-Every post must include numbered footnote references linking to authoritative external sources. This is critical for EEAT (Experience, Expertise, Authoritativeness, Trustworthiness) signals, especially for YMYL content about finances, taxes, investment, or security.
-
-**Format:**
-
-1. In the body text, use superscript numbers (`¹`, `²`, `³`, etc.) immediately after the claim or fact being sourced.
-2. At the end of the post, add a `## Referências` (PT) or `## References` (EN) section **before** the final CTA section.
-3. Each reference is a numbered list item with the source name and a hyperlink:
-
-```markdown
-## Referências
-
-1. [Banco Central — Regulamento do Pix](https://www.bcb.gov.br/estabilidadefinanceira/pix)
-2. [Blockstream — Liquid Network: visão geral técnica](https://docs.blockstream.com/liquid/technical_overview.html)
-3. [Receita Federal — Declaração de criptoativos](https://www.gov.br/receitafederal/pt-br)
-```
-
-**Source criteria (in order of preference):**
-
-1. **Official government sources**: Banco Central, Receita Federal, CVM, SEC, IRS — for regulatory/tax/legal claims.
-2. **Official technical documentation**: Blockstream docs, Bitcoin whitepaper, protocol specs — for technical claims about Liquid, Bitcoin, cryptography.
-3. **Product official pages**: depixapp.com, sideswap.io, enorsecurities.com — for product-specific facts (fees, limits, features).
-4. **Recognized news/research portals**: major financial newspapers, academic papers, industry reports — for market data, statistics, trends.
-
-**Rules:**
-
-- Every post must have **at least 2 references**, regardless of topic.
-- YMYL posts (finances, taxes, investment, security) must have **at least 3 references** including at least one official government or regulatory source.
-- Only cite sources you can verify exist. Do not invent URLs or reference pages that may not exist.
-- Prefer primary sources over secondary commentary (e.g., link to the actual BCB regulation, not a blog post about the regulation).
-- References in PT and EN versions may differ — use the most relevant source for each language's audience (e.g., Receita Federal for PT, IRS for EN when discussing taxes).
-- Superscript numbers in the body should appear at the end of the specific sentence or clause being sourced, not at the end of a paragraph.
-
-### Pre-Publication SEO Audit
-
-Before committing any new or updated post, verify every item on this checklist. Do not skip items — each one addresses a real SEO issue found in past audits.
-
-**Frontmatter:**
-
-- [ ] `title` is ≤ 60 characters and contains the primary keyword
-- [ ] `description` is 50–155 characters, unique across all posts, and compelling for search snippets
-- [ ] `slug` is descriptive kebab-case containing the primary keyword
-- [ ] `tags` has 2–5 entries; PT tags have **no accented characters**
-- [ ] `translationKey` matches between PT and EN versions
-- [ ] `image` and `images` point to existing files under `static/images/posts/<translationKey>/`
-- [ ] `date` is set to the actual publication date (ISO format)
-- [ ] `draft` is `false` for posts intended to be published
-
-**Content structure:**
-
-- [ ] Post has ≥ 800 words
-- [ ] Uses only H2 (`##`) for sections — no H1, no skipped heading levels (H2 → H4)
-- [ ] At least 3–4 H2 sections with clear, descriptive headings
-- [ ] Primary keyword appears in at least one H2 heading
-- [ ] Primary keyword density is 2–3% (natural, never forced)
-- [ ] At least one `{{</* diagram */>}}` shortcode with `alt` text containing natural keywords and a `caption`
-- [ ] Final section is the CTA linking to `https://depixapp.com/`
-
-**References:**
-
-- [ ] Post has a `## Referências` (PT) / `## References` (EN) section before the CTA
-- [ ] At least 2 references (3+ for YMYL content)
-- [ ] YMYL posts include at least one official government/regulatory source
-- [ ] Superscript footnote numbers (`¹`, `²`) in the body match the numbered references
-- [ ] All reference URLs are real and point to authoritative sources
-
-**Internal linking:**
-
-- [ ] Links to at least 1–2 other blog posts where relevant
-- [ ] Internal links use relative paths: `/posts/slug/` (PT), `/en/posts/slug/` (EN)
-- [ ] No broken internal links (referenced posts exist)
-- [ ] External link to `https://depixapp.com/` in the CTA (and elsewhere if natural)
-
-**Translation pair:**
-
-- [ ] Both PT and EN versions exist with matching `translationKey`
-- [ ] EN version reads naturally (adapted, not literally translated)
-- [ ] Both versions share the same image pack
-- [ ] Both versions have their own References section with language-appropriate sources
-
-**Technical:**
-
-- [ ] `npx --yes markdownlint-cli2@0.18.1 "content/**/*.md"` passes with 0 errors
-- [ ] `hugo` builds with no errors or warnings
-- [ ] No accented characters in PT tag values
+7. Run validation/build checks.
+8. Commit and push directly to `main` unless the user explicitly asks for a branch or PR.
 
 ## Context Sources
 
@@ -387,15 +298,13 @@ Blog posts must be precise and honest about the role of each asset/tool. Never o
 - **No promotional hype** — be informative and honest.
 - **Images are required for every post pair**: place them under `static/images/posts/<translationKey>/` and reference them through `image` and `images` in frontmatter.
 - **Do not skip article images** — they are part of the publishing workflow, not an optional extra.
-- **YMYL sourcing**: Posts about finances, taxes, investment, or security (**YMYL** — Your Money or Your Life) must cite official sources. Use numbered superscript footnotes in the body text (e.g., `¹`, `²`) that point to a "Referências" (PT) / "References" (EN) section at the end of the post. Only use authoritative sources: official government sites (Receita Federal, Banco Central), recognized news portals, official technical documentation, and specialized publications. Prefer primary sources over secondary commentary.
-- **About page**: The blog has an About page at `/about/` (PT) and `/en/about/` (EN). The author byline in posts links to this page automatically via the template.
 
 ## SEO Rules
 
 - **Slug**: Always descriptive and in kebab-case. Include the primary keyword. Example: `como-receber-pix-em-bitcoin`, not `post-2`.
 - **Keywords**: Include primary keywords in the title, at least one H2, and naturally throughout the body (2-3% density, never forced).
 - **Internal links**: Link to other blog posts where relevant. Use relative paths:
-  - PT posts: `/posts/slug-here/`
+  - PT posts: `/pt/posts/slug-here/`
   - EN posts: `/en/posts/slug-here/`
 - **External links**: Link to `https://depixapp.com/` in the CTA and anywhere it makes sense. Don't overdo it.
 - **Meta description**: Write a unique, compelling description for every post. Never duplicate descriptions across posts.
@@ -427,8 +336,6 @@ That's it. No manual build step needed.
 - **Do NOT manually update the sitemap** — Hugo generates it automatically.
 - **Do NOT add npm/node dependencies** — this is a pure Hugo site.
 - **Do NOT change the GitHub Actions workflow** unless explicitly asked.
-- **Do NOT use accented characters in PT tags** — causes duplicate taxonomy pages in Hugo (one with accent, one without).
-- **Do NOT set `defaultContentLanguageInSubdir = true`** in `hugo.toml` — PT content must serve from the domain root, not from `/pt/`.
 
 ## Commands
 

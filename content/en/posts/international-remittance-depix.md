@@ -26,7 +26,7 @@ To understand where DePix stands out, you need to see the real cost of a convent
 
 **Traditional banks** charge a combination of fees that adds up quickly:
 
-- **IOF at 3.5%**² on the remittance value (for personal account transfers abroad)
+- **IOF at 3.5%** on the remittance value (for personal account transfers abroad)
 - Flat fee from the originating bank (typically R$ 50 to R$ 150)
 - Exchange rate spread of 2% to 4% baked into the quoted rate
 - Possible intermediary and destination bank fees
@@ -45,7 +45,7 @@ The fundamental advantages of this route:
 
 1. **No IOF**: since the operation is a digital asset purchase via Pix (not a foreign exchange remittance), the 3.5% IOF does not apply. This alone can represent significant savings.
 
-2. **Transaction privacy**: once the value enters the Liquid Network,⁴ transactions are confidential — amounts and destinations are encrypted. No external observer can see how much you are moving within the network.
+2. **Transaction privacy**: once the value enters the Liquid Network, transactions are confidential — amounts and destinations are encrypted. No external observer can see how much you are moving within the network.
 
 3. **Sovereignty over your money**: you control your keys, your assets stay in your wallet. No bank can block, question, or freeze your movements.
 
@@ -121,9 +121,9 @@ The gap with fintechs narrows when the off-ramp at the destination has higher co
 
 ## Step by step: sending value abroad
 
-**Step 1: Deposit reais via Pix through the DePix App.** Go to [depixapp.com](https://depixapp.com/), enter the amount, and pay the generated Pix QR code. Your DePix will be sent to your Liquid wallet (such as SideSwap) within 24 hours. The fee is 2% + R$ 0.99. Minimum R$ 5, maximum R$ 6,000 per day.¹
+**Step 1: Deposit reais via Pix through the DePix App.** Go to [depixapp.com](https://depixapp.com/), enter the amount, and pay the generated Pix QR code. Your DePix will be sent to your Liquid wallet (such as SideSwap) within 24 hours. The fee is 2% + R$ 0.99. Minimum R$ 5, maximum R$ 6,000 per day.
 
-**Step 2: Swap DePix for USDt or L-BTC on SideSwap.** Open SideSwap,³ go to the swap function, and exchange your DePix for the asset you need. For remittances, USDt (digital dollars) is the most practical choice. SideSwap shows you the rate and fee before confirming.
+**Step 2: Swap DePix for USDt or L-BTC on SideSwap.** Open SideSwap, go to the swap function, and exchange your DePix for the asset you need. For remittances, USDt (digital dollars) is the most practical choice. SideSwap shows you the rate and fee before confirming.
 
 **Step 3: Send to the recipient or off-ramp.** If the recipient has a Liquid wallet, send directly — the transaction confirms in about two minutes with near-zero fees. If the value needs to reach a bank account or another network, use one of the off-ramp services listed below.
 
@@ -173,7 +173,7 @@ Services that convert crypto to local currency and deposit directly into the rec
 
 Instead of converting to local currency, the recipient can **spend directly** using a Visa/Mastercard loaded with stablecoins:
 
-- **Kast Card**: Visa card that accepts stablecoins,⁵ with 0% fee on USD purchases and up to 6% cashback. Works at 150 million merchants in 170+ countries. For non-USD purchases, the FX fee is 2%.
+- **Kast Card**: Visa card that accepts stablecoins, with 0% fee on USD purchases and up to 6% cashback. Works at 150 million merchants in 170+ countries. For non-USD purchases, the FX fee is 2%.
 
 Learn more about all options in our complete guide to [crypto cards](/en/posts/crypto-cards-spend-depix/).
 
@@ -218,14 +218,6 @@ Honesty is essential. The DePix route is not for everyone, and it has trade-offs
 - **Anyone who values privacy** and does not want every cent sent abroad recorded in the banking system.
 - **People already in the crypto ecosystem** who are comfortable with wallets and swaps.
 - **Those with recipients in countries with strong crypto ecosystems**, where off-ramps are cheap and accessible.
-
-## References
-
-1. [DePix App — deposits, fees, and limits](https://depixapp.com/)
-2. [Banco Central do Brasil — IOF (Imposto sobre Operacoes Financeiras)](https://www.bcb.gov.br/acessoinformacao/legado?url=https:%2F%2Fwww4.bcb.gov.br%2Fpec%2Ftaxas%2Fbatch%2Ftaxas.asp%3Fid%3Dtxiof)
-3. [SideSwap — Liquid Network wallet and swap service](https://sideswap.io/)
-4. [Liquid Network — Confidential Transactions](https://docs.blockstream.com/liquid/technical_overview.html)
-5. [Kast — crypto Visa card for global spending](https://www.kast.xyz/)
 
 ## Your financial privacy starts here
 

@@ -2,7 +2,7 @@
 title: "Cartões cripto: como gastar seus DePix no mundo"
 description: "Guia completo de cartões cripto para gastar DePix em qualquer lugar. Compare opções por nível de privacidade e KYC."
 date: 2026-03-30
-tags: ["cartao cripto", "depix", "pagamentos", "privacidade"]
+tags: ["cartão cripto", "depix", "pagamentos", "privacidade"]
 author: "DePix"
 slug: "cartoes-cripto-gastar-depix"
 translationKey: "crypto-cards-spend"
@@ -18,7 +18,7 @@ Você já tem DePix na sua carteira Liquid e sabe que seu dinheiro está protegi
 
 A resposta está nos cartões cripto. Com eles, você transforma seus DePix em poder de compra global, sem precisar devolver seu dinheiro para o banco. Neste guia, vamos explicar como funciona o processo, comparar as principais opções disponíveis — organizadas pelo nível de privacidade que oferecem — e ajudar você a decidir qual faz mais sentido para o seu perfil.
 
-Se [privacidade financeira](/posts/privacidade-financeira-depix/) é uma das razões pelas quais você usa DePix, o cartão que você escolhe importa tanto quanto a forma como você guarda seu dinheiro.
+Se [privacidade financeira](/pt/posts/privacidade-financeira-depix/) é uma das razões pelas quais você usa DePix, o cartão que você escolhe importa tanto quanto a forma como você guarda seu dinheiro.
 
 ## Como funciona: de DePix a compras no mundo real
 
@@ -48,7 +48,7 @@ Vamos ao passo a passo detalhado.
 
 A [SideSwap](https://sideswap.io/) é a carteira Liquid que você já usa para guardar seus DePix. Dentro dela, você pode trocar DePix por USDt (Tether) diretamente na Liquid Network. A operação é simples: selecione o par DePix/USDt, escolha o valor e confirme. Em poucos segundos, você terá USDt na sua carteira.
 
-Se você ainda não conhece o DePix, leia nosso artigo sobre [o que é DePix e como ele funciona](/posts/o-que-e-depix/).
+Se você ainda não conhece o DePix, leia nosso artigo sobre [o que é DePix e como ele funciona](/pt/posts/o-que-e-depix/).
 
 **2. Transfira o USDt para a rede do seu cartão**
 
@@ -64,7 +64,7 @@ Com o USDT ou USDC já na rede correta, basta enviar para o endereço de depósi
 
 A partir daqui, o cartão funciona exatamente como um cartão de débito convencional. Você pode pagar em lojas físicas, e-commerces, aplicativos de delivery, postos de gasolina ou qualquer estabelecimento que aceite a bandeira do cartão. Também é possível sacar dinheiro em caixas eletrônicos, embora taxas adicionais possam se aplicar.
 
-Para compras online onde você prefere não usar cartão nenhum, considere também a opção de [gift cards — outra forma de gastar cripto com privacidade](/posts/compras-privacidade-gift-cards/).
+Para compras online onde você prefere não usar cartão nenhum, considere também a opção de [gift cards — outra forma de gastar cripto com privacidade](/pt/posts/compras-privacidade-gift-cards/).
 
 ## Comparação dos cartões cripto por nível de privacidade
 
@@ -85,7 +85,7 @@ Se privacidade é sua prioridade número um, essas são as opções que permitem
 
 ### Laso Finance
 
-A Laso Finance² oferece cartões Visa prepaid que aceitam depósitos em USDC, USDT e DAI nas redes Ethereum, Polygon e Arbitrum — sem exigir nenhuma verificação de identidade. Você cria uma conta, carrega o cartão virtual e começa a usar.
+A Laso Finance oferece cartões Visa prepaid que aceitam depósitos em USDC, USDT e DAI nas redes Ethereum, Polygon e Arbitrum — sem exigir nenhuma verificação de identidade. Você cria uma conta, carrega o cartão virtual e começa a usar.
 
 As taxas são o preço da privacidade: cerca de 6,8% por carga, o que é significativamente mais caro do que opções com KYC. Cada cartão tem um limite de $1.000, mas você pode criar múltiplos cartões. A plataforma opera em uma zona regulatória cinzenta — ela existe justamente porque não se submete às mesmas regras que emissores tradicionais de cartão.
 
@@ -114,7 +114,7 @@ Estas opções exigem verificação de identidade, mas o processo é menos invas
 
 ### Kast
 
-O [Kast](https://go.kast.xyz/VqVO/TWUQMOLG)¹ é uma opção sólida para quem aceita um KYC rápido em troca de uma experiência mais polida. Ele aceita depósitos em USDC, USDT e USDe por diversas redes, incluindo Solana e Polygon. Para quem faz a ponte DePix → USDt → Polygon, o depósito no Kast é direto.
+O [Kast](https://go.kast.xyz/VqVO/TWUQMOLG) é uma opção sólida para quem aceita um KYC rápido em troca de uma experiência mais polida. Ele aceita depósitos em USDC, USDT e USDe por diversas redes, incluindo Solana e Polygon. Para quem faz a ponte DePix → USDt → Polygon, o depósito no Kast é direto.
 
 O KYC é feito via Sumsub e geralmente conclui em menos de três minutos. Após a verificação, você recebe um cartão virtual imediatamente e pode adicionar ao Apple Pay ou Google Pay. A anuidade é zero, e as taxas de câmbio para compras em moedas diferentes do dólar ficam entre 0,5% e 1,75%.
 
@@ -136,7 +136,7 @@ A principal limitação é a disponibilidade: o Gnosis Pay atende principalmente
 
 ## Cartões de exchanges centralizadas
 
-Exchanges como Bybit³, Binance e Crypto.com também oferecem cartões cripto, mas exigem KYC completo com documentos de identidade, selfie, e em alguns casos comprovante de endereço e informações sobre fonte de renda. Se privacidade é uma prioridade, essas opções não são ideais.
+Exchanges como Bybit, Binance e Crypto.com também oferecem cartões cripto, mas exigem KYC completo com documentos de identidade, selfie, e em alguns casos comprovante de endereço e informações sobre fonte de renda. Se privacidade é uma prioridade, essas opções não são ideais.
 
 Além do KYC extenso, o fato de seus fundos passarem pela exchange significa que toda movimentação fica vinculada à sua conta verificada. A exchange sabe exatamente quanto você tem, de onde veio e como gasta. Para quem saiu do sistema bancário justamente para ter mais autonomia, voltar a entregar esse nível de informação para uma empresa centralizada pode não fazer sentido.
 
@@ -161,13 +161,7 @@ Não existe um cartão cripto perfeito. A escolha depende do que você prioriza.
 - **Taxas são mais altas.** A privacidade tem um custo financeiro direto. Cartões sem KYC cobram mais justamente porque operam fora do sistema regulado.
 - **Menos recurso em caso de problemas.** Se uma transação der errado ou seu cartão for bloqueado, a resolução pode ser mais difícil do que com um emissor tradicional.
 
-Nenhum cartão cripto oferece anonimato total. Mesmo os que não exigem KYC ainda registram suas transações internamente. A diferença real está em quantos dos seus dados pessoais ficam expostos e para quem. Com DePix e um cartão com pouco ou nenhum KYC, você minimiza a conexão entre sua vida financeira e o sistema bancário tradicional — e isso já é um ganho significativo de [privacidade financeira](/posts/privacidade-financeira-depix/).
-
-## Referências
-
-1. [Kast — Cartão cripto Visa](https://kast.xyz/)
-2. [Laso Finance — Cartões pré-pagos com stablecoins](https://www.laso.finance/)
-3. [Bybit — Cartão cripto](https://www.bybit.com/en/card/)
+Nenhum cartão cripto oferece anonimato total. Mesmo os que não exigem KYC ainda registram suas transações internamente. A diferença real está em quantos dos seus dados pessoais ficam expostos e para quem. Com DePix e um cartão com pouco ou nenhum KYC, você minimiza a conexão entre sua vida financeira e o sistema bancário tradicional — e isso já é um ganho significativo de [privacidade financeira](/pt/posts/privacidade-financeira-depix/).
 
 ## Sua privacidade financeira começa aqui
 

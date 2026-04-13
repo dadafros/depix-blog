@@ -23,7 +23,7 @@ If you are new to DePix, start with our article on [What is DePix?](/en/posts/wh
 Have these three things ready:
 
 1. **A bank account with Pix** — any Brazilian bank or fintech works (Nubank, Inter, Itau, Bradesco, etc.).
-2. **A Liquid wallet** — the DePix App is non-custodial, so you need an external wallet to receive your tokens. [SideSwap](https://sideswap.io/)² is the recommended option and works on mobile.
+2. **A Liquid wallet** — the DePix App is non-custodial, so you need an external wallet to receive your tokens. [SideSwap](https://sideswap.io/) is the recommended option and works on mobile.
 3. **An email address** — that is all the DePix App requires to sign up. No documents, no selfies, no KYC.
 
 This simplicity is intentional. The DePix App is designed so that anyone can buy a BRL stablecoin with Pix without needing a traditional exchange.
@@ -72,7 +72,7 @@ Once processing is complete, open your SideSwap wallet and check your DePix bala
 
 ## How much does it cost to buy DePix
 
-The DePix App fee is **2% + R$ 0.99** per deposit.¹ For example, if you deposit R$ 100, you pay R$ 2.99 in fees and receive R$ 97.01 in DePix tokens.
+The DePix App fee is **2% + R$ 0.99** per deposit. For example, if you deposit R$ 100, you pay R$ 2.99 in fees and receive R$ 97.01 in DePix tokens.
 
 This is competitive compared to traditional exchanges, which charge hidden spreads, withdrawal fees, and network fees. With the DePix App, the fee is transparent and all-inclusive.
 
@@ -90,7 +90,7 @@ This is the most common question for newcomers, and it is a fair one. Here is wh
 
 - **Non-custodial**: the DePix App does not hold your funds. Your tokens live in your Liquid wallet, which only you control. Nobody can freeze or seize your money.
 - **Anti-fraud verification**: the 24-hour processing window protects against Pix scams. Each transaction is verified before tokens are released.
-- **Liquid Network**: operated by a federation of companies with no single point of failure.³ Transactions use Confidential Transactions, which hide the amounts transferred.
+- **Liquid Network**: operated by a federation of companies with no single point of failure. Transactions use Confidential Transactions, which hide the amounts transferred.
 - **Minimal data collection**: sign-up requires only an email. Your personal information stays protected.
 
 For a deeper dive into security, read our article on [how DePix protects against scams](/en/posts/how-depix-protects-against-scams/).
@@ -109,7 +109,7 @@ Once you have DePix in your wallet, you have several options:
 
 With Brazil launching Drex (the central bank digital currency), many people wonder how it compares to DePix. The answer comes down to privacy.
 
-**Drex** is a CBDC with full transaction surveillance.⁴ Every payment is recorded and visible to the central bank and financial institutions. It is Pix with better technology but the same monitoring.
+**Drex** is a CBDC with full transaction surveillance. Every payment is recorded and visible to the central bank and financial institutions. It is Pix with better technology but the same monitoring.
 
 **DePix** is the opposite: a stablecoin on the Liquid Network with Confidential Transactions. Amounts are hidden by default, and you hold your own tokens in self-custody. No bank or government has access to your balance.
 
@@ -134,13 +134,6 @@ Yes. Any Brazilian bank or fintech with Pix works.
 
 **Do I need to understand crypto?**
 No. If you can use Pix, you can use the DePix App.
-
-## References
-
-1. [DePix App — sign up, fees, and limits](https://depixapp.com/)
-2. [SideSwap — recommended Liquid Network wallet](https://sideswap.io/)
-3. [Liquid Network — Confidential Transactions](https://docs.blockstream.com/liquid/technical_overview.html)
-4. [Banco Central do Brasil — Pix](https://www.bcb.gov.br/estabilidadefinanceira/pix)
 
 ## Your financial privacy starts here
 

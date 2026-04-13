@@ -51,7 +51,7 @@ In this article, we will explore three investment paths that start with DePix: b
 
 ## Investing in bitcoin with DePix
 
-Bitcoin is the most well-known digital asset in the world. With a supply capped at 21 million units and a decentralized network that operates without relying on governments or banks, it has established itself as a digital store of value.¹ In recent years, bitcoin has attracted not only technology enthusiasts but also institutional investors, pension funds, and even governments.
+Bitcoin is the most well-known digital asset in the world. With a supply capped at 21 million units and a decentralized network that operates without relying on governments or banks, it has established itself as a digital store of value. In recent years, bitcoin has attracted not only technology enthusiasts but also institutional investors, pension funds, and even governments.
 
 Buying bitcoin using DePix is straightforward and can be done directly in the SideSwap wallet, without a centralized exchange, without KYC, and with self-custody from the very first moment.
 
@@ -59,10 +59,10 @@ Buying bitcoin using DePix is straightforward and can be done directly in the Si
 
 1. Visit the [DePix App](https://depixapp.com/) and generate a Pix QR code for the amount you want to invest.
 2. Make the payment via Pix. Within 24 hours, the equivalent amount in DePix will appear in your Liquid wallet (SideSwap).
-3. In SideSwap,² access the swap function and exchange DePix for L-BTC (Liquid Bitcoin).
+3. In SideSwap, access the swap function and exchange DePix for L-BTC (Liquid Bitcoin).
 4. Done. You now hold bitcoin on the Liquid Network, under your own custody.
 
-The L-BTC you receive is real bitcoin, represented on the Liquid Network at a 1:1 ratio.³ Each L-BTC is backed by BTC held in a multisig wallet managed by the Liquid Federation, composed of over 65 companies in the Bitcoin ecosystem.
+The L-BTC you receive is real bitcoin, represented on the Liquid Network at a 1:1 ratio. Each L-BTC is backed by BTC held in a multisig wallet managed by the Liquid Federation, composed of over 65 companies in the Bitcoin ecosystem.
 
 If you prefer to hold bitcoin on the main network (mainchain), SideSwap offers a peg-out option: you send L-BTC and receive BTC at the address of your choice, with a fee of approximately 0.1%. However, for many purposes, keeping L-BTC on the Liquid Network is more advantageous, with faster and cheaper transactions and superior privacy thanks to Liquid's confidential transactions.
 
@@ -79,7 +79,7 @@ It is important to remember that bitcoin is a volatile asset. The price can drop
 
 Beyond bitcoin, the Liquid Network hosts a growing ecosystem of tokenized assets, also known as RWAs (Real World Assets). These are digital representations of traditional assets such as stocks, bonds, and commodities, issued as tokens on the blockchain.
 
-eNor Securities is a regulated exchange and member of the Liquid Federation that specializes in this market.⁴ In partnership with Backed Finance,⁵ eNor offers access to bTokens, which are tokens representing real-world assets traded directly on the Liquid Network.
+eNor Securities is a regulated exchange and member of the Liquid Federation that specializes in this market. In partnership with Backed Finance, eNor offers access to bTokens, which are tokens representing real-world assets traded directly on the Liquid Network.
 
 **What is eNor Securities:**
 
@@ -137,14 +137,6 @@ Invest wisely. Start with small amounts until you fully understand each step of 
 What makes DePix special in this context is that it serves as a bridge between the Brazilian financial system and the digital investment ecosystem. With a simple Pix payment, you deposit reais and receive an asset on the Liquid Network that can be converted into bitcoin, tokenized assets, or USDT to access global markets.
 
 All of this comes with the privacy that the Liquid Network offers in the initial stages and with self-custody from the very first moment. To learn more about how DePix works, read our article on [What is DePix](/en/posts/what-is-depix/).
-
-## References
-
-1. [DePix App — deposits, fees, and features](https://depixapp.com/)
-2. [SideSwap — Liquid Network wallet and swap service](https://sideswap.io/)
-3. [Liquid Network — Bitcoin sidechain by Blockstream](https://blockstream.com/liquid/)
-4. [eNor Securities — regulated exchange on the Liquid Network](https://enor.io/)
-5. [Backed Finance — tokenized real-world assets](https://backed.fi/)
 
 ## Your financial privacy starts here
 
