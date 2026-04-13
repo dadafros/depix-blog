@@ -151,7 +151,7 @@ The difference between a cheap and expensive remittance is in the details. Follo
 
 **4. Choose the right off-ramp for the destination country.** Each region has more efficient options. See the section below.
 
-**5. Consider spending directly in crypto.** If the end goal is not necessarily receiving local currency in a bank account, [crypto cards](/en/posts/crypto-cards-spend-depix/) and [gift cards](/en/posts/gift-cards-privacy-shopping/) can eliminate the off-ramp cost entirely.
+**5. Consider spending directly in crypto.** If the end goal is not necessarily receiving local currency in a bank account, [crypto cards](/en/posts/crypto-cards-spend-depix/) and [gift cards](/en/posts/private-purchases-gift-cards/) can eliminate the off-ramp cost entirely.
 
 ## How to off-ramp at the destination
 
@@ -181,7 +181,7 @@ Learn more about all options in our complete guide to [crypto cards](/en/posts/c
 
 Another way to "use" the value at the destination without a bank off-ramp: buy gift cards for stores, services, and global platforms directly with crypto. Amazon, Uber, Netflix, Steam, and hundreds more. No KYC, no bank account, no trail.
 
-See the full guide: [Gift cards and privacy shopping](/en/posts/gift-cards-privacy-shopping/).
+See the full guide: [Gift cards and privacy shopping](/en/posts/private-purchases-gift-cards/).
 
 ### Bridge to other networks
 

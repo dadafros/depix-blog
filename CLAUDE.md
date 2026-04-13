@@ -10,6 +10,10 @@ DePix Blog is a multilingual Hugo static site used for SEO content marketing. It
 **Main App**: `https://depixapp.com/`
 **Stack**: Hugo static site generator, deployed via GitHub Pages with GitHub Actions.
 
+## Code Language
+
+All new code must be written in English — variable names, function names, table/column names, comments, error messages. Existing Portuguese names (e.g., `criado_em`, `valor_centavos`) are not renamed (breaking change), but all new additions must use English.
+
 ## How to Create a Blog Post
 
 Every post must exist in **both languages**, and the workflow should stay fully automatic. If the user gives only a topic, you must do the rest: choose the keywords, write the PT version first, adapt it to EN, create the shared article images, fill the frontmatter correctly, validate the result, and commit directly to `main` unless the user says otherwise.
