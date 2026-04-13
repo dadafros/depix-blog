@@ -16,7 +16,7 @@ draft: false
 
 Comprar DePix é mais simples do que parece. Se você tem uma conta bancária com Pix e um celular, já tem tudo o que precisa para transformar reais em uma stablecoin privada na Liquid Network. Neste guia, vamos mostrar o passo a passo completo — do cadastro até o recebimento dos tokens na sua carteira.
 
-Se você ainda não sabe o que é o DePix, comece pelo nosso artigo [O que é DePix?](/pt/posts/o-que-e-depix/) para entender o básico antes de seguir com a compra.
+Se você ainda não sabe o que é o DePix, comece pelo nosso artigo [O que é DePix?](/posts/o-que-e-depix/) para entender o básico antes de seguir com a compra.
 
 ## O que você precisa para comprar DePix
 
@@ -42,7 +42,7 @@ Se ainda não tem uma carteira Liquid, baixe a [SideSwap](https://sideswap.io/) 
 
 ### 3. Escolha o valor do depósito
 
-No DePix App, informe quanto quer depositar e cole o endereço da sua carteira Liquid. O valor mínimo é **R$ 5,00** e o máximo é **R$ 6.000 por dia** (por CPF).
+No DePix App, informe quanto quer depositar e cole o endereço da sua carteira Liquid. O valor mínimo é **R$ 5,00** e o máximo é **R$ 6.000 por dia** (por CPF)¹.
 
 ### 4. Pague o QR code Pix
 
@@ -50,7 +50,7 @@ O app gera um QR code Pix. Abra o aplicativo do seu banco, escaneie o código e 
 
 ### 5. Aguarde o processamento
 
-Seus DePix serão enviados para sua carteira Liquid em até **24 horas (D+1)**. Esse prazo existe para proteger você contra golpes — o DePix App usa essa janela para verificar se a transação é legítima antes de liberar os tokens. Para entender melhor, veja como [o DePix protege contra golpes](/pt/posts/como-depix-protege-contra-golpes/).
+Seus DePix serão enviados para sua carteira Liquid em até **24 horas (D+1)**¹. Esse prazo existe para proteger você contra golpes — o DePix App usa essa janela para verificar se a transação é legítima antes de liberar os tokens. Para entender melhor, veja como [o DePix protege contra golpes](/posts/como-depix-protege-contra-golpes/).
 
 ### 6. Confirme o recebimento
 
@@ -72,7 +72,7 @@ Quando o processamento terminar, abra sua carteira SideSwap e confira o saldo de
 
 ## Quanto custa comprar DePix
 
-A taxa do DePix App é de **2% + R$ 0,99** por depósito. Isso significa que, se você depositar R$ 100, pagará R$ 2,99 de taxa e receberá R$ 97,01 em DePix na sua carteira.
+A taxa do DePix App é de **2% + R$ 0,99** por depósito¹. Isso significa que, se você depositar R$ 100, pagará R$ 2,99 de taxa e receberá R$ 97,01 em DePix na sua carteira.
 
 Essa taxa é competitiva quando comparada às corretoras tradicionais, que cobram spreads escondidos, taxas de saque e taxas de rede. Com o DePix App, a taxa é transparente e única.
 
@@ -90,30 +90,30 @@ Essa é a pergunta mais comum de quem começa, e ela faz todo sentido. Aqui est�
 
 - **Não-custodial**: o DePix App não guarda seus fundos. Seus tokens ficam na sua carteira Liquid, que só você controla. Ninguém pode congelar ou confiscar seu dinheiro.
 - **Verificação anti-fraude**: o prazo de 24 horas protege contra golpes com Pix. O app verifica cada transação antes de liberar os tokens.
-- **Liquid Network**: rede operada por uma federação de empresas, sem ponto único de falha. As transações usam Confidential Transactions, que escondem os valores transferidos.
+- **Liquid Network**: rede operada por uma federação de empresas, sem ponto único de falha². As transações usam Confidential Transactions, que escondem os valores transferidos².
 - **Sem KYC abusivo**: cadastro com e-mail apenas. Suas informações pessoais ficam protegidas.
 
-Para uma análise completa de segurança, leia nosso artigo sobre [como o DePix protege contra golpes](/pt/posts/como-depix-protege-contra-golpes/).
+Para uma análise completa de segurança, leia nosso artigo sobre [como o DePix protege contra golpes](/posts/como-depix-protege-contra-golpes/).
 
 ## O que fazer depois de comprar DePix
 
 Com DePix na carteira, você tem várias opções:
 
-- **Guardar reais fora do banco** — mantenha seu dinheiro na Liquid Network com [privacidade financeira](/pt/posts/privacidade-financeira-depix/) e autocustódia.
-- **Converter para Bitcoin** — use a SideSwap para trocar DePix por L-BTC (Bitcoin na Liquid). Assim você pode [investir em Bitcoin](/pt/posts/investir-bitcoin-acoes-tokenizadas/) de forma privada.
-- **Fazer pagamentos privados** — use DePix para [pagamentos sem expor seus dados](/pt/posts/pagamentos-privados-depix/) ao sistema bancário.
-- **Comprar gift cards** — transforme DePix em compras anônimas com [gift cards](/pt/posts/compras-privacidade-gift-cards/).
+- **Guardar reais fora do banco** — mantenha seu dinheiro na Liquid Network com [privacidade financeira](/posts/privacidade-financeira-depix/) e autocustódia.
+- **Converter para Bitcoin** — use a SideSwap para trocar DePix por L-BTC (Bitcoin na Liquid). Assim você pode [investir em Bitcoin](/posts/investir-bitcoin-acoes-tokenizadas/) de forma privada.
+- **Fazer pagamentos privados** — use DePix para [pagamentos sem expor seus dados](/posts/pagamentos-privados-depix/) ao sistema bancário.
+- **Comprar gift cards** — transforme DePix em compras anônimas com [gift cards](/posts/compras-privacidade-gift-cards/).
 - **Sacar de volta para reais** — quando precisar, envie DePix de volta ao app e receba via Pix na sua conta bancária.
 
 ## DePix vs Drex: qual a diferença?
 
 Com o lançamento do Drex (o real digital do Banco Central), muita gente se pergunta: qual a diferença? A resposta é simples — privacidade.
 
-O **Drex** é uma moeda digital de banco central (CBDC) com rastreamento total. Cada transação fica registrada e visível para o Banco Central e instituições financeiras. É o Pix com mais tecnologia, mas a mesma vigilância.
+O **Drex** é uma moeda digital de banco central (CBDC) com rastreamento total³. Cada transação fica registrada e visível para o Banco Central e instituições financeiras. É o Pix com mais tecnologia, mas a mesma vigilância.
 
 O **DePix** é o oposto: uma stablecoin na Liquid Network com Confidential Transactions. Os valores são ocultos por padrão, e você guarda seus próprios tokens em autocustódia. Nenhum banco ou governo tem acesso ao seu saldo.
 
-Se privacidade financeira importa para você, a escolha é clara. Para entender melhor as diferenças entre o sistema bancário e a Liquid Network, leia nosso artigo sobre [DePix vs Pix tradicional](/pt/posts/depix-vs-pix-tradicional/).
+Se privacidade financeira importa para você, a escolha é clara. Para entender melhor as diferenças entre o sistema bancário e a Liquid Network, leia nosso artigo sobre [DePix vs Pix tradicional](/posts/depix-vs-pix-tradicional/).
 
 ## Perguntas frequentes
 
@@ -134,6 +134,12 @@ Sim. Qualquer banco ou fintech com Pix funciona.
 
 **Preciso entender de criptomoedas?**
 Não. Se você sabe usar Pix, sabe usar o DePix App.
+
+## Referências
+
+1. [DePix App — Taxas, limites e processamento](https://depixapp.com/)
+2. [Blockstream Liquid Network — Confidential Transactions e federação](https://docs.blockstream.com/liquid/)
+3. [Banco Central do Brasil — Drex (Real Digital)](https://www.bcb.gov.br/estabilidadefinanceira/drex)
 
 ## Sua privacidade financeira começa aqui
 

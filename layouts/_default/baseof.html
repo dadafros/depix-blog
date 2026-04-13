@@ -38,7 +38,8 @@
     {{ range .AllTranslations }}
     <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
     {{ end }}
-    <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+    {{ $defaultTranslation := index .AllTranslations 0 }}
+    <link rel="alternate" hreflang="x-default" href="{{ $defaultTranslation.Permalink }}">
   {{ end }}
 
   {{/* Open Graph */}}
@@ -91,6 +92,29 @@
   {{ end }}
   <script type="application/ld+json">
   {{ $schema | jsonify | safeJS }}
+  </script>
+  {{ end }}
+
+  {{/* WebSite + Organization schema for homepage */}}
+  {{ if .IsHome }}
+  {{ $orgSchema := dict
+    "@context" "https://schema.org"
+    "@type" "WebSite"
+    "name" .Site.Title
+    "url" .Site.BaseURL
+    "inLanguage" .Lang
+    "publisher" (dict
+      "@type" "Organization"
+      "name" "DePix App"
+      "url" .Site.Params.appUrl
+      "logo" (dict
+        "@type" "ImageObject"
+        "url" (.Site.Params.logo | absURL)
+      )
+    )
+  }}
+  <script type="application/ld+json">
+  {{ $orgSchema | jsonify | safeJS }}
   </script>
   {{ end }}
 

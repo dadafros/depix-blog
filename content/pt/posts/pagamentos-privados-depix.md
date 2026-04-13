@@ -32,13 +32,13 @@ Quando você quer enviar DePix para alguém, o fluxo é o seguinte:
 
 Em aproximadamente dois minutos, o DePix chega na carteira do destinatário. Sem formulários, sem aprovações pendentes, sem horário comercial. A transação acontece diretamente entre você e o destinatário, passando apenas pela Liquid Network — uma rede descentralizada que não pertence a nenhum banco ou empresa.
 
-E o custo? A taxa da rede Liquid é praticamente zero — frações de centavo. O DePix App não cobra absolutamente nada por transferências entre carteiras. Comparado com taxas de TED, DOC ou até mesmo de algumas transferências Pix empresariais, o custo é incomparavelmente menor.
+E o custo? A taxa da rede Liquid é praticamente zero — frações de centavo¹. O DePix App não cobra absolutamente nada por transferências entre carteiras³. Comparado com taxas de TED, DOC ou até mesmo de algumas transferências Pix empresariais, o custo é incomparavelmente menor.
 
 ## O que torna os pagamentos privados
 
 Aqui está a diferença fundamental entre o DePix e praticamente qualquer outro meio de pagamento digital que você conhece.
 
-A Liquid Network utiliza uma tecnologia chamada **Confidential Transactions** (Transações Confidenciais). Isso significa que, por padrão, toda transação na rede esconde o valor transferido. Observadores externos — qualquer pessoa que analise a blockchain — podem ver que uma transação aconteceu, mas não conseguem ver quanto foi enviado. Apenas o remetente e o destinatário conhecem o valor.
+A Liquid Network utiliza uma tecnologia chamada **Confidential Transactions** (Transações Confidenciais)¹. Isso significa que, por padrão, toda transação na rede esconde o valor transferido. Observadores externos — qualquer pessoa que analise a blockchain — podem ver que uma transação aconteceu, mas não conseguem ver quanto foi enviado. Apenas o remetente e o destinatário conhecem o valor.
 
 {{< diagram alt="Pagamento privado com DePix na Liquid Network: remetente envia DePix, valor fica oculto na rede, destinatário recebe, observador externo não consegue ver o valor" caption="Transações confidenciais: o valor transferido é visível apenas para remetente e destinatário." >}}
 <div class="d-flow-row">
@@ -57,13 +57,13 @@ A Liquid Network utiliza uma tecnologia chamada **Confidential Transactions** (T
 
 Compare isso com os sistemas que você usa hoje:
 
-- **Pix**: o banco vê tudo. Valor, data, hora, remetente, destinatário. Essas informações ficam disponíveis para a instituição financeira e, por extensão, para qualquer autoridade que as solicite.
+- **Pix**: o banco vê tudo². Valor, data, hora, remetente, destinatário. Essas informações ficam disponíveis para a instituição financeira e, por extensão, para qualquer autoridade que as solicite.
 - **Bitcoin**: a blockchain é pública. Qualquer pessoa pode ver o valor de qualquer transação, bastando consultar um explorador de blocos.
-- **DePix na Liquid Network**: o valor é oculto por padrão. A transação é visível, mas o montante é criptograficamente protegido.
+- **DePix na Liquid Network**: o valor é oculto por padrão¹. A transação é visível, mas o montante é criptograficamente protegido.
 
 Isso não é um recurso opcional que você precisa ativar. Confidential Transactions são o comportamento padrão da Liquid Network. Toda transação com DePix já nasce privada.
 
-Para quem valoriza a [privacidade financeira](/pt/posts/privacidade-financeira-depix/), essa característica muda completamente o jogo. Suas transações deixam de ser um livro aberto para bancos, empresas de análise de dados e qualquer outro intermediário curioso.
+Para quem valoriza a [privacidade financeira](/posts/privacidade-financeira-depix/), essa característica muda completamente o jogo. Suas transações deixam de ser um livro aberto para bancos, empresas de análise de dados e qualquer outro intermediário curioso.
 
 ## O que torna os pagamentos permissionless
 
@@ -79,7 +79,7 @@ Com o DePix na Liquid Network, essa dinâmica não existe:
 - **Disponível 24 horas por dia, 7 dias por semana, 365 dias por ano**: não existe "horário bancário" na Liquid Network. Finais de semana, feriados, madrugada — a rede está sempre operando.
 - **Sem reversão**: uma vez confirmada, a transação é final. Ninguém pode reverter, cancelar ou estornar o pagamento sem o consentimento do destinatário.
 
-Essa é a essência de ser um [indivíduo soberano](/pt/posts/individuo-soberano-dinheiro-permissionless/) sobre o próprio dinheiro. Você não pede permissão para gastar, enviar ou receber. Você simplesmente faz.
+Essa é a essência de ser um [indivíduo soberano](/posts/individuo-soberano-dinheiro-permissionless/) sobre o próprio dinheiro. Você não pede permissão para gastar, enviar ou receber. Você simplesmente faz.
 
 ## Para que servem pagamentos privados e sem intermediários
 
@@ -128,9 +128,15 @@ Em uma transferência bancária tradicional, ambas as partes precisam ter conta 
 
 Em uma transferência com DePix, ambas as partes precisam apenas de uma carteira Liquid e uma conexão à internet. Não há banco no meio. O valor é oculto para observadores externos. Ninguém pode bloquear a operação. A transação é confirmada em minutos, independentemente do horário, do dia ou do valor.
 
-Pix trouxe praticidade para os [pagamentos no Brasil](/pt/posts/pagamentos-pix-sem-conta-bancaria/). DePix traz algo que o Pix jamais poderá oferecer: privacidade e autonomia real sobre o seu dinheiro.
+Pix trouxe praticidade para os [pagamentos no Brasil](/posts/pagamentos-pix-sem-conta-bancaria/). DePix traz algo que o Pix jamais poderá oferecer: privacidade e autonomia real sobre o seu dinheiro.
 
 Isso é dinheiro digital com as propriedades do dinheiro físico. O equivalente moderno de entregar uma nota na mão de alguém — mas mais rápido, sem limite geográfico e com a segurança criptográfica de uma rede descentralizada.
+
+## Referências
+
+1. [Blockstream Liquid Network — Confidential Transactions e taxas](https://docs.blockstream.com/liquid/)
+2. [Banco Central do Brasil — Regulamento do Pix](https://www.bcb.gov.br/estabilidadefinanceira/pix)
+3. [DePix App — Transferências e taxas](https://depixapp.com/)
 
 ## Sua privacidade financeira começa aqui
 

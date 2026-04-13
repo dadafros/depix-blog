@@ -36,7 +36,7 @@ The flow is straightforward. You open the DePix App, generate a Pix QR code for 
 
 On your side, the payment is processed and you receive DePix (a BRL stablecoin on the Liquid Network) in your external Liquid wallet. Processing takes up to 24 hours (D+1), which is a deliberate security measure. If you want to understand why, read our post on [how DePix protects against scams](/en/posts/how-depix-protects-against-scams/).
 
-The minimum transaction is R$5 and the daily maximum is R$6,000. Each transaction costs 2% + R$0.99.
+The minimum transaction is R$5 and the daily maximum is R$6,000. Each transaction costs 2% + R$0.99.¹
 
 ## Cost comparison: DePix vs card machines
 
@@ -57,7 +57,7 @@ For small businesses and freelancers, those savings add up fast. A food truck do
 
 Here is where things get really interesting. When you accept payments through a traditional bank or card processor, your money sits in their system. They can freeze your account, impose withdrawal limits, or comply with a court order that locks you out of your own revenue — sometimes without warning.
 
-With DePix, your revenue goes directly to your Liquid wallet. You hold the keys. No bank, no intermediary, no one standing between you and the money you earned. This is what financial sovereignty looks like in practice.
+With DePix, your revenue goes directly to your Liquid wallet.² You hold the keys. No bank, no intermediary, no one standing between you and the money you earned. This is what financial sovereignty looks like in practice.
 
 Once the DePix arrives in your wallet, you have several options:
 
@@ -80,7 +80,7 @@ Setting up your crypto business account takes about five minutes:
 
 1. **Create your account** at [depixapp.com](https://depixapp.com/). All you need is an email address. No ID upload, no business documents, no waiting period. You are ready in about one minute.
 
-2. **Download a Liquid wallet** like SideSwap. This is where your DePix payments will arrive. Set it up and copy your Liquid receiving address.
+2. **Download a Liquid wallet** like SideSwap.³ This is where your DePix payments will arrive. Set it up and copy your Liquid receiving address.
 
 3. **Add your Liquid address** to the DePix App. Go to settings and paste the address from your wallet. This tells the app where to send your funds.
 
@@ -109,6 +109,12 @@ The DePix merchant mode is a good fit for:
 - **Anyone** who values financial privacy and does not want every sale reported to a bank.
 
 If your customers already pay with Pix — and in Brazil, most of them do — switching to DePix on your end is invisible to them and beneficial to you.
+
+## References
+
+1. [DePix App — merchant mode, fees, and limits](https://depixapp.com/)
+2. [Liquid Network — Bitcoin sidechain by Blockstream](https://blockstream.com/liquid/)
+3. [SideSwap — Liquid Network wallet and exchange](https://sideswap.io/)
 
 ## Your financial privacy starts here
 
