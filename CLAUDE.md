@@ -429,6 +429,7 @@ That's it. No manual build step needed.
 - **Do NOT change the GitHub Actions workflow** unless explicitly asked.
 - **Do NOT use accented characters in PT tags** — causes duplicate taxonomy pages in Hugo (one with accent, one without).
 - **Do NOT set `defaultContentLanguageInSubdir = true`** in `hugo.toml` — PT content must serve from the domain root, not from `/pt/`.
+- **Do NOT remove the `cp public/index.html public/pt/index.html` step** from the CI workflow — Hugo generates a redirect alias at `/pt/index.html` that causes a redirect loop with CDN caches during deploy. The copy overwrites it with the real homepage.
 
 ## Commands
 
