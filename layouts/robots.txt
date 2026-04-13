@@ -1,7 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /pt/tags/
-Disallow: /en/tags/
-Disallow: /pt/categories/
-Disallow: /en/categories/
+
 Sitemap: {{ "sitemap.xml" | absURL }}
