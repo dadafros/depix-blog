@@ -20,7 +20,7 @@ The DePix App solves this. Using its withdrawal feature, you can send Pix paymen
 
 ## How it works
 
-Pix is an instant payment system operated by Brazil's Central Bank.² Normally, sending a Pix payment requires a bank account connected to the system. The DePix App works as an intermediary: it receives your DePix tokens on the Liquid Network and, in return, sends a Pix payment to the recipient's bank account on your behalf.
+Pix is an instant payment system operated by Brazil's Central Bank. Normally, sending a Pix payment requires a bank account connected to the system. The DePix App works as an intermediary: it receives your DePix tokens on the Liquid Network and, in return, sends a Pix payment to the recipient's bank account on your behalf.
 
 Here is the flow: you hold DePix in your digital wallet. When you need to make a payment, you open the DePix App, enter the amount and the recipient's Pix key. The app generates a Liquid Network address for you to send your DePix to. Once the tokens arrive, the DePix App processes the payment and sends the Pix.
 
@@ -44,7 +44,7 @@ This means that if you hold DePix — regardless of how you obtained them — yo
 
 The process takes just a few minutes. Note: the DePix App interface is currently in Portuguese, so we include the original labels you will see on screen alongside their English translations.
 
-**Step 1: Open the DePix App and select "Realizar pagamento" (Make a payment).** Go to [depixapp.com](https://depixapp.com/)¹ in your browser. On the main screen, tap "Realizar pagamento" — the subtitle reads "Sacar DePix" (Withdraw DePix). This is the feature that converts your DePix into a Pix payment.
+**Step 1: Open the DePix App and select "Realizar pagamento" (Make a payment).** Go to [depixapp.com](https://depixapp.com/) in your browser. On the main screen, tap "Realizar pagamento" — the subtitle reads "Sacar DePix" (Withdraw DePix). This is the feature that converts your DePix into a Pix payment.
 
 **Step 2: Enter the amount in the "Valor" (Amount) field.** Type in the value you want to send. The input accepts amounts in DePix (which is pegged 1:1 to the Brazilian real). You can toggle between two modes using the switch on screen:
 
@@ -67,7 +67,7 @@ The whole process takes just a few minutes from start to finish.
 
 If you do not have a Brazilian bank account, you might wonder how to get DePix in the first place. There are several ways:
 
-**Convert cryptocurrency you already hold.** If you have Bitcoin, USDt, or L-BTC, you can [convert them into DePix](/en/posts/how-to-convert-crypto-to-reais/) using SideSwap.³ This is the most common path for foreigners — you likely already hold some crypto and just need a way to turn it into spending money in Brazil.
+**Convert cryptocurrency you already hold.** If you have Bitcoin, USDt, or L-BTC, you can [convert them into DePix](/en/posts/how-to-convert-crypto-to-reais/) using SideSwap. This is the most common path for foreigners — you likely already hold some crypto and just need a way to turn it into spending money in Brazil.
 
 **Receive them from someone else.** Anyone who holds DePix can send them to your Liquid Network address. If a friend, colleague, or employer uses DePix, they can transfer tokens directly to your wallet. Transactions on the Liquid Network confirm in about two minutes with near-zero fees.
 
@@ -85,7 +85,7 @@ The DePix App withdrawal feature serves several user profiles.
 
 **Crypto earners.** Freelancers, developers, and remote workers who earn in crypto can use the DePix App as a direct off-ramp for payments in Brazil. Instead of transferring to an exchange, waiting for conversion, and then initiating a bank transfer, you convert to DePix and pay directly via Pix.
 
-**Privacy-conscious users.** Transactions on the Liquid Network use Confidential Transactions,⁴ meaning amounts are only visible to the parties involved. This gives users more control over their financial information. To learn more, read our article on [financial privacy with DePix](/en/posts/financial-privacy-depix/).
+**Privacy-conscious users.** Transactions on the Liquid Network use Confidential Transactions, meaning amounts are only visible to the parties involved. This gives users more control over their financial information. To learn more, read our article on [financial privacy with DePix](/en/posts/financial-privacy-depix/).
 
 ## Costs and transparency
 
@@ -114,13 +114,6 @@ Review the amounts and fees before sending. The DePix App shows all necessary in
 ## A new way to access Pix
 
 The DePix App does not aim to replace Pix or the banking system. It extends access to Brazil's most popular payment system to people who, for whatever reason, do not have a bank account in the country. Whether you are a foreigner who needs to pay bills in Brazil, an unbanked individual, or a professional who earns in crypto, the DePix App's withdrawal feature bridges the gap between cryptocurrency and Pix.
-
-## References
-
-1. [DePix App — withdrawal feature and fees](https://depixapp.com/)
-2. [Banco Central do Brasil — Pix](https://www.bcb.gov.br/estabilidadefinanceira/pix)
-3. [SideSwap — Liquid Network wallet](https://sideswap.io/)
-4. [Liquid Network — Confidential Transactions](https://docs.blockstream.com/liquid/technical_overview.html)
 
 ## Your financial privacy starts here
 

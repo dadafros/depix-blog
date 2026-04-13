@@ -2,7 +2,7 @@
 title: "Como fazer renda extra como afiliado do DePix App"
 description: "Aprenda como ganhar comissões indicando o DePix App. Guia completo do programa de afiliados com passo a passo."
 date: 2026-03-30
-tags: ["afiliados", "renda extra", "depix", "comissoes"]
+tags: ["afiliados", "renda extra", "depix", "comissões"]
 author: "DePix"
 slug: "renda-extra-afiliado-depix"
 translationKey: "depix-affiliate"
@@ -34,9 +34,9 @@ O programa de afiliados é uma forma de parceria entre você e o DePix App. Ao s
 </div>
 {{< /diagram >}}
 
-Para quem não conhece, o [DePix App](/posts/o-que-e-depix/) é uma plataforma que permite converter reais em DePix, uma stablecoin pareada ao real na Liquid Network. Os usuários fazem depósitos via Pix e recebem DePix em suas carteiras, com privacidade e autocustódia. Cada depósito realizado por alguém que você indicou gera comissão para você.
+Para quem não conhece, o [DePix App](/pt/posts/o-que-e-depix/) é uma plataforma que permite converter reais em DePix, uma stablecoin pareada ao real na Liquid Network. Os usuários fazem depósitos via Pix e recebem DePix em suas carteiras, com privacidade e autocustódia. Cada depósito realizado por alguém que você indicou gera comissão para você.
 
-O vínculo entre você e suas indicações é permanente¹. Não existe prazo de validade. Se alguém se cadastrar pelo seu link hoje e fizer um depósito daqui a dois anos, você ainda recebe sua comissão por aquele depósito.
+O vínculo entre você e suas indicações é permanente. Não existe prazo de validade. Se alguém se cadastrar pelo seu link hoje e fizer um depósito daqui a dois anos, você ainda recebe sua comissão por aquele depósito.
 
 ## Quem pode participar
 
@@ -55,7 +55,7 @@ Você não precisa ser especialista em criptomoedas. Basta entender o básico so
 
 O processo para começar a ganhar como afiliado é simples e leva poucos minutos. Veja o passo a passo:
 
-**1. Crie sua conta no DePix App.** Acesse [depixapp.com](https://depixapp.com/) e cadastre-se. O registro exige apenas um e-mail¹ — sem documentos, sem burocracia, sem verificação de identidade. Em poucos segundos sua conta está ativa.
+**1. Crie sua conta no DePix App.** Acesse [depixapp.com](https://depixapp.com/) e cadastre-se. O registro exige apenas um e-mail — sem documentos, sem burocracia, sem verificação de identidade. Em poucos segundos sua conta está ativa.
 
 **2. Acesse o painel de afiliados.** Dentro do aplicativo, toque no menu (o ícone ☰ no canto da tela). Você verá a opção do programa de afiliados. Toque para abrir o painel.
 
@@ -69,7 +69,7 @@ O processo para começar a ganhar como afiliado é simples e leva poucos minutos
 
 A mecânica é direta: você ganha uma comissão sobre o volume de depósitos feitos pelas pessoas que indicou. Quanto mais suas indicações usam o DePix App, mais você ganha.
 
-As comissões são calculadas mensalmente¹. Ao final de cada mês, o DePix App apura o volume total de depósitos feitos pelas suas indicações e calcula sua comissão com base nesse valor. O pagamento é feito diretamente na sua conta.
+As comissões são calculadas mensalmente. Ao final de cada mês, o DePix App apura o volume total de depósitos feitos pelas suas indicações e calcula sua comissão com base nesse valor. O pagamento é feito diretamente na sua conta.
 
 Alguns pontos importantes sobre os ganhos:
 
@@ -85,7 +85,7 @@ Compartilhar o link é o primeiro passo, mas existem estratégias que podem aume
 
 **Use o WhatsApp com inteligência.** O WhatsApp é a ferramenta de comunicação mais usada no Brasil. Compartilhe seu link em grupos relevantes — de amigos, de trabalho, de comunidades que discutem finanças ou tecnologia. Mas evite spam. Uma mensagem bem escrita explicando os benefícios vale mais do que dez links jogados sem contexto.
 
-**Foque em quem realmente pode se beneficiar.** Pense em pessoas ao seu redor que se preocupam com privacidade, que já usam criptomoedas ou que estão curiosas sobre o assunto. Pense em comerciantes que poderiam usar o DePix App como uma [conta PJ cripto](/posts/conta-pj-cripto-depix-app/) para receber pagamentos com mais privacidade. Indicações qualificadas convertem melhor do que indicações em massa.
+**Foque em quem realmente pode se beneficiar.** Pense em pessoas ao seu redor que se preocupam com privacidade, que já usam criptomoedas ou que estão curiosas sobre o assunto. Pense em comerciantes que poderiam usar o DePix App como uma [conta PJ cripto](/pt/posts/conta-pj-cripto-depix-app/) para receber pagamentos com mais privacidade. Indicações qualificadas convertem melhor do que indicações em massa.
 
 **Publique nas redes sociais com consistência.** Se você usa Instagram, Twitter ou qualquer outra rede, mencione o DePix App periodicamente. Não precisa ser todos os dias, mas manter uma presença constante ajuda. Conte sua experiência pessoal com a plataforma — depoimentos reais são mais convincentes do que qualquer propaganda.
 
@@ -102,10 +102,6 @@ Além disso, o produto é genuinamente útil. Não é preciso convencer ninguém
 ## Comece hoje mesmo
 
 O programa de afiliados do DePix App é uma oportunidade de renda extra que não exige investimento, não tem burocracia e não precisa de experiência prévia. Basta criar sua conta, pegar seu link e começar a compartilhar. Se o programa de afiliados despertou seu interesse, vale entender melhor como o DePix App funciona na prática — e por que tantas pessoas estão buscando alternativas ao sistema bancário tradicional.
-
-## Referências
-
-1. [DePix App — Programa de afiliados, cadastro e comissões](https://depixapp.com/)
 
 ## Sua privacidade financeira começa aqui
 

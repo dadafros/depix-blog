@@ -30,11 +30,11 @@ Isso não é evasão fiscal nem atividade ilícita. É o equivalente digital de 
 
 Existem diversas plataformas que permitem comprar gift cards usando criptomoedas sem exigir verificação de identidade. As principais são:
 
-**Bitrefill** é a mais conhecida e completa¹. Oferece mais de 5.000 gift cards de marcas como Amazon, Netflix, Uber, Spotify, Apple, Google Play, iFood, Rappi e centenas de outras. Aceita pagamentos em Bitcoin via Lightning Network, além de outras criptomoedas. Não exige KYC para compras dentro de limites razoáveis (até US$ 5.000 por dia). A entrega do código é instantânea quando o pagamento é feito via Lightning.
+**Bitrefill** é a mais conhecida e completa. Oferece mais de 5.000 gift cards de marcas como Amazon, Netflix, Uber, Spotify, Apple, Google Play, iFood, Rappi e centenas de outras. Aceita pagamentos em Bitcoin via Lightning Network, além de outras criptomoedas. Não exige KYC para compras dentro de limites razoáveis (até US$ 5.000 por dia). A entrega do código é instantânea quando o pagamento é feito via Lightning.
 
 **CoinCards** atende principalmente Estados Unidos, Canadá e Europa, oferecendo gift cards de centenas de varejistas como Walmart, Best Buy e Airbnb. Aceita Bitcoin e outras criptomoedas sem exigir KYC para a maioria das compras.
 
-**Coinsbee** é outra opção robusta², com mais de 5.000 marcas em 185 países. Aceita mais de 200 criptomoedas, incluindo USDT. Não exige KYC para transações abaixo de EUR 1.000 por compra (até EUR 10.000 no total). Basta informar um e-mail para receber o voucher.
+**Coinsbee** é outra opção robusta, com mais de 5.000 marcas em 185 países. Aceita mais de 200 criptomoedas, incluindo USDT. Não exige KYC para transações abaixo de EUR 1.000 por compra (até EUR 10.000 no total). Basta informar um e-mail para receber o voucher.
 
 **CryptoRefills** permite gastar Bitcoin, USDT, USDC, ETH e mais de 100 criptomoedas em gift cards de mais de 5.000 marcas, também sem KYC.
 
@@ -72,7 +72,7 @@ O DePix vive na Liquid Network, e a maioria das plataformas de gift cards aceita
 **Caminho 1: DePix para L-BTC para Lightning**
 
 1. Abra a carteira SideSwap e faça o swap de DePix para L-BTC (Liquid Bitcoin).
-2. Use um serviço de swap como o Boltz Exchange³ para trocar L-BTC por Bitcoin na Lightning Network. O Boltz é não-custodial e usa contratos atômicos, garantindo que o swap é seguro: ou funciona por completo, ou seus fundos são devolvidos automaticamente.
+2. Use um serviço de swap como o Boltz Exchange para trocar L-BTC por Bitcoin na Lightning Network. O Boltz é não-custodial e usa contratos atômicos, garantindo que o swap é seguro: ou funciona por completo, ou seus fundos são devolvidos automaticamente.
 3. Com saldo em Lightning, acesse a Bitrefill (ou outra plataforma), escolha o gift card desejado e pague com Lightning. A entrega é instantânea.
 
 Esse caminho é ideal para quem quer usar a Bitrefill, que tem a melhor seleção de gift cards e aceita Lightning nativamente.
@@ -119,7 +119,7 @@ Vale reforçar um ponto fundamental: usar gift cards e cartões pré-pagos para 
 
 A privacidade financeira é sobre controle pessoal. É sobre decidir quem tem acesso às informações sobre como você gasta seu dinheiro. Não existe nada de errado em querer que seu banco não saiba que você assina determinado serviço ou que compra em determinada loja.
 
-Se você quer entender melhor por que a privacidade financeira importa e como a Liquid Network protege suas transações, leia nosso artigo sobre [privacidade financeira com o DePix](/posts/privacidade-financeira-depix/).
+Se você quer entender melhor por que a privacidade financeira importa e como a Liquid Network protege suas transações, leia nosso artigo sobre [privacidade financeira com o DePix](/pt/posts/privacidade-financeira-depix/).
 
 ## Passo a passo resumido
 
@@ -133,12 +133,6 @@ Para facilitar, aqui vai o caminho mais simples para comprar um gift card com De
 6. Use o código na loja para fazer sua compra.
 
 Todo o processo leva poucos minutos e nenhuma das etapas exige que você forneça documentos ou informações pessoais além do necessário.
-
-## Referências
-
-1. [Bitrefill — Gift cards com criptomoedas](https://www.bitrefill.com/)
-2. [Coinsbee — Gift cards internacionais com cripto](https://www.coinsbee.com/)
-3. [Boltz Exchange — Swaps não-custodiais Lightning/Liquid](https://boltz.exchange/)
 
 ## Sua privacidade financeira começa aqui
 

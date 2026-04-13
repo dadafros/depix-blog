@@ -20,7 +20,7 @@ Brazil's Pix system is free, instant, and available around the clock — and tha
 
 ## What Pix does right
 
-Before any comparison, Pix deserves credit for what it has accomplished. Launched by Brazil's central bank in November 2020,² it has fundamentally transformed payments in the country.
+Before any comparison, Pix deserves credit for what it has accomplished. Launched by Brazil's central bank in November 2020, it has fundamentally transformed payments in the country.
 
 Pix is instant, operates 24/7 including holidays, and is free for individuals. You can transfer money using a Pix key, QR code, or bank details, and the funds arrive in seconds. It processes more daily transactions than credit and debit cards combined. By any measure, Pix is a remarkable achievement in financial infrastructure.
 
@@ -49,7 +49,7 @@ This is the most fundamental difference between the two options and it is worth 
 
 With traditional Pix, your money resides in your bank account. The bank is the custodian. The bank can impose fees, enforce limits, freeze your account for administrative reasons, or comply with court orders that block your funds. You trust the bank to hold and release your money when you need it.
 
-With DePix, your digital reais live on the Liquid Network, a decentralized Bitcoin sidechain.³ You control your own addresses and keys. No single institution can freeze or block your DePix. Your money is as accessible as your internet connection.
+With DePix, your digital reais live on the Liquid Network, a decentralized Bitcoin sidechain. You control your own addresses and keys. No single institution can freeze or block your DePix. Your money is as accessible as your internet connection.
 
 This does not mean keeping money in a bank is bad. For most people, most of the time, banks work perfectly well. But having the option to keep some of your money outside the banking system is a freedom that did not exist before cryptocurrency. The DePix App makes that option accessible to anyone who uses Pix.
 
@@ -67,7 +67,7 @@ This is not about hiding anything illegal. It is about the same principle that m
 
 Banks impose limits on Pix transactions. There are daily limits, reduced nighttime limits (for security), and per-transaction limits. These vary by bank and often require manual adjustment through the app or even a visit to a physical branch.
 
-With the DePix App, the limits are different. There is no artificial nighttime reduction. Pix deposits range from R$5 to R$6,000 per day per CPF,¹ and these values are displayed transparently before any operation. On the Liquid Network itself, you can move your DePix freely at any time, with no time-based or amount restrictions.
+With the DePix App, the limits are different. There is no artificial nighttime reduction. Pix deposits range from R$5 to R$6,000 per day per CPF, and these values are displayed transparently before any operation. On the Liquid Network itself, you can move your DePix freely at any time, with no time-based or amount restrictions.
 
 Additionally, with traditional Pix, your bank can change your limits without notice or implement new restrictions unilaterally. With DePix on the Liquid Network, the rules are clear and do not change at the discretion of a single entity.
 
@@ -96,12 +96,6 @@ Use traditional Pix for everyday payments like groceries, restaurants, and utili
 Use the DePix App when you want to keep reais outside the banking system with more autonomy. Choose it when financial privacy matters to you, when you need to convert between Bitcoin and reais quickly, and when you want to participate in the Liquid Network and Bitcoin ecosystem.
 
 If you are new to the DePix App, start with [What is DePix?](/en/posts/what-is-depix/) for a complete overview.
-
-## References
-
-1. [DePix App — fees, limits, and features](https://depixapp.com/)
-2. [Banco Central do Brasil — Pix](https://www.bcb.gov.br/estabilidadefinanceira/pix)
-3. [Liquid Network — Confidential Transactions](https://docs.blockstream.com/liquid/technical_overview.html)
 
 ## Your financial privacy starts here
 

@@ -26,20 +26,20 @@ Depois de abrir, os problemas continuam. Bancos podem bloquear contas por motivo
 
 E as maquininhas de cartão? Além das taxas por transação, você precisa comprar ou alugar o equipamento, pagar mensalidades e lidar com prazos de recebimento que podem chegar a 30 dias no caso de vendas parceladas.
 
-Para quem está começando ou quer simplicidade, esse modelo tradicional não faz sentido. Se você quer entender melhor a diferença entre o sistema bancário tradicional e o DePix, confira nosso artigo sobre [DePix vs Pix tradicional](/posts/depix-vs-pix-tradicional/).
+Para quem está começando ou quer simplicidade, esse modelo tradicional não faz sentido. Se você quer entender melhor a diferença entre o sistema bancário tradicional e o DePix, confira nosso artigo sobre [DePix vs Pix tradicional](/pt/posts/depix-vs-pix-tradicional/).
 
 ## Comparando custos: DePix vs maquininha
 
-Vamos ser diretos sobre custos. O DePix App cobra **2% + R$0,99 por transação**¹. Não existe mensalidade, não existe aluguel de equipamento e não existe taxa escondida.
+Vamos ser diretos sobre custos. O DePix App cobra **2% + R$0,99 por transação**. Não existe mensalidade, não existe aluguel de equipamento e não existe taxa escondida.
 
 Compare com as maquininhas tradicionais:
 
 | Método | Taxa por transação | Custos extras |
 |---|---|---|
 | **DePix App** | 2% + R$0,99 | Nenhum |
-| **Débito (maquininha)** | 0,59% a 1,99%² | Aluguel do equipamento + mensalidade |
-| **Crédito à vista** | 3,19% a 4,99%² | Aluguel + mensalidade |
-| **Crédito parcelado (12x)** | 8,99%+² | Aluguel + mensalidade + prazo longo de recebimento |
+| **Débito (maquininha)** | 0,59% a 1,99% | Aluguel do equipamento + mensalidade |
+| **Crédito à vista** | 3,19% a 4,99% | Aluguel + mensalidade |
+| **Crédito parcelado (12x)** | 8,99%+ | Aluguel + mensalidade + prazo longo de recebimento |
 
 A taxa do DePix é competitiva com as taxas de débito quando você considera que não precisa de nenhum hardware — só um celular. E é **muito mais barata** do que qualquer taxa de cartão de crédito. Para autônomos e pequenos comerciantes que atendem principalmente com Pix e débito, a conta fecha.
 
@@ -68,9 +68,9 @@ O DePix App tem um modo específico para comerciantes e autônomos: o **"Sou loj
 
 Quando seu cliente paga, ele usa o Pix normalmente, direto do banco dele. O cliente não precisa saber nada sobre cripto, não precisa de carteira digital, não precisa de nada diferente do que já faz no dia a dia. Para ele, é um Pix comum.
 
-Do seu lado, o valor é convertido em DePix (uma stablecoin pareada ao real na rede Liquid) e enviado para a sua carteira. O valor mínimo por transação é R$5 e o máximo é R$6.000 por dia por CPF¹.
+Do seu lado, o valor é convertido em DePix (uma stablecoin pareada ao real na rede Liquid) e enviado para a sua carteira. O valor mínimo por transação é R$5 e o máximo é R$6.000 por dia por CPF.
 
-Se você quer entender melhor [o que é DePix](/posts/o-que-e-depix/) e como a stablecoin funciona, temos um artigo dedicado ao assunto.
+Se você quer entender melhor [o que é DePix](/pt/posts/o-que-e-depix/) e como a stablecoin funciona, temos um artigo dedicado ao assunto.
 
 ## Soberania financeira para o seu negócio
 
@@ -113,20 +113,15 @@ Simples assim. Sem contrato, sem aprovação, sem espera.
 
 ## Sobre o prazo de processamento de 24 horas
 
-Uma informação importante: os depósitos DePix levam **até 24 horas (D+1)** para chegar na sua carteira¹. Isso não é um atraso — é uma medida de segurança.
+Uma informação importante: os depósitos DePix levam **até 24 horas (D+1)** para chegar na sua carteira. Isso não é um atraso — é uma medida de segurança.
 
-Esse prazo existe para proteger tanto o comerciante quanto o sistema contra fraudes e golpes com Pix. Se você quer entender em detalhes como essa proteção funciona, leia nosso artigo sobre [como o DePix App protege contra golpes](/posts/como-depix-protege-contra-golpes/).
+Esse prazo existe para proteger tanto o comerciante quanto o sistema contra fraudes e golpes com Pix. Se você quer entender em detalhes como essa proteção funciona, leia nosso artigo sobre [como o DePix App protege contra golpes](/pt/posts/como-depix-protege-contra-golpes/).
 
 Na prática, o prazo D+1 é semelhante ao que muitas maquininhas oferecem para vendas no débito. E é muito melhor do que os 30 dias de prazo para vendas parceladas no crédito.
 
 ## Programa de afiliados
 
 O DePix App também oferece um **programa de afiliados**. Se você indicar outros comerciantes ou usuários, pode ganhar uma comissão sobre as transações deles. É uma forma extra de renda para quem já usa o sistema e quer divulgar para outros empresários e autônomos.
-
-## Referências
-
-1. [DePix App — Taxas, limites e modo lojista](https://depixapp.com/)
-2. [Banco Central do Brasil — Estatísticas de arranjos de pagamento](https://www.bcb.gov.br/estabilidadefinanceira/estatisticasarranjos)
 
 ## Sua privacidade financeira começa aqui
 

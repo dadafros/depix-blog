@@ -26,7 +26,7 @@ The journey from DePix in your wallet to tapping a card at a coffee shop involve
 
 Here is the flow:
 
-1. **Swap DePix for USDt** using [SideSwap](https://sideswap.io/),² the Liquid wallet you already use. Select the DePix/USDt pair, enter the amount, and confirm. Within seconds, you have USDt in your wallet.
+1. **Swap DePix for USDt** using [SideSwap](https://sideswap.io/), the Liquid wallet you already use. Select the DePix/USDt pair, enter the amount, and confirm. Within seconds, you have USDt in your wallet.
 2. **Bridge USDt to your card's network.** Most cards accept deposits on networks like Polygon, Solana, Ethereum, or Arbitrum. Services like [P2P.Land](https://p2p.land/) and [BrSwap.me](https://brswap.me/) handle the bridge from Liquid to these networks. You send USDt from your Liquid wallet to the bridge address and receive the equivalent USDT or USDC on the destination network within minutes.
 3. **Send funds to your card's deposit address.** Every card provider has an app or dashboard where you find this address. Once the deposit confirms on-chain, the balance appears on your card.
 4. **Spend anywhere.** From this point, the card works exactly like a conventional debit card — physical stores, online shops, food delivery, gas stations, ATMs. Anywhere that accepts Visa or Mastercard.
@@ -68,7 +68,7 @@ If [financial privacy](/en/posts/financial-privacy-depix/) is your top priority,
 
 ### Laso Finance
 
-Laso Finance issues prepaid virtual cards that require no identity verification at all.⁵ You deposit stablecoins — USDC, USDT, or DAI — and receive a virtual Visa card you can use for online purchases.
+Laso Finance issues prepaid virtual cards that require no identity verification at all. You deposit stablecoins — USDC, USDT, or DAI — and receive a virtual Visa card you can use for online purchases.
 
 The economics are straightforward but not cheap: total fees land around 6.8% when you factor in card creation and loading costs. Each card has a $1,000 limit, so for larger amounts you need multiple cards. The cards are single-use or limited-use depending on the plan.
 
@@ -100,7 +100,7 @@ These cards require some identity verification but do not demand the exhaustive 
 
 [Kast](https://go.kast.xyz/VqVO/TWUQMOLG) accepts deposits in USDC, USDT, and USDe across multiple networks, including Solana and Polygon. This makes the DePix flow smooth: bridge your USDt from Liquid to Polygon via P2P.Land or BrSwap.me, then send USDT directly to your Kast wallet.
 
-KYC is required but relatively fast — typically under three minutes via Sumsub.³ You provide an ID document and a selfie, but Kast does not ask for proof of address, bank statements, or income source documentation. After verification, you receive a virtual Visa card instantly and can add it to Apple Pay or Google Pay.
+KYC is required but relatively fast — typically under three minutes via Sumsub. You provide an ID document and a selfie, but Kast does not ask for proof of address, bank statements, or income source documentation. After verification, you receive a virtual Visa card instantly and can add it to Apple Pay or Google Pay.
 
 There is no annual fee. Foreign exchange fees for purchases in non-USD currencies range from 0.5% to 1.75%. ATM withdrawals cost $3 plus 2%.
 
@@ -108,7 +108,7 @@ On privacy: Kast records your spending activity, as any card issuer must. But be
 
 ### Gnosis Pay
 
-Gnosis Pay is the most interesting option for anyone who prioritizes self-custody. Unlike every other card on this list, your funds sit in a Safe smart contract that only you control, not in a company's wallet.⁴ No card issuer can freeze your balance on a whim.
+Gnosis Pay is the most interesting option for anyone who prioritizes self-custody. Unlike every other card on this list, your funds sit in a Safe smart contract that only you control, not in a company's wallet. No card issuer can freeze your balance on a whim.
 
 The card operates on Gnosis Chain, an EVM network with transaction fees under $0.001. There are no crypto-to-fiat conversion fees, no annual fee, and cashback ranges from 1% to 4% paid in GNO tokens.
 
@@ -147,14 +147,6 @@ No crypto card is perfect, and no solution offers complete anonymity. Here are t
 - **The DePix-to-card flow is not instant.** Swapping, bridging, and depositing takes a few minutes at minimum. This is not a replacement for the speed of tapping your bank card — it is a tool for people who have decided that [financial privacy](/en/posts/financial-privacy-depix/) is worth the extra steps.
 
 The goal is not perfection. It is meaningful improvement. Moving from a system where your bank sees every purchase to one where your spending is separated from your banking identity is a significant step toward financial autonomy.
-
-## References
-
-1. [DePix App — deposits, fees, and limits](https://depixapp.com/)
-2. [SideSwap — Liquid Network wallet and swap service](https://sideswap.io/)
-3. [Kast — crypto Visa card](https://www.kast.xyz/)
-4. [Gnosis Pay — self-custodial Visa card](https://gnosispay.com/)
-5. [Laso Finance — no-KYC prepaid cards](https://www.lasofinance.com/)
 
 ## Your financial privacy starts here
 

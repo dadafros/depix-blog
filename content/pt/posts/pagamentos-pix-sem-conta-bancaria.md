@@ -14,7 +14,7 @@ images:
 draft: false
 ---
 
-O Pix é o sistema de pagamento mais popular do Brasil¹. Transferências são instantâneas, funcionam 24 horas por dia e praticamente todo comércio aceita. Mas para enviar um Pix, você precisa de uma conta em banco ou instituição de pagamento no Brasil — algo que muita gente simplesmente não tem.
+O Pix é o sistema de pagamento mais popular do Brasil. Transferências são instantâneas, funcionam 24 horas por dia e praticamente todo comércio aceita. Mas para enviar um Pix, você precisa de uma conta em banco ou instituição de pagamento no Brasil — algo que muita gente simplesmente não tem.
 
 Estrangeiros que moram, trabalham ou viajam pelo Brasil enfrentam essa barreira diariamente. Abrir uma conta bancária como não-residente é burocrático e, em muitos casos, inviável. O mesmo vale para milhões de brasileiros desbancarizados que, por diversos motivos, não conseguem manter uma conta em instituição financeira.
 
@@ -22,7 +22,7 @@ O DePix App oferece uma alternativa: usando a funcionalidade de saque, você pod
 
 ## Como é possível pagar via Pix sem banco
 
-Para entender como isso funciona, é preciso separar dois conceitos. O Pix é um sistema de pagamento instantâneo operado pelo Banco Central do Brasil. Normalmente, para enviar um Pix, você precisa de uma conta bancária vinculada ao sistema. Mas o DePix App funciona como um intermediário: ele recebe seus DePix (stablecoin do real na Liquid Network) e, em troca, envia um Pix ao destinatário³.
+Para entender como isso funciona, é preciso separar dois conceitos. O Pix é um sistema de pagamento instantâneo operado pelo Banco Central do Brasil. Normalmente, para enviar um Pix, você precisa de uma conta bancária vinculada ao sistema. Mas o DePix App funciona como um intermediário: ele recebe seus DePix (stablecoin do real na Liquid Network) e, em troca, envia um Pix ao destinatário.
 
 Na prática, o que acontece é o seguinte: você tem DePix na sua carteira digital. Quando precisa fazer um pagamento, você acessa o DePix App, informa o valor e a chave Pix do destinatário. O DePix App gera um endereço na Liquid Network para onde você envia seus DePix. Assim que o DePix App recebe os tokens, ele processa o pagamento e envia o Pix para a conta do destinatário.
 
@@ -66,9 +66,9 @@ Se você não tem conta bancária no Brasil, pode estar se perguntando: como obt
 
 **Receber de outra pessoa.** Qualquer pessoa que tenha DePix pode enviar para o seu endereço na Liquid Network. Se um amigo, familiar ou empregador usa DePix, ele pode transferir diretamente para sua carteira. As transações na Liquid Network são confirmadas em cerca de dois minutos e com taxas próximas de zero.
 
-**Converter outras criptomoedas.** Se você tem Bitcoin, USDt ou L-BTC, pode [convertê-los em DePix](/posts/como-converter-criptomoedas-em-reais/) usando o SideSwap. Isso é especialmente útil para estrangeiros que já possuem criptomoedas e querem usá-las para pagamentos no Brasil.
+**Converter outras criptomoedas.** Se você tem Bitcoin, USDt ou L-BTC, pode [convertê-los em DePix](/pt/posts/como-converter-criptomoedas-em-reais/) usando o SideSwap. Isso é especialmente útil para estrangeiros que já possuem criptomoedas e querem usá-las para pagamentos no Brasil.
 
-**Ganhar como afiliado.** O DePix App tem um [programa de afiliados](/posts/renda-extra-afiliado-depix/) que paga comissões em DePix. Se você indica o serviço para outras pessoas, recebe uma porcentagem das transações delas diretamente na sua carteira.
+**Ganhar como afiliado.** O DePix App tem um [programa de afiliados](/pt/posts/renda-extra-afiliado-depix/) que paga comissões em DePix. Se você indica o serviço para outras pessoas, recebe uma porcentagem das transações delas diretamente na sua carteira.
 
 **Receber de serviços na Liquid Network.** À medida que a Liquid Network cresce, mais serviços e plataformas utilizam DePix como forma de pagamento. Se você trabalha para um serviço que paga em DePix, esses tokens vão direto para sua carteira.
 
@@ -78,11 +78,11 @@ A funcionalidade de saque do DePix App atende a vários perfis de usuários.
 
 **Estrangeiros no Brasil.** Este é um dos casos de uso mais práticos. Se você é estrangeiro morando, trabalhando ou viajando pelo Brasil, sabe como é difícil abrir uma conta bancária sem CPF ou com documentação estrangeira. Ao mesmo tempo, o Pix está em todo lugar — de restaurantes a contas de serviços. Com o DePix App, você pode participar do sistema de pagamentos brasileiro usando criptomoedas que já possui, sem precisar passar pela burocracia bancária.
 
-**Desbancarizados.** Milhões de brasileiros não têm acesso a serviços bancários tradicionais², seja por falta de documentação, histórico de crédito negativo ou simplesmente por não atender aos requisitos de abertura de conta. Para essas pessoas, o DePix App oferece uma forma de participar do sistema de pagamentos Pix sem precisar de banco.
+**Desbancarizados.** Milhões de brasileiros não têm acesso a serviços bancários tradicionais, seja por falta de documentação, histórico de crédito negativo ou simplesmente por não atender aos requisitos de abertura de conta. Para essas pessoas, o DePix App oferece uma forma de participar do sistema de pagamentos Pix sem precisar de banco.
 
 **Quem recebe em criptomoedas.** Freelancers, desenvolvedores e profissionais que recebem em cripto podem usar o DePix App como um off-ramp direto para pagamentos no Brasil. Em vez de transferir para uma corretora, esperar pela conversão e depois fazer a transferência bancária, você simplesmente converte para DePix e paga diretamente via Pix.
 
-**Quem valoriza privacidade financeira.** Transações na Liquid Network contam com Confidential Transactions — os valores são visíveis apenas para as partes envolvidas. Isso dá ao usuário mais controle sobre suas informações financeiras. Para entender melhor essa vantagem, leia nosso artigo sobre [privacidade financeira com DePix](/posts/privacidade-financeira-depix/).
+**Quem valoriza privacidade financeira.** Transações na Liquid Network contam com Confidential Transactions — os valores são visíveis apenas para as partes envolvidas. Isso dá ao usuário mais controle sobre suas informações financeiras. Para entender melhor essa vantagem, leia nosso artigo sobre [privacidade financeira com DePix](/pt/posts/privacidade-financeira-depix/).
 
 ## Custos e transparência
 
@@ -96,7 +96,7 @@ Uma dúvida comum: se o DePix App envia um Pix no final, qual é a diferença em
 
 No Pix convencional, o dinheiro sai da sua conta bancária — o que exige, justamente, ter uma conta. Com o DePix App, o pagamento parte dos seus DePix, ativos digitais que existem na Liquid Network. Você não precisa de vínculo com nenhuma instituição financeira brasileira para enviar o pagamento.
 
-Para o destinatário, não muda nada: ele recebe um Pix normal na conta dele. A diferença está inteiramente no lado de quem envia — você consegue fazer pagamentos no Brasil usando ativos digitais, sem depender do sistema bancário. Para uma comparação mais detalhada, confira nosso artigo sobre [DePix vs. Pix tradicional](/posts/depix-vs-pix-tradicional/).
+Para o destinatário, não muda nada: ele recebe um Pix normal na conta dele. A diferença está inteiramente no lado de quem envia — você consegue fazer pagamentos no Brasil usando ativos digitais, sem depender do sistema bancário. Para uma comparação mais detalhada, confira nosso artigo sobre [DePix vs. Pix tradicional](/pt/posts/depix-vs-pix-tradicional/).
 
 ## Segurança e cuidados
 
@@ -111,12 +111,6 @@ Confirme os valores e taxas antes de enviar. O DePix App mostra todas as informa
 ## Uma nova forma de acessar o Pix
 
 O DePix App não pretende substituir o Pix ou o sistema bancário. Ele amplia o acesso ao sistema de pagamentos mais popular do Brasil para quem, por qualquer motivo, não tem conta bancária no país. Seja você um estrangeiro que precisa pagar contas no Brasil, uma pessoa desbancarizada, ou um profissional que recebe em cripto, a funcionalidade de saque do DePix App conecta o mundo das criptomoedas ao Pix.
-
-## Referências
-
-1. [Banco Central do Brasil — Pix: o que é e como funciona](https://www.bcb.gov.br/estabilidadefinanceira/pix)
-2. [Banco Central do Brasil — Relatório de Cidadania Financeira](https://www.bcb.gov.br/publicacoes/relatorio_cidadania_financeira)
-3. [DePix App — Saques e pagamentos via Pix](https://depixapp.com/)
 
 ## Sua privacidade financeira começa aqui
 

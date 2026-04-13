@@ -42,11 +42,11 @@ With the DePix App, the path from cryptocurrency to reais in your bank account i
 
 It is important to understand that the DePix App only processes withdrawals of DePix tokens. It does not accept Bitcoin, USDt, or other assets directly for withdrawal. But converting to DePix first is simple and fast, as we will explain below.
 
-The whole process takes minutes, not days. And because Pix is Brazil's instant payment system,⁴ the reais appear in your bank account almost immediately.
+The whole process takes minutes, not days. And because Pix is Brazil's instant payment system, the reais appear in your bank account almost immediately.
 
 ## Understanding the Liquid Network
 
-The Liquid Network is a Bitcoin sidechain built by Blockstream that supports multiple asset types.³ If you are not familiar with sidechains, think of it this way: Bitcoin's main network is like a highway that is extremely secure but sometimes congested. Liquid is an express lane that runs alongside it — same infrastructure, but optimized for speed and privacy.
+The Liquid Network is a Bitcoin sidechain built by Blockstream that supports multiple asset types. If you are not familiar with sidechains, think of it this way: Bitcoin's main network is like a highway that is extremely secure but sometimes congested. Liquid is an express lane that runs alongside it — same infrastructure, but optimized for speed and privacy.
 
 On Liquid, transactions confirm in about two minutes with minimal fees. Beyond L-BTC (Bitcoin on Liquid), the network also hosts stablecoins, security tokens, and other digital assets — all of which benefit from the same fast confirmations and low costs. Liquid also features Confidential Transactions by default, meaning transaction amounts are hidden from outside observers. You can read more about how this benefits you in our article on [financial privacy with DePix](/en/posts/financial-privacy-depix/).
 
@@ -80,7 +80,7 @@ The conversion path depends on where your assets are.
 
 **If your crypto is already on the Liquid Network (L-BTC, USDt, or other Liquid assets):**
 
-Use [SideSwap](https://sideswap.io/),² a Liquid wallet that also works as a decentralized exchange. Inside SideSwap, select the swap pair (for example, L-BTC/DePix or USDt/DePix), enter the amount, and confirm. The swap happens directly on the Liquid Network, which means very low fees (fractions of a cent) and confirmation in about two minutes. This is the fastest and cheapest path.
+Use [SideSwap](https://sideswap.io/), a Liquid wallet that also works as a decentralized exchange. Inside SideSwap, select the swap pair (for example, L-BTC/DePix or USDt/DePix), enter the amount, and confirm. The swap happens directly on the Liquid Network, which means very low fees (fractions of a cent) and confirmation in about two minutes. This is the fastest and cheapest path.
 
 **If your crypto is on other blockchains (Ethereum, Polygon, Solana, Bitcoin mainchain, etc.):**
 
@@ -94,7 +94,7 @@ You have two options. First, you can peg in to the Liquid Network using SideSwap
 
 Now that you have DePix in your SideSwap wallet, the withdrawal is straightforward.
 
-Open the [DePix App](https://depixapp.com/)¹ and log in. If you do not have an account yet, registration takes under two minutes with just an email.
+Open the [DePix App](https://depixapp.com/) and log in. If you do not have an account yet, registration takes under two minutes with just an email.
 
 On the main screen, select the withdrawal option. Enter the amount in reais you want to receive and your Pix key (CPF, email, phone number, or random key).
 
@@ -113,13 +113,6 @@ Always double-check the destination address before sending any blockchain transa
 If you are converting volatile assets like Bitcoin or L-BTC, keep an eye on the exchange rate. The rate can fluctuate throughout the day, and even small percentage changes can be meaningful on larger sums. Stablecoins, on the other hand, offer more rate predictability.
 
 For a broader understanding of how the DePix App compares to using traditional banking for payments, check out our article on [DePix vs traditional Pix](/en/posts/depix-vs-traditional-pix/). And if you are new to the DePix App entirely, start with [What is DePix?](/en/posts/what-is-depix/) for a complete overview.
-
-## References
-
-1. [DePix App — withdrawals and fees](https://depixapp.com/)
-2. [SideSwap — Liquid Network wallet and swap service](https://sideswap.io/)
-3. [Liquid Network — Bitcoin sidechain by Blockstream](https://blockstream.com/liquid/)
-4. [Banco Central do Brasil — Pix](https://www.bcb.gov.br/estabilidadefinanceira/pix)
 
 ## Your financial privacy starts here
 

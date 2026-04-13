@@ -4,8 +4,6 @@
       <a href="{{ .Site.Params.appUrl }}" target="_blank" rel="noopener">DePix App</a>
       <span class="footer-dot">&middot;</span>
       <a href="{{ .Site.Home.RelPermalink }}">Blog</a>
-      <span class="footer-dot">&middot;</span>
-      <a href="{{ "about/" | absLangURL }}">{{ if eq .Lang "pt" }}Sobre{{ else }}About{{ end }}</a>
     </div>
     <p class="footer-copy">
       &copy; {{ now.Year }} DePix App. {{ if eq .Lang "pt" }}Todos os direitos reservados.{{ else }}All rights reserved.{{ end }}

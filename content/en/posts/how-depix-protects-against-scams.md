@@ -54,7 +54,7 @@ One of the most important security features of the DePix App is its processing d
 </div>
 {{< /diagram >}}
 
-There is a processing period of up to 24 hours (known as D+1 settlement).¹ During this window, the DePix system checks for fraud reports associated with the incoming payment. If the Pix transfer gets flagged — for example, through Brazil's official fraud reversal mechanism — DePix can block the transaction and return the funds to the victim's bank.
+There is a processing period of up to 24 hours (known as D+1 settlement). During this window, the DePix system checks for fraud reports associated with the incoming payment. If the Pix transfer gets flagged — for example, through Brazil's official fraud reversal mechanism — DePix can block the transaction and return the funds to the victim's bank.
 
 Why does this matter? Because cryptocurrency transactions are irreversible. Once tokens are sent to a blockchain wallet, there is no "undo" button. Without this safety buffer, a scammer could receive Pix funds, instantly convert them to crypto, and disappear with no possibility of recovery.
 
@@ -68,13 +68,13 @@ Is 24 hours a long time to wait? For legitimate users, it is a minor inconvenien
 
 ## MED: Brazil's Special Return Mechanism
 
-Brazil's central bank created a specific tool to deal with Pix fraud: the MED, or Mecanismo Especial de Devolucao (Special Return Mechanism).² Here is how it works.
+Brazil's central bank created a specific tool to deal with Pix fraud: the MED, or Mecanismo Especial de Devolucao (Special Return Mechanism). Here is how it works.
 
 When a victim realizes they have been scammed, they contact their bank and report the fraudulent Pix transaction. The victim's bank then notifies the receiving institution — whichever bank or payment processor received the funds. Once notified, the receiving institution blocks the funds for analysis. This review period can last up to 7 business days, during which both sides present their case.
 
 If the fraud is confirmed, the funds are returned to the victim. If the claim is unfounded, the funds are released normally.
 
-Starting in February 2026, an upgraded version called **MED 2.0** became mandatory for all Pix participants.³ The key improvement is traceability: MED 2.0 can now trace and block funds across up to 5 successive transfers. This means that even if a scammer quickly moves money through multiple accounts to try to hide the trail, the system can follow the chain and freeze the funds at their final destination.
+Starting in February 2026, an upgraded version called **MED 2.0** became mandatory for all Pix participants. The key improvement is traceability: MED 2.0 can now trace and block funds across up to 5 successive transfers. This means that even if a scammer quickly moves money through multiple accounts to try to hide the trail, the system can follow the chain and freeze the funds at their final destination.
 
 This is a significant step forward. Previously, scammers could defeat MED simply by transferring the money to another account before the block arrived. MED 2.0 closes that loophole.
 
@@ -107,12 +107,6 @@ DePix exists to give people [financial privacy](/en/posts/financial-privacy-depi
 The 24-hour security window, full cooperation with MED, and clear communication about how the system works are all part of building a service that honest users can trust. Scammers exploit every payment system — from cash to credit cards to Pix to crypto. The question is not whether fraud attempts will happen, but how a platform responds when they do.
 
 DePix responds with transparency, compliance, and a deliberate security buffer that prioritizes protecting victims over processing speed.
-
-## References
-
-1. [DePix App — security features and D+1 processing](https://depixapp.com/)
-2. [Banco Central do Brasil — MED (Mecanismo Especial de Devolucao)](https://www.bcb.gov.br/estabilidadefinanceira/pix)
-3. [Banco Central do Brasil — Resolucao BCB n. 403/2024 (MED 2.0)](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=403)
 
 ## Your financial privacy starts here
 

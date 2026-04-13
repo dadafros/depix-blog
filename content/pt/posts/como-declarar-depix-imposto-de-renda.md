@@ -2,7 +2,7 @@
 title: "Como Declarar DePix no Imposto de Renda 2026"
 description: "Guia completo para declarar DePix e criptomoedas no IRPF 2026. Passo a passo com códigos, GCAP, DARF, isenções e regras da Receita Federal."
 date: 2026-04-04
-tags: ["depix", "imposto de renda", "declaracao", "criptomoedas", "receita federal"]
+tags: ["depix", "imposto de renda", "declaração", "criptomoedas", "receita federal"]
 author: "DePix"
 slug: "como-declarar-depix-imposto-de-renda"
 translationKey: "declarar-depix-imposto-renda"
@@ -14,7 +14,7 @@ images:
 draft: false
 ---
 
-Criptomoedas precisam ser declaradas no Imposto de Renda — e o DePix não é exceção. Se você comprou, vendeu, trocou ou simplesmente guardou DePix em 2025, este guia explica exatamente o que a Receita Federal exige¹, como preencher a declaração e como calcular eventuais impostos sobre ganho de capital.
+Criptomoedas precisam ser declaradas no Imposto de Renda — e o DePix não é exceção. Se você comprou, vendeu, trocou ou simplesmente guardou DePix em 2025, este guia explica exatamente o que a Receita Federal exige, como preencher a declaração e como calcular eventuais impostos sobre ganho de capital.
 
 Este é o guia mais completo sobre declaração de DePix e stablecoins no IRPF 2026. Vamos cobrir desde a obrigatoriedade até o preenchimento passo a passo, incluindo as novidades do sistema DeCripto e a declaração pré-preenchida.
 
@@ -22,9 +22,9 @@ Este é o guia mais completo sobre declaração de DePix e stablecoins no IRPF 2
 
 Você é obrigado a declarar criptoativos no IRPF 2026 se, em 2025, se enquadrou em qualquer uma destas situações:
 
-- **Posse acima de R$ 5.000**: se em 31 de dezembro de 2025 você tinha R$ 5.000 ou mais (pelo custo de aquisição) em qualquer tipo individual de criptoativo¹. Exemplo: R$ 3.000 em DePix e R$ 3.000 em Bitcoin — ambos abaixo de R$ 5.000 individualmente, então nenhum dos dois precisa ser declarado por esse critério.
-- **Vendas acima de R$ 35.000/mês**: se em qualquer mês de 2025 suas vendas totais de criptomoedas ultrapassaram R$ 35.000, você precisa apurar ganho de capital².
-- **Operações em exchanges estrangeiras ou P2P acima de R$ 30.000/mês**: movimentações em plataformas sem CNPJ brasileiro exigem declaração².
+- **Posse acima de R$ 5.000**: se em 31 de dezembro de 2025 você tinha R$ 5.000 ou mais (pelo custo de aquisição) em qualquer tipo individual de criptoativo. Exemplo: R$ 3.000 em DePix e R$ 3.000 em Bitcoin — ambos abaixo de R$ 5.000 individualmente, então nenhum dos dois precisa ser declarado por esse critério.
+- **Vendas acima de R$ 35.000/mês**: se em qualquer mês de 2025 suas vendas totais de criptomoedas ultrapassaram R$ 35.000, você precisa apurar ganho de capital.
+- **Operações em exchanges estrangeiras ou P2P acima de R$ 30.000/mês**: movimentações em plataformas sem CNPJ brasileiro exigem declaração.
 - **Outros critérios gerais do IRPF**: se você já é obrigado a declarar por outros motivos (renda acima do limite, bens acima de R$ 800.000, etc.), deve incluir seus criptoativos na declaração.
 
 **Importante**: mesmo que você não tenha vendido nada, se a posse superar R$ 5.000 em qualquer tipo de criptoativo, a declaração é obrigatória. Não declarar é omissão de bens e pode gerar multa.
@@ -35,7 +35,7 @@ O DePix é classificado como **stablecoin** pela Receita Federal. Veja como pree
 
 - **Ficha**: Bens e Direitos
 - **Grupo**: 08 — Criptoativos
-- **Código**: 03 — Stablecoins (este é o código para DePix, USDT, USDC, BRZ e outras stablecoins)¹
+- **Código**: 03 — Stablecoins (este é o código para DePix, USDT, USDC, BRZ e outras stablecoins)
 
 ### Outros códigos úteis do Grupo 08
 
@@ -93,11 +93,11 @@ Porém, **trocas (permutas) entre criptoativos são fatos geradores**. Se você 
 
 ### Isenção de R$ 35.000/mês
 
-Se todas as suas vendas de criptoativos em um mês totalizaram **R$ 35.000 ou menos** e foram realizadas em exchanges brasileiras (com CNPJ), o ganho de capital é **isento** de imposto².
+Se todas as suas vendas de criptoativos em um mês totalizaram **R$ 35.000 ou menos** e foram realizadas em exchanges brasileiras (com CNPJ), o ganho de capital é **isento** de imposto.
 
 **Atenção**: esse limite considera a soma de **todas** as vendas de cripto no mês (Bitcoin + DePix + altcoins), não por ativo individual.
 
-**Para exchanges estrangeiras ou autocustódia**: a isenção de R$ 35.000 **não se aplica**. Qualquer ganho, por menor que seja, é tributável à alíquota de **15%**³.
+**Para exchanges estrangeiras ou autocustódia**: a isenção de R$ 35.000 **não se aplica**. Qualquer ganho, por menor que seja, é tributável à alíquota de **15%**.
 
 ## Tabela de alíquotas sobre ganho de capital
 
@@ -106,7 +106,7 @@ Se todas as suas vendas de criptoativos em um mês totalizaram **R$ 35.000 ou me
 | Até R$ 5.000.000 | 15% |
 | R$ 5.000.001 a R$ 10.000.000 | 17,5% |
 | R$ 10.000.001 a R$ 30.000.000 | 20% |
-| Acima de R$ 30.000.000 | 22,5%³ |
+| Acima de R$ 30.000.000 | 22,5% |
 
 Na prática, a imensa maioria dos investidores individuais paga **15%** sobre o ganho de capital.
 
@@ -117,15 +117,15 @@ Se você teve ganho de capital tributável com criptomoedas em algum mês de 202
 1. **Baixe o programa GCAP 2025** no site da Receita Federal.
 2. **Registre cada venda/troca tributável** em "Bens Móveis" (bens móveis incluem criptoativos).
 3. **O programa calcula o imposto** automaticamente com base na alíquota progressiva.
-4. **Gere o DARF** com o código **4600** (Ganho de Capital — Criptoativos)⁴.
-5. **Pague o DARF** até o último dia útil do mês seguinte à operação⁴.
+4. **Gere o DARF** com o código **4600** (Ganho de Capital — Criptoativos).
+5. **Pague o DARF** até o último dia útil do mês seguinte à operação.
 6. **Na declaração anual**, importe os dados do GCAP para o IRPF em "Ganhos de Capital > Importação GCAP".
 
 **Não deixe para pagar o DARF na época da declaração.** O prazo é mensal — se a venda foi em março de 2025, o DARF vence no último dia útil de abril de 2025. Pagar atrasado gera multa de 0,33% ao dia (limitada a 20%) mais juros Selic.
 
 ## Declaração pré-preenchida: novidade do IRPF 2026
 
-A partir do IRPF 2026, operações com criptomoedas realizadas em exchanges brasileiras aparecem automaticamente na **declaração pré-preenchida**. Isso acontece porque as exchanges reportam as transações à Receita Federal desde 2019 (IN 1888)².
+A partir do IRPF 2026, operações com criptomoedas realizadas em exchanges brasileiras aparecem automaticamente na **declaração pré-preenchida**. Isso acontece porque as exchanges reportam as transações à Receita Federal desde 2019 (IN 1888).
 
 **O que isso significa para você:**
 
@@ -135,7 +135,7 @@ A partir do IRPF 2026, operações com criptomoedas realizadas em exchanges bras
 
 ## DeCripto: o novo sistema da Receita Federal
 
-Em novembro de 2025, a Receita Federal publicou a **IN RFB n. 2.291/2025**⁵, que substitui o antigo modelo de reporte da IN 1888/2019. As principais mudanças:
+Em novembro de 2025, a Receita Federal publicou a **IN RFB n. 2.291/2025**, que substitui o antigo modelo de reporte da IN 1888/2019. As principais mudanças:
 
 - **DeCripto** (Declaração de Criptoativos) — novo formulário padronizado de reporte.
 - **Envio obrigatório via e-CAC** a partir de julho de 2026.
@@ -147,7 +147,7 @@ Até 30 de junho de 2026, o modelo antigo (IN 1888) permanece em vigor. A transi
 
 ## Stablecoins e a questão do IOF
 
-A **Resolução BCB n. 521/2025**⁶, em vigor desde fevereiro de 2026, classifica operações com stablecoins atreladas a moedas estrangeiras (USDT, USDC) como operações de câmbio, abrindo possibilidade de cobrança de **IOF-Câmbio**.
+A **Resolução BCB n. 521/2025**, em vigor desde fevereiro de 2026, classifica operações com stablecoins atreladas a moedas estrangeiras (USDT, USDC) como operações de câmbio, abrindo possibilidade de cobrança de **IOF-Câmbio**.
 
 **E o DePix?** Como o DePix é pareado ao **real brasileiro** (não a uma moeda estrangeira), essa resolução **não se aplica** ao DePix. Trocar reais por DePix não é operação de câmbio — é conversão de BRL para um criptoativo denominado em BRL. Essa é uma vantagem importante do DePix frente a stablecoins dolarizadas.
 
@@ -171,7 +171,7 @@ Use este checklist para garantir que sua declaração está completa:
 | Evento | Data |
 |---|---|
 | Início do período de entrega | 23 de março de 2026 |
-| Fim do prazo de entrega | 29 de maio de 2026 (23h59)⁷ |
+| Fim do prazo de entrega | 29 de maio de 2026 (23h59) |
 | DARF mensal (ganho de capital) | Último dia útil do mês seguinte à operação |
 | Multa por atraso na entrega | 1% ao mês sobre imposto devido (mín. R$ 165, máx. 20%) |
 | DeCripto obrigatório via e-CAC | A partir de julho de 2026 |
@@ -183,16 +183,6 @@ Este guia cobre o cenário mais comum: comprar DePix, guardar e eventualmente tr
 Porém, se você fez operações complexas (muitas trocas entre criptoativos, arbitragem, staking, DeFi), um contador especializado em criptoativos pode ajudar a evitar erros e otimizar sua declaração. O custo compensa pela tranquilidade.
 
 **Disclaimer**: este artigo tem caráter informativo e educacional. Não constitui assessoria fiscal ou jurídica. As regras tributárias podem mudar. Consulte um profissional qualificado para orientação específica ao seu caso.
-
-## Referências
-
-1. [Receita Federal — Perguntas e Respostas IRPF 2026: Criptoativos](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda)
-2. [Instrução Normativa RFB n. 1.888/2019 — Obrigatoriedade de prestação de informações relativas a operações com criptoativos](https://www.gov.br/receitafederal/pt-br/assuntos/legislacao/legislacao-por-assunto/criptoativos)
-3. [Lei n. 14.754/2023 — Tributação de ganhos de capital com criptoativos em exchanges estrangeiras](https://www.gov.br/receitafederal/pt-br/assuntos/legislacao)
-4. [Receita Federal — Programa GCAP e códigos de recolhimento DARF](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/pagamentos-e-parcelamentos/darf)
-5. [Instrução Normativa RFB n. 2.291/2025 — DeCripto: novo sistema de declaração de criptoativos](https://www.gov.br/receitafederal/pt-br/assuntos/legislacao/legislacao-por-assunto/criptoativos)
-6. [Banco Central — Resolução BCB n. 521/2025: regulamentação de stablecoins e operações de câmbio](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB)
-7. [Receita Federal — Prazos de entrega da DIRPF 2026](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda)
 
 ## Sua privacidade financeira começa aqui
 

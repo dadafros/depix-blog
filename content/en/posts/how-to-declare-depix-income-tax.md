@@ -22,7 +22,7 @@ This is the most comprehensive guide to declaring DePix and stablecoins on the I
 
 You are required to declare crypto assets on IRPF 2026 if, during 2025, any of the following applied:
 
-- **Holdings above R$ 5,000**: if on December 31, 2025 you held R$ 5,000 or more (by acquisition cost) in any single type of crypto asset.¹ Example: R$ 3,000 in DePix and R$ 3,000 in Bitcoin — both are below R$ 5,000 individually, so neither needs to be declared under this criterion.
+- **Holdings above R$ 5,000**: if on December 31, 2025 you held R$ 5,000 or more (by acquisition cost) in any single type of crypto asset. Example: R$ 3,000 in DePix and R$ 3,000 in Bitcoin — both are below R$ 5,000 individually, so neither needs to be declared under this criterion.
 - **Monthly sales above R$ 35,000**: if in any month of 2025 your total crypto sales exceeded R$ 35,000, you must calculate capital gains.
 - **Operations on foreign exchanges or P2P above R$ 30,000/month**: transactions on platforms without a Brazilian CNPJ require declaration.
 - **Other general IRPF criteria**: if you are already required to file for other reasons (income above the threshold, assets above R$ 800,000, etc.), you must include your crypto assets.
@@ -77,7 +77,7 @@ Simply holding DePix does not generate tax liability. Tax is only due on **capit
 
 In practice, DePix itself does not generate capital gains because it is always worth R$ 1. You buy at R$ 1 and sell at R$ 1 — there is no profit.
 
-However, **swaps between crypto assets are taxable events**. If you swap DePix for Bitcoin on SideSwap and Bitcoin later appreciates in value, the gain is taxable when you sell or swap the Bitcoin. Receita Federal confirmed this in **Solucao de Consulta n. 214 — Cosit**.¹
+However, **swaps between crypto assets are taxable events**. If you swap DePix for Bitcoin on SideSwap and Bitcoin later appreciates in value, the gain is taxable when you sell or swap the Bitcoin. Receita Federal confirmed this in **Solução de Consulta n. 214 — Cosit**.
 
 ### Common scenarios with DePix
 
@@ -112,7 +112,7 @@ In practice, the vast majority of individual investors pay **15%** on capital ga
 
 If you had taxable capital gains from cryptocurrency in any month of 2025, the process is:
 
-1. **Download the GCAP 2025 program** from Receita Federal's website.³
+1. **Download the GCAP 2025 program** from Receita Federal's website.
 2. **Register each taxable sale/swap** under "Bens Móveis" (movable assets, which includes crypto).
 3. **The program calculates the tax** automatically based on the progressive rate table.
 4. **Generate a DARF** (tax payment slip) with code **4600** (Capital Gains — Crypto Assets).
@@ -127,13 +127,13 @@ Starting with IRPF 2026, crypto operations made on Brazilian exchanges appear au
 
 **What this means for you:**
 
-- All DePix purchases (across all platforms) are reported to Receita Federal under IN 1888.¹ This is a legal obligation that the DePix issuer, [eulen.app](https://eulen.app), is required to fulfill. DePix is a regulated and legal instrument in Brazil.
+- All DePix purchases (across all platforms) are reported to Receita Federal under IN 1888. This is a legal obligation that the DePix issuer, [eulen.app](https://eulen.app), is required to fulfill. DePix is a regulated and legal instrument in Brazil.
 - Pre-filled data serves as a reference, but **you must review and correct** it if needed.
 - Due to the confidential nature of the Liquid Network (Confidential Transactions), neither the Central Bank, nor Receita Federal, nor eulen.app, nor any other entity can determine what you did with your DePix after purchasing it on a platform like the DePix App. This means that **only you** can calculate the capital gains from any swaps with other crypto assets. For this reason, we recommend that you keep reliable records of all your transactions for proper calculation and declaration on your income tax return, in accordance with applicable regulations.
 
 ## DeCripto: Receita Federal's new reporting system
 
-In November 2025, Receita Federal published **IN RFB n. 2.291/2025**,² replacing the old reporting model under IN 1888/2019. Key changes:
+In November 2025, Receita Federal published **IN RFB n. 2.291/2025**, replacing the old reporting model under IN 1888/2019. Key changes:
 
 - **DeCripto** (Declaração de Criptoativos) — a new standardized reporting form for crypto asset operations.
 - **Mandatory submission via e-CAC** starting July 2026.
@@ -145,7 +145,7 @@ Until June 30, 2026, the old model (IN 1888) remains in effect. The transition i
 
 ## Stablecoins and the IOF question
 
-**Resolucao BCB n. 521/2025**,⁴ effective since February 2026, classifies operations with foreign-currency stablecoins (USDT, USDC) as foreign exchange operations, potentially subject to IOF (tax on financial operations).
+**Resolução BCB n. 521/2025**, effective since February 2026, classifies operations with foreign-currency stablecoins (USDT, USDC) as foreign exchange operations, potentially subject to IOF (tax on financial operations).
 
 **What about DePix?** Since DePix is pegged to the **Brazilian real** (not a foreign currency), this resolution **does not apply** to DePix. Converting BRL to DePix is not a foreign exchange operation — it is a conversion of BRL into a crypto asset denominated in BRL. This is an important advantage of DePix over dollar-denominated stablecoins.
 
@@ -181,14 +181,6 @@ This guide covers the most common scenario: buying DePix, holding it, and occasi
 However, if you made complex operations (frequent swaps between crypto assets, arbitrage, staking, DeFi), a tax professional who specializes in crypto can help avoid errors and optimize your filing. The cost is worth the peace of mind.
 
 **Disclaimer**: this article is for informational and educational purposes only. It does not constitute tax or legal advice. Tax rules may change. Consult a qualified professional for guidance specific to your situation.
-
-## References
-
-1. [Receita Federal — Instrucao Normativa RFB n. 1888/2019 (crypto reporting obligations)](https://www.gov.br/receitafederal/pt-br/assuntos/legislacao/legislacao-por-assunto/criptoativos)
-2. [Receita Federal — Instrucao Normativa RFB n. 2291/2025 (DeCripto)](https://www.gov.br/receitafederal/pt-br/assuntos/legislacao/legislacao-por-assunto/criptoativos)
-3. [Receita Federal — GCAP (Programa de Ganhos de Capital)](https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/download/pgd/gcap)
-4. [Banco Central do Brasil — Resolucao BCB n. 521/2025 (IOF on stablecoins)](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=521)
-5. [DePix App — fees and features](https://depixapp.com/)
 
 ## Your financial privacy starts here
 

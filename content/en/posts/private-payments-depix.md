@@ -30,15 +30,15 @@ When you want to send DePix to someone, here is the flow:
 4. Enter the amount of DePix you want to send.
 5. Confirm the transaction.
 
-In roughly two minutes, the DePix arrives in the recipient's wallet. No forms, no pending approvals, no business hours. The transaction travels directly from you to the recipient through the Liquid Network³ — a decentralized network that is not owned by any bank or corporation.
+In roughly two minutes, the DePix arrives in the recipient's wallet. No forms, no pending approvals, no business hours. The transaction travels directly from you to the recipient through the Liquid Network — a decentralized network that is not owned by any bank or corporation.
 
-The cost? The Liquid network fee is practically zero — fractions of a cent. The DePix App charges absolutely nothing for wallet-to-wallet transfers.¹ Compared to wire transfer fees or payment processor charges, the difference is dramatic.
+The cost? The Liquid network fee is practically zero — fractions of a cent. The DePix App charges absolutely nothing for wallet-to-wallet transfers. Compared to wire transfer fees or payment processor charges, the difference is dramatic.
 
 ## What makes these payments private
 
 This is the fundamental difference between DePix and virtually every other digital payment method you have used.
 
-The Liquid Network uses a technology called **Confidential Transactions**.² By default, every transaction on the network hides the amount being transferred. External observers — anyone analyzing the blockchain — can see that a transaction occurred, but they cannot see how much was sent. Only the sender and the receiver know the value.
+The Liquid Network uses a technology called **Confidential Transactions**. By default, every transaction on the network hides the amount being transferred. External observers — anyone analyzing the blockchain — can see that a transaction occurred, but they cannot see how much was sent. Only the sender and the receiver know the value.
 
 Compare this to the systems most people use today:
 
@@ -101,7 +101,7 @@ If you have never made a DePix payment before, follow this complete walkthrough:
 Go to [depixapp.com](https://depixapp.com/) and sign up. The process is quick and straightforward.
 
 **2. Set up your Liquid wallet**
-Download SideSwap⁴ on your phone and configure your wallet. This is where your DePix will be stored — under your full control.
+Download SideSwap on your phone and configure your wallet. This is where your DePix will be stored — under your full control.
 
 **3. Deposit Brazilian reais via Pix**
 In the DePix App, make a deposit using Pix. Your reais are converted to DePix at a 1:1 ratio and sent to your Liquid wallet.
@@ -131,13 +131,6 @@ In a DePix transfer, both parties need only a Liquid wallet and an internet conn
 Traditional [payment systems](/en/posts/pix-payments-without-bank-account/) brought convenience to everyday transactions. DePix brings something those systems can never offer: privacy and genuine autonomy over your money.
 
 This is digital cash. The modern equivalent of handing someone banknotes — but faster, with no geographic limit, and with the cryptographic security of a decentralized network.
-
-## References
-
-1. [DePix App — deposits, withdrawals, and features](https://depixapp.com/)
-2. [Liquid Network — Confidential Transactions](https://docs.blockstream.com/liquid/technical_overview.html)
-3. [Blockstream Liquid Network overview](https://blockstream.com/liquid/)
-4. [SideSwap — Liquid Network wallet](https://sideswap.io/)
 
 ## Your financial privacy starts here
 
