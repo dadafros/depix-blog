@@ -55,7 +55,12 @@ jobs:
           sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
       - name: Build
-        run: hugo --minify --baseURL "https://blog.depixapp.com/"
+        run: |
+          hugo --minify --baseURL "https://blog.depixapp.com/"
+          # Hugo generates /pt/index.html as a meta-refresh redirect to /
+          # which causes a redirect loop with CDN-cached pages during deploy.
+          # Replace it with the real homepage (canonical already points to /).
+          cp public/index.html public/pt/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4

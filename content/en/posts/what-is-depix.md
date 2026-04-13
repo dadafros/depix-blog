@@ -18,7 +18,7 @@ If you have been following cryptocurrency but wondered how digital money actuall
 
 ## What is a stablecoin and why does it matter?
 
-A stablecoin is a cryptocurrency pegged to a traditional currency. Unlike Bitcoin, which can swing 10% in a single day, a stablecoin maintains a stable value. DePix is pegged 1:1 to the Brazilian real (BRL), meaning each DePix token is always worth exactly one real.
+A stablecoin is a cryptocurrency pegged to a traditional currency. Unlike Bitcoin, which can swing 10% in a single day, a stablecoin maintains a stable value. DePix is pegged 1:1 to the Brazilian real (BRL), meaning each DePix token is always worth exactly one real.¹
 
 You might already know about dollar-pegged stablecoins like USDT or USDC. DePix brings the same concept to the Brazilian real, opening up crypto infrastructure to the 200+ million people who use BRL daily. This is significant because Brazil is one of the largest crypto markets in the world, yet real-denominated stablecoins have been scarce.
 
@@ -46,15 +46,15 @@ An important distinction: the DePix App is fully non-custodial. You need an exte
 
 ## What is the Liquid Network?
 
-The Liquid Network is a Bitcoin sidechain created by Blockstream, one of the most respected companies in the Bitcoin space. It enables faster transactions, lower fees, and built-in confidential transactions compared to the main Bitcoin blockchain.
+The Liquid Network is a Bitcoin sidechain created by Blockstream, one of the most respected companies in the Bitcoin space.² It enables faster transactions, lower fees, and built-in confidential transactions compared to the main Bitcoin blockchain.
 
 When you hold DePix, your tokens live on this network. Liquid transactions are confirmed in roughly two minutes, which is dramatically faster than Bitcoin's typical 10-minute block time. Fees are minimal, often just fractions of a cent.
 
-One of Liquid's standout features is Confidential Transactions. By default, transaction amounts on Liquid are hidden from outside observers. Only the sender and receiver know the value being transferred. This is a meaningful upgrade over both traditional banking (where your bank sees everything) and regular Bitcoin (where all amounts are publicly visible). For more on how this protects you, read our article on [financial privacy with DePix](/en/posts/financial-privacy-depix/).
+One of Liquid's standout features is Confidential Transactions.³ By default, transaction amounts on Liquid are hidden from outside observers. Only the sender and receiver know the value being transferred. This is a meaningful upgrade over both traditional banking (where your bank sees everything) and regular Bitcoin (where all amounts are publicly visible). For more on how this protects you, read our article on [financial privacy with DePix](/en/posts/financial-privacy-depix/).
 
 ## Why not just use Pix directly?
 
-Pix is genuinely excellent. Launched by Brazil's central bank in 2020, it processes over 100 million transactions per day and has become the backbone of payments in the country. DePix App does not compete with Pix — it uses Pix as a bridge.
+Pix is genuinely excellent. Launched by Brazil's central bank in 2020,⁴ it processes over 100 million transactions per day and has become the backbone of payments in the country. DePix App does not compete with Pix — it uses Pix as a bridge.
 
 The key difference is where your money lives. With regular Pix, your funds sit in a bank account controlled by a financial institution. With DePix, your digital reais exist on the Liquid Network, a federated sidechain that does not depend on any single bank.
 
@@ -87,6 +87,13 @@ It is worth noting that the DePix App is a non-custodial interface. You manage y
 DePix App is designed for anyone who uses Brazilian reais and wants to explore the benefits of blockchain-based money without the steep learning curve. This includes Brazilians who want to start with crypto in a low-risk way using a real-pegged stablecoin, remote workers and freelancers who receive cryptocurrency and need an easy off-ramp to BRL, privacy-conscious users who want to move money without full bank surveillance, merchants and business owners who want to [open a crypto business account without bureaucracy](/en/posts/crypto-business-account-depix-app/), and anyone in the Bitcoin ecosystem who needs a reliable BRL stablecoin on Liquid. When you are ready to get started, follow our [step-by-step guide on how to buy DePix](/en/posts/how-to-buy-depix/). And if you have questions about tax obligations in Brazil, check our guide on [how to declare DePix on Brazilian income tax](/en/posts/how-to-declare-depix-income-tax/).
 
 All you need to get started is an email address, a bank account with Pix, and a Liquid wallet (such as SideSwap). You do not need to be a crypto expert. You do not need to understand blockchain architecture. If you can use Pix, you can use the DePix App.
+
+## References
+
+1. [DePix App — fees, limits, and features](https://depixapp.com/)
+2. [Liquid Network — Bitcoin sidechain by Blockstream](https://blockstream.com/liquid/)
+3. [Liquid Network technical documentation — Confidential Transactions](https://docs.blockstream.com/liquid/technical_overview.html)
+4. [Banco Central do Brasil — Pix](https://www.bcb.gov.br/estabilidadefinanceira/pix)
 
 ## Your financial privacy starts here
 

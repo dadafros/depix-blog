@@ -34,7 +34,7 @@ The affiliate program is a partnership between you and the DePix App. When you j
 </div>
 {{< /diagram >}}
 
-For context, the [DePix App](/en/posts/what-is-depix/) is a platform that lets users convert Brazilian reais into DePix, a stablecoin pegged to the real on the Liquid Network. Users deposit via Pix and receive DePix in their personal wallets, with privacy and self-custody. Every deposit made by someone you referred generates a commission for you.
+For context, the [DePix App](/en/posts/what-is-depix/) is a platform that lets users convert Brazilian reais into DePix, a stablecoin pegged to the real on the Liquid Network.¹ Users deposit via Pix and receive DePix in their personal wallets, with privacy and self-custody.² Every deposit made by someone you referred generates a commission for you.
 
 The connection between you and your referrals has no expiration date. If someone signs up through your link today and makes a deposit two years from now, you still earn your commission on that deposit.
 
@@ -102,6 +102,11 @@ Beyond the structure, the product itself is genuinely useful. You are not trying
 ## Start today
 
 The DePix App affiliate program is an extra income opportunity that requires no investment, no paperwork, and no prior experience. Create your account, grab your link, and start sharing. If you are interested in the affiliate program, it is worth understanding how the DePix App works in practice — and why so many people are looking for alternatives to the traditional banking system.
+
+## References
+
+1. [DePix App — affiliate program and features](https://depixapp.com/)
+2. [Liquid Network — Bitcoin sidechain by Blockstream](https://blockstream.com/liquid/)
 
 ## Your financial privacy starts here
 

@@ -26,9 +26,9 @@ Para entender onde o DePix se destaca, é preciso olhar o custo real de uma reme
 
 **Bancos tradicionais** cobram uma combinação de taxas que se acumula rápido:
 
-- **IOF de 3,5%** sobre o valor da remessa (para envio a contas pessoais no exterior)
+- **IOF de 3,5%** sobre o valor da remessa (para envio a contas pessoais no exterior)¹
 - Taxa fixa do banco de origem (geralmente R$ 50 a R$ 150)
-- Spread cambial de 2% a 4% embutido na cotação
+- Spread cambial de 2% a 4% embutido na cotação²
 - Eventuais taxas de banco intermediário e de destino
 
 Numa remessa de R$ 5.000, o IOF sozinho já custa **R$ 175**. Some o spread, a taxa fixa e intermediários: você pode perder **R$ 400 a R$ 500** facilmente. Além disso, o processo exige documentação, pode ter limites restritivos e leva de 1 a 5 dias úteis.
@@ -39,13 +39,13 @@ Para quem busca apenas o menor custo e a maior praticidade, fintechs podem ser u
 
 ## Por que a rota DePix é diferente
 
-O DePix App funciona como uma ponte entre o Pix e a Liquid Network. Quando você deposita reais via Pix, recebe DePix — uma [stablecoin pareada ao real](/pt/posts/o-que-e-depix/) — na sua carteira Liquid. A partir daí, você acessa todo o ecossistema cripto da rede e pode converter seus reais em dólares digitais (USDt) ou Bitcoin (L-BTC) sem depender de nenhum banco.
+O DePix App funciona como uma ponte entre o Pix e a Liquid Network. Quando você deposita reais via Pix, recebe DePix — uma [stablecoin pareada ao real](/posts/o-que-e-depix/) — na sua carteira Liquid. A partir daí, você acessa todo o ecossistema cripto da rede e pode converter seus reais em dólares digitais (USDt) ou Bitcoin (L-BTC) sem depender de nenhum banco.
 
 As vantagens fundamentais dessa rota:
 
-1. **Sem IOF**: como a operação é uma compra de ativo digital via Pix (e não uma remessa cambial), não incide o IOF de 3,5%. Isso sozinho já pode representar uma economia significativa.
+1. **Sem IOF**: como a operação é uma compra de ativo digital via Pix (e não uma remessa cambial), não incide o IOF de 3,5%¹. Isso sozinho já pode representar uma economia significativa.
 
-2. **Privacidade nas transações**: uma vez que o valor entra na Liquid Network, as transações são confidenciais — valores e destinos ficam criptografados. Nenhum observador externo vê quanto você movimenta dentro da rede.
+2. **Privacidade nas transações**: uma vez que o valor entra na Liquid Network, as transações são confidenciais³ — valores e destinos ficam criptografados. Nenhum observador externo vê quanto você movimenta dentro da rede.
 
 3. **Soberania sobre seu dinheiro**: você controla suas chaves, seus ativos ficam na sua carteira. Nenhum banco pode bloquear, questionar ou congelar sua movimentação.
 
@@ -72,7 +72,7 @@ Vamos colocar os números na mesa para uma remessa de R$ 5.000.
 
 | Custo | Valor |
 |---|---|
-| IOF (1,1% a 3,5%) | R$ 55 a R$ 175 |
+| IOF (1,1% a 3,5%)¹ | R$ 55 a R$ 175 |
 | Taxa do serviço (1-2%) | R$ 50 a R$ 100 |
 | Spread (menor, mas existe) | R$ 10 a R$ 50 |
 | **Total estimado** | **R$ 115 a R$ 325** |
@@ -151,7 +151,7 @@ A diferença entre uma remessa barata e uma cara está nos detalhes. Siga essas 
 
 **4. Escolha o off-ramp certo para o país de destino.** Cada região tem opções mais eficientes. Veja a seção abaixo.
 
-**5. Considere gastar diretamente em cripto.** Se o objetivo final não é necessariamente receber moeda local numa conta bancária, [cartões cripto](/pt/posts/cartoes-cripto-gastar-depix/) e [gift cards](/pt/posts/compras-privacidade-gift-cards/) podem eliminar completamente o custo de off-ramp.
+**5. Considere gastar diretamente em cripto.** Se o objetivo final não é necessariamente receber moeda local numa conta bancária, [cartões cripto](/posts/cartoes-cripto-gastar-depix/) e [gift cards](/posts/compras-privacidade-gift-cards/) podem eliminar completamente o custo de off-ramp.
 
 ## Como fazer off-ramp no país de destino
 
@@ -175,13 +175,13 @@ Em vez de converter para moeda local, o destinatário pode **gastar diretamente*
 
 - **Kast Card**: cartão Visa que aceita stablecoins, com 0% de taxa em compras em USD e cashback de até 6%. Funciona em 150 milhões de estabelecimentos em 170+ países. Para compras em outras moedas, a taxa de FX é de 2%.
 
-Saiba mais sobre todas as opções no nosso guia completo de [cartões cripto](/pt/posts/cartoes-cripto-gastar-depix/).
+Saiba mais sobre todas as opções no nosso guia completo de [cartões cripto](/posts/cartoes-cripto-gastar-depix/).
 
 ### Gift cards e pré-pagos
 
 Outra forma de "usar" o valor no destino sem off-ramp bancário: comprar gift cards de lojas, serviços e plataformas globais diretamente com cripto. Amazon, Uber, Netflix, Steam e centenas de outros. Sem KYC, sem conta bancária, sem rastro.
 
-Veja o guia completo: [Compras com privacidade: gift cards e pré-pagos](/pt/posts/compras-privacidade-gift-cards/).
+Veja o guia completo: [Compras com privacidade: gift cards e pré-pagos](/posts/compras-privacidade-gift-cards/).
 
 ### Bridge para outras redes
 
@@ -191,7 +191,7 @@ Se o destinatário precisa dos ativos em outra blockchain (Ethereum, Tron, Polyg
 
 Numa remessa bancária ou via fintech, cada transação gera registros detalhados — valor, remetente, destinatário, finalidade declarada — em múltiplas instituições. Tudo vinculado ao seu CPF, tudo consultável.
 
-Quando você usa o DePix App e a Liquid Network, a movimentação acontece com [transações confidenciais](/pt/posts/privacidade-financeira-depix/). Uma vez que seus reais entram na Liquid Network como DePix, os valores das transações subsequentes são criptografados. Nenhum observador externo pode ver quanto você está movimentando ou para onde o valor está indo dentro da rede.
+Quando você usa o DePix App e a Liquid Network, a movimentação acontece com [transações confidenciais](/posts/privacidade-financeira-depix/)³. Uma vez que seus reais entram na Liquid Network como DePix, os valores das transações subsequentes são criptografados. Nenhum observador externo pode ver quanto você está movimentando ou para onde o valor está indo dentro da rede.
 
 O depósito via Pix é rastreável — isso é inevitável. Mas a partir do momento em que o valor entra na Liquid, a trilha se encerra. Conversões, transferências, swaps: tudo acontece com privacidade que o sistema bancário simplesmente não proporciona.
 
@@ -218,6 +218,12 @@ Honestidade é fundamental. A rota via DePix não é para todo mundo e tem trade
 - **Quem valoriza privacidade** e não quer cada centavo enviado ao exterior registrado no sistema bancário.
 - **Quem já está no ecossistema cripto** e tem familiaridade com carteiras e swaps.
 - **Quem tem destinatários em países com bom ecossistema cripto**, onde off-ramps são baratos e acessíveis.
+
+## Referências
+
+1. [Receita Federal — Tabela de alíquotas do IOF sobre operações de câmbio](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/tributos/iof)
+2. [Banco Central — Regulamentação de operações de câmbio e custos de remessas internacionais](https://www.bcb.gov.br/estabilidadefinanceira/cambio)
+3. [Blockstream — Confidential Transactions na Liquid Network](https://docs.blockstream.com/liquid/technical_overview.html#confidential-transactions)
 
 ## Sua privacidade financeira começa aqui
 
