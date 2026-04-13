@@ -21,7 +21,7 @@ enableRobotsTXT = true
   [languages.pt]
     languageName = "Portugues"
     weight = 1
-    contentDir = "content/pt"
+    #contentDir = "content/pt"
     [languages.pt.params]
       description = "Tudo sobre o DePix: Aprenda a usar a melhor ferramenta de privacidade financeira no Brasil"
       cta = "Comece a usar o DePix App"
