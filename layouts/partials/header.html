@@ -6,6 +6,8 @@
     </a>
 
     <nav class="header-nav">
+      <a href="{{ "about/" | absLangURL }}" class="header-about-link">{{ if eq .Lang "pt" }}Sobre{{ else }}About{{ end }}</a>
+
       {{/* Language toggle */}}
       {{ if .IsTranslated }}
       <div class="lang-toggle">

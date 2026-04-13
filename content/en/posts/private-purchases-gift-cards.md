@@ -16,7 +16,7 @@ draft: false
 
 Every time you buy something with a bank transfer or credit card, that transaction is permanently recorded. Your bank knows which stores you shop at, how much you spend, and when. Credit agencies build profiles from this data. For most of history, cash provided a natural layer of privacy for everyday purchases. In the digital world, gift cards and prepaid cards purchased with cryptocurrency bring that privacy back.
 
-In this article, we will show you how to use DePix to buy gift cards and prepaid cards privately, without going through identity verification (KYC) processes.
+In this article, we will show you how to use DePix¹ to buy gift cards and prepaid cards privately, without going through identity verification (KYC) processes.
 
 ## Why gift cards protect your privacy
 
@@ -30,11 +30,11 @@ This is not about evading taxes or hiding illegal activity. It is the digital eq
 
 Several platforms allow you to purchase gift cards using cryptocurrency without requiring identity verification. Here are the most established options:
 
-**Bitrefill** is the largest and most comprehensive. It offers over 5,000 gift cards from brands like Amazon, Netflix, Uber, Spotify, Apple, Google Play, and hundreds more across dozens of countries. It accepts Bitcoin via the Lightning Network, along with other cryptocurrencies. No KYC is required for purchases within reasonable limits (up to $5,000 per day). Delivery is instant when paying via Lightning.
+**Bitrefill**² is the largest and most comprehensive. It offers over 5,000 gift cards from brands like Amazon, Netflix, Uber, Spotify, Apple, Google Play, and hundreds more across dozens of countries. It accepts Bitcoin via the Lightning Network, along with other cryptocurrencies. No KYC is required for purchases within reasonable limits (up to $5,000 per day). Delivery is instant when paying via Lightning.
 
 **CoinCards** serves primarily the United States, Canada, and Europe, offering gift cards from hundreds of retailers including Walmart, Best Buy, and Airbnb. It accepts Bitcoin and other cryptocurrencies without requiring KYC for most purchases.
 
-**Coinsbee** is another solid option, with over 5,000 brands across 185 countries. It accepts more than 200 cryptocurrencies, including USDT. No KYC is required for transactions below EUR 1,000 per purchase (up to EUR 10,000 total). You only need an email address to receive your voucher.
+**Coinsbee**³ is another solid option, with over 5,000 brands across 185 countries. It accepts more than 200 cryptocurrencies, including USDT. No KYC is required for transactions below EUR 1,000 per purchase (up to EUR 10,000 total). You only need an email address to receive your voucher.
 
 **CryptoRefills** lets you spend Bitcoin, USDT, USDC, ETH, and over 100 other cryptocurrencies on gift cards from more than 5,000 brands, also without KYC.
 
@@ -46,8 +46,8 @@ DePix lives on the Liquid Network, and most gift card platforms accept payments 
 
 **Path 1: DePix to L-BTC to Lightning**
 
-1. Open your SideSwap wallet and swap DePix for L-BTC (Liquid Bitcoin).
-2. Use a swap service like Boltz Exchange to convert L-BTC to Bitcoin on the Lightning Network. Boltz is non-custodial and uses atomic contracts, meaning the swap either completes fully or your funds are returned automatically.
+1. Open your SideSwap⁵ wallet and swap DePix for L-BTC (Liquid Bitcoin).
+2. Use a swap service like Boltz Exchange⁴ to convert L-BTC to Bitcoin on the Lightning Network. Boltz is non-custodial and uses atomic contracts, meaning the swap either completes fully or your funds are returned automatically.
 3. With a Lightning balance, visit Bitrefill (or another platform), choose your gift card, and pay with Lightning. Delivery is instant.
 
 This path is ideal for using Bitrefill, which has the best gift card selection and accepts Lightning natively.
@@ -133,6 +133,14 @@ Here is the simplest path to buy a gift card with DePix:
 6. Use the code at the store to make your purchase.
 
 The entire process takes just a few minutes, and none of the steps require you to provide documents or personal information beyond what is necessary.
+
+## References
+
+1. [DePix App — deposits and features](https://depixapp.com/)
+2. [Bitrefill — buy gift cards with crypto](https://www.bitrefill.com/)
+3. [Coinsbee — gift cards with cryptocurrency](https://www.coinsbee.com/)
+4. [Boltz Exchange — non-custodial Liquid-to-Lightning swaps](https://boltz.exchange/)
+5. [SideSwap — Liquid Network wallet and swap service](https://sideswap.io/)
 
 ## Your financial privacy starts here
 

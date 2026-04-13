@@ -53,7 +53,7 @@ Consider the money you have today. To send it to someone, you need your bank's a
 
 With physical cash, things are different. You hand someone a banknote and the transfer is complete — no one needs to approve it. But physical cash has obvious limitations: it does not work at a distance, it is difficult to store in large amounts, and it is subject to devaluation through the printing of new notes.
 
-Bitcoin solved this problem in 2009. For the first time in history, a digital form of money existed that worked like cash — without intermediaries, without permission, without censorship — but could be sent anywhere in the world in minutes. No one could prevent a Bitcoin transaction. No bank, no government, no institution.
+Bitcoin solved this problem in 2009.⁴ For the first time in history, a digital form of money existed that worked like cash — without intermediaries, without permission, without censorship — but could be sent anywhere in the world in minutes. No one could prevent a Bitcoin transaction. No bank, no government, no institution.
 
 That is permissionless money.
 
@@ -61,11 +61,11 @@ That is permissionless money.
 
 Bitcoin is the ultimate asset for financial sovereignty — truly permissionless money that no government or institution controls. Over the past two decades, it has proven itself as the best store of value available. However, Bitcoin has practical limitations: its transactions are public on the blockchain (anyone can trace amounts and addresses), and its volatility makes it impractical for everyday payments.
 
-The Liquid Network is a Bitcoin sidechain that addresses one of these limitations: privacy. With Confidential Transactions, transferred amounts are cryptographically hidden — only the sender and receiver know how much was moved. L-BTC (bitcoin on Liquid) inherits Bitcoin's sovereignty with superior privacy, though with a trade-off: Liquid is operated by a federation, making it more centralized than the main Bitcoin network.
+The Liquid Network is a Bitcoin sidechain³ that addresses one of these limitations: privacy. With Confidential Transactions,² transferred amounts are cryptographically hidden — only the sender and receiver know how much was moved. L-BTC (bitcoin on Liquid) inherits Bitcoin's sovereignty with superior privacy, though with a trade-off: Liquid is operated by a federation, making it more centralized than the main Bitcoin network.
 
 DePix exists within this same environment. It is a stablecoin on the Liquid Network where 1 DePix equals 1 Brazilian real. Each tool has its role: Bitcoin is for accumulating and preserving value over the long term; DePix is for spending and transacting day-to-day with privacy and sovereignty. DePix is not a store of value — it is pegged to the real, which loses purchasing power to inflation. But for payments, it offers something that Pix cannot: real privacy and full control over your money, without depending on banks or intermediaries.
 
-The [DePix App](/en/posts/what-is-depix/) is the bridge between the traditional payments world and the permissionless world. You make a Pix payment, receive DePix in your Liquid wallet, and from that point forward the money is truly yours. It is not sitting on a bank's server. It does not depend on anyone's approval. It is in your wallet, secured by your keys.
+The [DePix App](/en/posts/what-is-depix/)¹ is the bridge between the traditional payments world and the permissionless world. You make a Pix payment, receive DePix in your Liquid wallet, and from that point forward the money is truly yours. It is not sitting on a bank's server. It does not depend on anyone's approval. It is in your wallet, secured by your keys.
 
 ## Why your money in the bank is not really yours
 
@@ -96,6 +96,13 @@ Financial sovereignty should be viewed as a right, not a privilege. The right to
 The technology to exercise this right already exists. Bitcoin proved it was possible. The Liquid Network made it practical. The DePix App made it accessible to anyone with a smartphone and a Pix account.
 
 The question is not whether this technology will become mainstream. The question is when. And those who position themselves now will have the advantage of already being in control of their own finances when the rest of the world recognizes that this matters.
+
+## References
+
+1. [DePix App — privacy features and self-custody](https://depixapp.com/)
+2. [Liquid Network — Confidential Transactions](https://docs.blockstream.com/liquid/technical_overview.html)
+3. [Blockstream Liquid Network overview](https://blockstream.com/liquid/)
+4. [Bitcoin whitepaper — Satoshi Nakamoto (2008)](https://bitcoin.org/bitcoin.pdf)
 
 ## Your financial privacy starts here
 

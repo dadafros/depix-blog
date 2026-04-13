@@ -2,7 +2,7 @@
 title: "Investir em bitcoin e ações tokenizadas com DePix"
 description: "Aprenda como usar DePix para investir em bitcoin ou em ações americanas tokenizadas, com passo a passo completo."
 date: 2026-03-30
-tags: ["investir", "bitcoin", "ações tokenizadas", "depix", "liquid network"]
+tags: ["investir", "bitcoin", "acoes tokenizadas", "depix", "liquid network"]
 author: "DePix"
 slug: "investir-bitcoin-acoes-tokenizadas"
 translationKey: "tokenized-stocks-investing"
@@ -51,7 +51,7 @@ Neste artigo, vamos explorar três caminhos de investimento que partem do DePix:
 
 ## Investir em bitcoin com DePix
 
-Bitcoin é o ativo digital mais conhecido do mundo. Com oferta limitada a 21 milhões de unidades e uma rede descentralizada que funciona sem depender de governos ou bancos, ele se consolidou como uma reserva de valor digital. Nos últimos anos, bitcoin tem atraído não apenas entusiastas de tecnologia, mas também investidores institucionais, fundos de pensão e até governos.
+Bitcoin é o ativo digital mais conhecido do mundo. Com oferta limitada a 21 milhões de unidades¹ e uma rede descentralizada que funciona sem depender de governos ou bancos, ele se consolidou como uma reserva de valor digital. Nos últimos anos, bitcoin tem atraído não apenas entusiastas de tecnologia, mas também investidores institucionais, fundos de pensão e até governos.
 
 Comprar bitcoin usando DePix é simples e pode ser feito diretamente na carteira SideSwap, sem precisar de corretora, sem KYC e com custódia própria desde o primeiro momento.
 
@@ -62,9 +62,9 @@ Comprar bitcoin usando DePix é simples e pode ser feito diretamente na carteira
 3. Na SideSwap, acesse a função de swap e troque DePix por L-BTC (Liquid Bitcoin).
 4. Pronto. Você agora tem bitcoin na Liquid Network, sob sua custódia.
 
-O L-BTC que você recebe é bitcoin real, representado na Liquid Network na proporção de 1:1. Cada L-BTC é lastreado por BTC mantido em uma carteira multisig gerenciada pela Federação Liquid, composta por mais de 65 empresas do ecossistema Bitcoin.
+O L-BTC que você recebe é bitcoin real, representado na Liquid Network na proporção de 1:1. Cada L-BTC é lastreado por BTC mantido em uma carteira multisig gerenciada pela Federação Liquid², composta por mais de 65 empresas do ecossistema Bitcoin.
 
-Se você preferir ter bitcoin na rede principal (mainchain), a SideSwap oferece a opção de peg-out: você envia L-BTC e recebe BTC no endereço que escolher, com uma taxa de aproximadamente 0,1%. Mas para muitos usos, manter L-BTC na Liquid Network é mais vantajoso, com transações mais rápidas, mais baratas e com privacidade superior graças às transações confidenciais da Liquid.
+Se você preferir ter bitcoin na rede principal (mainchain), a SideSwap oferece a opção de peg-out: você envia L-BTC e recebe BTC no endereço que escolher, com uma taxa de aproximadamente 0,1%. Mas para muitos usos, manter L-BTC na Liquid Network é mais vantajoso, com transações mais rápidas, mais baratas e com privacidade superior graças às Confidential Transactions da Liquid³.
 
 **Por que investir em bitcoin:**
 
@@ -79,7 +79,7 @@ Se você preferir ter bitcoin na rede principal (mainchain), a SideSwap oferece 
 
 Além de bitcoin, a Liquid Network abriga um ecossistema crescente de ativos tokenizados, também conhecidos como RWAs (Real World Assets, ou ativos do mundo real). Esses são representações digitais de ativos tradicionais, como ações, títulos e commodities, emitidos como tokens na blockchain.
 
-A eNor Securities é uma corretora regulada e membro da Federação Liquid que se especializou nesse mercado. Em parceria com a Backed Finance, a eNor oferece acesso a bTokens, que são tokens que representam ativos do mundo real e são negociados diretamente na Liquid Network.
+A eNor Securities é uma corretora regulada e membro da Federação Liquid que se especializou nesse mercado⁴. Em parceria com a Backed Finance, a eNor oferece acesso a bTokens, que são tokens que representam ativos do mundo real e são negociados diretamente na Liquid Network.
 
 **O que é a eNor Securities:**
 
@@ -126,7 +126,7 @@ Transparência é fundamental quando falamos de investimentos, e existem riscos 
 
 **Risco de contraparte:** Ao usar ações tokenizadas, você confia que o emissor do token mantém a ação real em custódia. Se o emissor tiver problemas financeiros ou legais, o token pode perder seu lastro.
 
-**Sem garantia governamental:** Diferente de investimentos tradicionais em alguns países, ativos cripto e tokens não são protegidos por seguros de depósito como o FGC no Brasil ou o FDIC nos Estados Unidos.
+**Sem garantia governamental:** Diferente de investimentos tradicionais em alguns países, ativos cripto e tokens não são protegidos por seguros de depósito como o FGC no Brasil⁵ ou o FDIC nos Estados Unidos.
 
 **Complexidade operacional:** O caminho do DePix até ações tokenizadas em outras blockchains envolve várias etapas. Cada etapa tem custos (taxas de swap, taxas de bridge, taxas de negociação) que devem ser considerados.
 
@@ -136,7 +136,15 @@ Invista com consciência. Comece com valores pequenos até entender bem cada eta
 
 O que torna o DePix especial nesse contexto é que ele funciona como uma ponte entre o sistema financeiro brasileiro e o ecossistema de investimentos digitais. Com um simples Pix, você deposita reais e recebe um ativo na Liquid Network que pode ser convertido em bitcoin, em ativos tokenizados ou em USDT para acessar mercados globais.
 
-Tudo isso com a privacidade que a Liquid Network oferece nas etapas iniciais e com autocustódia desde o primeiro momento. Para entender melhor como o DePix funciona, leia nosso artigo [O que é DePix](/pt/posts/o-que-e-depix/).
+Tudo isso com a privacidade que a Liquid Network oferece nas etapas iniciais e com autocustódia desde o primeiro momento. Para entender melhor como o DePix funciona, leia nosso artigo [O que é DePix](/posts/o-que-e-depix/).
+
+## Referências
+
+1. [Bitcoin Whitepaper — Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)
+2. [Blockstream — Liquid Network: Federação e arquitetura](https://docs.blockstream.com/liquid/technical_overview.html)
+3. [Blockstream — Confidential Transactions na Liquid Network](https://docs.blockstream.com/liquid/technical_overview.html#confidential-transactions)
+4. [eNor Securities — Corretora regulada na Liquid Network](https://enorsecurities.com/)
+5. [Fundo Garantidor de Créditos (FGC) — Garantias de depósito](https://www.fgc.org.br/)
 
 ## Sua privacidade financeira começa aqui
 
