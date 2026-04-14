@@ -734,6 +734,11 @@ img {
   .header-cta {
     padding: 0.4rem 0.75rem;
     font-size: 0.75rem;
+    white-space: nowrap;
+  }
+
+  .site-name-accent {
+    display: none;
   }
 
   .cta-box-inner {
@@ -753,15 +758,19 @@ img {
   .header-about-link {
     display: none;
   }
+
+  .lang-toggle {
+    display: none;
+  }
+
+  .header-nav {
+    gap: 0.5rem;
+  }
 }
 
 @media (max-width: 380px) {
   .site-name {
     font-size: 1rem;
-  }
-
-  .lang-toggle {
-    display: none;
   }
 }
 
