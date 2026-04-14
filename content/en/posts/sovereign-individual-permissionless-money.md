@@ -2,6 +2,7 @@
 title: "The Sovereign Individual and Permissionless Money"
 description: "How the sovereign individual concept connects to permissionless money, Bitcoin, and the DePix App's mission of financial privacy."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["sovereignty", "privacy", "permissionless", "bitcoin", "depix"]
 author: "DePix"
 slug: "sovereign-individual-permissionless-money"

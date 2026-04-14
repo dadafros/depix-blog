@@ -2,6 +2,7 @@
 title: "Make Pix Payments Without a Brazilian Bank Account"
 description: "Learn how to use the DePix App to send Pix payments in Brazil without a local bank account. A guide for foreigners and the unbanked."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["payments", "pix", "depix", "unbanked", "foreigners"]
 author: "DePix"
 slug: "pix-payments-without-bank-account"

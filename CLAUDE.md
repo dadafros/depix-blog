@@ -36,6 +36,7 @@ Every post file must start with this YAML frontmatter:
 title: "Title Here (max 60 characters)"
 description: "Meta description for SEO (50-155 characters)"
 date: 2026-03-28
+lastmod: 2026-03-28
 tags: ["tag1", "tag2", "tag3"]
 author: "DePix"
 slug: "descriptive-kebab-case-slug"
@@ -59,6 +60,7 @@ draft: false
 - `translationKey`: Shared kebab-case key used by both PT and EN versions of the same article.
 - `image`: Primary social/share image. Always point it to the `16x9` variant.
 - `images`: Always include the three Google-recommended article image variants: `1x1`, `4x3`, and `16x9`.
+- `lastmod`: ISO format (YYYY-MM-DD). Set to the same value as `date` on new posts. **Must be updated to today's date whenever the post content is meaningfully changed** (content edits, new sections, updated facts). Do not update for trivial changes (typo fixes, formatting).
 - `draft`: Set to `false` for published posts, `true` for work in progress.
 
 ### Required Image Workflow
@@ -265,6 +267,7 @@ Before committing any new or updated post, verify every item on this checklist. 
 - [ ] `translationKey` matches between PT and EN versions
 - [ ] `image` and `images` point to existing files under `static/images/posts/<translationKey>/`
 - [ ] `date` is set to the actual publication date (ISO format)
+- [ ] `lastmod` is present and set to the publication date (new posts) or today's date (updated posts)
 - [ ] `draft` is `false` for posts intended to be published
 
 **Content structure:**
@@ -361,6 +364,24 @@ Blog posts must be precise and honest about the role of each asset/tool. Never o
 - **L-BTC (Liquid Bitcoin)**: Bitcoin on the Liquid Network. Inherits Bitcoin's sovereignty with superior privacy via Confidential Transactions. Trade-off: the Liquid Network is operated by a federation, making it more centralized than mainchain Bitcoin. Always acknowledge this trade-off when discussing Liquid.
 - **DePix**: A stablecoin pegged to the Brazilian real — designed for **sovereign, private payments**, not for accumulation. DePix is **not a store of value** (the real loses purchasing power to inflation). Its strengths over Pix/traditional banking are privacy and self-custody. Posts should explicitly tell readers: use Bitcoin for long-term savings, use DePix for day-to-day spending with privacy.
 - **General rule**: Each tool in the ecosystem solves a different problem. Posts must help readers understand which tool fits which need, not push a single narrative. Be honest about trade-offs (centralization, volatility, inflation exposure, privacy levels).
+
+### Naming: DePix vs DePix App
+
+These are two different things — never confuse them:
+
+- **DePix**: The stablecoin itself (the digital asset, 1 DePix = 1 BRL, on the Liquid Network). Use "DePix" when referring to the token, the currency, or the asset.
+- **DePix App**: The application/platform that lets users buy, sell, and manage DePix. Use "DePix App" when referring to the product, the team, the website, the blog, or the service.
+
+Examples:
+- "O DePix App Blog é mantido pela equipe do DePix App." (the blog belongs to the app/company)
+- "Equipe DePix App" / "DePix App Team" (the team runs the app, not the coin)
+- "Compre DePix usando o DePix App." (buy the coin using the app)
+- "DePix é uma stablecoin na Liquid Network." (the coin is a stablecoin)
+
+**Common mistakes to avoid:**
+- "Equipe DePix" — wrong, it's "Equipe DePix App" (the team is behind the app)
+- "DePix blog" — wrong, it's "DePix App Blog"
+- Using "DePix App" when referring to the stablecoin itself
 
 ### Style rules
 - Always write **"Pix"** (capitalized, not all-caps "PIX") in all blog content.

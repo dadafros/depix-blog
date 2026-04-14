@@ -2,6 +2,7 @@
 title: "Como Comprar DePix: Guia Completo Passo a Passo"
 description: "Aprenda como comprar DePix com Pix de forma simples e segura. Guia completo com passo a passo, taxas, limites e dicas para iniciantes."
 date: 2026-04-04
+lastmod: 2026-04-04
 tags: ["depix", "comprar depix", "stablecoin", "pix", "liquid network"]
 author: "DePix"
 slug: "como-comprar-depix"

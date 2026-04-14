@@ -2,6 +2,7 @@
 title: "Crypto Business Account Without Bureaucracy"
 description: "Learn how merchants and freelancers in Brazil can accept Pix payments and receive crypto with the DePix App — no paperwork required."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["business", "merchants", "payments", "depix", "crypto"]
 author: "DePix"
 slug: "crypto-business-account-depix-app"

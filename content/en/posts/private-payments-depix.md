@@ -2,6 +2,7 @@
 title: "Private and Instant Payments with DePix"
 description: "Send instant, private, and permissionless payments using DePix on the Liquid Network. No bank, no permission needed."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["payments", "privacy", "depix", "liquid network", "permissionless"]
 author: "DePix"
 slug: "private-payments-depix"

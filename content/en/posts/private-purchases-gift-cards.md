@@ -2,6 +2,7 @@
 title: "Private Purchases: Gift Cards and Prepaid Cards"
 description: "Learn how to use DePix to buy gift cards and prepaid cards without KYC, preserving your financial privacy."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["gift cards", "privacy", "depix", "purchases"]
 author: "DePix"
 slug: "private-purchases-gift-cards"

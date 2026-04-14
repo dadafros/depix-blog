@@ -2,6 +2,7 @@
 title: "Cartões cripto: como gastar seus DePix no mundo"
 description: "Guia completo de cartões cripto para gastar DePix em qualquer lugar. Compare opções por nível de privacidade e KYC."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["cartao cripto", "depix", "pagamentos", "privacidade"]
 author: "DePix"
 slug: "cartoes-cripto-gastar-depix"

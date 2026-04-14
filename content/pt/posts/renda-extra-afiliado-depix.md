@@ -2,6 +2,7 @@
 title: "Como fazer renda extra como afiliado do DePix App"
 description: "Aprenda como ganhar comissões indicando o DePix App. Guia completo do programa de afiliados com passo a passo."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["afiliados", "renda extra", "depix", "comissoes"]
 author: "DePix"
 slug: "renda-extra-afiliado-depix"

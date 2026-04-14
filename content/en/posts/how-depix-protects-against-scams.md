@@ -2,6 +2,7 @@
 title: "How the DePix App Protects You Against Scams"
 description: "Learn about common Pix payment scams in Brazil and how the DePix App's security measures protect users with a 24-hour safety window."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["security", "scams", "pix", "depix"]
 author: "DePix"
 slug: "how-depix-protects-against-scams"

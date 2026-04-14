@@ -2,6 +2,7 @@
 title: "Privacidade financeira: DePix App protege você"
 description: "Entenda como o DePix App e a Liquid Network protegem sua privacidade financeira com transações confidenciais e autocustódia."
 date: 2026-03-28
+lastmod: 2026-03-28
 tags: ["privacidade", "depix", "liquid network", "seguranca", "transacoes confidenciais"]
 author: "DePix"
 slug: "privacidade-financeira-depix"

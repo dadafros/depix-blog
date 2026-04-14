@@ -2,6 +2,7 @@
 title: "Como Declarar DePix no Imposto de Renda 2026"
 description: "Guia completo para declarar DePix e criptomoedas no IRPF 2026. Passo a passo com códigos, GCAP, DARF, isenções e regras da Receita Federal."
 date: 2026-04-04
+lastmod: 2026-04-04
 tags: ["depix", "imposto de renda", "declaracao", "criptomoedas", "receita federal"]
 author: "DePix"
 slug: "como-declarar-depix-imposto-de-renda"

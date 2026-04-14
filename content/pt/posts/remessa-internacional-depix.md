@@ -2,6 +2,7 @@
 title: "Remessa internacional com DePix App"
 description: "Envie dinheiro para o exterior com privacidade e sem IOF de 3,5%. Guia completo com off-ramp, dicas e comparação de custos."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["remessa internacional", "depix", "privacidade", "exterior"]
 author: "DePix"
 slug: "remessa-internacional-depix"

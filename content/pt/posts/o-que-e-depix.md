@@ -2,6 +2,7 @@
 title: "O que é DePix? Stablecoin do Real na Liquid Network"
 description: "O que é DePix, como funciona, e por que essa stablecoin brasileira pareada ao real na Liquid Network é alternativa privada ao Pix e ao Drex."
 date: 2026-03-28
+lastmod: 2026-03-28
 tags: ["depix", "stablecoin", "liquid network", "pix", "stablecoin brasileira"]
 author: "DePix"
 slug: "o-que-e-depix"

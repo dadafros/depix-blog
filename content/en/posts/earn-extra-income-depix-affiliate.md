@@ -2,6 +2,7 @@
 title: "How to Earn Extra Income as a DePix Affiliate"
 description: "Learn how to earn commissions by referring people to the DePix App. Complete guide to the affiliate program."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["affiliates", "income", "depix", "referrals"]
 author: "DePix"
 slug: "earn-extra-income-depix-affiliate"

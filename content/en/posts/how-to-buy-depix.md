@@ -2,6 +2,7 @@
 title: "How to Buy DePix: Complete Step-by-Step Guide"
 description: "Learn how to buy DePix stablecoin using Pix in Brazil. Step-by-step guide with fees, limits, wallet setup, and tips for beginners."
 date: 2026-04-04
+lastmod: 2026-04-04
 tags: ["depix", "buy depix", "stablecoin", "pix", "liquid network"]
 author: "DePix"
 slug: "how-to-buy-depix"

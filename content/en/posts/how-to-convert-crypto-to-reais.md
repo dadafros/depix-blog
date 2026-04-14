@@ -2,6 +2,7 @@
 title: "How to Convert Your Crypto to Reais"
 description: "Learn how to convert Bitcoin, L-BTC, and other crypto to Brazilian reais via Pix using the DePix App. A practical guide."
 date: 2026-03-28
+lastmod: 2026-03-28
 tags: ["crypto", "pix", "convert", "liquid network", "brazil"]
 author: "DePix"
 slug: "how-to-convert-crypto-to-reais"

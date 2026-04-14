@@ -2,6 +2,7 @@
 title: "Pague via Pix sem ter conta bancária no Brasil"
 description: "Saiba como usar o DePix App para fazer pagamentos Pix sem conta bancária no Brasil. Ideal para estrangeiros e desbancarizados."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["pagamentos", "pix", "depix", "desbancarizados", "estrangeiros"]
 author: "DePix"
 slug: "pagamentos-pix-sem-conta-bancaria"

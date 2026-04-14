@@ -2,6 +2,7 @@
 title: "Invest in Bitcoin and Tokenized Stocks with DePix"
 description: "Learn how to use DePix to invest in Bitcoin or tokenized US stocks, with a complete step-by-step guide."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["invest", "bitcoin", "tokenized stocks", "depix", "liquid network"]
 author: "DePix"
 slug: "invest-bitcoin-tokenized-stocks"

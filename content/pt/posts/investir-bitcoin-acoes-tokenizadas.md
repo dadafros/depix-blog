@@ -2,6 +2,7 @@
 title: "Investir em bitcoin e ações tokenizadas com DePix"
 description: "Aprenda como usar DePix para investir em bitcoin ou em ações americanas tokenizadas, com passo a passo completo."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["investir", "bitcoin", "acoes tokenizadas", "depix", "liquid network"]
 author: "DePix"
 slug: "investir-bitcoin-acoes-tokenizadas"

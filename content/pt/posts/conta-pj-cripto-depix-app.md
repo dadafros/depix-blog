@@ -2,6 +2,7 @@
 title: "Conta PJ cripto sem burocracia com DePix App"
 description: "Descubra como comerciantes, empresários e autônomos podem aceitar pagamentos via Pix e receber em cripto com o DePix App."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["conta pj", "comerciantes", "pagamentos", "depix", "cripto"]
 author: "DePix"
 slug: "conta-pj-cripto-depix-app"

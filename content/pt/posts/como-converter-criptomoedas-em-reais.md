@@ -2,6 +2,7 @@
 title: "Como converter suas criptomoedas em reais"
 description: "Aprenda como converter Bitcoin, L-BTC e outras criptomoedas em reais via Pix usando o DePix App. Guia prático e sem burocracia."
 date: 2026-03-28
+lastmod: 2026-03-28
 tags: ["criptomoedas", "pix", "converter", "liquid network"]
 author: "DePix"
 slug: "como-converter-criptomoedas-em-reais"

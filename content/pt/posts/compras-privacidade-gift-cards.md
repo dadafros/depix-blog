@@ -2,6 +2,7 @@
 title: "Compras com privacidade: gift cards e pré-pagos"
 description: "Descubra como usar DePix para comprar gift cards e cartões pré-pagos sem KYC, mantendo sua privacidade financeira."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["gift cards", "privacidade", "depix", "compras"]
 author: "DePix"
 slug: "compras-privacidade-gift-cards"

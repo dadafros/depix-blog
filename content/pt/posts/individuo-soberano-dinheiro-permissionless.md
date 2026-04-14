@@ -2,6 +2,7 @@
 title: "Indivíduo soberano e dinheiro permissionless"
 description: "Como o conceito de indivíduo soberano se conecta ao dinheiro permissionless e ao DePix App na busca por privacidade financeira."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["soberania", "privacidade", "permissionless", "bitcoin", "depix"]
 author: "DePix"
 slug: "individuo-soberano-dinheiro-permissionless"

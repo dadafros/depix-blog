@@ -2,6 +2,7 @@
 title: "DePix vs Pix tradicional: por que usar cripto"
 description: "Compare o DePix com o Pix tradicional e entenda as vantagens de usar cripto nos seus pagamentos do dia a dia."
 date: 2026-03-28
+lastmod: 2026-03-28
 tags: ["depix", "pix", "comparacao", "pagamentos", "cripto"]
 author: "DePix"
 slug: "depix-vs-pix-tradicional"

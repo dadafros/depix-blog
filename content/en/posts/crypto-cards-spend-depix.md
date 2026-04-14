@@ -2,6 +2,7 @@
 title: "Crypto Cards: How to Spend Your DePix Worldwide"
 description: "Compare crypto debit cards by privacy level. No-KYC, minimal-KYC, and full-KYC options for spending DePix at any Visa or Mastercard merchant."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["crypto card", "depix", "payments", "privacy"]
 author: "DePix"
 slug: "crypto-cards-spend-depix"

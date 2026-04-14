@@ -11,7 +11,7 @@ build:
 
 ## Quem somos
 
-O DePix App Blog é mantido pela equipe do [DePix App](https://depixapp.com/), a primeira stablecoin brasileira na Liquid Network. Nosso objetivo é educar sobre privacidade financeira, soberania digital e o uso prático de criptomoedas no dia a dia.
+O DePix App Blog é mantido pela equipe do [DePix App](https://depixapp.com/). Nosso objetivo é educar sobre privacidade financeira, soberania digital e o uso prático de criptomoedas no dia a dia.
 
 ## Missão do blog
 

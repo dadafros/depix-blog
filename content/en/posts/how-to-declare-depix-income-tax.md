@@ -2,6 +2,7 @@
 title: "How to Declare DePix on Brazilian Income Tax"
 description: "Complete guide to declaring DePix and crypto on Brazilian income tax (IRPF 2026). Step-by-step with codes, capital gains rules, and deadlines."
 date: 2026-04-04
+lastmod: 2026-04-04
 tags: ["depix", "income tax", "crypto taxes", "brazil", "receita federal"]
 author: "DePix"
 slug: "how-to-declare-depix-income-tax"

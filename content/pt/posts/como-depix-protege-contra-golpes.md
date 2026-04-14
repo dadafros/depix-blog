@@ -2,6 +2,7 @@
 title: "Como o DePix App protege você contra golpes"
 description: "Entenda os golpes mais comuns envolvendo Pix e criptomoedas e como o DePix App protege seus usuários com prazo de segurança e verificações."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["seguranca", "golpes", "pix", "depix"]
 author: "DePix"
 slug: "como-depix-protege-contra-golpes"

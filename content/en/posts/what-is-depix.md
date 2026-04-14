@@ -2,6 +2,7 @@
 title: "What Is DePix? Brazilian Real Stablecoin on Liquid"
 description: "What is DePix and how does it work? Learn about this BRL stablecoin on the Liquid Network — a private, non-custodial alternative to Pix and Drex."
 date: 2026-03-28
+lastmod: 2026-03-28
 tags: ["depix", "stablecoin", "liquid network", "pix", "brazilian stablecoin"]
 author: "DePix"
 slug: "what-is-depix"

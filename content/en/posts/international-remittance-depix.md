@@ -2,6 +2,7 @@
 title: "International Remittances with the DePix App"
 description: "Send money abroad from Brazil with privacy and no 3.5% IOF tax. Full guide with off-ramp options, tips, and cost comparison."
 date: 2026-03-30
+lastmod: 2026-03-30
 tags: ["remittance", "depix", "privacy", "international"]
 author: "DePix"
 slug: "international-remittance-depix"
