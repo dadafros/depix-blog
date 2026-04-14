@@ -428,6 +428,7 @@ Examples:
 - **English is adapted, not literally translated** — the EN version should read naturally to a native English speaker. Adapt examples, phrasing, and cultural references. The structure and key points should match, but sentences don't need to be 1:1.
 - **Both versions must be independently high quality** — the EN version is not a second-class citizen.
 - **Both versions must share the same `translationKey` and image pack** — only the localized text and slug differ.
+- **Dates are localized automatically** — the partial `layouts/partials/date-format.html` formats dates with Portuguese month abbreviations (jan, fev, mar, abr, mai, jun, jul, ago, set, out, nov, dez) for PT and English abbreviations (Jan, Feb, Mar, …) for EN. All templates that display dates must use `{{ partial "date-format.html" (dict "date" .Date "lang" .Lang) }}` instead of raw `.Date.Format` — Hugo's Go time formatting only outputs English month names.
 
 ## Publishing
 
