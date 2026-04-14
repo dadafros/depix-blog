@@ -40,6 +40,11 @@
     {{ end }}
     {{ $defaultTranslation := index .AllTranslations 0 }}
     <link rel="alternate" hreflang="x-default" href="{{ $defaultTranslation.Permalink }}">
+    {{ range .AllTranslations }}
+      {{ if ne .Lang $.Lang }}
+    <meta property="og:locale:alternate" content="{{ .Lang }}">
+      {{ end }}
+    {{ end }}
   {{ end }}
 
   {{/* Open Graph */}}
@@ -49,6 +54,9 @@
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
   <meta property="og:image" content="{{ $pageImage }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:locale" content="{{ .Lang }}">
 
   {{/* Twitter Card */}}
@@ -56,6 +64,7 @@
   <meta name="twitter:title" content="{{ .Title }}">
   <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta name="twitter:image" content="{{ $pageImage }}">
+  <meta name="twitter:image:alt" content="{{ .Title }}">
 
   {{/* JSON-LD for single posts */}}
   {{ if .IsPage }}
@@ -70,6 +79,12 @@
       "@type" "Organization"
       "name" .Site.Params.author
       "url" .Site.Params.appUrl
+      "sameAs" (slice .Site.Params.appUrl (.Site.BaseURL | strings.TrimRight "/"))
+      "contactPoint" (dict
+        "@type" "ContactPoint"
+        "contactType" "customer support"
+        "url" .Site.Params.appUrl
+      )
     )
     "publisher" (dict
       "@type" "Organization"
@@ -79,7 +94,11 @@
         "url" (.Site.Params.logo | absURL)
       )
     )
-    "image" $pageImages
+    "image" (slice
+      (dict "@type" "ImageObject" "url" (index $pageImages 0) "width" 1200 "height" 1200)
+      (dict "@type" "ImageObject" "url" (index $pageImages 1) "width" 1200 "height" 900)
+      (dict "@type" "ImageObject" "url" (index $pageImages 2) "width" 1200 "height" 675)
+    )
     "mainEntityOfPage" (dict
       "@type" "WebPage"
       "@id" .Permalink
