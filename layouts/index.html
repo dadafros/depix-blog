@@ -22,7 +22,7 @@
       {{/* Search bar */}}
       <div class="search-bar">
         <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <input type="text" id="search-input" placeholder="{{ if eq .Lang "pt" }}Buscar posts...{{ else }}Search posts...{{ end }}" autocomplete="off">
+        <input type="text" id="search-input" aria-label="{{ if eq .Lang "pt" }}Buscar posts{{ else }}Search posts{{ end }}" placeholder="{{ if eq .Lang "pt" }}Buscar posts...{{ else }}Search posts...{{ end }}" autocomplete="off">
       </div>
     </div>
   </div>
@@ -53,7 +53,7 @@
       {{ $overflow := after $visibleLimit $sorted }}
       {{ if gt (len $overflow) 0 }}
       <div class="tag-overflow-wrap">
-        <button class="tag-filter-btn tag-overflow-toggle" id="tag-overflow-toggle">
+        <button class="tag-filter-btn tag-overflow-toggle" id="tag-overflow-toggle" aria-expanded="false" aria-controls="tag-overflow-dropdown">
           +{{ len $overflow }}
           <svg class="tag-overflow-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
         </button>

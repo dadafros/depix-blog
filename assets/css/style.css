@@ -35,6 +35,7 @@
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 
@@ -234,7 +235,7 @@ img {
 
 .hero-subtitle {
   font-size: 1.125rem;
-  color: var(--text-body);
+  color: var(--text);
   max-width: 520px;
   margin: 0 auto;
   line-height: 1.6;
@@ -1246,4 +1247,11 @@ img {
 
 .header-about-link:hover {
   color: var(--text);
+}
+
+/* --- Global focus-visible styles --- */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
