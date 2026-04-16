@@ -108,7 +108,7 @@
             var dd = document.getElementById('tag-overflow-dropdown');
             var tb = document.getElementById('tag-overflow-toggle');
             if (dd) dd.classList.add('hidden');
-            if (tb) { tb.classList.remove('open'); tb.classList.remove('has-active'); }
+            if (tb) { tb.classList.remove('open'); tb.classList.remove('has-active'); tb.setAttribute('aria-expanded', 'false'); }
           }
         });
       }, 200);
@@ -180,6 +180,7 @@
         var isOpen = !dropdown.classList.contains('hidden');
         dropdown.classList.toggle('hidden', isOpen);
         toggleBtn.classList.toggle('open', !isOpen);
+        toggleBtn.setAttribute('aria-expanded', !isOpen ? 'true' : 'false');
       });
 
       document.addEventListener('click', function (e) {
@@ -188,6 +189,7 @@
             !toggleBtn.contains(e.target)) {
           dropdown.classList.add('hidden');
           toggleBtn.classList.remove('open');
+          toggleBtn.setAttribute('aria-expanded', 'false');
         }
       });
     }
@@ -233,6 +235,8 @@
     if (!toggle) return;
     toggle.addEventListener('click', function () {
       toc.classList.toggle('open');
+      var expanded = toc.classList.contains('open');
+      toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
     });
   }
 
