@@ -481,3 +481,42 @@ Content changes reflect automatically via Hugo live reload. See `../depix-dev/CL
 - **Commit as**: `dadafros <davi_bf@outlook.com>`
 - **Branch**: Commit and push directly to `main` unless explicitly asked to branch.
 - **Branch naming**: `feat/*` for features, `claude/*` for Claude Code branches.
+
+## Git Worktrees
+
+O usuário trabalha em **múltiplas tarefas em paralelo** neste repo — cada uma em seu próprio worktree isolado. Agentes **devem sempre** criar worktree antes de editar arquivos.
+
+### Fluxo padrão (direct-to-main — caso mais comum)
+
+A maioria dos posts e ajustes não precisa de PR. Fluxo:
+
+1. Crie worktree em `.claude/worktrees/<slug>/` com branch descritivo. Ex.:
+   ```bash
+   git worktree add .claude/worktrees/post-privacidade-pix -b feat/post-privacidade-pix
+   ```
+2. Trabalhe, commite (no worktree).
+3. Empurre direto pra `main` do remoto:
+   ```bash
+   git push origin HEAD:main
+   ```
+4. Volte pro repo principal, remova o worktree e delete o branch local:
+   ```bash
+   cd /Users/davifrossard/Documents/DepixApp/depix-blog
+   git worktree remove .claude/worktrees/post-privacidade-pix
+   git branch -D feat/post-privacidade-pix
+   ```
+
+### Fluxo PR (exceção — só se o usuário pedir)
+
+Use PR só quando o usuário explicitar ("abre um PR", "quero revisar"). Nesse caso:
+1. `git push -u origin feat/<slug>` → `gh pr create`.
+2. Após merge: remover worktree e deletar branch local.
+
+### Regras
+
+- **Localização**: sempre `.claude/worktrees/<slug>/` (está no `.gitignore` implícito dos repos do usuário).
+- **Nome do branch**: descritivo (`feat/post-ymyl-taxes`, `fix/diagram-shortcode`). **Nunca** deixar o git autogerar `worktree-*`.
+- **Antes de criar**: rode `git worktree list` e `git branch | grep <keyword>` — se já existe worktree/branch pra essa tarefa, retome em vez de duplicar.
+- **Cleanup imediato**: worktree e branch local morrem assim que o push em `main` (ou merge do PR) acontece. Não deixe acumular.
+- **Abandono**: se decidir descartar, `git worktree remove --force` + `git branch -D` + avise o usuário.
+- **Conta Git**: commits vão como `dadafros <davi_bf@outlook.com>` via SSH alias `github-personal`.
